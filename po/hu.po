@@ -1,0 +1,5979 @@
+# glade translation for Hungarian language.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Szabolcs Ban <shooby@gnome.hu>
+# Gergely Nyagy <greg@gnome.hu>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: glade VERSION\n"
+"POT-Creation-Date: 2002-11-03 00:49+0000\n"
+"PO-Revision-Date: 2002-08-06 19:42+0200\n"
+"Last-Translator: Gergely Nagy <greg@gnome.hu>\n"
+"Language-Team: Hungarian Gnome Team <hu@gnome.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: glade-2.desktop.in.h:1
+msgid "GTK+ 2.0 GUI builder"
+msgstr ""
+
+#: glade-2.desktop.in.h:2
+msgid "Glade Interface Designer"
+msgstr ""
+
+#: glade/editor.c:307
+msgid "Grid Options"
+msgstr "Rács beállítások"
+
+#: glade/editor.c:321
+msgid "Horizontal Spacing:"
+msgstr "Vízszintes helyköz:"
+
+#: glade/editor.c:336
+msgid "Vertical Spacing:"
+msgstr "Függleges helyköz:"
+
+#: glade/editor.c:354
+msgid "Grid Style:"
+msgstr "Rács stílusa:"
+
+#: glade/editor.c:360
+msgid "Dots"
+msgstr "Pontok"
+
+#: glade/editor.c:369
+msgid "Lines"
+msgstr "Vonalak"
+
+#: glade/editor.c:451
+msgid "Snap Options"
+msgstr "Patent beállítások"
+
+#. Horizontal snapping
+#: glade/editor.c:466
+msgid "Horizontal Snapping:"
+msgstr "Vízszintes ragadás:"
+
+#: glade/editor.c:472 glade/gbwidgets/gbtextview.c:46
+msgid "Left"
+msgstr "Ballra"
+
+#: glade/editor.c:481 glade/gbwidgets/gbtextview.c:47
+msgid "Right"
+msgstr "Jobbra"
+
+#. Vertical snapping
+#: glade/editor.c:490
+msgid "Vertical Snapping:"
+msgstr "Függõleges ragadás:"
+
+#: glade/editor.c:496
+msgid "Top"
+msgstr "Fent"
+
+#: glade/editor.c:504
+msgid "Bottom"
+msgstr "Lent"
+
+#: glade/editor.c:709
+msgid "Couldn't insert a GtkScrolledWindow widget."
+msgstr "Nem tudok GtkScrolledWindow wigdet-et beszúrni."
+
+#: glade/editor.c:746
+msgid "Couldn't insert a GtkViewport widget."
+msgstr "Nem tudok GtkViewport wigdet-et beszúrni."
+
+#: glade/editor.c:773
+msgid "Couldn't add new widget."
+msgstr "Nem tudom hozzáadni a widget-et."
+
+#: glade/editor.c:1129
+msgid ""
+"You can't add a widget at the selected position.\n"
+"\n"
+"Tip: GTK+ uses containers to lay out widgets.\n"
+"Try deleting the existing widget and using\n"
+"a box or table container instead.\n"
+msgstr ""
+"Nem lehet widget-et hozzáadni a megadott helyre.\n"
+"\n"
+"Tipp: GTK+ konténereket használ a widgetek elhelyezésére.\n"
+"Próbáld meg letörölni a widgetet és doboz vagy tábla\n"
+"konténert használni helyette.\n"
+
+#: glade/editor.c:3324
+msgid "Couldn't delete widget."
+msgstr "Nem tudom a widget-et törölni."
+
+#: glade/editor.c:3348 glade/editor.c:3352
+msgid "The widget can't be deleted"
+msgstr "A widget nem törölhetõ"
+
+#: glade/editor.c:3379
+msgid ""
+"The widget is created automatically as part of the parent widget, and it "
+"can't be deleted."
+msgstr ""
+"Ezt a widgetet egy szülõ widget automatikusan hozta létre, ezért nem lehet "
+"letörölni."
+
+#: glade/gbwidget.c:691
+msgid "Border Width:"
+msgstr "Keret szélesség:"
+
+#: glade/gbwidget.c:692
+msgid "The width of the border around the container"
+msgstr "A keret szélessége a container körül"
+
+#: glade/gbwidget.c:1732
+msgid "Select"
+msgstr "Kiválasztás"
+
+#: glade/gbwidget.c:1754
+msgid "Remove Scrolled Window"
+msgstr "Görgetõablak törlése"
+
+#: glade/gbwidget.c:1763
+msgid "Add Scrolled Window"
+msgstr "Görgetõablak hozzáadása"
+
+#: glade/gbwidget.c:1784
+msgid "Remove Alignment"
+msgstr "Sorbaállítás törlése"
+
+#: glade/gbwidget.c:1792
+msgid "Add Alignment"
+msgstr "Sorbaállítás hozzáadása"
+
+#: glade/gbwidget.c:1807
+msgid "Remove Event Box"
+msgstr "Eseménydoboz törlése"
+
+#: glade/gbwidget.c:1815
+msgid "Add Event Box"
+msgstr "Eseménydoboz hozzáadása"
+
+#: glade/gbwidget.c:1825
+msgid "Redisplay"
+msgstr "Újrarajzolás"
+
+#: glade/gbwidget.c:1836
+msgid "Cut"
+msgstr "Kivágás"
+
+#: glade/gbwidget.c:1843 glade/property.c:864 glade/property.c:4659
+msgid "Copy"
+msgstr "Másolás"
+
+#: glade/gbwidget.c:1852 glade/property.c:876
+msgid "Paste"
+msgstr "Beillesztés"
+
+#: glade/gbwidget.c:1864 glade/property.c:1549 glade/property.c:4650
+msgid "Delete"
+msgstr "Törlés"
+
+#. N/A stands for 'Not Applicable'. It is used when a standard widget
+#. property does not apply to the current widget. e.g. widgets without
+#. windows can't use the Events property. This appears in the property
+#. editor and so should be a short abbreviation.
+#: glade/gbwidget.c:2411 glade/gbwidget.c:2480
+msgid "N/A"
+msgstr "N/A"
+
+#. General code for container - has to remove all children and add back
+#. NOTE: this may not work for specialised containers.
+#. NOTE: need to ref widgets?
+#: glade/gbwidget.c:3163
+msgid "replacing child of container - not implemented yet\n"
+msgstr "a container gyermekének törlése - nincs még megvalósítva\n"
+
+#: glade/gbwidget.c:3391
+msgid "Couldn't insert GtkAlignment widget."
+msgstr "Nem tudok GtkAlignment widgetet beszúrni."
+
+#: glade/gbwidget.c:3431
+msgid "Couldn't remove GtkAlignment widget."
+msgstr "Nem tudom a GtkAlignment widgetet törölni."
+
+#: glade/gbwidget.c:3455
+msgid "Couldn't insert GtkEventBox widget."
+msgstr "Nem tudok GtkEventBox widgetet beszúrni."
+
+#: glade/gbwidget.c:3494
+msgid "Couldn't remove GtkEventBox widget."
+msgstr "Nem tudom a GtkEventBox widgetet törölni."
+
+#: glade/gbwidget.c:3529
+msgid "Couldn't insert GtkScrolledWindow widget."
+msgstr "Nem tudok GtkScrolledWindow widgetet beszúrni."
+
+#: glade/gbwidget.c:3568
+msgid "Couldn't remove GtkScrolledWindow widget."
+msgstr "Nem tudom a GtkScrolledWindow widgetet törölni."
+
+#: glade/gbwidget.c:3682
+msgid "Remove Label"
+msgstr "Cimke törlése"
+
+#: glade/gbwidgets/gbdialog.c:303 glade/glade.c:193
+#: glade/glade_project_window.c:1194 glade/property.c:4680
+msgid "OK"
+msgstr "OK"
+
+#: glade/glade.c:195 glade/gnome-db/gnomedberrordlg.c:67
+msgid "Error"
+msgstr "Hiba"
+
+#: glade/glade.c:198
+msgid "System Error"
+msgstr "Rendszerhiba"
+
+#: glade/glade.c:202
+msgid "Error opening file"
+msgstr "Fájl megnyitási hiba"
+
+#: glade/glade.c:204
+msgid "Error reading file"
+msgstr "Fájl olvasási hiba"
+
+#: glade/glade.c:206
+msgid "Error writing file"
+msgstr "Fájl írási hiba"
+
+#: glade/glade.c:209
+msgid "Invalid directory"
+msgstr "Rossz könyvtár"
+
+#: glade/glade.c:213
+msgid "Invalid value"
+msgstr "Rossz érték"
+
+#: glade/glade.c:215
+msgid "Invalid XML entity"
+msgstr "Rossz XML entitás"
+
+#: glade/glade.c:217
+msgid "Start tag expected"
+msgstr "Indulóelem sértve"
+
+#: glade/glade.c:219
+msgid "End tag expected"
+msgstr "Végelem sértve"
+
+#: glade/glade.c:221
+msgid "Character data expected"
+msgstr "Karakteres adat sértve"
+
+#: glade/glade.c:223
+msgid "Class id missing"
+msgstr "Osztályazonosító hiányzik"
+
+#: glade/glade.c:225
+msgid "Class unknown"
+msgstr "Ismeretlen osztály"
+
+#: glade/glade.c:227
+msgid "Invalid component"
+msgstr "Rossz komponens"
+
+#: glade/glade.c:229
+msgid "Unexpected end of file"
+msgstr "Nem megfelelõ fájlvég"
+
+#: glade/glade.c:232
+msgid "Unknown error code"
+msgstr "Rossz hibakód"
+
+#: glade/glade_atk.c:120
+msgid "Controlled By"
+msgstr ""
+
+#: glade/glade_atk.c:121
+msgid "Controller For"
+msgstr ""
+
+#: glade/glade_atk.c:122
+#, fuzzy
+msgid "Label For"
+msgstr "Címke"
+
+#: glade/glade_atk.c:123
+#, fuzzy
+msgid "Labelled By"
+msgstr "Címke"
+
+#: glade/glade_atk.c:124
+msgid "Member Of"
+msgstr ""
+
+#: glade/glade_atk.c:125
+msgid "Node Child Of"
+msgstr ""
+
+#. I don't think we should set the transient parent as the dialog could be
+#. left open if desired.
+#: glade/glade_atk.c:324
+#, c-format
+msgid "Relationship: %s"
+msgstr ""
+
+#. Create the pages of the main notebook
+#. NOTE: If you add/remove pages you need to change the GB_PAGE_SIGNALS
+#. value at the top of this file
+#: glade/glade_atk.c:368 glade/property.c:606
+msgid "Widget"
+msgstr "Widget"
+
+#: glade/glade_atk.c:629 glade/glade_menu_editor.c:763 glade/property.c:748
+msgid "Name:"
+msgstr "Név:"
+
+#: glade/glade_atk.c:630
+msgid "The name of the widget to pass to assistive technologies"
+msgstr ""
+
+#: glade/glade_atk.c:631
+#, fuzzy
+msgid "Description:"
+msgstr "Leírás"
+
+#: glade/glade_atk.c:632
+#, fuzzy
+msgid "The description of the widget to pass to assistive technologies"
+msgstr "A gyermek widget pozíciója tekintettel a testvéreire"
+
+#: glade/glade_atk.c:634
+#, fuzzy
+msgid "Table Caption:"
+msgstr "Általános beállítások:"
+
+#: glade/glade_atk.c:635
+msgid "The table caption to pass to assistive technologies"
+msgstr ""
+
+#: glade/glade_atk.c:672
+msgid "Select the widgets with this relationship"
+msgstr ""
+
+#: glade/glade_atk.c:752
+#, fuzzy
+msgid "Click"
+msgstr "Óra"
+
+#: glade/glade_atk.c:753
+#, fuzzy
+msgid "Press"
+msgstr "Folyamat:"
+
+#: glade/glade_atk.c:754
+#, fuzzy
+msgid "Release"
+msgstr "Fordított:"
+
+#: glade/glade_atk.c:813
+msgid "Enter the description of the action to pass to assistive technologies"
+msgstr ""
+
+#: glade/glade_clipboard.c:117
+msgid "Clipboard"
+msgstr "Vágólap"
+
+#: glade/glade_clipboard.c:346
+msgid "You need to select a widget to paste into"
+msgstr "Ki kell választani egy widget-et, hogy be tudj bele illeszteni"
+
+#: glade/glade_clipboard.c:371
+msgid "You can't paste into windows or dialogs."
+msgstr "Nem tudsz ablakba vagy párbeszédablakba beilleszteni."
+
+#: glade/glade_clipboard.c:394
+msgid ""
+"You can't paste into the selected widget, since\n"
+"it is created automatically by its parent."
+msgstr ""
+"Nem lehet beilleszteni a kijelölt widgetbe, mivel\n"
+"ezt egy szülõ widget hozta létre automatikusan."
+
+#: glade/glade_clipboard.c:403 glade/glade_clipboard.c:411
+msgid "Only menu items can be pasted into a menu or menu bar."
+msgstr "Csak menüpontokat lehet a menübe beilleszteni."
+
+#: glade/glade_clipboard.c:422
+#, fuzzy
+msgid "Only buttons can be pasted into a dialog action area."
+msgstr "Csak gombokat lehet a GnomeDialog akcióterületére beilleszteni."
+
+#: glade/glade_clipboard.c:432
+msgid "Only GnomeDockItem widgets can be pasted into a GnomeDock."
+msgstr "Csak GnomeDockItem-eket lehet beilleszteni GnomeDock-ba."
+
+#: glade/glade_clipboard.c:441
+msgid "Only GnomeDockItem widgets can be pasted over a GnomeDockItem."
+msgstr "Csak GnomeDockItem-eket lehet GnomeDockItem-ekbe illeszteni."
+
+#: glade/glade_clipboard.c:444
+msgid "Sorry - pasting over a GnomeDockItem is not implemented yet."
+msgstr "Bocs - a GnomeDockItem-ek beillesztése még nincs megvalósítva."
+
+#: glade/glade_clipboard.c:452
+msgid "GnomeDockItem widgets can only be pasted into a GnomeDock."
+msgstr "GnomeDockItem-ek csak GnomeDock-ba illeszthetõk."
+
+#. Add a "None" item first, so it is easy to reset the pixmap.
+#: glade/gbwidgets/gbtextview.c:68 glade/glade_gnome.c:112
+#: glade/glade_menu_editor.c:540 glade/glade_menu_editor.c:820
+#: glade/glade_menu_editor.c:1323 glade/glade_menu_editor.c:2231
+#: glade/property.c:2153
+msgid "None"
+msgstr "Nincs"
+
+#. 3 - see GladeStockMenuItemNew above.
+#: glade/glade_gnome.c:121 glade/glade_gnome.c:874
+#: glade/glade_project_window.c:189 glade/glade_project_window.c:597
+msgid "_New"
+msgstr "Ú_j"
+
+#: glade/glade_gnome.c:874 glade/gnome/bonobowindow.c:65
+msgid "Create a new file"
+msgstr "Új fájl készítése"
+
+#: glade/glade_gnomelib.c:181
+#, fuzzy
+msgid "_Gnome"
+msgstr "Gnome:"
+
+#: glade/glade_gnomelib.c:182 glade/glade_gtk12lib.c:315
+#: glade/glade_palette.c:315
+#, fuzzy
+msgid "Dep_recated"
+msgstr "protected"
+
+#: glade/glade_gtk12lib.c:313
+#, fuzzy
+msgid "GTK+ _Basic"
+msgstr "GTK+ Alap"
+
+#: glade/glade_gtk12lib.c:314
+#, fuzzy
+msgid "GTK+ _Additional"
+msgstr "GTK+ Kiterjesztett"
+
+#: glade/glade_keys_dialog.c:94
+msgid "Select Accelerator Key"
+msgstr "Gyorsbillentyû kiválasztása"
+
+#: glade/glade_keys_dialog.c:97
+msgid "Keys"
+msgstr "Billentyûk"
+
+#: glade/glade_menu_editor.c:392
+msgid "Menu Editor"
+msgstr "Menü szerkesztõ"
+
+#: glade/gbwidgets/gblabel.c:696 glade/glade_menu_editor.c:408
+msgid "Label"
+msgstr "Címke"
+
+#: glade/glade_menu_editor.c:409
+msgid "Type"
+msgstr "Típus"
+
+#: glade/glade_menu_editor.c:410
+msgid "Accelerator"
+msgstr "Gyorsbillentyû"
+
+#: glade/glade_menu_editor.c:411
+msgid "Name"
+msgstr "Név"
+
+#: glade/glade_menu_editor.c:412 glade/property.c:1467
+msgid "Handler"
+msgstr "Kezelõ"
+
+#: glade/glade_menu_editor.c:413 glade/property.c:102
+msgid "Active"
+msgstr "Aktív"
+
+#: glade/glade_menu_editor.c:414
+msgid "Group"
+msgstr "Csoport"
+
+#: glade/glade_menu_editor.c:415
+msgid "Icon"
+msgstr "Ikon"
+
+#: glade/glade_menu_editor.c:456
+msgid "Move the item and its children up one place in the list"
+msgstr "Egy pozícióval följebb kerül a kiválasztott elem a listában"
+
+#: glade/glade_menu_editor.c:468
+msgid "Move the item and its children down one place in the list"
+msgstr "Egy pozícióval lejjebb kerül a kiválasztott elem a listában"
+
+#: glade/glade_menu_editor.c:480
+msgid "Move the item and its children up one level"
+msgstr "Mosgasd az elemet és gyermekeit egy szinttel feljebb"
+
+#: glade/glade_menu_editor.c:492
+msgid "Move the item and its children down one level"
+msgstr "Mosgasd az elemet és gyermekeit egy szinttel lejjebb"
+
+#: glade/glade_menu_editor.c:522
+#, fuzzy
+msgid "The stock item to use."
+msgstr "A használandó Gnome sablon elem."
+
+#: glade/glade_menu_editor.c:525 glade/glade_menu_editor.c:633
+msgid "Stock Item:"
+msgstr "Sablon elem:"
+
+#: glade/glade_menu_editor.c:631
+msgid "The stock Gnome item to use."
+msgstr "A használandó Gnome sablon elem."
+
+#: glade/glade_menu_editor.c:736
+msgid ""
+"The text of the menu item, or empty for separators. Hit return to add a new "
+"item below this one. Ctl-Return adds a child item beneath this one."
+msgstr ""
+"A menüpont szövege, vagy üresen hagyva elválasztás. Return leütése új elemet "
+"ad hozzá. Ctrl-Return almenüt szúr be a mostani alá."
+
+#. For now we don't support editing the menuitem properties in the property
+#. editor. The menu editor has to be used instead.
+#: glade/gbwidgets/gbbutton.c:134 glade/gbwidgets/gbcheckbutton.c:87
+#: glade/gbwidgets/gbcheckmenuitem.c:72 glade/gbwidgets/gbimagemenuitem.c:92
+#: glade/gbwidgets/gblabel.c:134 glade/gbwidgets/gblistitem.c:73
+#: glade/gbwidgets/gbmenuitem.c:87 glade/gbwidgets/gbradiobutton.c:136
+#: glade/gbwidgets/gbradiomenuitem.c:103 glade/gbwidgets/gbtogglebutton.c:98
+#: glade/glade_menu_editor.c:738 glade/gnome/gnomehref.c:67
+msgid "Label:"
+msgstr "Cimke:"
+
+#: glade/glade_menu_editor.c:760 glade/property.c:749
+msgid "The name of the widget"
+msgstr "A widget neve"
+
+#: glade/glade_menu_editor.c:781
+msgid "The function to be called when the item is selected"
+msgstr "A függvény, amely meg lesz hívva, ha az elemet kiválasztják"
+
+#: glade/glade_menu_editor.c:783 glade/property.c:1515
+msgid "Handler:"
+msgstr "Kezelõ:"
+
+#: glade/glade_menu_editor.c:802
+msgid "An optional icon to show on the left of the menu item."
+msgstr "A menüpont bal oldalán megjelenõ opcionális ikon."
+
+#: glade/gbwidgets/gbbutton.c:135 glade/gbwidgets/gbcheckbutton.c:88
+#: glade/gbwidgets/gbimage.c:103 glade/gbwidgets/gbradiobutton.c:137
+#: glade/gbwidgets/gbtogglebutton.c:99 glade/gbwidgets/gbwindow.c:220
+#: glade/glade_menu_editor.c:804
+msgid "Icon:"
+msgstr "Ikon:"
+
+#: glade/glade_menu_editor.c:913
+msgid "The tip to show when the mouse is over the item"
+msgstr "Az elem fölött tartózkodó egér hatására megjelenõ segédszöveg."
+
+#: glade/glade_menu_editor.c:915 glade/property.c:796
+msgid "Tooltip:"
+msgstr "Segédszöveg:"
+
+#: glade/glade_menu_editor.c:936
+#, fuzzy
+msgid "_Add"
+msgstr "Hozzáadás"
+
+#: glade/glade_menu_editor.c:941
+msgid "Add a new item below the selected item."
+msgstr "Adj új elemet a kiválasztott elem alá."
+
+#: glade/glade_menu_editor.c:946
+msgid "Add _Child"
+msgstr ""
+
+#: glade/glade_menu_editor.c:951
+#, fuzzy
+msgid "Add a new child item below the selected item."
+msgstr "Adj új elemet a kiválasztott elem alá."
+
+#: glade/glade_menu_editor.c:957
+#, fuzzy
+msgid "Add _Separator"
+msgstr "Elválasztó hozzáadása"
+
+#: glade/glade_menu_editor.c:962
+msgid "Add a separator below the selected item."
+msgstr "Adj új elválasztót a kiválasztott elem alá."
+
+#: glade/glade_menu_editor.c:967 glade/glade_project_window.c:220
+msgid "_Delete"
+msgstr "_Törlés"
+
+#: glade/glade_menu_editor.c:972
+msgid "Delete the current item"
+msgstr "A jelenlegi elem törlése"
+
+#. Type radio options and toggle options.
+#: glade/glade_menu_editor.c:978
+msgid "Item Type:"
+msgstr "Elem típusa:"
+
+#: glade/glade_menu_editor.c:994
+msgid "If the item is initially on."
+msgstr "Ha az elem alapesetben be van kapcsolva."
+
+#: glade/glade_menu_editor.c:996
+msgid "Active:"
+msgstr "Aktív:"
+
+#: glade/glade_menu_editor.c:1001 glade/glade_menu_editor.c:1611
+#: glade/property.c:1937 glade/property.c:1947
+msgid "No"
+msgstr "Nem"
+
+#: glade/glade_menu_editor.c:1015
+#, fuzzy
+msgid "The radio menu item's group"
+msgstr "Ha a rádió-menüpont kezdetben bekapcsolva van"
+
+#: glade/gbwidgets/gbradiobutton.c:150 glade/gbwidgets/gbradiomenuitem.c:106
+#: glade/glade_menu_editor.c:1017
+msgid "Group:"
+msgstr "Csoport:"
+
+#: glade/glade_menu_editor.c:1032 glade/glade_menu_editor.c:2386
+#: glade/glade_menu_editor.c:2526
+msgid "Radio"
+msgstr "Rádió"
+
+#: glade/glade_menu_editor.c:1039 glade/glade_menu_editor.c:2384
+#: glade/glade_menu_editor.c:2524
+msgid "Check"
+msgstr "Ellenõrzés"
+
+#: glade/glade_menu_editor.c:1046 glade/property.c:102
+msgid "Normal"
+msgstr "Normál"
+
+#. Accelerator key options.
+#: glade/glade_menu_editor.c:1055
+msgid "Accelerator:"
+msgstr "Gyorsbillentyû:"
+
+#: glade/glade_menu_editor.c:1092 glade/property.c:1650
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: glade/glade_menu_editor.c:1097 glade/property.c:1653
+msgid "Shift"
+msgstr "Shift"
+
+#: glade/glade_menu_editor.c:1102 glade/property.c:1656
+msgid "Alt"
+msgstr "Alt"
+
+#: glade/glade_menu_editor.c:1107 glade/property.c:1663
+msgid "Key:"
+msgstr "Billentyû:"
+
+#: glade/glade_menu_editor.c:1113 glade/property.c:1642
+msgid "Modifiers:"
+msgstr "Módosító:"
+
+#: glade/glade_menu_editor.c:1611 glade/glade_menu_editor.c:2391
+#: glade/glade_menu_editor.c:2534 glade/property.c:1937
+msgid "Yes"
+msgstr "Igen"
+
+#: glade/glade_menu_editor.c:1979
+msgid "Select icon"
+msgstr "Válassz ikont"
+
+#: glade/glade_menu_editor.c:2325 glade/glade_menu_editor.c:2686
+msgid "separator"
+msgstr "elválasztó"
+
+#. Add the special 'New' item to create a new group.
+#: glade/glade_menu_editor.c:3604 glade/glade_project_window.c:346
+#: glade/property.c:4633
+msgid "New"
+msgstr "Új"
+
+#: glade/glade_palette.c:194 glade/glade_palette.c:196
+#: glade/glade_palette.c:413
+msgid "Selector"
+msgstr "Elválasztó"
+
+#: glade/glade_project.c:380
+msgid ""
+"The project directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"A projekt könyvtár nincs megadva.\n"
+"Kérlek adj meg egyet a Projekt Beállítások párbeszédablakban.\n"
+
+#: glade/glade_project.c:387
+msgid ""
+"The source directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"A forrás könyvtár nincs megadva.\n"
+"Kérlek adj meg egyet a Projekt Beállítások párbeszédablakban.\n"
+
+#: glade/glade_project.c:397
+msgid ""
+"Invalid source directory:\n"
+"\n"
+"The source directory must be the project directory\n"
+"or a subdirectory of the project directory.\n"
+msgstr ""
+"Hibás forrás könyvtár:\n"
+"\n"
+"A forrás könyvtárnak meg kell egyeznie a projekt könyvtárral\n"
+"vagy annak egy alkönyvtárával.\n"
+
+#: glade/glade_project.c:405
+msgid ""
+"The pixmaps directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"A pixmap könyvtár nincs megadva.\n"
+"Kérlek adj meg egyet a Projekt Beállítások párbeszédablakban.\n"
+
+#: glade/glade_project.c:433
+#, c-format
+msgid "Sorry - generating source for %s is not implemented yet"
+msgstr "Sajnálom - forráskódgenerálás %s nyelven még nincs megvalósítva."
+
+#: glade/glade_project.c:461
+#, fuzzy
+msgid ""
+"Error running glade-- to generate the C++ source code.\n"
+"Check that you have glade-- installed and that it is in your PATH.\n"
+"Then try running 'glade-- <project_file.glade>' in a terminal."
+msgstr ""
+"Hiba a glade-- futása során, a C++ forrásfájlok készítésekor.\n"
+"Ellenõrizd, hogy a glade-- telepítve van, és hogy a PATH-ban található."
+
+#: glade/glade_project.c:484
+msgid ""
+"Error running gate to generate the Ada95 source code.\n"
+"Check that you have gate installed and that it is in your PATH."
+msgstr ""
+"Hiba a gate futása során, az Ada95 forrásfájlok készítésekor.\n"
+"Ellenõrizd, hogy a gate telepítve van, és hogy a PATH-ban található."
+
+#: glade/glade_project.c:506
+msgid ""
+"Error running glade2perl to generate the Perl source code.\n"
+"Check that you have glade2perl installed and that it is in your PATH."
+msgstr ""
+"Hiba a glade2perl futása során, a Perl forrásfájlok készítésekor.\n"
+"Ellenõrizd, hogy a glade2perl telepítve van, és hogy a PATH-ban található."
+
+#: glade/glade_project.c:528
+msgid ""
+"Error running eglade to generate the Eiffel source code.\n"
+"Check that you have eglade installed and that it is in your PATH."
+msgstr ""
+"Hiba a eglade futása során, az Eiffel forrásfájlok készítésekor.\n"
+"Ellenõrizd, hogy a eglade telepítve van, és hogy a PATH-ban található."
+
+#: glade/glade_project.c:887
+msgid ""
+"The pixmap directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"A pixmap könyvtár nincs megadva.\n"
+"Kérlek adj meg egyet a Projekt Beállítások párbeszédablakban.\n"
+
+#: glade/glade_project.c:1697
+#, fuzzy
+msgid "Error writing project XML file\n"
+msgstr "Hiba az XML fájl írásánál\n"
+
+#: glade/glade_project_options.c:142 glade/glade_project_window.c:362
+#: glade/glade_project_window.c:846
+msgid "Project Options"
+msgstr "Projekt Beállítások"
+
+#.
+#. * General Page.
+#.
+#: glade/glade_project_options.c:159
+msgid "General"
+msgstr "Alap"
+
+#: glade/glade_project_options.c:168
+msgid "Basic Options:"
+msgstr "Alap beállítások:"
+
+#: glade/glade_project_options.c:186
+msgid "The project directory"
+msgstr "A projekt könyvtára"
+
+#: glade/glade_project_options.c:188
+msgid "Project Directory:"
+msgstr "Projekt könyvtár:"
+
+#: glade/glade_project_options.c:206
+msgid "Browse..."
+msgstr "Keres..."
+
+#: glade/glade_project_options.c:221
+msgid "The name of the current project"
+msgstr "A jelenlegi projekt neve"
+
+#: glade/glade_project_options.c:223
+msgid "Project Name:"
+msgstr "Projekt neve:"
+
+#: glade/glade_project_options.c:243
+msgid "The name of the program"
+msgstr "A program neve"
+
+#: glade/glade_project_options.c:245
+msgid "Program Name:"
+msgstr "Program neve:"
+
+#: glade/glade_project_options.c:266
+msgid "The project file"
+msgstr "A projekt fájl:"
+
+#: glade/glade_project_options.c:268
+msgid "Project File:"
+msgstr "Projekt fájl:"
+
+#. Project Source Directory.
+#: glade/glade_project_options.c:284
+msgid "Subdirectories:"
+msgstr "Alkönytárak:"
+
+#: glade/glade_project_options.c:301
+msgid "The directory to save generated source code"
+msgstr "A könyvtár ahova a generált forráskód kerül"
+
+#: glade/glade_project_options.c:304
+msgid "Source Directory:"
+msgstr "Forráskönyvtár:"
+
+#: glade/glade_project_options.c:323
+msgid "The directory to store pixmaps"
+msgstr "A pixmap-ek könyvtára"
+
+#: glade/glade_project_options.c:326
+msgid "Pixmaps Directory:"
+msgstr "Képek könyvtára:"
+
+#: glade/glade_project_options.c:348
+msgid "The license which is added at the top of generated files"
+msgstr "A licensz amely hozzá lesz adva a generált fájlokhoz"
+
+#: glade/glade_project_options.c:350
+msgid "License:"
+msgstr "Licensz:"
+
+#. Source Language.
+#: glade/glade_project_options.c:370
+msgid "Language:"
+msgstr "Nyelv:"
+
+#: glade/glade_project_options.c:401
+msgid "Gnome:"
+msgstr "Gnome:"
+
+#: glade/glade_project_options.c:409
+msgid "Enable Gnome Support"
+msgstr "Gnome támogatás engedélyezése"
+
+#: glade/glade_project_options.c:415
+msgid "If a Gnome application is to be built"
+msgstr "Ha Gnome alkalmazást készítsünk"
+
+#: glade/glade_project_options.c:418
+msgid "Enable Gnome DB Support"
+msgstr "Gnome DB támodatás engedélyezése"
+
+#: glade/glade_project_options.c:422
+msgid "If a Gnome DB application is to be built"
+msgstr "Ha egy Gnome DB alkalmazás készül"
+
+#.
+#. * C Options Page.
+#.
+#: glade/glade_project_options.c:432
+msgid "C Options"
+msgstr "C beállítások"
+
+#: glade/glade_project_options.c:445
+msgid "General Options:"
+msgstr "Általános beállítások:"
+
+#. Gettext Support.
+#: glade/glade_project_options.c:455
+msgid "Gettext Support"
+msgstr "Gettext támogatás"
+
+#: glade/glade_project_options.c:460
+msgid "If strings are marked for translation by gettext"
+msgstr "Ha a programüzeneteket gettext segítségével fordítják le"
+
+#. Setting widget names.
+#: glade/glade_project_options.c:464
+msgid "Set Widget Names"
+msgstr "Widget nevek beállítása"
+
+#: glade/glade_project_options.c:469
+msgid "If widget names are set in the source code"
+msgstr "Ha a widget nevek a forrásban vannak beállítva"
+
+#. Backing up source files.
+#: glade/glade_project_options.c:473
+msgid "Backup Source Files"
+msgstr "Forrásfájlok lementése"
+
+#: glade/glade_project_options.c:478
+msgid "If copies of old source files are made"
+msgstr "Ha az öreg forrást el akarod menteni (backup)"
+
+#. Gnome Help System support.
+#: glade/glade_project_options.c:482
+msgid "Gnome Help Support"
+msgstr "Gnome Súgó Támogatás"
+
+#: glade/glade_project_options.c:489
+msgid "If support for the Gnome Help system should be included"
+msgstr "Ha a Gnome Súgó rendszert használni szeretnéd a programban"
+
+#: glade/glade_project_options.c:492
+msgid "File Output Options:"
+msgstr "Fájl kimeneti beállítások:"
+
+#. Outputting main file.
+#: glade/glade_project_options.c:502
+msgid "Output main.c File"
+msgstr "A kimeneti main.c fájl"
+
+#: glade/glade_project_options.c:507
+msgid ""
+"If a main.c file is output containing a main() function, if it doesn't "
+"already exist"
+msgstr "A main.c fájl egy main() függvénnyel elkészül, ha még nincs olyan"
+
+#. Outputting support files.
+#: glade/glade_project_options.c:511
+msgid "Output Support Functions"
+msgstr "Támogató Függvények Létrehozása"
+
+#: glade/glade_project_options.c:516
+msgid "If the support functions are output"
+msgstr "Ha a támogató függvényeket létre kell hozni"
+
+#. Outputting build files.
+#: glade/glade_project_options.c:520
+msgid "Output Build Files"
+msgstr "Build Fájlok Létrehozása"
+
+#: glade/glade_project_options.c:525
+msgid ""
+"If files for building the source code are output, including Makefile.am and "
+"configure.in, if they don't already exist"
+msgstr ""
+"Ha a fordításhoz szükséges fájlokat (beleértve a Makefile.am-et és a "
+"configure.in-t) létre kell hozni, ha még nem léteznek"
+
+#. Main source file.
+#: glade/glade_project_options.c:529
+msgid "Interface Creation Functions:"
+msgstr "Felületet Létrehozó Függvények:"
+
+#: glade/glade_project_options.c:541
+msgid "The file in which the functions to create the interface are written"
+msgstr "Az a fájl, amelybe az felületet létrehozó függvényeket írjam"
+
+#: glade/glade_project_options.c:543 glade/glade_project_options.c:587
+#: glade/glade_project_options.c:630 glade/property.c:970
+msgid "Source File:"
+msgstr "Forrás fájl:"
+
+#: glade/glade_project_options.c:558
+msgid ""
+"The file in which the declarations of the functions to create the interface "
+"are written"
+msgstr ""
+"Az a fájl, amelybe az felületet létrehozó függvényeket deklarációit írjam"
+
+#: glade/glade_project_options.c:560 glade/glade_project_options.c:604
+#: glade/glade_project_options.c:647
+msgid "Header File:"
+msgstr "Fejléc fájl:"
+
+#. Handler source file.
+#: glade/glade_project_options.c:573
+msgid "Signal Handler & Callback Functions:"
+msgstr "Jelzéskezelõ és Callback függvények:"
+
+#: glade/glade_project_options.c:585
+msgid ""
+"The file in which the empty signal handler and callback functions are written"
+msgstr "Az a fájl, amelybe az üres eseménykezelõ függvényeket írjam."
+
+#: glade/glade_project_options.c:602
+msgid ""
+"The file in which the declarations of the signal handler and callback "
+"functions are written"
+msgstr "Az a fájl, amelybe az eseménykezelõ függvényeket deklarációit írjam"
+
+#. Support source file.
+#: glade/glade_project_options.c:616
+msgid "Support Functions:"
+msgstr "Támogatás funkció:"
+
+#: glade/glade_project_options.c:628
+msgid "The file in which the support functions are written"
+msgstr "Az a fájl, amelybe segédfüggvényeket írjam"
+
+#: glade/glade_project_options.c:645
+msgid "The file in which the declarations of the support functions are written"
+msgstr "Az a fájl, amelybe segédfüggvények deklarációit írjam"
+
+#.
+#. * libglade Options Page.
+#.
+#: glade/glade_project_options.c:663
+msgid "LibGlade Options"
+msgstr "LibGlade beállítások"
+
+#: glade/glade_project_options.c:672
+msgid "Translatable Strings:"
+msgstr "Fordítható szövegek:"
+
+#. Output translatable strings.
+#: glade/glade_project_options.c:686
+msgid "Save Translatable Strings"
+msgstr "Fordítható szövegek kimentése"
+
+#: glade/glade_project_options.c:691
+msgid ""
+"If translatable strings are saved in a separate C source file, to enable "
+"translation of interfaces loaded by libglade"
+msgstr ""
+"Ha a fordítható karakterláncok külön C forrásfájlba kerüljenek, így a "
+"libglade által betöltött felületek fordíthatók lehetnek."
+
+#: glade/glade_project_options.c:701
+msgid "The C source file to save all translatable strings in"
+msgstr "A C forrás fájl, ahova a fordítható szövegeket mentsem"
+
+#: glade/gbwidgets/gbpixmap.c:71 glade/glade_project_options.c:703
+#: glade/gnome/gnomepixmap.c:79
+msgid "File:"
+msgstr "Fájl:"
+
+#: glade/glade_project_options.c:1162
+msgid "Select the Project Directory"
+msgstr "Válaszd ki a projekt könyvtárát"
+
+#: glade/glade_project_options.c:1353 glade/glade_project_options.c:1363
+#: glade/glade_project_options.c:1373
+msgid "You need to set the Translatable Strings File option"
+msgstr "Engedélyezned kell a Fordítható Sztringek Fájl opciót"
+
+#: glade/glade_project_options.c:1357 glade/glade_project_options.c:1367
+msgid "You need to set the Project Directory option"
+msgstr "Be kell állítanod a Projekt Könyvtárat"
+
+#: glade/glade_project_options.c:1359 glade/glade_project_options.c:1369
+msgid "You need to set the Project File option"
+msgstr "Meg kell adnod egy Projekt Fájlt"
+
+#: glade/glade_project_options.c:1375
+msgid "You need to set the Project Name option"
+msgstr "Meg kell adnod egy Projekt nevet"
+
+#: glade/glade_project_options.c:1377
+msgid "You need to set the Program Name option"
+msgstr "Meg kell adnod egy Program nevet"
+
+#: glade/glade_project_options.c:1380
+msgid "You need to set the Source Directory option"
+msgstr "Meg kell adnod egy forrás könyvtárat"
+
+#: glade/glade_project_options.c:1383
+msgid "You need to set the Pixmaps Directory option"
+msgstr "Meg kell adnod egy pixmap könyvtárat"
+
+#: glade/glade_project_window.c:157
+#, fuzzy, c-format
+msgid ""
+"Couldn't show help file: %s.\n"
+"\n"
+"Error: %s"
+msgstr ""
+"Nem tudom átnevezni a fájlt:\n"
+"  %s\n"
+"erre:\n"
+"  %s\n"
+
+#: glade/glade_project_window.c:189 glade/glade_project_window.c:599
+msgid "Create a new project"
+msgstr "Új projekt készítése"
+
+#: glade/glade_project_window.c:197 glade/glade_project_window.c:619
+#: glade/glade_project_window.c:862
+#, fuzzy
+msgid "_Build"
+msgstr "Elkészítés"
+
+#: glade/glade_project_window.c:198 glade/glade_project_window.c:630
+msgid "Output the project source code"
+msgstr "A projekt forráskódjának felépítése"
+
+#: glade/glade_project_window.c:204 glade/glade_project_window.c:633
+#, fuzzy
+msgid "Op_tions..."
+msgstr "Beállítások"
+
+#: glade/glade_project_window.c:205 glade/glade_project_window.c:642
+msgid "Edit the project options"
+msgstr "Projekt beállítások szerkesztése"
+
+#: glade/glade_project_window.c:220 glade/glade_project_window.c:681
+msgid "Delete the selected widget"
+msgstr "A kijelölt widget törlése"
+
+#: glade/glade_project_window.c:230 glade/glade_project_window.c:692
+msgid "Show _Palette"
+msgstr "_Paletta mutatása"
+
+#: glade/glade_project_window.c:230 glade/glade_project_window.c:697
+msgid "Show the palette of widgets"
+msgstr "A widgetek palettájának mutatása"
+
+#: glade/glade_project_window.c:236
+msgid "Show Property _Editor"
+msgstr "Tulajdonság szerk_esztõ mutatása"
+
+#: glade/glade_project_window.c:237
+msgid "Show the property editor"
+msgstr "Mutasd a tulajdonság szerkesztõt"
+
+#: glade/glade_project_window.c:243
+msgid "Show Widget _Tree"
+msgstr "Widget Fa muta_tása"
+
+#: glade/glade_project_window.c:244 glade/main.c:80
+msgid "Show the widget tree"
+msgstr "A widgetek fastruktúrájának mutatása"
+
+#: glade/glade_project_window.c:250 glade/glade_project_window.c:719
+msgid "Show _Clipboard"
+msgstr "_Vágólap mutatása"
+
+#: glade/glade_project_window.c:251 glade/glade_project_window.c:725
+#: glade/main.c:84
+msgid "Show the clipboard"
+msgstr "Vágólap mutatása"
+
+#: glade/glade_project_window.c:269
+msgid "Show _Grid"
+msgstr "_Rács mutatása"
+
+#: glade/glade_project_window.c:270 glade/glade_project_window.c:756
+msgid "Show the grid (in fixed containers only)"
+msgstr "Rács mutatása (csak fixed containerekben)"
+
+#: glade/glade_project_window.c:276
+msgid "_Snap to Grid"
+msgstr "Rá_csra illesztés"
+
+#: glade/glade_project_window.c:277
+msgid "Snap widgets to the grid"
+msgstr "Widgetek rácsra illesztése"
+
+#: glade/glade_project_window.c:283
+msgid "Show _Widget Tooltips"
+msgstr "_Widget segédszövegek mutatása"
+
+#: glade/glade_project_window.c:284 glade/glade_project_window.c:736
+msgid "Show the tooltips of created widgets"
+msgstr "Mutasd a generált widget-ek segédszövegeit"
+
+#: glade/glade_project_window.c:293 glade/glade_project_window.c:759
+msgid "Set Grid _Options..."
+msgstr "Rács _beállítása..."
+
+#: glade/glade_project_window.c:294
+msgid "Set the grid style and spacing"
+msgstr "Állítsd be a rácsot és a helyközt"
+
+#: glade/glade_project_window.c:300 glade/glade_project_window.c:780
+msgid "Set Snap O_ptions..."
+msgstr "_Tapadási beállítások..."
+
+#: glade/glade_project_window.c:301
+msgid "Set options for snapping to the grid"
+msgstr "Állítsd be a tapadást a rácspontokra"
+
+#: glade/glade_project_window.c:313
+#, fuzzy
+msgid "_Turbo Start"
+msgstr "Indít"
+
+#: glade/glade_project_window.c:314
+msgid "View the turbo start guide"
+msgstr ""
+
+#: glade/glade_project_window.c:320
+msgid "_FAQ"
+msgstr ""
+
+#: glade/glade_project_window.c:321
+msgid "View the Glade FAQ"
+msgstr ""
+
+#. create File menu
+#: glade/glade_project_window.c:335 glade/glade_project_window.c:590
+#, fuzzy
+msgid "_Project"
+msgstr "Projektek"
+
+#: glade/glade_project_window.c:346 glade/glade_project_window.c:829
+#: glade/glade_project_window.c:981
+msgid "New Project"
+msgstr "Új projekt"
+
+#: glade/glade_project_window.c:351
+msgid "Open"
+msgstr "Megnyitás"
+
+#: glade/glade_project_window.c:351 glade/glade_project_window.c:834
+#: glade/glade_project_window.c:1040
+msgid "Open Project"
+msgstr "Projekt megnyitása"
+
+#: glade/glade_project_window.c:356
+msgid "Save"
+msgstr "Mentés"
+
+#: glade/glade_project_window.c:356 glade/glade_project_window.c:838
+#: glade/glade_project_window.c:1352
+msgid "Save Project"
+msgstr "Projekt mentése"
+
+#: glade/glade_project_window.c:362
+msgid "Options"
+msgstr "Beállítások"
+
+#: glade/glade_project_window.c:367
+msgid "Build"
+msgstr "Elkészítés"
+
+#: glade/glade_project_window.c:367
+msgid "Build the Source Code"
+msgstr "A forráskód elkészítése"
+
+#: glade/glade_project_window.c:603
+msgid "Open an existing project"
+msgstr "Létezõ projekt megnyitása"
+
+#: glade/glade_project_window.c:607
+msgid "Save project"
+msgstr "A projekt mentése"
+
+#: glade/glade_project_window.c:652
+msgid "Quit Glade"
+msgstr "Kilépés a Glade-bõl"
+
+#. Create Edit menu
+#: glade/gbwidgets/gbmenubar.c:198 glade/glade_project_window.c:656
+#, fuzzy
+msgid "_Edit"
+msgstr "Szerkesztés"
+
+#: glade/glade_project_window.c:666
+#, fuzzy
+msgid "Cut the selected widget to the clipboard"
+msgstr "Ki kell választani egy widget-et, hogy be tudj bele illeszteni"
+
+#: glade/glade_project_window.c:671
+#, fuzzy
+msgid "Copy the selected widget to the clipboard"
+msgstr "Ki kell választani egy widget-et, hogy be tudj bele illeszteni"
+
+#: glade/glade_project_window.c:676
+#, fuzzy
+msgid "Paste the widget from the clipboard over the selected widget"
+msgstr "Mutasd a kiválaszott widget tulajdonságait"
+
+#. Create View menu
+#: glade/gbwidgets/gbmenubar.c:204 glade/glade_project_window.c:685
+#, fuzzy
+msgid "_View"
+msgstr "Nézet"
+
+#: glade/glade_project_window.c:701
+#, fuzzy
+msgid "Show P_roperties"
+msgstr "Tulajdonságok mutatása"
+
+#: glade/glade_project_window.c:707
+msgid "Show the properties of the selected widget"
+msgstr "Mutasd a kiválaszott widget tulajdonságait"
+
+#: glade/glade_project_window.c:710
+#, fuzzy
+msgid "Show _Widget Tree"
+msgstr "Widget fastruktúra mutatása"
+
+#: glade/glade_project_window.c:716
+msgid "Show the project widget tree"
+msgstr "Mutasd a projekt widget fastruktúráját"
+
+#: glade/glade_project_window.c:728
+#, fuzzy
+msgid "Show Widget _Tooltips"
+msgstr "A widget segédszövegek mutatása"
+
+#: glade/glade_project_window.c:740
+#, fuzzy
+msgid "_Grid"
+msgstr "Rács"
+
+#: glade/glade_project_window.c:748
+#, fuzzy
+msgid "_Show Grid"
+msgstr "Rács mutatása"
+
+#: glade/glade_project_window.c:765
+msgid "Set the spacing between grid lines"
+msgstr "Állítsd be a helyközt a rácselemek között"
+
+#: glade/glade_project_window.c:768
+#, fuzzy
+msgid "S_nap to Grid"
+msgstr "Rácsra ugrás"
+
+#: glade/glade_project_window.c:776
+msgid "Snap widgets to the grid (in fixed containers only)"
+msgstr "Ragaszd a widgeteket a rácsra (csak rögzített containerek esetén)"
+
+#: glade/glade_project_window.c:786
+msgid "Set which parts of a widget snap to the grid"
+msgstr "Állítsd be mely része ragadjon a widgetnek a rácsra"
+
+#. Create Help menu
+#: glade/gbwidgets/gbmenubar.c:206 glade/glade_project_window.c:790
+#, fuzzy
+msgid "_Help"
+msgstr "Súgó"
+
+#. Don't show these yet as we have no help pages.
+#. menuitem = gtk_menu_item_new_with_mnemonic (_("_Contents"));
+#. gtk_container_add (GTK_CONTAINER (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#. menuitem = gtk_menu_item_new_with_mnemonic (_("_Index"));
+#. gtk_container_add (GTK_CONTAINER (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#. menuitem = gtk_menu_item_new ();
+#. gtk_container_add (GTK_CONTAINER (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#: glade/glade_project_window.c:811
+#, fuzzy
+msgid "_About..."
+msgstr "Névjegy..."
+
+#: glade/glade_project_window.c:852
+#, fuzzy
+msgid "Optio_ns"
+msgstr "Beállítások"
+
+#: glade/glade_project_window.c:856
+msgid "Write Source Code"
+msgstr "Forráskód kiírása"
+
+#: glade/glade_project_window.c:943 glade/glade_project_window.c:1568
+#: glade/glade_project_window.c:1776
+msgid "Glade"
+msgstr "Glade"
+
+#: glade/glade_project_window.c:950
+msgid "Are you sure you want to create a new project?"
+msgstr "Tényleg egy új projektet szeretnél létrehozni?"
+
+#: glade/glade_project_window.c:985
+#, fuzzy
+msgid "New _GTK+ Project"
+msgstr "Új projekt"
+
+#: glade/glade_project_window.c:986
+#, fuzzy
+msgid "New G_NOME Project"
+msgstr "Új projekt"
+
+#: glade/glade_project_window.c:989
+msgid "Which type of project do you want to create?"
+msgstr ""
+
+#: glade/glade_project_window.c:1023
+msgid "New project created."
+msgstr "Az új projekt elkészítve."
+
+#: glade/glade_project_window.c:1099
+msgid "Project opened."
+msgstr "A projekt megnyitva."
+
+#: glade/glade_project_window.c:1116
+msgid "Error opening project."
+msgstr "Hiba a projekt megnyitásánál."
+
+#: glade/glade_project_window.c:1137
+msgid "Errors opening project file"
+msgstr "Hiba a projekt fájl megnyitásánál"
+
+#: glade/glade_project_window.c:1143
+msgid " errors opening project file:"
+msgstr " hiba a projekt fájl megnyitásánál:"
+
+#: glade/glade_project_window.c:1216
+msgid ""
+"There is no project currently open.\n"
+"Create a new project with the Project/New command."
+msgstr ""
+
+#: glade/glade_project_window.c:1419
+msgid "Error saving project"
+msgstr "Hiba a projekt mentése közben"
+
+#: glade/glade_project_window.c:1421
+msgid "Error saving project."
+msgstr "Hiba a projekt mentése közben."
+
+#: glade/glade_project_window.c:1427
+msgid "Project saved."
+msgstr "A projekt elmentve."
+
+#: glade/glade_project_window.c:1497
+msgid "Errors writing source code"
+msgstr "Hiba a forrás kiírása közben"
+
+#: glade/glade_project_window.c:1499
+msgid "Error writing source."
+msgstr "Hiba a forrás kiírása közben."
+
+#: glade/glade_project_window.c:1505
+msgid "Source code written."
+msgstr "Forrás kiírva."
+
+#: glade/glade_project_window.c:1536
+msgid "System error message:"
+msgstr "Renszerhiba üzenet:"
+
+#: glade/glade_project_window.c:1575
+msgid "Are you sure you want to quit?"
+msgstr "Tényleg ki szeretnél lépni?"
+
+#: glade/glade_project_window.c:1778 glade/glade_project_window.c:1832
+#, fuzzy
+msgid "(C) 1998-2002 Damon Chaplin"
+msgstr "(C) 1998-2001 Damon Chaplin"
+
+#: glade/glade_project_window.c:1779 glade/glade_project_window.c:1831
+#, fuzzy
+msgid "Glade is a User Interface Builder for GTK+ and GNOME."
+msgstr "Glade egy felhasználói Felület Építõ GTK+ és GNOME-hez.\n"
+
+#: glade/glade_project_window.c:1794
+msgid "Glade Home Page"
+msgstr "Glade Honlap"
+
+#: glade/glade_project_window.c:1809
+#, fuzzy
+msgid "About Glade"
+msgstr "Kilépés a Glade-bõl"
+
+#: glade/glade_project_window.c:1887
+msgid "<untitled>"
+msgstr "<névtelen>"
+
+#: glade/main.c:68
+msgid "Write the source code and exit"
+msgstr "A forráskód elmentése után lépj ki"
+
+#: glade/main.c:72
+#, fuzzy
+msgid "Start with the palette hidden"
+msgstr "A widgetek palettájának mutatása"
+
+#: glade/main.c:76
+#, fuzzy
+msgid "Start with the property editor hidden"
+msgstr "Mutasd a tulajdonság szerkesztõt"
+
+# glade/main.c:246
+#: glade/main.c:374
+msgid ""
+"glade: The XML file must be set for the '-w' or '--write-source' option.\n"
+msgstr ""
+"glade: Az XML fájlt be kell állítani a '-w' vagy a '--write-source' "
+"kapcsolók használatához.\n"
+
+# glade/main.c:258
+#: glade/main.c:386
+msgid "glade: Error loading XML file.\n"
+msgstr "glade: Hiba az XML fájl megnyitása közben.\n"
+
+#: glade/main.c:393
+msgid "glade: Error writing source.\n"
+msgstr "glade: Hiba a forrás kiírása közben.\n"
+
+#: glade/palette.c:54
+msgid "Palette"
+msgstr "Paletta"
+
+#: glade/property.c:73
+msgid "private"
+msgstr "private"
+
+#: glade/property.c:73
+msgid "protected"
+msgstr "protected"
+
+#: glade/property.c:73
+msgid "public"
+msgstr "public"
+
+#: glade/property.c:102
+msgid "Prelight"
+msgstr "Elõvilágítás"
+
+#: glade/property.c:103
+msgid "Selected"
+msgstr "Kijelölt"
+
+#: glade/property.c:103
+msgid "Insens"
+msgstr "Insens"
+
+#: glade/property.c:465
+msgid "When the window needs redrawing"
+msgstr "Ha az ablak frissítésre szorul"
+
+#: glade/property.c:466
+msgid "When the mouse moves"
+msgstr "Ha az egér mozog"
+
+#: glade/property.c:467
+msgid "Mouse movement hints"
+msgstr "Egér mozgatás segédszövegek"
+
+#: glade/property.c:468
+msgid "Mouse movement with any button pressed"
+msgstr "Egérmozgás lenyomott gombbal"
+
+#: glade/property.c:469
+msgid "Mouse movement with button 1 pressed"
+msgstr "Egérmozgás lenyomott egyes gombbal"
+
+#: glade/property.c:470
+msgid "Mouse movement with button 2 pressed"
+msgstr "Egérmozgás lenyomott kettes gombbal"
+
+#: glade/property.c:471
+msgid "Mouse movement with button 3 pressed"
+msgstr "Egérmozgás lenyomott hármas gombbal"
+
+#: glade/property.c:472
+msgid "Any mouse button pressed"
+msgstr "Egérgomb lenyomásakor"
+
+#: glade/property.c:473
+msgid "Any mouse button released"
+msgstr "Egérgomb felengedéskor"
+
+#: glade/property.c:474
+msgid "Any key pressed"
+msgstr "Billentyû lenyomásakor"
+
+#: glade/property.c:475
+msgid "Any key released"
+msgstr "Billentyû felengedéskor"
+
+#: glade/property.c:476
+msgid "When the mouse enters the window"
+msgstr "Ha az egér belép az ablakba"
+
+#: glade/property.c:477
+msgid "When the mouse leaves the window"
+msgstr "Ha az egér elhagyja az ablakot"
+
+#: glade/property.c:478
+msgid "Any change in input focus"
+msgstr "A beviteli fókusz bármely változásánál"
+
+#: glade/property.c:479
+msgid "Any change in window structure"
+msgstr "Az ablakstruktúra bármely változásánál"
+
+#: glade/property.c:480
+msgid "Any change in X Windows property"
+msgstr "Az X Windows beállítások változásánál"
+
+#: glade/property.c:481
+msgid "Any change in visibility"
+msgstr "Láthatóság változásánál"
+
+#: glade/property.c:482 glade/property.c:483
+msgid "For cursors in XInput-aware programs"
+msgstr "Az XInput-kezelõ programok kurzorainak"
+
+#: glade/property.c:587
+msgid "Properties"
+msgstr "Beállítások"
+
+#: glade/property.c:611
+msgid "Packing"
+msgstr "Csomagolás"
+
+#: glade/property.c:616
+msgid "Common"
+msgstr "Általános"
+
+#: glade/property.c:622
+msgid "Style"
+msgstr "Stílus"
+
+#: glade/property.c:628 glade/property.c:4168
+msgid "Signals"
+msgstr "Jelzések"
+
+#: glade/property.c:693
+msgid "Properties: "
+msgstr "Tulajdonságok:"
+
+#: glade/property.c:704
+msgid "Properties: <none>"
+msgstr "Tulajdonságok: <semmi>"
+
+#: glade/property.c:750
+msgid "Class:"
+msgstr "Osztály:"
+
+#: glade/property.c:751
+msgid "The class of the widget"
+msgstr "A widget osztálya"
+
+#: glade/property.c:785
+msgid "Width:"
+msgstr "Szélesség:"
+
+#: glade/property.c:786
+msgid ""
+"The requested width of the widget (usually used to set the minimum width)"
+msgstr ""
+
+#: glade/property.c:788
+msgid "Height:"
+msgstr "Magasság:"
+
+#: glade/property.c:789
+msgid ""
+"The requested height of the widget (usually used to set the minimum height)"
+msgstr ""
+
+#: glade/property.c:792
+msgid "Visible:"
+msgstr "Látható:"
+
+#: glade/property.c:793
+msgid "If the widget is initially visible"
+msgstr "Ha a widget alapértelmezetten látható"
+
+#: glade/property.c:794
+msgid "Sensitive:"
+msgstr "Érzékeny:"
+
+#: glade/property.c:795
+msgid "If the widget responds to input"
+msgstr "Ha a widget bemenetre reagál"
+
+#: glade/property.c:797
+msgid "The tooltip to display if the mouse lingers over the widget"
+msgstr "A segédszöveg amit mutatni kell, ha a widgetre lép az egér"
+
+#: glade/property.c:799
+msgid "Can Default:"
+msgstr "Alapért. lehet:"
+
+#: glade/property.c:800
+#, fuzzy
+msgid "If the widget can be the default action in a dialog"
+msgstr "Ha a widget alapértelmezett lehet"
+
+#: glade/property.c:801
+msgid "Has Default:"
+msgstr "Alapértelmezett:"
+
+#: glade/property.c:802
+#, fuzzy
+msgid "If the widget is the default action in the dialog"
+msgstr "Ha a widget alapértelmezett"
+
+#: glade/property.c:803
+msgid "Can Focus:"
+msgstr "Fókuszban lehet:"
+
+#: glade/property.c:804
+msgid "If the widget can accept the input focus"
+msgstr "Ha a widget elfogadja a beviteli fókuszt"
+
+#: glade/property.c:805
+msgid "Has Focus:"
+msgstr "Fókuszban van:"
+
+#: glade/property.c:806
+msgid "If the widget has the input focus"
+msgstr "Ha a widgeten van a beviteli fókusz"
+
+#: glade/property.c:808
+msgid "Events:"
+msgstr "Események:"
+
+#: glade/property.c:809
+msgid "The X events that the widget receives"
+msgstr "Az X események, amelyeket a widget megkap"
+
+#: glade/property.c:811
+msgid "Ext.Events:"
+msgstr "Kül. események:"
+
+#: glade/property.c:812
+msgid "The X Extension events mode"
+msgstr "Az \"X Extension események\" mód"
+
+#: glade/property.c:815
+msgid "Accelerators:"
+msgstr "Gyorsbillentyûk:"
+
+#: glade/property.c:816
+msgid "Defines the signals to emit when keys are pressed"
+msgstr "A billentyûk lenyomása hatására keletkezõ jelzéseket állíthatod be"
+
+#: glade/property.c:817
+msgid "Edit..."
+msgstr "Szerkesztés..."
+
+#: glade/property.c:839
+msgid "Propagate:"
+msgstr "Hirdet:"
+
+#: glade/property.c:840
+msgid "Set True to propagate the style to the widget's children"
+msgstr "Állítsd igazra, ha hirdesse a stílust a widget gyermekeinek"
+
+#: glade/property.c:841
+msgid "Named Style:"
+msgstr "Megnevezett stílus:"
+
+#: glade/property.c:842
+msgid "The name of the style, which can be shared by several widgets"
+msgstr "A stílus neve, amelyik mindegyik widget-tel meg lehet osztva"
+
+#: glade/property.c:844
+msgid "Font:"
+msgstr "Betûtípus:"
+
+#: glade/property.c:845
+msgid "The font to use for any text in the widget"
+msgstr "A szöveg betûtípusa a widget-ben"
+
+#: glade/property.c:870
+msgid "Copy All"
+msgstr "Mindent másol"
+
+#: glade/property.c:898
+msgid "Foreground:"
+msgstr "Elõtér:"
+
+#: glade/property.c:898
+msgid "Background:"
+msgstr "Háttér:"
+
+#: glade/gbwidgets/gbentry.c:100 glade/gbwidgets/gbprogressbar.c:119
+#: glade/gbwidgets/gbtextview.c:114 glade/gnome/gnomedruidpageedge.c:95
+#: glade/property.c:898
+msgid "Text:"
+msgstr "Szöveg:"
+
+#: glade/property.c:898
+msgid "Base:"
+msgstr "Alap:"
+
+#: glade/property.c:900
+msgid "Foreground color"
+msgstr "Elõtér színe"
+
+#: glade/property.c:900
+msgid "Background color"
+msgstr "Háttér színe"
+
+#: glade/property.c:900
+msgid "Text color"
+msgstr "Szöveg színe"
+
+#: glade/property.c:901
+msgid "Base color"
+msgstr "Alap színe"
+
+#: glade/property.c:918
+msgid "Back. Pixmap:"
+msgstr "Háttér kép:"
+
+#: glade/property.c:919
+msgid "The graphic to use as the background of the widget"
+msgstr "A widget háttereként használandó grafika"
+
+#: glade/property.c:971
+msgid "The file to write source code into"
+msgstr "A fájl ahova a forráskódot kell kiírni"
+
+#: glade/property.c:972
+msgid "Public:"
+msgstr "Public:"
+
+#: glade/property.c:973
+msgid "If the widget is added to the component's data structure"
+msgstr "Ha a widget a komponens adatstruktúrájához van adva"
+
+#: glade/property.c:984
+msgid "Separate Class:"
+msgstr "Külön osztály:"
+
+#: glade/property.c:985
+msgid "Put this widget's subtree in a separate class"
+msgstr "Ennek a widgetnek a fáját külön osztályba szervezzem"
+
+#: glade/property.c:986
+msgid "Separate File:"
+msgstr "Külön fájl:"
+
+#: glade/property.c:987
+msgid "Put this widget in a separate source file"
+msgstr "Tedd ezt a widget-et külön fájlba"
+
+#: glade/property.c:988
+msgid "Visibility:"
+msgstr "Láthatóság:"
+
+#: glade/property.c:989
+msgid "Visibility of widgets. Public widgets are exported to a global map."
+msgstr ""
+"A widgetek láthatósága: publikus widgeteket globálissan elérhetõvé válnak."
+
+#: glade/property.c:1098
+msgid "You need to select a color or background to copy"
+msgstr "Egy színt vagy hátteret kell hogy kiválassz másoláshoz"
+
+#: glade/property.c:1117
+msgid "Invalid selection in on_style_copy()"
+msgstr "Az on_style_copy()-ban hibás kiválasztás"
+
+#: glade/property.c:1159
+msgid "You need to copy a color or background pixmap first"
+msgstr "Egy színt vagy hátteret kell hogy másolj elõbb"
+
+#: glade/property.c:1165
+msgid "You need to select a color to paste into"
+msgstr "Egy színt kell hogy kiválassz a beillesztéshez"
+
+#: glade/property.c:1175
+msgid "You need to select a background pixmap to paste into"
+msgstr "Egy háttér pixmap-ot kell hogy kiválassz beillesztéshez"
+
+#: glade/gbwidgets/gbcolorselectiondialog.c:290 glade/property.c:1247
+msgid "Color Selection Dialog"
+msgstr "Színválasztó Párbeszédablak"
+
+#: glade/gbwidgets/gbfileselection.c:64 glade/property.c:1337
+msgid "Select File"
+msgstr "Válassz fájlt"
+
+#: glade/gbwidgets/gbpixmap.c:153 glade/property.c:1427
+msgid "Couldn't create pixmap from file\n"
+msgstr "Nem sikerült pixmap-ot készíteni a fájlból\n"
+
+#. List of current signal handlers - Signal/Handler/Data/Options
+#: glade/property.c:1466
+msgid "Signal"
+msgstr "Jelzés"
+
+#: glade/property.c:1468
+msgid "Data"
+msgstr "Adat"
+
+#: glade/property.c:1469
+msgid "After"
+msgstr "Utána"
+
+#: glade/property.c:1470
+msgid "Object"
+msgstr "Objektum"
+
+#: glade/property.c:1501 glade/property.c:1665
+msgid "Signal:"
+msgstr "Jelzés:"
+
+#: glade/property.c:1502
+msgid "The signal to add a handler for"
+msgstr "A jelzés egy kezelõ hozzáadásához"
+
+#: glade/property.c:1516
+msgid "The function to handle the signal"
+msgstr "A függvény, amely a jelzést kezeli"
+
+#: glade/property.c:1519
+msgid "Data:"
+msgstr "Adat:"
+
+#: glade/property.c:1520
+msgid "The data passed to the handler"
+msgstr "A kezelõnek átadott adat"
+
+#: glade/property.c:1521
+msgid "Object:"
+msgstr "Objektum:"
+
+#: glade/property.c:1522
+msgid "The object which receives the signal"
+msgstr "Az objektum, mely veszi a jelzést"
+
+#: glade/property.c:1523
+msgid "After:"
+msgstr "Utána:"
+
+#: glade/property.c:1524
+msgid "If the handler runs after the class function"
+msgstr "Ha a kezelõ az osztály függvény után tér vissza"
+
+#: glade/property.c:1537
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: glade/property.c:1543
+msgid "Update"
+msgstr "Frissítés"
+
+#: glade/property.c:1555
+msgid "Clear"
+msgstr "Törlés"
+
+#: glade/property.c:1605
+msgid "Accelerators"
+msgstr "Gyorsítók"
+
+#. List of current accelerators - Mods/Keys/Signals
+#: glade/property.c:1618
+msgid "Mod"
+msgstr "Módosító"
+
+#: glade/property.c:1619
+msgid "Key"
+msgstr "Billentyû"
+
+#: glade/property.c:1620
+msgid "Signal to emit"
+msgstr "A kibocsátandó jelzés"
+
+#: glade/property.c:1664
+msgid "The accelerator key"
+msgstr "Gyorsbillentyû"
+
+#: glade/property.c:1666
+msgid "The signal to emit when the accelerator is pressed"
+msgstr "A kibocsátandó jelzés a gyorsbillentyû megnyomásakor"
+
+#: glade/property.c:3431
+msgid "Select X Events"
+msgstr "X események kiválasztása"
+
+#: glade/property.c:3440
+msgid "Event Mask"
+msgstr "Eseménymaszk"
+
+#: glade/gnome/gnomecontrol.c:295 glade/property.c:3441
+msgid "Description"
+msgstr "Leírás"
+
+#: glade/property.c:3570 glade/property.c:3619
+msgid "You need to set the accelerator key"
+msgstr "Add meg a gyorsbillentyût"
+
+#: glade/property.c:3577 glade/property.c:3626
+msgid "You need to set the signal to emit"
+msgstr "Add meg a kibocsátandó jelzést"
+
+#: glade/property.c:3853 glade/property.c:3909
+msgid "You need to set the signal name"
+msgstr "Add meg a jelzés nevét"
+
+#: glade/property.c:3860 glade/property.c:3916
+msgid "You need to set the handler for the signal"
+msgstr "Add meg a kezelõt a jelzéshez"
+
+#. This groups the signals by class, e.g. 'GtkButton signals'.
+#: glade/property.c:4101
+#, c-format
+msgid "%s signals"
+msgstr "%s jelzések"
+
+#: glade/property.c:4159
+msgid "Select Signal"
+msgstr "Válassz jelzést"
+
+#: glade/property.c:4351
+msgid "Value:"
+msgstr "Érték:"
+
+#: glade/property.c:4351
+msgid "Min:"
+msgstr "Min:"
+
+#: glade/gbwidgets/gbhruler.c:91 glade/gbwidgets/gbvruler.c:91
+#: glade/property.c:4351
+msgid "Max:"
+msgstr "Max:"
+
+#: glade/property.c:4351
+msgid "Step Inc:"
+msgstr "Lépésköz:"
+
+#: glade/property.c:4352
+msgid "Page Inc:"
+msgstr "Lapköz:"
+
+#: glade/property.c:4352
+msgid "Page Size:"
+msgstr "Lapméret:"
+
+#: glade/property.c:4354
+msgid "H Value:"
+msgstr "V érték:"
+
+#: glade/property.c:4354
+msgid "H Min:"
+msgstr "V min:"
+
+#: glade/property.c:4354
+msgid "H Max:"
+msgstr "V max:"
+
+#: glade/property.c:4354
+msgid "H Step Inc:"
+msgstr "V lépésköz:"
+
+#: glade/property.c:4355
+msgid "H Page Inc:"
+msgstr "V lapköz:"
+
+#: glade/property.c:4355
+msgid "H Page Size:"
+msgstr "V lapméret:"
+
+#: glade/property.c:4357
+msgid "V Value:"
+msgstr "F érték:"
+
+#: glade/property.c:4357
+msgid "V Min:"
+msgstr "F min:"
+
+#: glade/property.c:4357
+msgid "V Max:"
+msgstr "F max:"
+
+#: glade/property.c:4357
+msgid "V Step Inc:"
+msgstr "F lépésköz:"
+
+#: glade/property.c:4358
+msgid "V Page Inc:"
+msgstr "F lapköz:"
+
+#: glade/property.c:4358
+msgid "V Page Size:"
+msgstr "F lapméret:"
+
+#: glade/property.c:4361
+msgid "The initial value"
+msgstr "Alapérték"
+
+#: glade/property.c:4362
+msgid "The minimum value"
+msgstr "Minimális érték"
+
+#: glade/property.c:4363
+msgid "The maximum value"
+msgstr "Maximális érték"
+
+#: glade/property.c:4364
+msgid "The step increment"
+msgstr "Lépésköz"
+
+#: glade/property.c:4365
+msgid "The page increment"
+msgstr "Lapköz"
+
+#: glade/property.c:4366
+msgid "The page size"
+msgstr "Lap mérete"
+
+#: glade/property.c:4521
+msgid "The requested font is not available."
+msgstr "A kért betûtípus nem elérhetõ."
+
+#: glade/property.c:4570
+msgid "Select Named Style"
+msgstr "Névvel rendelkezõ stílus választása"
+
+#: glade/property.c:4581
+msgid "Styles"
+msgstr "Stílusok"
+
+#: glade/property.c:4640
+msgid "Rename"
+msgstr "Átnevezés"
+
+#: glade/property.c:4668
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: glade/property.c:4788
+msgid "New Style:"
+msgstr "Új stílus:"
+
+#: glade/property.c:4802 glade/property.c:4923
+msgid "Invalid style name"
+msgstr "Rossz stílusnév"
+
+#: glade/property.c:4810 glade/property.c:4933
+msgid "That style name is already in use"
+msgstr "Ez a stílusnév már használatban van"
+
+#: glade/property.c:4908
+msgid "Rename Style To:"
+msgstr "Stílus átnevezése:"
+
+#: glade/save.c:139 glade/source.c:2694
+#, c-format
+msgid ""
+"Couldn't rename file:\n"
+"  %s\n"
+"to:\n"
+"  %s\n"
+msgstr ""
+"Nem tudom átnevezni a fájlt:\n"
+"  %s\n"
+"erre:\n"
+"  %s\n"
+
+#: glade/save.c:174 glade/save.c:225 glade/save.c:915 glade/source.c:356
+#: glade/source.c:371 glade/source.c:389 glade/source.c:402 glade/source.c:813
+#: glade/source.c:1041 glade/source.c:1132 glade/source.c:1326
+#: glade/source.c:1421 glade/source.c:1639 glade/source.c:1728
+#: glade/source.c:1780 glade/source.c:1843 glade/source.c:1889
+#: glade/source.c:2005 glade/utils.c:1195
+#, c-format
+msgid ""
+"Couldn't create file:\n"
+"  %s\n"
+msgstr ""
+"Nem tudom a fájlt elkészíteni:\n"
+"  %s\n"
+
+#: glade/save.c:816
+msgid "Error writing XML file\n"
+msgstr "Hiba az XML fájl írásánál\n"
+
+#: glade/save.c:921
+msgid ""
+"/*\n"
+" * Translatable strings file generated by Glade.\n"
+" * Add this file to your project's POTFILES.in.\n"
+" * DO NOT compile it as part of your application.\n"
+" */\n"
+"\n"
+msgstr ""
+"/*\n"
+" * Translatable strings file generated by Glade.\n"
+" * Add this file to your project's POTFILES.in.\n"
+" * DO NOT compile it as part of your application.\n"
+" */\n"
+"\n"
+
+#: glade/source.c:182
+#, c-format
+msgid ""
+"Invalid interface source filename: %s\n"
+"%s\n"
+msgstr ""
+"Hibás interface fájl név: %s\n"
+"%s\n"
+
+#: glade/source.c:184
+#, c-format
+msgid ""
+"Invalid interface header filename: %s\n"
+"%s\n"
+msgstr ""
+"Hibás interface fejléc fájl név: %s\n"
+"%s\n"
+
+#: glade/source.c:187
+#, c-format
+msgid ""
+"Invalid callbacks source filename: %s\n"
+"%s\n"
+msgstr ""
+"Hibás callback forrás fájl név: %s\n"
+"%s\n"
+
+#: glade/source.c:189
+#, c-format
+msgid ""
+"Invalid callbacks header filename: %s\n"
+"%s\n"
+msgstr ""
+"Hibás callback fejléc fájl név: %s\n"
+"%s\n"
+
+#: glade/source.c:195
+#, c-format
+msgid ""
+"Invalid support source filename: %s\n"
+"%s\n"
+msgstr ""
+"Hibás támogató forrásfájl név: %s\n"
+"%s\n"
+
+#: glade/source.c:197
+#, c-format
+msgid ""
+"Invalid support header filename: %s\n"
+"%s\n"
+msgstr ""
+"Hibás támogató fejléc fájl név: %s\n"
+"%s\n"
+
+#: glade/source.c:416 glade/source.c:424
+#, c-format
+msgid ""
+"Couldn't append to file:\n"
+"  %s\n"
+msgstr ""
+"Nem lehetett a következõ fájlhoz hozzáírni:\n"
+" %s\n"
+
+#: glade/source.c:1720 glade/utils.c:1216
+#, c-format
+msgid ""
+"Error writing to file:\n"
+"  %s\n"
+msgstr ""
+"Hiba fájlba írás közben:\n"
+"  %s\n"
+
+#: glade/source.c:2666
+msgid "The filename must be set in the Project Options dialog."
+msgstr "A fájlnevet meg kell adni a Projekt Beállítások párbeszédablakban."
+
+#: glade/source.c:2669
+msgid ""
+"The filename must be a simple relative filename.\n"
+"Use the Project Options dialog to set it."
+msgstr ""
+"A fájlnévnek egy egyszerû relatív névnek kell lennie\n"
+"Ezt a Projekt Beállításokban tudod megadni."
+
+#: glade/tree.c:74
+msgid "Widget Tree"
+msgstr "Widget fa"
+
+#: glade/utils.c:927 glade/utils.c:967
+msgid "Widget not found in box"
+msgstr "Nincs a dobozban widget"
+
+#: glade/utils.c:947
+msgid "Widget not found in table"
+msgstr "Nincs a táblában widget"
+
+#: glade/utils.c:987
+msgid "Widget not found in fixed container"
+msgstr "Nincs a rögzített containerben widget"
+
+#: glade/utils.c:1008
+msgid "Widget not found in packer"
+msgstr "Nincs a csomagolóban widget"
+
+#: glade/utils.c:1166
+#, c-format
+msgid ""
+"Couldn't access file:\n"
+"  %s\n"
+msgstr ""
+"A fájl nem elérhetõ:\n"
+"  %s\n"
+
+#: glade/utils.c:1189
+#, c-format
+msgid ""
+"Couldn't open file:\n"
+"  %s\n"
+msgstr ""
+"A fájl nem megnyitható:\n"
+"  %s\n"
+
+#: glade/utils.c:1206
+#, c-format
+msgid ""
+"Error reading from file:\n"
+"  %s\n"
+msgstr ""
+"Hiba a fájl olvasása közben:\n"
+"  %s\n"
+
+#. This happens under WIN32 when stat is confused by the filename, but this is
+#. harmless, since we know that the directory exists after all.
+#: glade/utils.c:1271
+#, c-format
+msgid ""
+"Couldn't create directory:\n"
+"  %s\n"
+msgstr ""
+"A könyvtárat nem lehet létrehozni:\n"
+"  %s\n"
+
+#: glade/utils.c:1277
+#, c-format
+msgid ""
+"Couldn't access directory:\n"
+"  %s\n"
+msgstr ""
+"A könyvtárat nem lehet elérni:\n"
+"  %s\n"
+
+#: glade/utils.c:1285
+#, c-format
+msgid ""
+"Invalid directory:\n"
+"  %s\n"
+msgstr ""
+"Rossz könyvtár:\n"
+"  %s\n"
+
+#: glade/utils.c:1651
+msgid "Projects"
+msgstr "Projektek"
+
+#: glade/utils.c:1658
+msgid "project"
+msgstr "projekt"
+
+#: glade/utils.c:1664
+#, c-format
+msgid ""
+"Couldn't open directory:\n"
+"  %s\n"
+msgstr ""
+"Nem tudom megnyitni a könyvtárat:\n"
+"  %s\n"
+
+#: glade/gbwidgets/gbaccellabel.c:175
+msgid "Label with Accelerator"
+msgstr "Címke gyorsbillentyûvel"
+
+#. The GtkProgress interface is deprecated now, and GtkProgressBar doesn't
+#. have functions to set these, so I suppose we shouldn't support them.
+#: glade/gbwidgets/gbalignment.c:66 glade/gbwidgets/gbarrow.c:89
+#: glade/gbwidgets/gbaspectframe.c:114 glade/gbwidgets/gbimage.c:109
+#: glade/gbwidgets/gblabel.c:146 glade/gbwidgets/gbpixmap.c:72
+#: glade/gbwidgets/gbprogressbar.c:134
+msgid "X Align:"
+msgstr "X hely:"
+
+#: glade/gbwidgets/gbalignment.c:67
+msgid "The horizontal alignment of the child widget"
+msgstr "A gyermek widget vízszintes elhelyezkedése"
+
+#: glade/gbwidgets/gbalignment.c:69 glade/gbwidgets/gbarrow.c:92
+#: glade/gbwidgets/gbaspectframe.c:117 glade/gbwidgets/gbimage.c:112
+#: glade/gbwidgets/gblabel.c:149 glade/gbwidgets/gbpixmap.c:75
+#: glade/gbwidgets/gbprogressbar.c:137
+msgid "Y Align:"
+msgstr "Y hely:"
+
+#: glade/gbwidgets/gbalignment.c:70
+msgid "The vertical alignment of the child widget"
+msgstr "A gyermek widget függõleges elhelyezkedése"
+
+#: glade/gbwidgets/gbalignment.c:72
+msgid "X Scale:"
+msgstr "X skála:"
+
+#: glade/gbwidgets/gbalignment.c:73
+msgid "The horizontal scale of the child widget"
+msgstr "A gyermek widget vízszintes skálázása"
+
+#: glade/gbwidgets/gbalignment.c:75
+msgid "Y Scale:"
+msgstr "Y skála:"
+
+#: glade/gbwidgets/gbalignment.c:76
+msgid "The vertical scale of the child widget"
+msgstr "A gyermek widget függõleges skálázása"
+
+#: glade/gbwidgets/gbalignment.c:180
+msgid "Alignment"
+msgstr "Elhelyezkedés"
+
+#: glade/gbwidgets/gbarrow.c:85
+msgid "Direction:"
+msgstr "Irány:"
+
+#: glade/gbwidgets/gbarrow.c:85
+msgid "The direction of the arrow"
+msgstr "A nyíl iránya"
+
+#: glade/gbwidgets/gbarrow.c:87 glade/gbwidgets/gbaspectframe.c:112
+#: glade/gbwidgets/gbclist.c:247 glade/gbwidgets/gbctree.c:253
+#: glade/gbwidgets/gbframe.c:107 glade/gbwidgets/gbhandlebox.c:109
+#: glade/gbwidgets/gbviewport.c:104 glade/gnome/bonobodockitem.c:176
+msgid "Shadow:"
+msgstr "Árnyék:"
+
+#: glade/gbwidgets/gbarrow.c:87
+msgid "The shadow type of the arrow"
+msgstr "A nyíl árnyékának típusa"
+
+#: glade/gbwidgets/gbarrow.c:90
+msgid "The horizontal alignment of the arrow"
+msgstr "A nyíl vízszintes elhelyezkedése"
+
+#: glade/gbwidgets/gbarrow.c:93
+msgid "The vertical alignment of the arrow"
+msgstr "A nyíl függõleges elhelyezkedése"
+
+#: glade/gbwidgets/gbarrow.c:95 glade/gbwidgets/gbimage.c:115
+#: glade/gbwidgets/gblabel.c:152 glade/gbwidgets/gbpixmap.c:78
+msgid "X Pad:"
+msgstr "X bélés:"
+
+#: glade/gbwidgets/gbarrow.c:95 glade/gbwidgets/gbimage.c:115
+#: glade/gbwidgets/gblabel.c:152 glade/gbwidgets/gbpixmap.c:78
+#: glade/gbwidgets/gbtable.c:382
+msgid "The horizontal padding"
+msgstr "Vízszintes bélés"
+
+#: glade/gbwidgets/gbarrow.c:97 glade/gbwidgets/gbimage.c:117
+#: glade/gbwidgets/gblabel.c:154 glade/gbwidgets/gbpixmap.c:80
+msgid "Y Pad:"
+msgstr "Y bélés:"
+
+#: glade/gbwidgets/gbarrow.c:97 glade/gbwidgets/gbimage.c:117
+#: glade/gbwidgets/gblabel.c:154 glade/gbwidgets/gbpixmap.c:80
+#: glade/gbwidgets/gbtable.c:385
+msgid "The vertical padding"
+msgstr "Függõleges bélés"
+
+#: glade/gbwidgets/gbarrow.c:299
+msgid "Arrow"
+msgstr "Nyíl"
+
+#: glade/gbwidgets/gbaspectframe.c:106 glade/gbwidgets/gbframe.c:101
+msgid "Label X Align:"
+msgstr "Címke X igazít.:"
+
+#: glade/gbwidgets/gbaspectframe.c:107 glade/gbwidgets/gbframe.c:102
+#, fuzzy
+msgid "The horizontal alignment of the frame's label widget"
+msgstr "Keret címkéjének vízszintes igazítása"
+
+#: glade/gbwidgets/gbaspectframe.c:109 glade/gbwidgets/gbframe.c:104
+#, fuzzy
+msgid "Label Y Align:"
+msgstr "Címke X igazít.:"
+
+#: glade/gbwidgets/gbaspectframe.c:110 glade/gbwidgets/gbframe.c:105
+#, fuzzy
+msgid "The vertical alignment of the frame's label widget"
+msgstr "Az egész címke függõleges elhelyezkedése"
+
+#: glade/gbwidgets/gbaspectframe.c:112 glade/gbwidgets/gbframe.c:107
+msgid "The type of shadow of the frame"
+msgstr "A keret árnyékának típusa"
+
+#: glade/gbwidgets/gbaspectframe.c:115 glade/gbwidgets/gbaspectframe.c:118
+msgid "The horizontal alignment of the frame's child"
+msgstr "A keret gyermekének vízszintes igazítása"
+
+#: glade/gbwidgets/gbaspectframe.c:120
+msgid "Ratio:"
+msgstr "Arány:"
+
+#: glade/gbwidgets/gbaspectframe.c:121
+msgid "The aspect ratio of the frame's child"
+msgstr "A keretben lévõ gyermek függõleges/vízszintes aránya"
+
+#: glade/gbwidgets/gbaspectframe.c:122
+msgid "Obey Child:"
+msgstr "Engedj a gyermeknek:"
+
+#: glade/gbwidgets/gbaspectframe.c:123
+msgid "If the aspect ratio should be determined by the child"
+msgstr "Ha az arányt a gyermek megállapíthatja"
+
+#: glade/gbwidgets/gbaspectframe.c:303
+msgid "Aspect Frame"
+msgstr "Aránytartó keret"
+
+#: glade/gbwidgets/gbbutton.c:131 glade/gbwidgets/gbcheckbutton.c:84
+#: glade/gbwidgets/gbradiobutton.c:133 glade/gbwidgets/gbtogglebutton.c:95
+msgid "Stock Button:"
+msgstr "Sablon gomb:"
+
+#: glade/gbwidgets/gbbutton.c:132 glade/gbwidgets/gbcheckbutton.c:85
+#: glade/gbwidgets/gbradiobutton.c:134 glade/gbwidgets/gbtogglebutton.c:96
+#, fuzzy
+msgid "The stock button to use"
+msgstr "Egy használandó Gnome sablon gomb"
+
+#: glade/gbwidgets/gbbutton.c:134 glade/gbwidgets/gbcheckbutton.c:87
+#: glade/gbwidgets/gbcheckmenuitem.c:72 glade/gbwidgets/gbentry.c:100
+#: glade/gbwidgets/gbimagemenuitem.c:92 glade/gbwidgets/gblabel.c:134
+#: glade/gbwidgets/gblistitem.c:73 glade/gbwidgets/gbmenuitem.c:87
+#: glade/gbwidgets/gbradiobutton.c:136 glade/gbwidgets/gbradiomenuitem.c:103
+#: glade/gbwidgets/gbtextview.c:114 glade/gbwidgets/gbtogglebutton.c:98
+msgid "The text to display"
+msgstr "A megjelenítendõ szöveg"
+
+#: glade/gbwidgets/gbbutton.c:136 glade/gbwidgets/gbcheckbutton.c:89
+#: glade/gbwidgets/gbimage.c:104 glade/gbwidgets/gbradiobutton.c:138
+#: glade/gbwidgets/gbtogglebutton.c:100
+#, fuzzy
+msgid "The icon to display"
+msgstr "A megjelenítendõ pixmap"
+
+#: glade/gbwidgets/gbbutton.c:138 glade/gbwidgets/gbcheckbutton.c:91
+#: glade/gbwidgets/gbradiobutton.c:140 glade/gbwidgets/gbtogglebutton.c:102
+msgid "Button Relief:"
+msgstr "Gomb domborodás:"
+
+#: glade/gbwidgets/gbbutton.c:139 glade/gbwidgets/gbcheckbutton.c:92
+#: glade/gbwidgets/gbradiobutton.c:141 glade/gbwidgets/gbtogglebutton.c:103
+msgid "The relief style of the button"
+msgstr "A gomb kiemelkedésének stílusa"
+
+#: glade/gbwidgets/gbbutton.c:144
+msgid "Response ID:"
+msgstr ""
+
+#: glade/gbwidgets/gbbutton.c:145
+msgid ""
+"The response code returned when the button is pressed. Select one of the "
+"standard responses or enter a positive integer value"
+msgstr ""
+
+#: glade/gbwidgets/gbbutton.c:1913
+msgid "Remove Button Contents"
+msgstr ""
+
+#: glade/gbwidgets/gbbutton.c:2010
+msgid "Button"
+msgstr "Gomb"
+
+#: glade/gbwidgets/gbcalendar.c:73
+msgid "Heading:"
+msgstr "Fejléc:"
+
+#: glade/gbwidgets/gbcalendar.c:74
+msgid "If the month and year should be shown at the top"
+msgstr "Ha a hónapot és az évet a fejlécben mutatni kell"
+
+#: glade/gbwidgets/gbcalendar.c:75
+msgid "Day Names:"
+msgstr "Nap nevek:"
+
+#: glade/gbwidgets/gbcalendar.c:76
+msgid "If the day names should be shown"
+msgstr "Ha a napok neveit mutatni kell"
+
+#: glade/gbwidgets/gbcalendar.c:77
+msgid "Fixed Month:"
+msgstr "Rögzített hónap:"
+
+#: glade/gbwidgets/gbcalendar.c:78
+msgid "If the month and year shouldn't be changeable"
+msgstr "Ha nem lehet cserélni a hónapot és az évet"
+
+#: glade/gbwidgets/gbcalendar.c:79
+msgid "Week Numbers:"
+msgstr "Hét számok:"
+
+#: glade/gbwidgets/gbcalendar.c:80
+msgid "If the number of the week should be shown"
+msgstr "Ha a hét számát is mutatni kell"
+
+#: glade/gbwidgets/gbcalendar.c:81 glade/gnome/gnomedateedit.c:74
+msgid "Monday First:"
+msgstr "A hétfõ az elsõ:"
+
+#: glade/gbwidgets/gbcalendar.c:82 glade/gnome/gnomedateedit.c:75
+msgid "If the week should start on Monday"
+msgstr "Ha a hétfõvel kezdõdik a hét"
+
+#: glade/gbwidgets/gbcalendar.c:266
+msgid "Calendar"
+msgstr "Naptár"
+
+#: glade/gbwidgets/gbcheckbutton.c:95 glade/gbwidgets/gbcheckmenuitem.c:73
+#: glade/gbwidgets/gbradiobutton.c:144 glade/gbwidgets/gbradiomenuitem.c:104
+#: glade/gbwidgets/gbtogglebutton.c:106
+msgid "Initially On:"
+msgstr "Alapért. benyomva:"
+
+#: glade/gbwidgets/gbcheckbutton.c:96
+msgid "If the check button is initially on"
+msgstr "Ha a gomb alapértelmezésben be van nyomva"
+
+#: glade/gbwidgets/gbcheckbutton.c:97 glade/gbwidgets/gbradiobutton.c:146
+#: glade/gbwidgets/gbtogglebutton.c:108
+#, fuzzy
+msgid "Inconsistent:"
+msgstr "Ikon lista"
+
+#: glade/gbwidgets/gbcheckbutton.c:98 glade/gbwidgets/gbradiobutton.c:147
+#: glade/gbwidgets/gbtogglebutton.c:109
+#, fuzzy
+msgid "If the button is shown in an inconsistent state"
+msgstr "Ha az idõ is és a dátum is meg legyen jelenítve"
+
+#: glade/gbwidgets/gbcheckbutton.c:99 glade/gbwidgets/gbradiobutton.c:148
+msgid "Indicator:"
+msgstr "Indikátor:"
+
+#: glade/gbwidgets/gbcheckbutton.c:100 glade/gbwidgets/gbradiobutton.c:149
+msgid "If the indicator is always drawn"
+msgstr "Ha az indikátort mindig rajzolni kell"
+
+#: glade/gbwidgets/gbcheckbutton.c:209
+msgid "Check Button"
+msgstr "Pipásgomb"
+
+#: glade/gbwidgets/gbcheckmenuitem.c:74
+msgid "If the check menu item is initially on"
+msgstr "Ha a menüpont alapértelmezésben be van kapcsolva"
+
+#: glade/gbwidgets/gbcheckmenuitem.c:197
+msgid "Check Menu Item"
+msgstr "Pipás menüpont"
+
+#: glade/gbwidgets/gbclist.c:141
+msgid "New columned list"
+msgstr "Új címkés lista"
+
+#. Columns label & entry
+#: glade/gbwidgets/gbclist.c:152 glade/gbwidgets/gbctree.c:157
+#: glade/gbwidgets/gbhbox.c:110 glade/gbwidgets/gbhbuttonbox.c:132
+#: glade/gbwidgets/gbtable.c:165
+msgid "Number of columns:"
+msgstr "Oszlopok száma:"
+
+#: glade/gbwidgets/gbclist.c:242 glade/gbwidgets/gbctree.c:248
+#: glade/gbwidgets/gblist.c:77 glade/gnome/gnomeiconlist.c:174
+msgid "Select Mode:"
+msgstr "Kiválasztási mód:"
+
+#: glade/gbwidgets/gbclist.c:243
+msgid "The selection mode of the columned list"
+msgstr "A címkés lista kiválasztási módja"
+
+#: glade/gbwidgets/gbclist.c:245 glade/gbwidgets/gbctree.c:251
+msgid "Show Titles:"
+msgstr "Címkék mutatása:"
+
+#: glade/gbwidgets/gbclist.c:246 glade/gbwidgets/gbctree.c:252
+msgid "If the column titles are shown"
+msgstr "Ha a címkéket mutatni kell"
+
+#: glade/gbwidgets/gbclist.c:248
+msgid "The type of shadow of the columned list's border"
+msgstr "A címkés lista árnyékának típusa"
+
+#: glade/gbwidgets/gbclist.c:594
+msgid "Columned List"
+msgstr "Címkés lista"
+
+#: glade/gbwidgets/gbcolorselection.c:62
+msgid "Opacity Control:"
+msgstr ""
+
+#: glade/gbwidgets/gbcolorselection.c:63
+#, fuzzy
+msgid "If the opacity control is shown"
+msgstr "Ha a napok neveit mutatni kell"
+
+#: glade/gbwidgets/gbcolorselection.c:64
+#, fuzzy
+msgid "Palette:"
+msgstr "Paletta"
+
+#: glade/gbwidgets/gbcolorselection.c:65
+#, fuzzy
+msgid "If the palette is shown"
+msgstr "Ha a skála értéke mutatva van"
+
+#: glade/gbwidgets/gbcolorselection.c:173
+msgid "Color Selection"
+msgstr "Szín kiválasztás"
+
+#: glade/gbwidgets/gbcolorselectiondialog.c:63
+msgid "Select Color"
+msgstr "Válassz színt"
+
+#: glade/gbwidgets/gbcombo.c:105
+msgid "Value In List:"
+msgstr "Érték a listában:"
+
+#: glade/gbwidgets/gbcombo.c:106
+msgid "If the value must be in the list"
+msgstr "Ha az értéknek a listában kell lennie"
+
+#: glade/gbwidgets/gbcombo.c:107
+msgid "OK If Empty:"
+msgstr "OK ha üres:"
+
+#: glade/gbwidgets/gbcombo.c:108
+msgid "If an empty value is acceptable, when 'Value In List' is set"
+msgstr ""
+"Ha egy üres érték elfogadható, akkor az 'Érték a listában' be van állítva"
+
+#: glade/gbwidgets/gbcombo.c:109
+msgid "Case Sensitive:"
+msgstr "Kis-nagybetû:"
+
+#: glade/gbwidgets/gbcombo.c:110
+msgid "If the searching is case sensitive"
+msgstr "Ha a keresés kis-nagybetûre érzékeny"
+
+#: glade/gbwidgets/gbcombo.c:111
+msgid "Use Arrows:"
+msgstr "Nyilak használata:"
+
+#: glade/gbwidgets/gbcombo.c:112
+msgid "If arrows can be used to change the value"
+msgstr "Ha nyilak használhatók az érték változtatására"
+
+#: glade/gbwidgets/gbcombo.c:113
+msgid "Use Always:"
+msgstr "Mindig használd:"
+
+#: glade/gbwidgets/gbcombo.c:114
+msgid "If arrows work even if the value is not in the list"
+msgstr "Ha a nyilak akkor is mûködnek, ha az érték nincs a listában"
+
+#: glade/gbwidgets/gbcombo.c:115
+msgid "Items:"
+msgstr "Elemek:"
+
+#: glade/gbwidgets/gbcombo.c:116
+msgid "The items in the combo list, one per line"
+msgstr "Az elemek a Combo listában, egy sorban egy elem"
+
+#: glade/gbwidgets/gbcombo.c:408
+msgid "Combo Box"
+msgstr "Combo Box"
+
+#: glade/gbwidgets/gbctree.c:146
+msgid "New columned tree"
+msgstr "Új címkés fa"
+
+#: glade/gbwidgets/gbctree.c:249
+msgid "The selection mode of the columned tree"
+msgstr "A címkés fa kiválasztási módja"
+
+#: glade/gbwidgets/gbctree.c:254
+msgid "The type of shadow of the columned tree's border"
+msgstr "A címkés fa árnyékának típusa"
+
+#: glade/gbwidgets/gbctree.c:538
+msgid "Columned Tree"
+msgstr "Címkés fa:"
+
+#: glade/gbwidgets/gbcurve.c:85 glade/gbwidgets/gbwindow.c:165
+msgid "Type:"
+msgstr "Típus:"
+
+#: glade/gbwidgets/gbcurve.c:85
+msgid "The type of the curve"
+msgstr "A görbe típusa"
+
+#: glade/gbwidgets/gbcurve.c:87 glade/gbwidgets/gbgammacurve.c:91
+msgid "X Min:"
+msgstr "X Min:"
+
+#: glade/gbwidgets/gbcurve.c:87 glade/gbwidgets/gbgammacurve.c:91
+msgid "The minimum horizontal value"
+msgstr "A minimális vízszintes érték"
+
+#: glade/gbwidgets/gbcurve.c:88 glade/gbwidgets/gbgammacurve.c:92
+msgid "X Max:"
+msgstr "X Max:"
+
+#: glade/gbwidgets/gbcurve.c:88 glade/gbwidgets/gbgammacurve.c:92
+msgid "The maximum horizontal value"
+msgstr "A maximális vízszintes érték"
+
+#: glade/gbwidgets/gbcurve.c:89 glade/gbwidgets/gbgammacurve.c:93
+msgid "Y Min:"
+msgstr "Y Min:"
+
+#: glade/gbwidgets/gbcurve.c:89 glade/gbwidgets/gbgammacurve.c:93
+msgid "The minimum vertical value"
+msgstr "A minimális függõleges érték"
+
+#: glade/gbwidgets/gbcurve.c:90 glade/gbwidgets/gbgammacurve.c:94
+msgid "Y Max:"
+msgstr "Y Max:"
+
+#: glade/gbwidgets/gbcurve.c:90 glade/gbwidgets/gbgammacurve.c:94
+msgid "The maximum vertical value"
+msgstr "A maximális függõleges érték"
+
+#: glade/gbwidgets/gbcurve.c:250
+msgid "Curve"
+msgstr "Görbe"
+
+#: glade/gbwidgets/gbcustom.c:154
+msgid "Creation Function:"
+msgstr "Létrehozó függvény:"
+
+#: glade/gbwidgets/gbcustom.c:155
+msgid "The function which creates the widget"
+msgstr "A függvény, mely létrehozza a widget-et"
+
+#: glade/gbwidgets/gbcustom.c:157
+msgid "String1:"
+msgstr "String1:"
+
+#: glade/gbwidgets/gbcustom.c:158
+msgid "The first string argument to pass to the function"
+msgstr "Az elsõ szöveges paraméter amit a függvény vár"
+
+#: glade/gbwidgets/gbcustom.c:159
+msgid "String2:"
+msgstr "String2:"
+
+#: glade/gbwidgets/gbcustom.c:160
+msgid "The second string argument to pass to the function"
+msgstr "A második szöveges paraméter amit a függvény vár"
+
+#: glade/gbwidgets/gbcustom.c:161
+msgid "Int1:"
+msgstr "Int1:"
+
+#: glade/gbwidgets/gbcustom.c:162
+msgid "The first integer argument to pass to the function"
+msgstr "Az elsõ szám paraméter amit a függvény vár"
+
+#: glade/gbwidgets/gbcustom.c:163
+msgid "Int2:"
+msgstr "Int2:"
+
+#: glade/gbwidgets/gbcustom.c:164
+msgid "The second integer argument to pass to the function"
+msgstr "A második szám paraméter amit a függvény vár"
+
+#: glade/gbwidgets/gbcustom.c:360
+msgid "Custom Widget"
+msgstr "Megadható widget"
+
+#: glade/gbwidgets/gbdialog.c:282
+#, fuzzy
+msgid "New dialog"
+msgstr "Új kép"
+
+#: glade/gbwidgets/gbdialog.c:294
+#, fuzzy
+msgid "Cancel, OK"
+msgstr "Mégsem"
+
+#: glade/gbwidgets/gbdialog.c:312
+msgid "Cancel, Apply, OK"
+msgstr ""
+
+#: glade/gbwidgets/gbdialog.c:321
+msgid "Close"
+msgstr "Bezárás"
+
+#: glade/gbwidgets/gbdialog.c:330
+msgid "_Standard Button Layout:"
+msgstr ""
+
+#: glade/gbwidgets/gbdialog.c:339
+#, fuzzy
+msgid "_Number of Buttons:"
+msgstr "Oszlopok száma:"
+
+#: glade/gbwidgets/gbdialog.c:355
+#, fuzzy
+msgid "Show Help Button"
+msgstr "Léptetõgomb"
+
+#: glade/gbwidgets/gbdialog.c:384
+#, fuzzy
+msgid "Has Separator:"
+msgstr "elválasztó"
+
+#: glade/gbwidgets/gbdialog.c:385
+#, fuzzy
+msgid "If the dialog has a horizontal separator above the buttons"
+msgstr "A gombok vízszintes bélése"
+
+#: glade/gbwidgets/gbdialog.c:586
+msgid "Dialog"
+msgstr "Párbeszédablak"
+
+#: glade/gbwidgets/gbdrawingarea.c:146
+msgid "Drawing Area"
+msgstr "Rajzterület"
+
+#: glade/gbwidgets/gbentry.c:94 glade/gbwidgets/gbtextview.c:112
+msgid "Editable:"
+msgstr "Szerkeszthetõ:"
+
+#: glade/gbwidgets/gbentry.c:94 glade/gbwidgets/gbtextview.c:112
+msgid "If the text can be edited"
+msgstr "Ha a szöveg szerkeszthetõ"
+
+#: glade/gbwidgets/gbentry.c:95
+msgid "Text Visible:"
+msgstr "Szöveg látható:"
+
+#: glade/gbwidgets/gbentry.c:96
+msgid ""
+"If the text entered by the user will be shown. When turned off, the text "
+"typed in is displayed as asterix characters, which is useful for entering "
+"passwords"
+msgstr ""
+"A beírt szöveg látható lesz. Ha ki van kapcsolva, a beírt karakterek helyett "
+"csillagok jelennek meg, jelszó beíráshoz hasznos"
+
+#: glade/gbwidgets/gbentry.c:97
+msgid "Max Length:"
+msgstr "Max hossz:"
+
+#: glade/gbwidgets/gbentry.c:98
+msgid "The maximum length of the text"
+msgstr "A szöveg maximális hossza"
+
+#: glade/gbwidgets/gbentry.c:102
+#, fuzzy
+msgid "Has Frame:"
+msgstr "Keret"
+
+#: glade/gbwidgets/gbentry.c:102
+#, fuzzy
+msgid "If the entry has a frame around it"
+msgstr "Ha az állapotsornak legyen folyamatjelzõje"
+
+#: glade/gbwidgets/gbentry.c:103
+#, fuzzy
+msgid "Invisible Char:"
+msgstr "Látható:"
+
+#: glade/gbwidgets/gbentry.c:103
+msgid ""
+"The character to use if the text should not visible, e.g. when entering "
+"passwords"
+msgstr ""
+
+#: glade/gbwidgets/gbentry.c:104
+#, fuzzy
+msgid "Activates Default:"
+msgstr "Alapértelmezett:"
+
+#: glade/gbwidgets/gbentry.c:104
+msgid "If the default widget in the window is activated when Enter is pressed"
+msgstr ""
+
+#: glade/gbwidgets/gbentry.c:105
+msgid "Width In Chars:"
+msgstr ""
+
+#: glade/gbwidgets/gbentry.c:105
+#, fuzzy
+msgid "The number of characters to leave space for in the entry"
+msgstr "A táblázat oszlopainak száma"
+
+#: glade/gbwidgets/gbentry.c:312
+msgid "Text Entry"
+msgstr "Szövegmezõ"
+
+#: glade/gbwidgets/gbeventbox.c:147
+msgid "Event Box"
+msgstr "Eseménydoboz"
+
+#: glade/gbwidgets/gbfileselection.c:101
+msgid "File Ops.:"
+msgstr "Fájlmûveletek"
+
+#: glade/gbwidgets/gbfileselection.c:102
+msgid "If the file operation buttons are shown"
+msgstr "Ha a fájlmûveleti gombok mutatva vannak"
+
+#: glade/gbwidgets/gbfileselection.c:267
+msgid "File Selection Dialog"
+msgstr "Fájl választó ablak"
+
+#: glade/gbwidgets/gbfixed.c:139 glade/gbwidgets/gblayout.c:221
+msgid "X:"
+msgstr "X:"
+
+#: glade/gbwidgets/gbfixed.c:140
+#, fuzzy
+msgid "The X coordinate of the widget in the GtkFixed"
+msgstr "A widget felsõ éle a táblában"
+
+#: glade/gbwidgets/gbfixed.c:142 glade/gbwidgets/gblayout.c:224
+msgid "Y:"
+msgstr "Y:"
+
+#: glade/gbwidgets/gbfixed.c:143
+#, fuzzy
+msgid "The Y coordinate of the widget in the GtkFixed"
+msgstr "A widget felsõ éle a táblában"
+
+#: glade/gbwidgets/gbfixed.c:228
+msgid "Fixed Positions"
+msgstr "Rögzített pozíciók"
+
+#: glade/gbwidgets/gbfontselection.c:64 glade/gnome/gnomefontpicker.c:96
+msgid "Preview Text:"
+msgstr "Szöveg elõnézet:"
+
+#: glade/gbwidgets/gbfontselection.c:64
+#, fuzzy
+msgid "The preview text to display"
+msgstr "A megjelenítendõ szöveg"
+
+#: glade/gbwidgets/gbfontselection.c:164
+msgid "Font Selection"
+msgstr "Betûtípus kiválasztás"
+
+#: glade/gbwidgets/gbfontselectiondialog.c:62
+msgid "Select Font"
+msgstr "Válassz betûtípust"
+
+#: glade/gbwidgets/gbfontselectiondialog.c:275
+msgid "Font Selection Dialog"
+msgstr "Betûtípus választó párbeszédablak"
+
+#: glade/gbwidgets/gbframe.c:209
+#, fuzzy
+msgid "Add Label Widget"
+msgstr "Sorbaállítás hozzáadása"
+
+#: glade/gbwidgets/gbframe.c:344
+msgid "Frame"
+msgstr "Keret"
+
+#: glade/gbwidgets/gbgammacurve.c:88
+msgid "Initial Type:"
+msgstr "Kezdõ típus:"
+
+#: glade/gbwidgets/gbgammacurve.c:88
+msgid "The initial type of the curve"
+msgstr "A görbe alapértelmezett típusa"
+
+#: glade/gbwidgets/gbgammacurve.c:256
+msgid "Gamma Curve"
+msgstr "Gamma görbe"
+
+#: glade/gbwidgets/gbhandlebox.c:110
+msgid "The type of shadow around the handle box"
+msgstr "A fogantyú doboz körüli árnyék típusa"
+
+#: glade/gbwidgets/gbhandlebox.c:113
+msgid "Handle Pos:"
+msgstr "Fogantyú pozíció:"
+
+#: glade/gbwidgets/gbhandlebox.c:114
+msgid "The position of the handle"
+msgstr "A fogantyú pozíciója"
+
+#: glade/gbwidgets/gbhandlebox.c:116
+msgid "Snap Edge:"
+msgstr "Élre tapadás:"
+
+#: glade/gbwidgets/gbhandlebox.c:117
+msgid "The edge of the handle box which snaps into position"
+msgstr "A fogantyúdoboz azon éle, amelyik tapad"
+
+#: glade/gbwidgets/gbhandlebox.c:304
+msgid "Handle Box"
+msgstr "Fogantyú doboz"
+
+#: glade/gbwidgets/gbhbox.c:99
+msgid "New horizontal box"
+msgstr "Új vízszintes doboz"
+
+#: glade/gbwidgets/gbhbox.c:171 glade/gbwidgets/gbhbuttonbox.c:194
+#: glade/gbwidgets/gbtoolbar.c:245 glade/gbwidgets/gbvbox.c:156
+msgid "Size:"
+msgstr "Méret:"
+
+#: glade/gbwidgets/gbhbox.c:171 glade/gbwidgets/gbvbox.c:156
+msgid "The number of widgets in the box"
+msgstr "A dobozban lévõ widget-ek száma"
+
+#: glade/gbwidgets/gbhbox.c:173 glade/gbwidgets/gbtable.c:243
+#: glade/gbwidgets/gbvbox.c:158
+msgid "Homogeneous:"
+msgstr "Homogén:"
+
+#: glade/gbwidgets/gbhbox.c:174 glade/gbwidgets/gbvbox.c:159
+msgid "If the children should be the same size"
+msgstr "Ha a gyermeknek azonos méretûnek kell lennie"
+
+#: glade/gbwidgets/gbhbox.c:175 glade/gbwidgets/gbhbuttonbox.c:199
+#: glade/gbwidgets/gbvbox.c:160
+msgid "Spacing:"
+msgstr "Helyköz:"
+
+#: glade/gbwidgets/gbhbox.c:175 glade/gbwidgets/gbvbox.c:160
+msgid "The space between each child"
+msgstr "A gyermekek közötti helyköz"
+
+#: glade/gbwidgets/gbhbox.c:306
+msgid "Can't delete any children."
+msgstr "Nem tudok egy gyermeket sem törölni."
+
+#: glade/gbwidgets/gbhbox.c:320 glade/gbwidgets/gbhpaned.c:73
+#: glade/gbwidgets/gbhruler.c:89 glade/gbwidgets/gbnotebook.c:669
+#: glade/gbwidgets/gbvpaned.c:69 glade/gbwidgets/gbvruler.c:89
+#: glade/gbwidgets/gbwindow.c:169
+msgid "Position:"
+msgstr "Pozíció:"
+
+#: glade/gbwidgets/gbhbox.c:321
+msgid "The widget's position relative to its siblings"
+msgstr "A widget pozíciója a testvéréhez viszonyítva"
+
+#: glade/gbwidgets/gbhbox.c:323
+msgid "Padding:"
+msgstr "Bélés:"
+
+#: glade/gbwidgets/gbhbox.c:324
+msgid "The widget's padding"
+msgstr "A widget bélése"
+
+#: glade/gbwidgets/gbhbox.c:326 glade/gbwidgets/gbnotebook.c:672
+#: glade/gbwidgets/gbpreview.c:65
+msgid "Expand:"
+msgstr "Nyújtás:"
+
+#: glade/gbwidgets/gbhbox.c:327
+msgid "Set True to let the widget expand"
+msgstr "Állítsd Igen-re, hogy a widget nyújtózkodjon"
+
+#: glade/gbwidgets/gbhbox.c:328 glade/gbwidgets/gbnotebook.c:674
+msgid "Fill:"
+msgstr "Kitöltés:"
+
+#: glade/gbwidgets/gbhbox.c:329
+msgid "Set True to let the widget fill its allocated area"
+msgstr "Állítsd igenre, ha a widget kitölti az allokált területet"
+
+#: glade/gbwidgets/gbhbox.c:330 glade/gbwidgets/gbnotebook.c:676
+msgid "Pack Start:"
+msgstr "Kezdõelem"
+
+#: glade/gbwidgets/gbhbox.c:331
+msgid "Set True to pack the widget at the start of the box"
+msgstr "Állítsd igenre, hogy a widget a doboz elsõ eleme legyen"
+
+#: glade/gbwidgets/gbhbox.c:448
+msgid "Insert Before"
+msgstr "Beszúrás elé"
+
+#: glade/gbwidgets/gbhbox.c:454
+msgid "Insert After"
+msgstr "Beszúrás utána"
+
+#: glade/gbwidgets/gbhbox.c:564
+msgid "Horizontal Box"
+msgstr "Vízszintes doboz"
+
+#: glade/gbwidgets/gbhbuttonbox.c:120
+msgid "New horizontal button box"
+msgstr "Új vízszintes gombdoboz"
+
+#: glade/gbwidgets/gbhbuttonbox.c:194
+msgid "The number of buttons"
+msgstr "A gombok száma"
+
+#: glade/gbwidgets/gbhbuttonbox.c:196
+msgid "Layout:"
+msgstr "Kiosztás:"
+
+#: glade/gbwidgets/gbhbuttonbox.c:197
+msgid "The layout style of the buttons"
+msgstr "A gombok szétosztásának stílusa"
+
+#: glade/gbwidgets/gbhbuttonbox.c:199
+msgid "The space between the buttons"
+msgstr "A gombok közötti helyköz"
+
+#: glade/gbwidgets/gbhbuttonbox.c:411
+msgid "Horizontal Button Box"
+msgstr "Vízszintes gombdoboz"
+
+#: glade/gbwidgets/gbhpaned.c:74 glade/gbwidgets/gbvpaned.c:70
+msgid "The position of the divider"
+msgstr "Az osztóvonal pozíciója"
+
+#: glade/gbwidgets/gbhpaned.c:186 glade/gbwidgets/gbwindow.c:198
+msgid "Shrink:"
+msgstr "Szûkítés:"
+
+#: glade/gbwidgets/gbhpaned.c:187
+msgid "Set True to let the widget shrink"
+msgstr "Állítsd igen-re, ha a widget szûkülhet"
+
+#: glade/gbwidgets/gbhpaned.c:188
+msgid "Resize:"
+msgstr "Átméretezés:"
+
+#: glade/gbwidgets/gbhpaned.c:189
+msgid "Set True to let the widget resize"
+msgstr "Állítsd igazra, ha a widget méretezõdhet"
+
+#: glade/gbwidgets/gbhpaned.c:315
+msgid "Horizontal Panes"
+msgstr "Vízszintes tepsi"
+
+#: glade/gbwidgets/gbhruler.c:82 glade/gbwidgets/gbvruler.c:82
+msgid "Metric:"
+msgstr "Metrika:"
+
+#: glade/gbwidgets/gbhruler.c:83 glade/gbwidgets/gbvruler.c:83
+msgid "The units of the ruler"
+msgstr "A vonalzó egységei"
+
+#: glade/gbwidgets/gbhruler.c:85 glade/gbwidgets/gbvruler.c:85
+msgid "Lower Value:"
+msgstr "Alsóérték:"
+
+#: glade/gbwidgets/gbhruler.c:86 glade/gbwidgets/gbvruler.c:86
+#: glade/gbwidgets/gbvruler.c:88
+msgid "The low value of the ruler"
+msgstr "A vonalzó alsó értéke"
+
+#: glade/gbwidgets/gbhruler.c:87 glade/gbwidgets/gbvruler.c:87
+msgid "Upper Value:"
+msgstr "Felsõérték:"
+
+#: glade/gbwidgets/gbhruler.c:88
+msgid "The high value of the ruler"
+msgstr "A vonalzó felsõ értéke"
+
+#: glade/gbwidgets/gbhruler.c:90 glade/gbwidgets/gbvruler.c:90
+msgid "The current position on the ruler"
+msgstr "A vonalzó pozíciója"
+
+#: glade/gbwidgets/gbhruler.c:92 glade/gbwidgets/gbvruler.c:92
+msgid "The maximum value of the ruler"
+msgstr "A vonalzó maximális értéke"
+
+#: glade/gbwidgets/gbhruler.c:247
+msgid "Horizontal Ruler"
+msgstr "Vízszintes vonalzó"
+
+#: glade/gbwidgets/gbhscale.c:107 glade/gbwidgets/gbvscale.c:108
+msgid "Show Value:"
+msgstr "Érték mutatása:"
+
+#: glade/gbwidgets/gbhscale.c:107 glade/gbwidgets/gbvscale.c:108
+msgid "If the scale's value is shown"
+msgstr "Ha a skála értéke mutatva van"
+
+#: glade/gbwidgets/gbhscale.c:108 glade/gbwidgets/gbspinbutton.c:93
+#: glade/gbwidgets/gbvscale.c:109
+msgid "Digits:"
+msgstr "Számok:"
+
+#: glade/gbwidgets/gbhscale.c:108 glade/gbwidgets/gbvscale.c:109
+msgid "The number of digits to show"
+msgstr "A kijelzett számjegyek száma"
+
+#: glade/gbwidgets/gbhscale.c:110 glade/gbwidgets/gbvscale.c:111
+msgid "Value Pos:"
+msgstr "Érték pozíció:"
+
+#: glade/gbwidgets/gbhscale.c:111 glade/gbwidgets/gbvscale.c:112
+msgid "The position of the value"
+msgstr "Az érték helye"
+
+#: glade/gbwidgets/gbhscale.c:113 glade/gbwidgets/gbhscrollbar.c:87
+#: glade/gbwidgets/gbvscale.c:114 glade/gbwidgets/gbvscrollbar.c:87
+msgid "Policy:"
+msgstr "Szabály:"
+
+#: glade/gbwidgets/gbhscale.c:114 glade/gbwidgets/gbvscale.c:115
+msgid "The update policy of the scale"
+msgstr "A skála frissítésének szabálya"
+
+#: glade/gbwidgets/gbhscale.c:116 glade/gbwidgets/gbhscrollbar.c:90
+#: glade/gbwidgets/gbvscale.c:117 glade/gbwidgets/gbvscrollbar.c:90
+#, fuzzy
+msgid "Inverted:"
+msgstr "Konvertálás"
+
+#: glade/gbwidgets/gbhscale.c:116 glade/gbwidgets/gbhscrollbar.c:90
+#: glade/gbwidgets/gbvscale.c:117 glade/gbwidgets/gbvscrollbar.c:90
+#, fuzzy
+msgid "If the range values are inverted"
+msgstr "Ha az értéknek a listában kell lennie"
+
+#: glade/gbwidgets/gbhscale.c:319
+msgid "Horizontal Scale"
+msgstr "Vízszintes skála"
+
+#: glade/gbwidgets/gbhscrollbar.c:88 glade/gbwidgets/gbvscrollbar.c:88
+msgid "The update policy of the scrollbar"
+msgstr "A görgetõsáv frissítésének szabálya"
+
+#: glade/gbwidgets/gbhscrollbar.c:237
+msgid "Horizontal Scrollbar"
+msgstr "Vízszintes görgetõsáv"
+
+#: glade/gbwidgets/gbhseparator.c:144
+msgid "Horizonal Separator"
+msgstr "Vízszintes elválasztó"
+
+#: glade/gbwidgets/gbimage.c:106
+#, fuzzy
+msgid "Icon Size:"
+msgstr "Méret mutatása:"
+
+#: glade/gbwidgets/gbimage.c:107
+#, fuzzy
+msgid "The stock icon size"
+msgstr "A használandó Gnome sablon elem."
+
+#: glade/gbwidgets/gbimage.c:110 glade/gbwidgets/gbpixmap.c:73
+msgid "The horizontal alignment"
+msgstr "A vízszintes elrendezés"
+
+#: glade/gbwidgets/gbimage.c:113 glade/gbwidgets/gbpixmap.c:76
+msgid "The vertical alignment"
+msgstr "A függõleges elrendezés"
+
+#: glade/gbwidgets/gbimage.c:527
+msgid "Image"
+msgstr "Kép"
+
+#: glade/gbwidgets/gbimagemenuitem.c:255 glade/gbwidgets/gbmenuitem.c:228
+msgid "Invalid stock menu item"
+msgstr "Rossz sablon menü elem"
+
+#: glade/gbwidgets/gbimagemenuitem.c:465
+msgid "Menu item with a pixmap"
+msgstr "Menüpont pixmappel"
+
+#: glade/gbwidgets/gbinputdialog.c:207
+msgid "Input Dialog"
+msgstr "Beviteli párbeszédablak"
+
+#: glade/gbwidgets/gblabel.c:135
+#, fuzzy
+msgid "Use Underline:"
+msgstr "Aláhúzás"
+
+#: glade/gbwidgets/gblabel.c:136
+msgid "If the text includes an underlined accelerator character"
+msgstr ""
+
+#: glade/gbwidgets/gblabel.c:137
+#, fuzzy
+msgid "Use Markup:"
+msgstr "Heap-et használ:"
+
+#: glade/gbwidgets/gblabel.c:138
+msgid "If the text includes pango markup"
+msgstr ""
+
+#: glade/gbwidgets/gblabel.c:139
+msgid "Justify:"
+msgstr "Igazítás:"
+
+#: glade/gbwidgets/gblabel.c:140
+msgid "The justification of the lines of the label"
+msgstr "A címke sorainak széthúzása"
+
+#: glade/gbwidgets/gblabel.c:142
+msgid "Wrap Text:"
+msgstr "Sortörés"
+
+#: glade/gbwidgets/gblabel.c:143
+msgid "If the text is wrapped to fit within the width of the label"
+msgstr "Ha a szöveg a címke szélességére van tördelve"
+
+#: glade/gbwidgets/gblabel.c:144
+#, fuzzy
+msgid "Selectable:"
+msgstr "Kijelölt"
+
+#: glade/gbwidgets/gblabel.c:145
+#, fuzzy
+msgid "If the label text can be selected with the mouse"
+msgstr "Ha az ikon szövege a felhasználó által szerkeszthetõ"
+
+#: glade/gbwidgets/gblabel.c:147
+msgid "The horizontal alignment of the entire label"
+msgstr "Az egész címke vízszintes elhelyezkedése"
+
+#: glade/gbwidgets/gblabel.c:150
+msgid "The vertical alignment of the entire label"
+msgstr "Az egész címke függõleges elhelyezkedése"
+
+#: glade/gbwidgets/gblabel.c:156
+msgid "Focus Target:"
+msgstr "Fókusz célpont:"
+
+#: glade/gbwidgets/gblabel.c:157
+msgid ""
+"The widget to set the keyboard focus to when the underlined accelerator key "
+"is used"
+msgstr ""
+"Az a widget, ami akkor kap fokuszt, ha az aláhúzott billentyûparancsot "
+"használják"
+
+#: glade/gbwidgets/gblabel.c:271 glade/gbwidgets/gblabel.c:286
+#: glade/gbwidgets/gblabel.c:526
+msgid "Auto"
+msgstr "Auto"
+
+#: glade/gbwidgets/gblayout.c:96
+msgid "Area Width:"
+msgstr "Terület szélessége:"
+
+#: glade/gbwidgets/gblayout.c:97
+msgid "The width of the layout area"
+msgstr "A terület szélessége"
+
+#: glade/gbwidgets/gblayout.c:99
+msgid "Area Height:"
+msgstr "Terület magassága:"
+
+#: glade/gbwidgets/gblayout.c:100
+msgid "The height of the layout area"
+msgstr "A terület magassága"
+
+#: glade/gbwidgets/gblayout.c:222
+#, fuzzy
+msgid "The X coordinate of the widget in the GtkLayout"
+msgstr "A widget felsõ éle a táblában"
+
+#: glade/gbwidgets/gblayout.c:225
+#, fuzzy
+msgid "The Y coordinate of the widget in the GtkLayout"
+msgstr "A widget felsõ éle a táblában"
+
+#: glade/gbwidgets/gblayout.c:380
+msgid "Layout"
+msgstr "Kiosztás"
+
+#: glade/gbwidgets/gblist.c:78
+msgid "The selection mode of the list"
+msgstr "A lista kiválasztási módja"
+
+#: glade/gbwidgets/gblist.c:192
+msgid "List"
+msgstr "Lista"
+
+#: glade/gbwidgets/gblistitem.c:165
+msgid "List Item"
+msgstr "Listaelem"
+
+#: glade/gbwidgets/gbmenu.c:197
+msgid "Popup Menu"
+msgstr "Felbukkanó menü"
+
+#. FIXME: I'm not sure if we should translate the non-stock labels or not.
+#: glade/gbwidgets/gbmenubar.c:190
+#, fuzzy
+msgid "_File"
+msgstr "Fájl"
+
+#: glade/gbwidgets/gbmenubar.c:207
+#, fuzzy
+msgid "_About"
+msgstr "Névjegy"
+
+#: glade/gbwidgets/gbmenubar.c:268 glade/gbwidgets/gbmenubar.c:346
+#: glade/gbwidgets/gboptionmenu.c:139
+msgid "Edit Menus..."
+msgstr "Menük szerkesztése..."
+
+#: glade/gbwidgets/gbmenubar.c:441
+msgid "Menu Bar"
+msgstr "Menüsor"
+
+#: glade/gbwidgets/gbmenuitem.c:373
+msgid "Menu Item"
+msgstr "Menü elem"
+
+#: glade/gbwidgets/gbnotebook.c:191
+msgid "New notebook"
+msgstr "Új notesz"
+
+#: glade/gbwidgets/gbnotebook.c:202 glade/gnome/gnomepropertybox.c:117
+msgid "Number of pages:"
+msgstr "Lapok száma:"
+
+#: glade/gbwidgets/gbnotebook.c:274
+msgid "Show Tabs:"
+msgstr "Fülek mutatva:"
+
+#: glade/gbwidgets/gbnotebook.c:274
+msgid "If the notebook tabs are shown"
+msgstr "Ha a noteszfülek mutatva vannak"
+
+#: glade/gbwidgets/gbnotebook.c:275
+msgid "Show Border:"
+msgstr "Keret mutatva:"
+
+#: glade/gbwidgets/gbnotebook.c:276
+msgid "If the notebook border is shown, when the tabs are not shown"
+msgstr "Ha a notesz kerete mutatva van, amikor a fülek rejtve vannak"
+
+#: glade/gbwidgets/gbnotebook.c:277
+msgid "Tab Pos:"
+msgstr "Fül pozíció:"
+
+#: glade/gbwidgets/gbnotebook.c:278
+msgid "The position of the notebook tabs"
+msgstr "A noteszfülek pozíciója"
+
+#: glade/gbwidgets/gbnotebook.c:280
+msgid "Scrollable:"
+msgstr "Görgethetõ:"
+
+#: glade/gbwidgets/gbnotebook.c:281
+msgid "If the notebook tabs are scrollable"
+msgstr "Ha a noteszfülek görgethetõek"
+
+#. These seem to be deprecated.
+#: glade/gbwidgets/gbnotebook.c:284
+msgid "Tab Horz. Border:"
+msgstr "Vízsz. fül keret:"
+
+#: glade/gbwidgets/gbnotebook.c:285
+msgid "The size of the notebook tabs' horizontal border"
+msgstr "A fülek vízszintes keretének mérete"
+
+#: glade/gbwidgets/gbnotebook.c:287
+msgid "Tab Vert. Border:"
+msgstr "Függ. fül keret:"
+
+#: glade/gbwidgets/gbnotebook.c:288
+msgid "The size of the notebook tabs' vertical border"
+msgstr "A fülek függõleges keretének mérete"
+
+#: glade/gbwidgets/gbnotebook.c:291
+msgid "Show Popup:"
+msgstr "Felbukkanó menü van:"
+
+#: glade/gbwidgets/gbnotebook.c:291
+msgid "If the popup menu is enabled"
+msgstr "Ha a felbukkanó menü engedélyezet"
+
+#: glade/gbwidgets/gbnotebook.c:292 glade/gnome/gnomedruid.c:102
+msgid "Number of Pages:"
+msgstr "Lapok száma:"
+
+#: glade/gbwidgets/gbnotebook.c:293
+msgid "The number of notebook pages"
+msgstr "A noteszlapok száma"
+
+#: glade/gbwidgets/gbnotebook.c:540
+msgid "Previous Page"
+msgstr "Elõzõ lap"
+
+#: glade/gbwidgets/gbnotebook.c:548
+msgid "Next Page"
+msgstr "Következõ lap"
+
+#: glade/gbwidgets/gbnotebook.c:556
+msgid "Delete Page"
+msgstr "Lap törlése"
+
+#: glade/gbwidgets/gbnotebook.c:562
+msgid "Switch Next"
+msgstr "Kapcsolj a következõre"
+
+#: glade/gbwidgets/gbnotebook.c:570
+msgid "Switch Previous"
+msgstr "Kapcsolj az elõzõre"
+
+#: glade/gbwidgets/gbnotebook.c:578 glade/gnome/gnomedruid.c:298
+msgid "Insert Page After"
+msgstr "Illessz be lapot utána"
+
+#: glade/gbwidgets/gbnotebook.c:586 glade/gnome/gnomedruid.c:285
+msgid "Insert Page Before"
+msgstr "Illessz be lapot elõtte"
+
+#: glade/gbwidgets/gbnotebook.c:670
+#, fuzzy
+msgid "The page's position in the list of pages"
+msgstr "A vonalzó pozíciója"
+
+#: glade/gbwidgets/gbnotebook.c:673
+#, fuzzy
+msgid "Set True to let the tab expand"
+msgstr "Állítsd Igen-re, hogy a widget nyújtózkodjon"
+
+#: glade/gbwidgets/gbnotebook.c:675
+#, fuzzy
+msgid "Set True to let the tab fill its allocated area"
+msgstr "Állítsd igenre, ha a widget kitölti az allokált területet"
+
+#: glade/gbwidgets/gbnotebook.c:677
+#, fuzzy
+msgid "Set True to pack the tab at the start of the notebook"
+msgstr "Állítsd igenre, hogy a widget a doboz elsõ eleme legyen"
+
+#: glade/gbwidgets/gbnotebook.c:678
+#, fuzzy
+msgid "Menu Label:"
+msgstr "Cimke:"
+
+#: glade/gbwidgets/gbnotebook.c:679
+#, fuzzy
+msgid "The text to display in the popup menu"
+msgstr "A gombon megjelenõ szöveg"
+
+#: glade/gbwidgets/gbnotebook.c:930
+msgid "Notebook"
+msgstr "Notesz"
+
+#: glade/gbwidgets/gboptionmenu.c:230
+#, c-format
+msgid "Cannot add a %s to a GtkOptionMenu."
+msgstr ""
+
+#: glade/gbwidgets/gboptionmenu.c:270
+msgid "Option Menu"
+msgstr "Opció Menú"
+
+#: glade/gbwidgets/gbpixmap.c:71 glade/gnome/gnomepixmap.c:79
+msgid "The pixmap filename"
+msgstr "Pixmap fájlnév"
+
+#: glade/gbwidgets/gbpixmap.c:82
+msgid "Build Insensitive:"
+msgstr "Érzéketl. készít:"
+
+#: glade/gbwidgets/gbpixmap.c:83
+msgid "If an insensitive version of the pixmap is built automatically"
+msgstr "A pixmap érzéketlen verziója automatikusan elkészüljön"
+
+#: glade/gbwidgets/gbpixmap.c:291
+msgid "Pixmap"
+msgstr "Kép"
+
+#: glade/gbwidgets/gbpreview.c:63
+msgid "Color:"
+msgstr "Szín:"
+
+#: glade/gbwidgets/gbpreview.c:64
+msgid "If the preview is color or grayscale"
+msgstr "Az elõnézet színes vagy fekete-fehér"
+
+#: glade/gbwidgets/gbpreview.c:66
+msgid "If the preview expands to fill its allocated area"
+msgstr "Az elõnézet a neki allokált területet elfoglalja?"
+
+#: glade/gbwidgets/gbpreview.c:162
+msgid "Preview"
+msgstr "Elõnézet"
+
+#: glade/gbwidgets/gbprogressbar.c:110 glade/gbwidgets/gbtoolbar.c:248
+#: glade/gnome/bonobodockitem.c:179
+msgid "Orientation:"
+msgstr "Elhelyezkedés:"
+
+#: glade/gbwidgets/gbprogressbar.c:111
+msgid "The orientation of the progress bar's contents"
+msgstr "A folyamatsáv tartalmának iránya"
+
+#: glade/gbwidgets/gbprogressbar.c:113
+#, fuzzy
+msgid "Fraction:"
+msgstr "Irány:"
+
+#: glade/gbwidgets/gbprogressbar.c:114
+msgid "The fraction of work that has been completed"
+msgstr ""
+
+#: glade/gbwidgets/gbprogressbar.c:116
+#, fuzzy
+msgid "Pulse Step:"
+msgstr "Heap-et használ:"
+
+#: glade/gbwidgets/gbprogressbar.c:117
+msgid ""
+"The fraction of the progress bar length to move the bouncing block when "
+"pulsed"
+msgstr ""
+
+#: glade/gbwidgets/gbprogressbar.c:120
+#, fuzzy
+msgid "The text to display over the progress bar"
+msgstr "A folyamatsáv stílusa"
+
+#. ShowText is implicit now, if the Text property is set to anything.
+#: glade/gbwidgets/gbprogressbar.c:124
+msgid "Show Text:"
+msgstr "Szöveg mutatása:"
+
+#: glade/gbwidgets/gbprogressbar.c:125
+msgid "If the text should be shown in the progress bar"
+msgstr "Ha szöveg mutatható a folyamatsávban"
+
+#. ActivityMode is deprecated and implicit now. The app just calls
+#. gtk_progress_bar_pulse() and it automatically goes into activity mode.
+#: glade/gbwidgets/gbprogressbar.c:129
+msgid "Activity Mode:"
+msgstr "Aktivitás mód:"
+
+#: glade/gbwidgets/gbprogressbar.c:130
+msgid "If the progress bar should act like the front of Kit's car"
+msgstr "Ha a folyamatsáv úgy csinálhat, mint Kit orrán a futófény"
+
+#: glade/gbwidgets/gbprogressbar.c:135
+msgid "The horizontal alignment of the text"
+msgstr "A szöveg vízszintes rendezése"
+
+#: glade/gbwidgets/gbprogressbar.c:138
+msgid "The vertical alignment of the text"
+msgstr "A szöveg függõleges rendezése"
+
+#: glade/gbwidgets/gbprogressbar.c:346
+msgid "Progress Bar"
+msgstr "Folyamatsáv"
+
+#: glade/gbwidgets/gbradiobutton.c:145
+msgid "If the radio button is initially on"
+msgstr "Ha a rádiógomb kezdetben bekapcsolva van"
+
+#: glade/gbwidgets/gbradiobutton.c:151
+msgid ""
+"The radio button group (the default is all radio buttons with the same "
+"parent)"
+msgstr "A rádiógomb csoport (alapból az egy szülõhöz tartozó rádiógombok)"
+
+#: glade/gbwidgets/gbradiobutton.c:201 glade/gbwidgets/gbradiobutton.c:362
+#, fuzzy
+msgid "New Group"
+msgstr "Új csoport:"
+
+#: glade/gbwidgets/gbradiobutton.c:475
+msgid "Radio Button"
+msgstr "Rádiógomb"
+
+#: glade/gbwidgets/gbradiomenuitem.c:105
+msgid "If the radio menu item is initially on"
+msgstr "Ha a rádió-menüpont kezdetben bekapcsolva van"
+
+#: glade/gbwidgets/gbradiomenuitem.c:107
+msgid ""
+"The radio menu item group (the default is all radio menu items with the same "
+"parent)"
+msgstr ""
+"A rádió-menüpont csoport (alapból az egy szülõhöz tartozó rádió-menüpontok)"
+
+#: glade/gbwidgets/gbradiomenuitem.c:377
+msgid "Radio Menu Item"
+msgstr "Rádió-menüpont"
+
+#: glade/gbwidgets/gbscrolledwindow.c:131
+msgid "H Policy:"
+msgstr "Vízsz szabály:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:132
+msgid "When the horizontal scrollbar will be shown"
+msgstr "Ha a vízszintes gördítõsáv látszódjon"
+
+#: glade/gbwidgets/gbscrolledwindow.c:134
+msgid "V Policy:"
+msgstr "Függ szabály:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:135
+msgid "When the vertical scrollbar will be shown"
+msgstr "Ha a függõleges gördítõsáv látszódjon"
+
+#: glade/gbwidgets/gbscrolledwindow.c:137
+#, fuzzy
+msgid "Window Pos:"
+msgstr "Ablak"
+
+#: glade/gbwidgets/gbscrolledwindow.c:138
+#, fuzzy
+msgid "Where the child window is located with respect to the scrollbars"
+msgstr "A gyermek widget pozíciója tekintettel a testvéreire"
+
+#: glade/gbwidgets/gbscrolledwindow.c:140
+#, fuzzy
+msgid "Shadow Type:"
+msgstr "Árnyék:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:141
+msgid "The update policy of the vertical scrollbar"
+msgstr "A függõleges gördítõsáv frissítési szabálya"
+
+#: glade/gbwidgets/gbscrolledwindow.c:355
+msgid "Scrolled Window"
+msgstr "Görgetõablak"
+
+#: glade/gbwidgets/gbseparatormenuitem.c:153
+msgid "Separator for Menus"
+msgstr ""
+
+#: glade/gbwidgets/gbspinbutton.c:91
+msgid "Climb Rate:"
+msgstr "Növekedés:"
+
+#: glade/gbwidgets/gbspinbutton.c:92
+msgid ""
+"The climb rate of the spinbutton, used in conjunction with the Page Increment"
+msgstr "A léptetõgomb növekedése, a lapközzel együtt érvényesül"
+
+#: glade/gbwidgets/gbspinbutton.c:94
+msgid "The number of decimal digits to show"
+msgstr "A megjelenõ tizedesjegyek száma"
+
+#: glade/gbwidgets/gbspinbutton.c:96
+msgid "Numeric:"
+msgstr "Numerikus:"
+
+#: glade/gbwidgets/gbspinbutton.c:97
+msgid ""
+"If any value entered should be converted according to the locale settings"
+msgstr "Ha a bekért adatok a locale beállítások alapján kerüljenek értelmezése"
+
+#: glade/gbwidgets/gbspinbutton.c:98
+msgid "Update Policy:"
+msgstr "Frissítési szabály:"
+
+#: glade/gbwidgets/gbspinbutton.c:99
+msgid "When value_changed signals are emitted"
+msgstr "Ha a value_changed jelzést kiküldõdjön"
+
+#: glade/gbwidgets/gbspinbutton.c:101
+msgid "Snap:"
+msgstr "Léptetés:"
+
+#: glade/gbwidgets/gbspinbutton.c:102
+msgid "If the value is snapped to multiples of the step increment"
+msgstr "Ha az érték a lépésköz szerint változzon"
+
+#: glade/gbwidgets/gbspinbutton.c:103
+msgid "Wrap:"
+msgstr "Tördelés:"
+
+#: glade/gbwidgets/gbspinbutton.c:104
+msgid "If the value is wrapped at the limits"
+msgstr "Ha az érték a határokon túl tördelõdjön"
+
+#: glade/gbwidgets/gbspinbutton.c:284
+msgid "Spin Button"
+msgstr "Léptetõgomb"
+
+#: glade/gbwidgets/gbstatusbar.c:64
+#, fuzzy
+msgid "Resize Grip:"
+msgstr "Átméretezés:"
+
+#: glade/gbwidgets/gbstatusbar.c:64
+#, fuzzy
+msgid "If the status bar has a resize grip to resize the window"
+msgstr "Ha az állapotsornak legyen folyamatjelzõje"
+
+#: glade/gbwidgets/gbstatusbar.c:156
+msgid "Status Bar"
+msgstr "Állapotsor"
+
+#: glade/gbwidgets/gbtable.c:137
+msgid "New table"
+msgstr "Új táblázat:"
+
+#: glade/gbwidgets/gbtable.c:149 glade/gbwidgets/gbvbox.c:95
+#: glade/gbwidgets/gbvbuttonbox.c:123
+msgid "Number of rows:"
+msgstr "Sorok száma:"
+
+#: glade/gbwidgets/gbtable.c:237
+msgid "Rows:"
+msgstr "Sorok:"
+
+#: glade/gbwidgets/gbtable.c:238
+msgid "The number of rows in the table"
+msgstr "A táblázat sorainak száma"
+
+#: glade/gbwidgets/gbtable.c:240
+msgid "Columns:"
+msgstr "Oszlopok:"
+
+#: glade/gbwidgets/gbtable.c:241
+msgid "The number of columns in the table"
+msgstr "A táblázat oszlopainak száma"
+
+#: glade/gbwidgets/gbtable.c:244
+msgid "If the children should all be the same size"
+msgstr "Ha a gyermekek méretei mind megegyezzen"
+
+#: glade/gbwidgets/gbtable.c:245 glade/gnome/gnomeiconlist.c:180
+msgid "Row Spacing:"
+msgstr "Sor helyköz:"
+
+#: glade/gbwidgets/gbtable.c:246
+msgid "The space between each row"
+msgstr "Hely a sorok között"
+
+#: glade/gbwidgets/gbtable.c:248 glade/gnome/gnomeiconlist.c:183
+msgid "Col Spacing:"
+msgstr "Oszlop helyköz:"
+
+#: glade/gbwidgets/gbtable.c:249
+msgid "The space between each column"
+msgstr "Hely az oszlopok között"
+
+#: glade/gbwidgets/gbtable.c:368
+msgid "Cell X:"
+msgstr "X cella:"
+
+#: glade/gbwidgets/gbtable.c:369
+msgid "The left edge of the widget in the table"
+msgstr "A widget bal éle a táblában"
+
+#: glade/gbwidgets/gbtable.c:371
+msgid "Cell Y:"
+msgstr "Y cella:"
+
+#: glade/gbwidgets/gbtable.c:372
+msgid "The top edge of the widget in the table"
+msgstr "A widget felsõ éle a táblában"
+
+#: glade/gbwidgets/gbtable.c:375
+msgid "Col Span:"
+msgstr "Oszlop feszítés:"
+
+#: glade/gbwidgets/gbtable.c:376
+msgid "The number of columns spanned by the widget in the table"
+msgstr "A táblázatban a widget által kifeszített oszlopok száma"
+
+#: glade/gbwidgets/gbtable.c:378
+msgid "Row Span:"
+msgstr "Sor feszítés:"
+
+#: glade/gbwidgets/gbtable.c:379
+msgid "The number of rows spanned by the widget in the table"
+msgstr "A táblázatban a widget által kifeszített sorok száma"
+
+#: glade/gbwidgets/gbtable.c:381
+msgid "H Padding:"
+msgstr "Vízsz bélés:"
+
+#: glade/gbwidgets/gbtable.c:384
+msgid "V Padding:"
+msgstr "Függ bélés:"
+
+#: glade/gbwidgets/gbtable.c:387
+msgid "X Expand:"
+msgstr "X megnyúlás:"
+
+#: glade/gbwidgets/gbtable.c:388
+msgid "Set True to let the widget expand horizontally"
+msgstr "Állítsd igazra, ha a widget vízszintesen megnyúlik"
+
+#: glade/gbwidgets/gbtable.c:389
+msgid "Y Expand:"
+msgstr "Y megnyúlás:"
+
+#: glade/gbwidgets/gbtable.c:390
+msgid "Set True to let the widget expand vertically"
+msgstr "Állítsd igazra, ha a widget függõlegesen megnyúlik"
+
+#: glade/gbwidgets/gbtable.c:391
+msgid "X Shrink:"
+msgstr "X szûkítés:"
+
+#: glade/gbwidgets/gbtable.c:392
+msgid "Set True to let the widget shrink horizontally"
+msgstr "Állítsd igenre, ha a widget vízszintesen szûkülhet"
+
+#: glade/gbwidgets/gbtable.c:393
+msgid "Y Shrink:"
+msgstr "Y szûkítés:"
+
+#: glade/gbwidgets/gbtable.c:394
+msgid "Set True to let the widget shrink vertically"
+msgstr "Állítsd igenre, ha a widget függõlegesen szûkülhet"
+
+#: glade/gbwidgets/gbtable.c:395
+msgid "X Fill:"
+msgstr "X feltöltés:"
+
+#: glade/gbwidgets/gbtable.c:396
+msgid "Set True to let the widget fill its horizontal allocated area"
+msgstr ""
+"Állítsd igenre hogy a widget elfoglalja a számára függõlegesen allokált "
+"helyet"
+
+#: glade/gbwidgets/gbtable.c:397
+msgid "Y Fill:"
+msgstr "Y feltöltés:"
+
+#: glade/gbwidgets/gbtable.c:398
+msgid "Set True to let the widget fill its vertical allocated area"
+msgstr ""
+"Állítsd igenre hogy a widget elfoglalja a számára függõlegesen allokált "
+"helyet"
+
+#: glade/gbwidgets/gbtable.c:667
+msgid "Insert Row Before"
+msgstr "Sor beillesztése elé"
+
+#: glade/gbwidgets/gbtable.c:674
+msgid "Insert Row After"
+msgstr "Sor beillesztése utána"
+
+#: glade/gbwidgets/gbtable.c:681
+msgid "Insert Column Before"
+msgstr "Oszlop beillesztése elé"
+
+#: glade/gbwidgets/gbtable.c:688
+msgid "Insert Column After"
+msgstr "Oszlop beillesztése utána"
+
+#: glade/gbwidgets/gbtable.c:695
+msgid "Delete Row"
+msgstr "Sor törlése"
+
+#: glade/gbwidgets/gbtable.c:701
+msgid "Delete Column"
+msgstr "Oszlop törlése"
+
+#: glade/gbwidgets/gbtable.c:1208
+msgid "Table"
+msgstr "Táblázat"
+
+#: glade/gbwidgets/gbtextview.c:48
+msgid "Center"
+msgstr "Középre"
+
+#: glade/gbwidgets/gbtextview.c:49
+#, fuzzy
+msgid "Fill"
+msgstr "Kitöltés:"
+
+#: glade/gbwidgets/gbtextview.c:69
+msgid "Character"
+msgstr ""
+
+#: glade/gbwidgets/gbtextview.c:70
+msgid "Word"
+msgstr ""
+
+#: glade/gbwidgets/gbtextview.c:113
+#, fuzzy
+msgid "Cursor Visible:"
+msgstr "Látható:"
+
+#: glade/gbwidgets/gbtextview.c:113
+#, fuzzy
+msgid "If the cursor is visible"
+msgstr "Ha a widget alapértelmezetten látható"
+
+#: glade/gbwidgets/gbtextview.c:116
+#, fuzzy
+msgid "Justification:"
+msgstr "Igazítás:"
+
+#: glade/gbwidgets/gbtextview.c:117
+#, fuzzy
+msgid "The justification of the text"
+msgstr "A címke sorainak széthúzása"
+
+#: glade/gbwidgets/gbtextview.c:119
+#, fuzzy
+msgid "Wrapping:"
+msgstr "Tördelés:"
+
+#: glade/gbwidgets/gbtextview.c:120
+#, fuzzy
+msgid "The wrapping of the text"
+msgstr "A szöveg maximális hossza"
+
+#: glade/gbwidgets/gbtextview.c:123
+#, fuzzy
+msgid "Space Above:"
+msgstr "Helyköz méret:"
+
+#: glade/gbwidgets/gbtextview.c:124
+msgid "Pixels of blank space above paragraphs"
+msgstr ""
+
+#: glade/gbwidgets/gbtextview.c:126
+#, fuzzy
+msgid "Space Below:"
+msgstr "Helyköz méret:"
+
+#: glade/gbwidgets/gbtextview.c:127
+msgid "Pixels of blank space below paragraphs"
+msgstr ""
+
+#: glade/gbwidgets/gbtextview.c:129
+#, fuzzy
+msgid "Space Inside:"
+msgstr "Helyköz méret:"
+
+#: glade/gbwidgets/gbtextview.c:130
+msgid "Pixels of blank space between wrapped lines in a paragraph"
+msgstr ""
+
+#: glade/gbwidgets/gbtextview.c:133
+msgid "Left Margin:"
+msgstr ""
+
+#: glade/gbwidgets/gbtextview.c:134
+msgid "Width of the left margin in pixels"
+msgstr ""
+
+#: glade/gbwidgets/gbtextview.c:136
+msgid "Right Margin:"
+msgstr ""
+
+#: glade/gbwidgets/gbtextview.c:137
+msgid "Width of the right margin in pixels"
+msgstr ""
+
+#: glade/gbwidgets/gbtextview.c:139
+#, fuzzy
+msgid "Indent:"
+msgstr "Tárgymutató"
+
+#: glade/gbwidgets/gbtextview.c:140
+msgid "Amount of pixels to indent paragraphs"
+msgstr ""
+
+#: glade/gbwidgets/gbtextview.c:420
+#, fuzzy
+msgid "Text View"
+msgstr "Szöveg látható:"
+
+#: glade/gbwidgets/gbtogglebutton.c:107
+msgid "If the toggle button is initially on"
+msgstr "Ha a kapcsológomb alapértelmezésben be van kapcsolva"
+
+#: glade/gbwidgets/gbtogglebutton.c:205
+msgid "Toggle Button"
+msgstr "Kapcsoló gomb"
+
+#: glade/gbwidgets/gbtoolbar.c:173
+msgid "New toolbar"
+msgstr "Új eszköztár"
+
+#: glade/gbwidgets/gbtoolbar.c:184
+msgid "Number of items:"
+msgstr "Elemek száma:"
+
+#: glade/gbwidgets/gbtoolbar.c:246
+msgid "The number of items in the toolbar"
+msgstr "Az elemek száma az eszközsorban"
+
+#: glade/gbwidgets/gbtoolbar.c:249
+msgid "The toolbar orientation"
+msgstr "Az eszközsor elhelyezkedése"
+
+#: glade/gbwidgets/gbtoolbar.c:251
+msgid "Style:"
+msgstr "Stílus:"
+
+#: glade/gbwidgets/gbtoolbar.c:252
+msgid "The toolbar style"
+msgstr "Az eszközsor stílusa"
+
+#: glade/gbwidgets/gbtoolbar.c:254
+msgid "Tooltips:"
+msgstr "Segédszövegek:"
+
+#: glade/gbwidgets/gbtoolbar.c:254
+msgid "If tooltips are enabled"
+msgstr "Ha a segédszövegek engedélyezettek"
+
+#: glade/gbwidgets/gbtoolbar.c:395
+msgid "New Group:"
+msgstr "Új csoport:"
+
+#: glade/gbwidgets/gbtoolbar.c:396
+msgid "Set True to start a new group of toolbar items"
+msgstr "Állítsd igenre, ha egy új elemcsoportot akarsz kezdeni"
+
+#: glade/gbwidgets/gbtoolbar.c:464
+msgid "Insert Item Before"
+msgstr "Elem beszúrása utána"
+
+#: glade/gbwidgets/gbtoolbar.c:471
+msgid "Insert Item After"
+msgstr "Elem beszúrása elé"
+
+#: glade/gbwidgets/gbtoolbar.c:596
+#, fuzzy
+msgid "Convert to Ordinary Button"
+msgstr "Sima gombbá alakítás"
+
+#: glade/gbwidgets/gbtoolbar.c:856
+msgid "Toolbar"
+msgstr "Eszköztár"
+
+#: glade/gbwidgets/gbtreeview.c:63
+#, fuzzy
+msgid "Column 1"
+msgstr "Oszlopok:"
+
+#: glade/gbwidgets/gbtreeview.c:69
+#, fuzzy
+msgid "Column 2"
+msgstr "Oszlopok:"
+
+#: glade/gbwidgets/gbtreeview.c:85
+#, fuzzy
+msgid "Headers Visible:"
+msgstr "Fejléc fájl:"
+
+#: glade/gbwidgets/gbtreeview.c:86
+#, fuzzy
+msgid "If the column header buttons are shown"
+msgstr "Ha a címkéket mutatni kell"
+
+#: glade/gbwidgets/gbtreeview.c:87
+msgid "Rules Hint:"
+msgstr ""
+
+#: glade/gbwidgets/gbtreeview.c:88
+msgid ""
+"If a hint is set so the theme engine should draw rows in alternating colors"
+msgstr ""
+
+#: glade/gbwidgets/gbtreeview.c:89
+#, fuzzy
+msgid "Reorderable:"
+msgstr "Fordított:"
+
+#: glade/gbwidgets/gbtreeview.c:90
+#, fuzzy
+msgid "If the view is reorderable"
+msgstr "Az elõnézet színes vagy fekete-fehér"
+
+#: glade/gbwidgets/gbtreeview.c:91
+#, fuzzy
+msgid "Enable Search:"
+msgstr "Keresés"
+
+#: glade/gbwidgets/gbtreeview.c:92
+msgid "If the user can search through columns interactively"
+msgstr ""
+
+#: glade/gbwidgets/gbtreeview.c:236
+msgid "List or Tree View"
+msgstr ""
+
+#: glade/gbwidgets/gbvbox.c:84
+msgid "New vertical box"
+msgstr "Új függõleges doboz"
+
+#: glade/gbwidgets/gbvbox.c:242
+msgid "Vertical Box"
+msgstr "Függõleges doboz"
+
+#: glade/gbwidgets/gbvbuttonbox.c:111
+msgid "New vertical button box"
+msgstr "Új függõleges gomb doboz"
+
+#: glade/gbwidgets/gbvbuttonbox.c:341
+msgid "Vertical Button Box"
+msgstr "Függõleges gomb doboz"
+
+#: glade/gbwidgets/gbviewport.c:104
+msgid "The type of shadow of the viewport"
+msgstr "A nézet árnyékolásának típusa"
+
+#: glade/gbwidgets/gbviewport.c:240
+msgid "Viewport"
+msgstr "Nézet"
+
+#: glade/gbwidgets/gbvpaned.c:192
+msgid "Vertical Panes"
+msgstr "Függõleges tepsi"
+
+#: glade/gbwidgets/gbvruler.c:247
+msgid "Vertical Ruler"
+msgstr "Függõleges vonalzó"
+
+#: glade/gbwidgets/gbvscale.c:319
+msgid "Vertical Scale"
+msgstr "Függõleges skála"
+
+#: glade/gbwidgets/gbvscrollbar.c:236
+msgid "Vertical Scrollbar"
+msgstr "Függõleges görgetõsáv"
+
+#: glade/gbwidgets/gbvseparator.c:144
+msgid "Vertical Separator"
+msgstr "Függõleges elválasztó"
+
+#: glade/gbwidgets/gbwindow.c:162 glade/gnome/gnomecolorpicker.c:72
+#: glade/gnome/gnomedruidpageedge.c:93 glade/gnome/gnomedruidpagestandard.c:85
+#: glade/gnome/gnomefileentry.c:80 glade/gnome/gnomefontpicker.c:94
+#: glade/gnome/gnomeiconentry.c:72 glade/gnome/gnomepixmapentry.c:81
+msgid "Title:"
+msgstr "Fejléc:"
+
+#: glade/gbwidgets/gbwindow.c:162
+msgid "The title of the window"
+msgstr "Az ablak fejléce"
+
+#: glade/gbwidgets/gbwindow.c:165
+msgid "The type of the window"
+msgstr "Az ablak típusa"
+
+#: glade/gbwidgets/gbwindow.c:170
+msgid "The initial position of the window"
+msgstr "Az ablak kezdeti helye"
+
+#: glade/gbwidgets/gbwindow.c:174 glade/gnome/gnomefileentry.c:84
+#: glade/gnome/gnomepixmapentry.c:83
+msgid "Modal:"
+msgstr "Modal:"
+
+#: glade/gbwidgets/gbwindow.c:174
+msgid "If the window is modal"
+msgstr "Ha az ablak modal (fókusz-sóher)"
+
+#: glade/gbwidgets/gbwindow.c:179
+msgid "Default Width:"
+msgstr "Alap szélesség:"
+
+#: glade/gbwidgets/gbwindow.c:180
+msgid "The default width of the window"
+msgstr "Az ablak alapértelmezett szélessége"
+
+#: glade/gbwidgets/gbwindow.c:184
+msgid "Default Height:"
+msgstr "Alap magasság:"
+
+#: glade/gbwidgets/gbwindow.c:185
+msgid "The default height of the window"
+msgstr "Az ablak alapértelmezett magassága"
+
+#: glade/gbwidgets/gbwindow.c:191
+#, fuzzy
+msgid "Resizable:"
+msgstr "Átméretezés:"
+
+#: glade/gbwidgets/gbwindow.c:192
+#, fuzzy
+msgid "If the window can be resized"
+msgstr "Ha az ablakot lehet nagyobbítani"
+
+#: glade/gbwidgets/gbwindow.c:199
+msgid "If the window can be shrunk"
+msgstr "Ha az ablakot lehet kicsinyíteni"
+
+#: glade/gbwidgets/gbwindow.c:200
+msgid "Grow:"
+msgstr "Növelés:"
+
+#: glade/gbwidgets/gbwindow.c:201
+msgid "If the window can be enlarged"
+msgstr "Ha az ablakot lehet nagyobbítani"
+
+#: glade/gbwidgets/gbwindow.c:208
+msgid "WM Name:"
+msgstr "WM Név:"
+
+#: glade/gbwidgets/gbwindow.c:209
+msgid "The name to pass to the window manager"
+msgstr "Az ablakkezelõnek átadott név"
+
+#: glade/gbwidgets/gbwindow.c:211
+msgid "WM Class:"
+msgstr "WM Osztály:"
+
+#: glade/gbwidgets/gbwindow.c:212
+msgid "The class name to pass to the window manager"
+msgstr "Az ablakkezelõnek átadott osztálynév"
+
+#: glade/gbwidgets/gbwindow.c:216
+msgid "Auto-Destroy:"
+msgstr ""
+
+#: glade/gbwidgets/gbwindow.c:217
+#, fuzzy
+msgid "If the window is destroyed when its transient parent is destroyed"
+msgstr "Ha a párbeszédablak bezáráskor elrejtõzzön megsemmisítés helyett"
+
+#: glade/gbwidgets/gbwindow.c:221
+#, fuzzy
+msgid "The icon for this window"
+msgstr "Az ablak fejléce"
+
+#: glade/gbwidgets/gbwindow.c:860
+msgid "Window"
+msgstr "Ablak"
+
+#: glade/gnome/bonobodock.c:231
+msgid "Allow Floating:"
+msgstr "Lebegés engedett:"
+
+#: glade/gnome/bonobodock.c:232
+msgid "If floating dock items are allowed"
+msgstr "Ha lebegõ dokk elemek engedélyezettek"
+
+#: glade/gnome/bonobodock.c:278
+msgid "Add dock band on top"
+msgstr "Dokk szalag hozzáadása felülre"
+
+#: glade/gnome/bonobodock.c:285
+msgid "Add dock band on bottom"
+msgstr "Dokk szalag hozzáadása alulra"
+
+#: glade/gnome/bonobodock.c:292
+msgid "Add dock band on left"
+msgstr "Dokk szalag hozzáadása lentre"
+
+#: glade/gnome/bonobodock.c:299
+msgid "Add dock band on right"
+msgstr "Dokk szalag hozzáadása jobbra"
+
+#: glade/gnome/bonobodock.c:306
+msgid "Add floating dock item"
+msgstr "Lebegõ dokk elem hozzáadása"
+
+#: glade/gnome/bonobodock.c:495
+msgid "Gnome Dock"
+msgstr "Gnome Dokk"
+
+#: glade/gnome/bonobodockitem.c:165
+msgid "Locked:"
+msgstr "Lekötött:"
+
+#: glade/gnome/bonobodockitem.c:166
+msgid "If the dock item is locked in position"
+msgstr "Ha a dokk elem helye kötött"
+
+#: glade/gnome/bonobodockitem.c:167
+msgid "Exclusive:"
+msgstr "Egyedi:"
+
+#: glade/gnome/bonobodockitem.c:168
+msgid "If the dock item is always the only item in its band"
+msgstr "Ha a dokk elem mindig egyedül van a szalagján"
+
+#: glade/gnome/bonobodockitem.c:169
+msgid "Never Floating:"
+msgstr "Soha nem lebeg:"
+
+#: glade/gnome/bonobodockitem.c:170
+msgid "If the dock item is never allowed to float in its own window"
+msgstr "Ha a dokk elem sose lebeghet a saját ablakában"
+
+#: glade/gnome/bonobodockitem.c:171
+msgid "Never Vertical:"
+msgstr "Soha nem függõleges:"
+
+#: glade/gnome/bonobodockitem.c:172
+msgid "If the dock item is never allowed to be vertical"
+msgstr "Ha a dokk elem sose leget függõlegesen"
+
+#: glade/gnome/bonobodockitem.c:173
+msgid "Never Horizontal:"
+msgstr "Soha nem vízszintes:"
+
+#: glade/gnome/bonobodockitem.c:174
+msgid "If the dock item is never allowed to be horizontal"
+msgstr "Ha a dokk elem sose lehet vízszintesen"
+
+#: glade/gnome/bonobodockitem.c:177
+msgid "The type of shadow around the dock item"
+msgstr "A dokk elem körüli árnyék típusa"
+
+#: glade/gnome/bonobodockitem.c:180
+msgid "The orientation of a floating dock item"
+msgstr "A lebegõ dokk elem tájolása"
+
+#: glade/gnome/bonobodockitem.c:428
+msgid "Add dock item before"
+msgstr "Dokk elem beszúrása elé"
+
+#: glade/gnome/bonobodockitem.c:435
+msgid "Add dock item after"
+msgstr "Dokk elem beszúrása mögé"
+
+#: glade/gnome/bonobodockitem.c:771
+msgid "Gnome Dock Item"
+msgstr "Gnome Dokk Elem"
+
+#: glade/gnome/bonobowindow.c:65
+msgid "_New File"
+msgstr "Ú_j fájl"
+
+#: glade/gnome/bonobowindow.c:349 glade/gnome/gnomeapp.c:188
+msgid "Status Bar:"
+msgstr "Állapotsor:"
+
+#: glade/gnome/bonobowindow.c:350 glade/gnome/gnomeapp.c:189
+msgid "If the window has a status bar"
+msgstr "Ha az ablaknak legyen állapotsora"
+
+#: glade/gnome/bonobowindow.c:351 glade/gnome/gnomeapp.c:190
+msgid "Store Config:"
+msgstr "Konfiguráció eltárolása:"
+
+#: glade/gnome/bonobowindow.c:352 glade/gnome/gnomeapp.c:191
+msgid "If the layout is saved and restored automatically"
+msgstr "Ha az elrendezés automatikusan tárolódjon / elõhívódjon"
+
+#: glade/gnome/bonobowindow.c:578
+#, fuzzy
+msgid "Bonobo Window"
+msgstr "Ablak"
+
+#: glade/gnome/gnomeabout.c:117
+msgid "Logo:"
+msgstr "Logó:"
+
+#: glade/gnome/gnomeabout.c:117
+msgid "The pixmap to use as the logo"
+msgstr "A logóként használt pixmap"
+
+#: glade/gnome/gnomeabout.c:118
+msgid "Copyright:"
+msgstr "Copyright:"
+
+#: glade/gnome/gnomeabout.c:118
+msgid "The copyright notice"
+msgstr "Copyright megjegyzés"
+
+#: glade/gnome/gnomeabout.c:119
+msgid "Comments:"
+msgstr "Megjegyzések:"
+
+#: glade/gnome/gnomeabout.c:119
+msgid ""
+"Additional information, such as a description of the package and its home "
+"page on the web"
+msgstr "További információ, pl. a csomag rövid leírása és a honlapja."
+
+#: glade/gnome/gnomeabout.c:121
+msgid "Authors:"
+msgstr "Szerzõk:"
+
+#: glade/gnome/gnomeabout.c:121
+msgid "The authors of the package, one on each line"
+msgstr "A csomag szerzõi, soronként 1."
+
+#: glade/gnome/gnomeabout.c:122
+#, fuzzy
+msgid "Documenters:"
+msgstr "Megjegyzések:"
+
+#: glade/gnome/gnomeabout.c:122
+#, fuzzy
+msgid "The documenters of the package, one on each line"
+msgstr "A csomag szerzõi, soronként 1."
+
+#: glade/gnome/gnomeabout.c:123
+#, fuzzy
+msgid "Translators:"
+msgstr "Fordítható szövegek:"
+
+#: glade/gnome/gnomeabout.c:123
+msgid ""
+"The translators of the package. This should normally be left empty so that "
+"translators can add their names in the po files"
+msgstr ""
+
+#: glade/gnome/gnomeabout.c:485
+msgid "Gnome About Dialog"
+msgstr "Gnome Névjegy ablak"
+
+#: glade/gnome/gnomeapp.c:157
+msgid "New File"
+msgstr "Új fájl"
+
+#: glade/gnome/gnomeapp.c:159
+msgid "Open File"
+msgstr "Fájl megnyitása"
+
+#: glade/gnome/gnomeapp.c:161
+msgid "Save File"
+msgstr "Fájl mentése"
+
+#: glade/gnome/gnomeapp.c:414
+msgid "Gnome Application Window"
+msgstr "Gnome Alkalmazás Ablak"
+
+#: glade/gnome/gnomeappbar.c:56
+msgid "Status Message."
+msgstr "Állapot üzenet."
+
+#: glade/gnome/gnomeappbar.c:69
+msgid "Progress:"
+msgstr "Folyamat:"
+
+#: glade/gnome/gnomeappbar.c:70
+msgid "If the app bar has a progress indicator"
+msgstr "Ha az állapotsornak legyen folyamatjelzõje"
+
+#: glade/gnome/gnomeappbar.c:71
+msgid "Status:"
+msgstr "Állapot:"
+
+#: glade/gnome/gnomeappbar.c:72
+msgid "If the app bar has an area for status messages and user input"
+msgstr "Ha az állapotsoron legyen hely üzeneteknek és felhasználói bemebetnek"
+
+#: glade/gnome/gnomeappbar.c:184
+msgid "Gnome Application Bar"
+msgstr "Gnome Állapotsor"
+
+#: glade/gnome/gnomecanvas.c:68
+msgid "Anti-Aliased:"
+msgstr "Anti-Aliased:"
+
+#: glade/gnome/gnomecanvas.c:69
+msgid "If the canvas is anti-aliased, to smooth the edges of text and graphics"
+msgstr ""
+"Ha a megjelenítés anti-aliased legyen, hogy a szöveg és képek élei "
+"finomabbak legyenek"
+
+#: glade/gnome/gnomecanvas.c:70
+msgid "X1:"
+msgstr "X1:"
+
+#: glade/gnome/gnomecanvas.c:70
+msgid "The minimum x coordinate"
+msgstr "A minimum X koordináta"
+
+#: glade/gnome/gnomecanvas.c:71
+msgid "Y1:"
+msgstr "Y1:"
+
+#: glade/gnome/gnomecanvas.c:71
+msgid "The minimum y coordinate"
+msgstr "A minimum Y koordináta"
+
+#: glade/gnome/gnomecanvas.c:72
+msgid "X2:"
+msgstr "X2:"
+
+#: glade/gnome/gnomecanvas.c:72
+msgid "The maximum x coordinate"
+msgstr "A maximum X koordináta"
+
+#: glade/gnome/gnomecanvas.c:73
+msgid "Y2:"
+msgstr "Y2:"
+
+#: glade/gnome/gnomecanvas.c:73
+msgid "The maximum y coordinate"
+msgstr "A maximum Y koordináta"
+
+#: glade/gnome/gnomecanvas.c:75
+msgid "Pixels Per Unit:"
+msgstr "Pixel/Egység:"
+
+#: glade/gnome/gnomecanvas.c:76
+msgid "The number of pixels corresponding to one unit"
+msgstr "Az egy egységhez tartozó képpontok száma"
+
+#: glade/gnome/gnomecanvas.c:239
+msgid "GnomeCanvas"
+msgstr "GnomeCanvas"
+
+#: glade/gnome/gnomecolorpicker.c:67
+msgid "Dither:"
+msgstr "Dither:"
+
+#: glade/gnome/gnomecolorpicker.c:68
+msgid "If the sample should use dithering to be more accurate"
+msgstr "Ha a minta dither segítségével még pontosabb legyen"
+
+#: glade/gnome/gnomecolorpicker.c:69
+msgid "Use Alpha:"
+msgstr "Alpha használata:"
+
+#: glade/gnome/gnomecolorpicker.c:70
+msgid "If the alpha channel should be used"
+msgstr "Ha alfa csatorna használható"
+
+#: glade/gnome/gnomecolorpicker.c:73
+msgid "The title of the color selection dialog"
+msgstr "A színkiválasztó ablak címkéje"
+
+#: glade/gnome/gnomecolorpicker.c:150
+msgid "Pick a color"
+msgstr "Válassz egy színt"
+
+#: glade/gnome/gnomecolorpicker.c:194
+msgid "Gnome Color Picker"
+msgstr "Gnome Színválasztó"
+
+#: glade/gnome/gnomecontrol.c:160
+#, fuzzy
+msgid "Couldn't create the Bonobo control"
+msgstr ""
+"Nem tudom a fájlt elkészíteni:\n"
+"  %s\n"
+
+#: glade/gnome/gnomecontrol.c:249
+#, fuzzy
+msgid "New Bonobo Control"
+msgstr "Új notesz"
+
+#: glade/gnome/gnomecontrol.c:262
+msgid "Select a Bonobo Control"
+msgstr ""
+
+#: glade/gnome/gnomecontrol.c:290
+msgid "OAFIID"
+msgstr ""
+
+#: glade/gnome/gnomecontrol.c:339
+msgid "Bonobo Control"
+msgstr ""
+
+#: glade/gnome/gnomedateedit.c:70
+msgid "Show Time:"
+msgstr "Idõ mutatása:"
+
+#: glade/gnome/gnomedateedit.c:71
+msgid "If the time is shown as well as the date"
+msgstr "Ha az idõ is és a dátum is meg legyen jelenítve"
+
+#: glade/gnome/gnomedateedit.c:72
+msgid "24 Hour Format:"
+msgstr "24 órás formátum:"
+
+#: glade/gnome/gnomedateedit.c:73
+msgid "If the time is shown in 24-hour format"
+msgstr "Ha az idõ 24 órás formátumban jelenjen meg"
+
+#: glade/gnome/gnomedateedit.c:76
+msgid "Lower Hour:"
+msgstr "Alsó Óra"
+
+#: glade/gnome/gnomedateedit.c:77
+msgid "The lowest hour to show in the popup"
+msgstr "A legkorábbi óra ami a popupban megjelenjen"
+
+#: glade/gnome/gnomedateedit.c:79
+msgid "Upper Hour:"
+msgstr "Felsõ Óra"
+
+#: glade/gnome/gnomedateedit.c:80
+msgid "The highest hour to show in the popup"
+msgstr "A legkésõbbi óra, ami a popupban megjelenjen"
+
+#: glade/gnome/gnomedateedit.c:298
+msgid "GnomeDateEdit"
+msgstr "GnomeDateEdit"
+
+#: glade/gnome/gnomedialog.c:140 glade/gnome/gnomemessagebox.c:177
+msgid "Auto Close:"
+msgstr "Automatikus bezárás:"
+
+#: glade/gnome/gnomedialog.c:141 glade/gnome/gnomemessagebox.c:178
+msgid "If the dialog closes when any button is clicked"
+msgstr "Ha a párbeszédablak bezáródjon bármelyik gombra kattintás után"
+
+#: glade/gnome/gnomedialog.c:142 glade/gnome/gnomemessagebox.c:179
+msgid "Hide on Close:"
+msgstr "Elrejtés bezárásnál:"
+
+#: glade/gnome/gnomedialog.c:143 glade/gnome/gnomemessagebox.c:180
+msgid "If the dialog is hidden when it is closed, instead of being destroyed"
+msgstr "Ha a párbeszédablak bezáráskor elrejtõzzön megsemmisítés helyett"
+
+#: glade/gnome/gnomedialog.c:317
+msgid "Gnome Dialog Box"
+msgstr "Gnome Párbeszédablak"
+
+#: glade/gnome/gnomedruid.c:91
+msgid "New Gnome Druid"
+msgstr "Új Gnome Varázsló"
+
+#: glade/gnome/gnomedruid.c:190
+#, fuzzy
+msgid "Show Help"
+msgstr "Szöveg mutatása:"
+
+#: glade/gnome/gnomedruid.c:190
+#, fuzzy
+msgid "Display the help button."
+msgstr "A gombok közötti helyköz"
+
+#: glade/gnome/gnomedruid.c:255
+msgid "Add Start Page"
+msgstr "Indítólap hozzáadása"
+
+#: glade/gnome/gnomedruid.c:270
+msgid "Add Finish Page"
+msgstr "Zárólap hozzáadása"
+
+#: glade/gnome/gnomedruid.c:485
+msgid "Druid"
+msgstr "Varázsló"
+
+#: glade/gnome/gnomedruidpageedge.c:94 glade/gnome/gnomedruidpagestandard.c:86
+msgid "The title of the page"
+msgstr "A lap címe"
+
+#: glade/gnome/gnomedruidpageedge.c:96
+msgid "The main text of the page, introducing people to the druid."
+msgstr "A varázslót a felhasználónak bemutató rövid szöveg."
+
+#: glade/gnome/gnomedruidpageedge.c:98 glade/gnome/gnomedruidpagestandard.c:87
+msgid "Title Color:"
+msgstr "Fejléc szín:"
+
+#: glade/gnome/gnomedruidpageedge.c:99 glade/gnome/gnomedruidpagestandard.c:88
+msgid "The color of the title text"
+msgstr "A címszöveg színe"
+
+#: glade/gnome/gnomedruidpageedge.c:100
+msgid "Text Color:"
+msgstr "Szöveg szín:"
+
+#: glade/gnome/gnomedruidpageedge.c:101
+msgid "The color of the main text"
+msgstr "A szövegtörzs színe"
+
+#: glade/gnome/gnomedruidpageedge.c:102
+#: glade/gnome/gnomedruidpagestandard.c:91
+msgid "Back. Color:"
+msgstr "Háttér szín:"
+
+#: glade/gnome/gnomedruidpageedge.c:103
+#: glade/gnome/gnomedruidpagestandard.c:92
+msgid "The background color of the page"
+msgstr "Az oldal háttérszíne"
+
+#: glade/gnome/gnomedruidpageedge.c:104
+#: glade/gnome/gnomedruidpagestandard.c:93
+msgid "Logo Back. Color:"
+msgstr "Logó háttér szín:"
+
+#: glade/gnome/gnomedruidpageedge.c:105
+#: glade/gnome/gnomedruidpagestandard.c:94
+msgid "The background color around the logo"
+msgstr "A logó körüli háttérszín"
+
+#: glade/gnome/gnomedruidpageedge.c:106
+msgid "Text Box Color:"
+msgstr "Szövegdoboz szín:"
+
+#: glade/gnome/gnomedruidpageedge.c:107
+msgid "The background color of the main text area"
+msgstr "A fõ szöveges rész háttérszíne"
+
+#: glade/gnome/gnomedruidpageedge.c:108
+#: glade/gnome/gnomedruidpagestandard.c:95
+#, fuzzy
+msgid "Logo Image:"
+msgstr "Kép"
+
+#: glade/gnome/gnomedruidpageedge.c:109
+#: glade/gnome/gnomedruidpagestandard.c:96
+msgid "The logo to display in the top-right of the page"
+msgstr "A logó, ami a jobb-feslõ sarokban megjelenjen"
+
+#: glade/gnome/gnomedruidpageedge.c:110
+msgid "Side Watermark:"
+msgstr ""
+
+#: glade/gnome/gnomedruidpageedge.c:111
+#, fuzzy
+msgid "The main image to display on the side of the page."
+msgstr "A fõ kép, ami a baloldali részen megjelenjen."
+
+#: glade/gnome/gnomedruidpageedge.c:112
+#: glade/gnome/gnomedruidpagestandard.c:97
+msgid "Top Watermark:"
+msgstr ""
+
+#: glade/gnome/gnomedruidpageedge.c:113
+#, fuzzy
+msgid "The watermark to display at the top of the page."
+msgstr "A fõ kép, ami a baloldali részen megjelenjen."
+
+#: glade/gnome/gnomedruidpageedge.c:514
+#, fuzzy
+msgid "Druid Start or Finish Page"
+msgstr "Varázsló befejezõ lap"
+
+#: glade/gnome/gnomedruidpagestandard.c:89
+#, fuzzy
+msgid "Contents Back. Color:"
+msgstr "Logó háttér szín:"
+
+#: glade/gnome/gnomedruidpagestandard.c:90
+#, fuzzy
+msgid "The background color around the title"
+msgstr "A logó körüli háttérszín"
+
+#: glade/gnome/gnomedruidpagestandard.c:98
+#, fuzzy
+msgid "The image to display along the top of the page"
+msgstr "A fõ kép, ami a baloldali részen megjelenjen."
+
+#: glade/gnome/gnomedruidpagestandard.c:436
+msgid "Druid Standard Page"
+msgstr "Varázsló általános lap"
+
+#: glade/gnome/gnomeentry.c:71 glade/gnome/gnomefileentry.c:75
+#: glade/gnome/gnomeiconentry.c:74 glade/gnome/gnomepixmapentry.c:76
+msgid "History ID:"
+msgstr "Történet ID:"
+
+#: glade/gnome/gnomeentry.c:72 glade/gnome/gnomefileentry.c:76
+#: glade/gnome/gnomeiconentry.c:75 glade/gnome/gnomepixmapentry.c:77
+msgid "The ID to save the history entries under"
+msgstr "Egy azonosító a bevitt adatokhoz"
+
+#: glade/gnome/gnomeentry.c:73 glade/gnome/gnomefileentry.c:77
+#: glade/gnome/gnomeiconentry.c:76 glade/gnome/gnomepixmapentry.c:78
+msgid "Max Saved:"
+msgstr "Elmentett max:"
+
+#: glade/gnome/gnomeentry.c:74 glade/gnome/gnomefileentry.c:78
+#: glade/gnome/gnomeiconentry.c:77 glade/gnome/gnomepixmapentry.c:79
+msgid "The maximum number of history entries saved"
+msgstr "A maximum nyilvántartott elemek száma"
+
+#: glade/gnome/gnomeentry.c:210
+msgid "Gnome Entry"
+msgstr "Gnome Beviteli mezõ"
+
+#: glade/gnome/gnomefileentry.c:81 glade/gnome/gnomeiconentry.c:73
+#: glade/gnome/gnomepixmapentry.c:82
+msgid "The title of the file selection dialog"
+msgstr "A fájl választó ablak címkéje"
+
+#: glade/gnome/gnomefileentry.c:82
+msgid "Directory:"
+msgstr "Könyvtár:"
+
+#: glade/gnome/gnomefileentry.c:83
+msgid "If a directory is needed rather than a file"
+msgstr "Ha egy könyvtárra van szükség, nem fájlra"
+
+#: glade/gnome/gnomefileentry.c:85 glade/gnome/gnomepixmapentry.c:84
+msgid "If the file selection dialog should be modal"
+msgstr "Ha a fájl választó ablak modal (fókusz-sóher) lehet"
+
+#: glade/gnome/gnomefileentry.c:274
+msgid "Gnome File Entry"
+msgstr "Gnome Fájl Beviteli mezõ"
+
+#: glade/gnome/gnomefontpicker.c:95
+msgid "The title of the font selection dialog"
+msgstr "A betûtípus választó ablak címjéje"
+
+#: glade/gnome/gnomefontpicker.c:97
+msgid "The preview text to show in the font selection dialog"
+msgstr "A minta szöveg, ami a betûtípus kiválasztásakor látszik"
+
+#: glade/gnome/gnomefontpicker.c:98
+msgid "Mode:"
+msgstr "Mód:"
+
+#: glade/gnome/gnomefontpicker.c:99
+msgid "What to display in the font picker button"
+msgstr "Mi jelenjen meg a betûtípus választó gombon"
+
+#: glade/gnome/gnomefontpicker.c:101
+msgid "Show Size:"
+msgstr "Méret mutatása:"
+
+#: glade/gnome/gnomefontpicker.c:102
+msgid "If the font size is shown as part of the font information"
+msgstr "Ha a betûméret is megjelenjen az betû adatai részeként"
+
+#: glade/gnome/gnomefontpicker.c:103
+msgid "Use Font:"
+msgstr "Betûtípus használata:"
+
+#: glade/gnome/gnomefontpicker.c:104
+msgid "If the selected font is used when displaying the font information"
+msgstr "Ha az adott betûtípussal jelenjenek meg a betû adatai"
+
+#: glade/gnome/gnomefontpicker.c:105
+msgid "Use Size:"
+msgstr "Használandó méret:"
+
+#: glade/gnome/gnomefontpicker.c:106
+msgid "The size of the font to use in the font picker button"
+msgstr "A betûtípus választó gombon használt betû mérete"
+
+#: glade/gnome/gnomefontpicker.c:126 glade/gnome/gnomefontpicker.c:194
+#: glade/gnome/gnomefontpicker.c:290
+msgid "Pick a Font"
+msgstr "Válassz betûtípust"
+
+#: glade/gnome/gnomefontpicker.c:365
+msgid "Gnome Font Picker"
+msgstr "Gnome Betûtípusválasztó"
+
+#: glade/gnome/gnomehref.c:65
+msgid "URL:"
+msgstr "URL:"
+
+#: glade/gnome/gnomehref.c:66
+msgid "The URL to display when the button is clicked"
+msgstr "Az URL ami a gombra kattintáskor megjelenjen"
+
+#: glade/gnome/gnomehref.c:68
+msgid "The text to display in the button"
+msgstr "A gombon megjelenõ szöveg"
+
+#: glade/gnome/gnomehref.c:179
+msgid "Gnome HRef Link Button"
+msgstr "Gnome HRef link gomb"
+
+#: glade/gnome/gnomeiconentry.c:202
+msgid "Gnome Icon Entry"
+msgstr "Gnome Ikon Beviteli mezõ"
+
+#: glade/gnome/gnomeiconlist.c:175
+msgid "The selection mode"
+msgstr "A kiválasztás módja"
+
+#: glade/gnome/gnomeiconlist.c:177
+msgid "Icon Width:"
+msgstr "Ikon szélesség:"
+
+#: glade/gnome/gnomeiconlist.c:178
+msgid "The width of each icon"
+msgstr "Minden ikon szélessége"
+
+#: glade/gnome/gnomeiconlist.c:181
+msgid "The number of pixels between rows of icons"
+msgstr "Az ikonsorok közötti rés pixelben"
+
+#: glade/gnome/gnomeiconlist.c:184
+msgid "The number of pixels between columns of icons"
+msgstr "Az ikonoszlopot közötti rés pixelpben"
+
+#: glade/gnome/gnomeiconlist.c:187
+msgid "Icon Border:"
+msgstr "Ikon keret:"
+
+#: glade/gnome/gnomeiconlist.c:188
+msgid "The number of pixels around icons (unused?)"
+msgstr "Az ikonok körül lévõ keret pixelben (nem használt?)"
+
+#: glade/gnome/gnomeiconlist.c:191
+msgid "Text Spacing:"
+msgstr "Szöveg helyköz:"
+
+#: glade/gnome/gnomeiconlist.c:192
+msgid "The number of pixels between the text and the icon"
+msgstr "A szöveg és az ikon közötti hely pixelben"
+
+#: glade/gnome/gnomeiconlist.c:194
+msgid "Text Editable:"
+msgstr "Szerkeszthetõ szöveg:"
+
+#: glade/gnome/gnomeiconlist.c:195
+msgid "If the icon text can be edited by the user"
+msgstr "Ha az ikon szövege a felhasználó által szerkeszthetõ"
+
+#: glade/gnome/gnomeiconlist.c:196
+msgid "Text Static:"
+msgstr "Statikus szöveg:"
+
+#: glade/gnome/gnomeiconlist.c:197
+msgid ""
+"If the icon text is static, in which case it will not be copied by the "
+"GnomeIconList"
+msgstr ""
+"Ha az ikon szövege nem változik, ebben az esetben nem kerül be a "
+"GomeIconList-be"
+
+#: glade/gnome/gnomeiconlist.c:461
+msgid "Icon List"
+msgstr "Ikon lista"
+
+#: glade/gnome/gnomeiconselection.c:154
+msgid "Icon Selection"
+msgstr "Ikon választó"
+
+#: glade/gnome/gnomemessagebox.c:164
+msgid "Message Type:"
+msgstr "Üzenet típusa:"
+
+#: glade/gnome/gnomemessagebox.c:165
+msgid "The type of the message box"
+msgstr "Az üzenetablak típusa"
+
+#: glade/gnome/gnomemessagebox.c:167
+msgid "Message:"
+msgstr "Üzenet:"
+
+#: glade/gnome/gnomemessagebox.c:167
+msgid "The message to display"
+msgstr "A megjelenítendõ üzenet"
+
+#: glade/gnome/gnomemessagebox.c:474
+msgid "Gnome Message Box"
+msgstr "Gnome Üzenetablak"
+
+#: glade/gnome/gnomeprintpaperselector.c:148
+msgid "Gnome Paper Selector"
+msgstr "Gnome lap választó"
+
+#: glade/gnome/gnomepixmap.c:80
+msgid "Scaled:"
+msgstr "Skálázott:"
+
+#: glade/gnome/gnomepixmap.c:80
+msgid "If the pixmap is scaled"
+msgstr "Ha a kép skálázott"
+
+#: glade/gnome/gnomepixmap.c:81
+msgid "Scaled Width:"
+msgstr "Skálázott szélesség:"
+
+#: glade/gnome/gnomepixmap.c:82
+msgid "The width to scale the pixmap to"
+msgstr "Az a szélesség, amire a kép átméretezõdik"
+
+#: glade/gnome/gnomepixmap.c:84
+msgid "Scaled Height:"
+msgstr "Skálázott szélesség:"
+
+#: glade/gnome/gnomepixmap.c:85
+msgid "The height to scale the pixmap to"
+msgstr "Az a magasság, amire a kép átméretezõdik"
+
+#: glade/gnome/gnomepixmap.c:333
+msgid "Gnome Pixmap"
+msgstr "Gnome Pixmap"
+
+#: glade/gnome/gnomepixmapentry.c:74
+msgid "Preview:"
+msgstr "Elõnézet:"
+
+#: glade/gnome/gnomepixmapentry.c:75
+msgid "If a small preview of the pixmap is displayed"
+msgstr "Ha egy kis képben látszódjon a nagy kép"
+
+#: glade/gnome/gnomepixmapentry.c:278
+msgid "GnomePixmapEntry"
+msgstr "GnomePixmapEntry"
+
+#: glade/gnome/gnomepropertybox.c:105
+msgid "New GnomePropertyBox"
+msgstr "Új GnomePropertyBox"
+
+#: glade/gnome/gnomepropertybox.c:347
+msgid "Property Dialog Box"
+msgstr "Beállítások párbeszédablak"
+
+#: glade/gnome-db/gnomedbbrowser.c:135
+msgid "Database Browser"
+msgstr "Adatbázis böngészõ"
+
+#: glade/gnome-db/gnomedbcombo.c:124
+msgid "Data-bound combo"
+msgstr "Adathoz kötött combo"
+
+#: glade/gnome-db/gnomedbconnectsel.c:147
+#, fuzzy
+msgid "Connection Selector"
+msgstr "Betûtípus kiválasztás"
+
+#: glade/gnome-db/gnomedbdsnconfig.c:136
+msgid "DSN Configurator"
+msgstr "DSN beállító"
+
+#: glade/gnome-db/gnomedbdsndruid.c:147
+#, fuzzy
+msgid "DSN Config Druid"
+msgstr "DSN beállító"
+
+#: glade/gnome-db/gnomedberror.c:136
+msgid "Database error viewer"
+msgstr "Adatbázis hiba nézõ"
+
+#: glade/gnome-db/gnomedberrordlg.c:195
+msgid "Database error dialog"
+msgstr "Adatbázis hiba ablak"
+
+#: glade/gnome-db/gnomedbform.c:147
+#, fuzzy
+msgid "Form"
+msgstr "Formátum:"
+
+#: glade/gnome-db/gnomedbgrid.c:132
+msgid "Data-bound grid"
+msgstr "Adathoz kötött rács"
+
+#: glade/gnome-db/gnomedblist.c:136
+msgid "Data-bound list"
+msgstr "Adathoz kötött lista"
+
+#: glade/gnome-db/gnomedblogin.c:136
+msgid "Database login widget"
+msgstr "Adatbázis login képernyõ"
+
+#: glade/gnome-db/gnomedblogindlg.c:69
+msgid "Login"
+msgstr "Belépés"
+
+#: glade/gnome-db/gnomedblogindlg.c:196
+msgid "Database login dialog"
+msgstr "Adatbázis login ablak"
+
+#: glade/gnome-db/gnomedbprovidersel.c:147
+#, fuzzy
+msgid "Provider Selector"
+msgstr "Gnome lap választó"
+
+#: glade/gnome-db/gnomedbsourcesel.c:149
+#, fuzzy
+msgid "Data Source Selector"
+msgstr "Forráskönyvtár:"
+
+#: glade/gnome-db/gnomedbsqleditor.c:147
+#, fuzzy
+msgid "SQL Editor"
+msgstr "Menü szerkesztõ"
+
+#: glade/gnome-db/gnomedbtableeditor.c:133
+#, fuzzy
+msgid "Table Editor "
+msgstr "Menü szerkesztõ"
+
+#: glade/gnome-db/gnomedbwindow.c:142
+#, fuzzy
+msgid "GNOME-DB Application window"
+msgstr "Gnome Alkalmazás Ablak"
+
+#~ msgid ""
+#~ "/*\n"
+#~ " * Initial main.c file generated by Glade. Edit as required.\n"
+#~ " * Glade will not overwrite this file.\n"
+#~ " */\n"
+#~ "\n"
+#~ msgstr ""
+#~ "/*\n"
+#~ " * Eredeti main.c fájl glade által létrehozva. Szerkeszd ahogy jónak "
+#~ "látod.\n"
+#~ " * Glade nem fogja módosítani a tartalmát.\n"
+#~ " */\n"
+#~ "\n"
+
+#~ msgid "DO NOT EDIT THIS FILE - it is generated by Glade."
+#~ msgstr "DO NOT EDIT THIS FILE - it is generated by Glade."
+
+#, fuzzy
+#~ msgid "Help 1"
+#~ msgstr "Súgó"
+
+#~ msgid "Data expected"
+#~ msgstr "Adat sértve"
+
+#~ msgid "Invalid accelerator key"
+#~ msgstr "Nem megfelelõ gyorsító billentyû"
+
+#~ msgid "Unknown tag"
+#~ msgstr "Ismeretlen elem"
+
+#~ msgid "Invalid boolean value"
+#~ msgstr "Rossz boolean érték"
+
+#~ msgid "Invalid date"
+#~ msgstr "Rossz dátum"
+
+#~ msgid "Couldn't load font"
+#~ msgstr "Nem tudom betölteni a betûtípust"
+
+#~ msgid "Couldn't load pixmap"
+#~ msgstr "Nem tudom betölteni a képet"
+
+#~ msgid "Invalid color"
+#~ msgstr "Rossz szín"
+
+#~ msgid "Blank"
+#~ msgstr "Üres"
+
+#~ msgid "Save As"
+#~ msgstr "Mentés mint"
+
+#~ msgid "Revert"
+#~ msgstr "Visszatölt"
+
+#~ msgid "Quit"
+#~ msgstr "Kilépés"
+
+#~ msgid "Preferences"
+#~ msgstr "Tulajdonságok"
+
+#~ msgid "Scores"
+#~ msgstr "Pontszámok"
+
+#~ msgid "Undo"
+#~ msgstr "Visszavonás"
+
+#~ msgid "Redo"
+#~ msgstr "Újra"
+
+#~ msgid "Print"
+#~ msgstr "Nyomtatás"
+
+#~ msgid "Search/Replace"
+#~ msgstr "Keresés/Csere"
+
+#~ msgid "Back"
+#~ msgstr "Vissza"
+
+#~ msgid "Forward"
+#~ msgstr "Elõre"
+
+#~ msgid "First"
+#~ msgstr "Elsõ"
+
+#~ msgid "Last"
+#~ msgstr "Utolsó"
+
+#~ msgid "Home"
+#~ msgstr "Haza"
+
+#~ msgid "Stop"
+#~ msgstr "Állj"
+
+#~ msgid "Refresh"
+#~ msgstr "Frissítés"
+
+#~ msgid "Mail"
+#~ msgstr "Levél"
+
+#~ msgid "Receive Mail"
+#~ msgstr "Levél letöltés"
+
+#~ msgid "Send Mail"
+#~ msgstr "Levél küldés"
+
+#~ msgid "Reply to Mail"
+#~ msgstr "Válasz a levélre"
+
+#~ msgid "Forward Mail"
+#~ msgstr "Levél továbbítása"
+
+#~ msgid "New Mail"
+#~ msgstr "Új levél"
+
+#~ msgid "Trash"
+#~ msgstr "Kuka"
+
+#~ msgid "Trash Full"
+#~ msgstr "Tele kuka"
+
+#~ msgid "Undelete"
+#~ msgstr "Visszatöröl"
+
+#~ msgid "Timer"
+#~ msgstr "Óra"
+
+#~ msgid "Timer Stopped"
+#~ msgstr "Megállított óra"
+
+#~ msgid "Spellchecker"
+#~ msgstr "Helyesírásellenõrzõ"
+
+#~ msgid "Microphone"
+#~ msgstr "Mikrofon"
+
+#~ msgid "Line In"
+#~ msgstr "Line in"
+
+#~ msgid "Cdrom"
+#~ msgstr "Cdrom"
+
+#~ msgid "Volume"
+#~ msgstr "Hangerõ"
+
+#~ msgid "Midi"
+#~ msgstr "Midi"
+
+#~ msgid "Book Red"
+#~ msgstr "Vörös könyv"
+
+#~ msgid "Book Green"
+#~ msgstr "Zöld könyv"
+
+#~ msgid "Book Blue"
+#~ msgstr "Kék könyv"
+
+#~ msgid "Book Yellow"
+#~ msgstr "Sárga könyv"
+
+#~ msgid "Book Open"
+#~ msgstr "Nyitott könyv"
+
+#~ msgid "Jump To"
+#~ msgstr "Ugrás..."
+
+#~ msgid "Up"
+#~ msgstr "Fel"
+
+#~ msgid "Down"
+#~ msgstr "Le"
+
+#~ msgid "Attach"
+#~ msgstr "Csatolás"
+
+#~ msgid "Font"
+#~ msgstr "Betûtípus"
+
+#~ msgid "Exec"
+#~ msgstr "Indít"
+
+#~ msgid "Justify"
+#~ msgstr "Igazítás"
+
+#~ msgid "Bold"
+#~ msgstr "Félkövér"
+
+#~ msgid "Italic"
+#~ msgstr "Dõlt"
+
+#~ msgid "Strikeout"
+#~ msgstr "Kihúzás"
+
+#~ msgid "Multiple"
+#~ msgstr "Több"
+
+#~ msgid "Not"
+#~ msgstr "Nem"
+
+#~ msgid "Text Indent"
+#~ msgstr "Szöveg bekezdés"
+
+#~ msgid "Text Unindent"
+#~ msgstr "Szöveg bekezdés ki"
+
+#~ msgid "Color Select"
+#~ msgstr "Színválasztó"
+
+#~ msgid "Remove"
+#~ msgstr "Törlés"
+
+#~ msgid "Table Borders"
+#~ msgstr "Táblázat keretek"
+
+#~ msgid "Table Fill"
+#~ msgstr "Táblázat kitöltés"
+
+#~ msgid "Text Bulleted List"
+#~ msgstr "Felsorolt Szöveg"
+
+#~ msgid "Text Numbered List"
+#~ msgstr "Sorszámozott Szöveg"
+
+#~ msgid "NotShown"
+#~ msgstr "NotShown"
+
+#~ msgid "Right Justify"
+#~ msgstr "Jobbra igazít"
+
+#~ msgid "If the item is right justified (e.g. for a Help menu)."
+#~ msgstr "Ha az elem jobbra van rendezve (pl. a Súgó menü)."
+
+#~ msgid "Right Justify:"
+#~ msgstr "Jobbra rendezés:"
+
+#~ msgid ""
+#~ "The radio menu item's group. Leave empty to use the parent menu's default "
+#~ "group."
+#~ msgstr ""
+#~ "A rádiógombok csoportja. Hagyd üresen ha a szülõ menü alapértelmezett "
+#~ "csoportját szeretnéd használni."
+
+#~ msgid "Apply"
+#~ msgstr "Alkalmaz"
+
+#~ msgid "Couldn't create pixmap from file:"
+#~ msgstr "Nem tudom elkészíteni a pixmap-et a fájlból:"
+
+#~ msgid "_New Project"
+#~ msgstr "Ú_j projekt"
+
+#~ msgid "_Build Source Code"
+#~ msgstr "_Forráskód építése"
+
+#~ msgid "_Project Options..."
+#~ msgstr "_Projekt beállításai..."
+
+#~ msgid "Open..."
+#~ msgstr "Megnyit..."
+
+#~ msgid "Write Source Code..."
+#~ msgstr "A forráskód írása..."
+
+#~ msgid "Project Options..."
+#~ msgstr "Projekt beállítások..."
+
+#~ msgid "Show Palette"
+#~ msgstr "Paletta mutatása"
+
+#~ msgid "Show Clipboard"
+#~ msgstr "Vágólap megjelenítése"
+
+#~ msgid "Set Grid Options..."
+#~ msgstr "Rács beállítások..."
+
+#~ msgid "Set Snap Options..."
+#~ msgstr "Tapadási beállítások..."
+
+# glade/glade_project_window.c:1589
+#~ msgid ""
+#~ "G L A D E\n"
+#~ "\n"
+#~ "A User Interface Builder for GTK+ and GNOME\n"
+#~ "\n"
+#~ "Version %s\n"
+#~ "\n"
+#~ "By\n"
+#~ "Damon Chaplin\n"
+#~ "Martijn van Beers\n"
+#~ "\n"
+#~ "Email: damon@gnome.org\n"
+#~ "Home Page: http://glade.gnome.org\n"
+#~ msgstr ""
+#~ "G L A D E\n"
+#~ "\n"
+#~ "Felhasználói Felület Építõ GTK+- és GNOME-hoz\n"
+#~ "\n"
+#~ "%s Verzió\n"
+#~ "\n"
+#~ "Készítették:\n"
+#~ "Martijn van Beers\n"
+#~ "Damon Chaplin\n"
+#~ "\n"
+#~ "Email: damon@gnome.org\n"
+#~ "Web: http://glade.gnome.org\n"
+
+# glade/load.c:159
+#~ msgid "Couldn't open file.\n"
+#~ msgstr "A fájlmegnyitás sikertelen.\n"
+
+# glade/load.c:586
+#~ msgid "Line %i - %s %s %s\n"
+#~ msgstr "Vonal %i - %s %s %s\n"
+
+#~ msgid ""
+#~ "Line %i - %s:\n"
+#~ "  %s = %s\n"
+#~ msgstr ""
+#~ "Vonal %i - %s:\n"
+#~ "  %s = %s\n"
+
+#~ msgid "Oaf options"
+#~ msgstr "Oaf beállítások"
+
+#~ msgid "The left edge of the widget, relative to its parent"
+#~ msgstr "A widget bal éle, a szülõjéhez viszonyítva"
+
+#~ msgid "The top edge of the widget, relative to its parent"
+#~ msgstr "A widget jobb éle, a szülõjéhez viszonyítva"
+
+#~ msgid "The width of the widget"
+#~ msgstr "A widget szélessége"
+
+#~ msgid "The height of the widget"
+#~ msgstr "A widget magassága"
+
+#~ msgid ""
+#~ "If the widget is allocated from the heap rather than from the parent's "
+#~ "memory block"
+#~ msgstr ""
+#~ "Ha a widget memóriaterülete a heap-rõl legyen lefoglalva, nem a szülõ "
+#~ "memóriaterületérõl"
+
+#~ msgid "Invalid stock button"
+#~ msgstr "Helytelen sablongomb"
+
+#~ msgid "Invalid stock pixmap"
+#~ msgstr "Helytelen sablonkép"
+
+#~ msgid "If the toggle indicator is always shown"
+#~ msgstr "Ha a kijelzõ alapértelmezésben be van kapcsolva"
+
+#~ msgid "The update policy of the color selection scales"
+#~ msgstr "A színválasztó skála frissítési szabálya"
+
+#~ msgid "Min Width:"
+#~ msgstr "Min szélesség:"
+
+#~ msgid "The minimum width of the buttons"
+#~ msgstr "A gombok minimális szélessége"
+
+#~ msgid "Min Height:"
+#~ msgstr "Min magasság:"
+
+#~ msgid "The minimum height of the buttons"
+#~ msgstr "A gombok minimális magassága"
+
+#~ msgid "The vertical padding of the buttons"
+#~ msgstr "A gombok függõleges bélése"
+
+#~ msgid "Handle Size:"
+#~ msgstr "Fogantyú mérete:"
+
+#~ msgid "The size of the handle"
+#~ msgstr "A fogantyú mérete"
+
+#~ msgid "Gutter Size:"
+#~ msgstr "Csatorna mérete:"
+
+#~ msgid "The size of the gutter"
+#~ msgstr "A csatorna mérete"
+
+#~ msgid "Image Width:"
+#~ msgstr "Kép szélesség:"
+
+#~ msgid "Image Height:"
+#~ msgstr "Kép magasság:"
+
+#~ msgid "Image Type:"
+#~ msgstr "Kép típus:"
+
+#~ msgid "Shared"
+#~ msgstr "Megosztott"
+
+#~ msgid "Fastest"
+#~ msgstr "Leggyorsabb"
+
+#~ msgid "Visual:"
+#~ msgstr "Látható:"
+
+#~ msgid "System"
+#~ msgstr "Rendszer"
+
+#~ msgid "Best"
+#~ msgstr "Legjobb"
+
+#~ msgid "The type of shadow around the menubar"
+#~ msgstr "A menüsor árnyékának típusa"
+
+#~ msgid "Edit Menu"
+#~ msgstr "Menü szerkesztése"
+
+#~ msgid "If the menu item is right-justified"
+#~ msgstr "Ha a menüpont jobbra van rendezve"
+
+#~ msgid "The items in the option menu, one per line"
+#~ msgstr "Az opció menü elemei, soronként egy"
+
+#~ msgid "Initial Choice:"
+#~ msgstr "Kezdõérték:"
+
+#~ msgid "The index of the initially selected item"
+#~ msgstr "Az alapértelmezett elem sorszáma"
+
+#~ msgid "Default Border:"
+#~ msgstr "Alap keret:"
+
+#~ msgid "The default border width of child widgets"
+#~ msgstr "Az alapértelmezett keretszélesség a gyermekeknél"
+
+#~ msgid "Default Pad X:"
+#~ msgstr "Alap X bélés:"
+
+#~ msgid "The default horizontal padding of child widgets"
+#~ msgstr "Az alapértelmezett vízszintes bélés a gyermekeknél"
+
+#~ msgid "Default Pad Y:"
+#~ msgstr "Alap Y bélés:"
+
+#~ msgid "The default vertical padding of child widgets"
+#~ msgstr "Az alapértelmezett függõleges bélés a gyermekeknél"
+
+#~ msgid "Default IPad X:"
+#~ msgstr "Alap X belbélés:"
+
+#~ msgid "The default internal horizontal padding of child widgets"
+#~ msgstr "Az alapértelmezett vízszintes belsõ bélés a gyermekeknél"
+
+#~ msgid "Default IPad Y:"
+#~ msgstr "Alap Y belbélés:"
+
+#~ msgid "The default internal vertical padding of child widgets"
+#~ msgstr "Az alapértelmezett függõleges belsõ bélés a gyermekeknél"
+
+#~ msgid "Side:"
+#~ msgstr "Oldal:"
+
+#~ msgid "The side of the remaining space to place the widget"
+#~ msgstr "A maradék helynek az az oldala, ahová a widget kerüljön"
+
+#~ msgid "Anchor:"
+#~ msgstr "Horgony"
+
+#~ msgid "Where to anchor the widget in its allocated area"
+#~ msgstr "Hova legyen a widget rögzítve a kijelölt helyen"
+
+#~ msgid "Fill X:"
+#~ msgstr "X feltöltés:"
+
+#~ msgid "Set True to let the widget fill its allocated width"
+#~ msgstr ""
+#~ "Állítsd igazra, ha a rendelkezésre álló teljes szélességet elfoglalja"
+
+#~ msgid "Fill Y:"
+#~ msgstr "Y feltöltés:"
+
+#~ msgid "Set True to let the widget fill its allocated height"
+#~ msgstr ""
+#~ "Állítsd igazra, hogy a rendelkezésre álló teljes magasságot elfoglalja"
+
+#~ msgid "Use Defaults:"
+#~ msgstr "Alapértelmezések használata:"
+
+#~ msgid ""
+#~ "Set True to use the parent GtkPacker's default settings for the border "
+#~ "width and all padding properties"
+#~ msgstr ""
+#~ "Állítsd igazra, hogy a GtkPacker alapbeállított keretvastagséga és bélése "
+#~ "érvényesüljön"
+
+#~ msgid "The size of the widget's border"
+#~ msgstr "A widget keret mérete"
+
+#~ msgid "The widget's horizontal external padding"
+#~ msgstr "A widget vízszintes külsõ bélése"
+
+#~ msgid "The widget's vertical external padding"
+#~ msgstr "A widget függõleges külsõ bélése"
+
+#~ msgid "H Int. Padding:"
+#~ msgstr "Vízsz belbélés:"
+
+#~ msgid "The widget's horizontal internal padding"
+#~ msgstr "A widget vízszintes belsõ bélése"
+
+#~ msgid "V Int. Padding:"
+#~ msgstr "Függ belbélés:"
+
+#~ msgid "The widget's vertical internal padding"
+#~ msgstr "A widget függõleges belsõ bélése"
+
+#~ msgid "Packer"
+#~ msgstr "Csomagoló"
+
+#~ msgid "Couldn't create pixmap from file"
+#~ msgstr "Nem tudom a pixmapot elkészíteni a fájlból"
+
+#~ msgid "Minimum Value:"
+#~ msgstr "Minimum érték:"
+
+#~ msgid "Maximum Value:"
+#~ msgstr "Maximum érték:"
+
+#~ msgid ""
+#~ "The format of the text, similar to sprintf. Use %P, %V, %L and %U to "
+#~ "insert the percentage, value, lower bound and upper bound respectively. "
+#~ "Use %1V or %2V to show 1 or 2 decimal places."
+#~ msgstr ""
+#~ "A szöveg formázása, az sprintf-hez hasonlóan. Használd a %P, %V, %L és %U "
+#~ "jeleket a százalékhoz, értékhez, alsó ill. felsõ korláthoz. Használj %1V "
+#~ "vagy %2V jelet az 1 vagy 2 tizedesjegy pontossághoz."
+
+#~ msgid "H Updates:"
+#~ msgstr "Vízsz frissítések:"
+
+#~ msgid "The update policy of the horizontal scrollbar"
+#~ msgstr "A vízszintes gördítõsáv frissítési szabálya"
+
+#~ msgid "V Updates:"
+#~ msgstr "Függ frissítések:"
+
+#~ msgid "Text Box"
+#~ msgstr "Szövegdoboz"
+
+#~ msgid "The size of spaces in the toolbar"
+#~ msgstr "Az eszközsor elemek közötti helyközök mérete"
+
+#~ msgid "Space Style:"
+#~ msgstr "Helyköz stílus:"
+
+#~ msgid "The way spaces in the toolbar are displayed"
+#~ msgstr "A helyközök megjelenítésének módja az eszközsorban"
+
+#~ msgid "The relief style of the toolbar buttons"
+#~ msgstr "Az eszközsor gombok kiemelkedése"
+
+#~ msgid "The selection mode of the tree"
+#~ msgstr "A fa kiválasztási módja"
+
+#~ msgid "View Mode:"
+#~ msgstr "Nézet mód:"
+
+#~ msgid "The view mode of the tree"
+#~ msgstr "A fastruktúra megjelenítési módja"
+
+#~ msgid "View Lines:"
+#~ msgstr "Vonalak:"
+
+#~ msgid "If lines are displayed between items"
+#~ msgstr "Ha vonalak vannak az elemek között"
+
+#~ msgid "Tree"
+#~ msgstr "Fa"
+
+#~ msgid "Tree Item"
+#~ msgstr "Fa elem"
+
+#~ msgid "Auto Shrink:"
+#~ msgstr "Auto. szûkítés:"
+
+#~ msgid "If the window shrinks automatically"
+#~ msgstr "Ha az ablak automatikusan beszûkül"
+
+#~ msgid "The type of the clock"
+#~ msgstr "Az óra típusa"
+
+#~ msgid ""
+#~ "The format of the time to display. Use %H, %M and %S to insert the hour, "
+#~ "minute and seconds values"
+#~ msgstr ""
+#~ "Az óra formátuma. Használd a %H, %M, %S jeleket az órához, perchez ill. a "
+#~ "másodperchez."
+
+#~ msgid "Seconds:"
+#~ msgstr "Másodpercek:"
+
+#~ msgid "The starting time"
+#~ msgstr "Kezdõ idõ"
+
+#~ msgid "Interval:"
+#~ msgstr "Intervallum:"
+
+#~ msgid "The time between updates, in seconds"
+#~ msgstr "A frissítések közötti idõ, másodpercben"
+
+#~ msgid "View Only:"
+#~ msgstr "Csak nézni:"
+
+#~ msgid "If the dial can not be changed by the user"
+#~ msgstr "Ha a mutatókat a felhasználó nem állíthatja"
+
+#~ msgid "The update policy of the dial"
+#~ msgstr "A mutató frissítési szabálya"
+
+#~ msgid "Dial"
+#~ msgstr "Óramutató"
+
+#~ msgid "Invalid stock menu pixmap"
+#~ msgstr "Hibás sablon menü pixmap"
+
+#~ msgid "Authors: "
+#~ msgstr "Szerzõk:"
+
+#~ msgid "Loop Type:"
+#~ msgstr "Ciklus típusa:"
+
+#~ msgid "If the animation loops, and in what way"
+#~ msgstr "Ha az animáció ismétlõdik, és hogy milyen módon"
+
+#~ msgid "If the initial direction is reversed"
+#~ msgstr "Ha a kezdeti irány megforduljon"
+
+#~ msgid "Speed:"
+#~ msgstr "Sebesség:"
+
+#~ msgid "The playback speed"
+#~ msgstr "A lejátszás sebessége"
+
+#~ msgid "Gnome Animator"
+#~ msgstr "Gnome Animáló"
+
+#~ msgid "Gnome Calculator"
+#~ msgstr "Gnome Számológép"
+
+#~ msgid "Couldn't load image from file"
+#~ msgstr "Nem tudom betölteni a képet a fájlból"
+
+#~ msgid "Couldn't load image from file\n"
+#~ msgstr "Nem tudom betölteni a képet a fájlból\n"
+
+#~ msgid "Druid Start Page"
+#~ msgstr "Varázsló kezdõ lap"
+
+#~ msgid "Example output from GnomeLess widget.\n"
+#~ msgstr "Példa a GnomeLess kimenetére.\n"
+
+#~ msgid "The font to use for the text"
+#~ msgstr "A szöveghez használt betûtípus"
+
+#~ msgid "Gnome Less"
+#~ msgstr "Gnome Less"
+
+#~ msgid "The title of the calculator dialog"
+#~ msgstr "A számológép ablak címkéje"
+
+#~ msgid "Calculator"
+#~ msgstr "Számológép"
+
+#~ msgid "GnomeNumberEntry"
+#~ msgstr "Gnome Szám "
+
+#~ msgid "Spell Checker"
+#~ msgstr "Helyesírás ellenõrzõ"
+
+#~ msgid "Gnome Stock Pixmap"
+#~ msgstr "Gnome Sablon Pixmap"
+
+#~ msgid "Database Dataset"
+#~ msgstr "Adatbázis adathalmaz"
+
+#~ msgid "Database Icon List"
+#~ msgstr "Adatbázisikon-lista"
+
+#~ msgid "Database report"
+#~ msgstr "Adatbázis jelentés"

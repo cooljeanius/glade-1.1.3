@@ -1,0 +1,5159 @@
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# pclouds <pclouds@gmx.net>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: glade VERSION\n"
+"POT-Creation-Date: 2002-11-03 00:49+0000\n"
+"PO-Revision-Date: 2002-07-26 21:18+0700\n"
+"Last-Translator: pclouds <pclouds@gmx.net>\n"
+"Language-Team: GnomeVI <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: glade-2.desktop.in.h:1
+msgid "GTK+ 2.0 GUI builder"
+msgstr "Trình tạo GUI GTK+ 2.0"
+
+#: glade-2.desktop.in.h:2
+msgid "Glade Interface Designer"
+msgstr "Bộ thiết kế giao diện Glade"
+
+#: glade/editor.c:307
+msgid "Grid Options"
+msgstr "Tùy chọn lưới"
+
+#: glade/editor.c:321
+msgid "Horizontal Spacing:"
+msgstr "Khoảng trống ngang:"
+
+#: glade/editor.c:336
+msgid "Vertical Spacing:"
+msgstr "Khoảng trống dọc:"
+
+#: glade/editor.c:354
+msgid "Grid Style:"
+msgstr "Loại lưới:"
+
+#: glade/editor.c:360
+msgid "Dots"
+msgstr "Chấm"
+
+#: glade/editor.c:369
+msgid "Lines"
+msgstr "Hàng"
+
+#: glade/editor.c:451
+msgid "Snap Options"
+msgstr "Tùy chọn dính"
+
+#. Horizontal snapping
+#: glade/editor.c:466
+msgid "Horizontal Snapping:"
+msgstr "Dính ngang:"
+
+#: glade/editor.c:472 glade/gbwidgets/gbtextview.c:46
+msgid "Left"
+msgstr "Trái"
+
+#: glade/editor.c:481 glade/gbwidgets/gbtextview.c:47
+msgid "Right"
+msgstr "Phải"
+
+#. Vertical snapping
+#: glade/editor.c:490
+msgid "Vertical Snapping:"
+msgstr "Dính dọc:"
+
+#: glade/editor.c:496
+msgid "Top"
+msgstr "Đỉnh"
+
+#: glade/editor.c:504
+msgid "Bottom"
+msgstr "Đáy"
+
+#: glade/editor.c:709
+msgid "Couldn't insert a GtkScrolledWindow widget."
+msgstr "Không thể chèn GtkScrolledWindow widget."
+
+#: glade/editor.c:746
+msgid "Couldn't insert a GtkViewport widget."
+msgstr "Không thể chèn GtkViewport widget."
+
+#: glade/editor.c:773
+msgid "Couldn't add new widget."
+msgstr "Không thể thêm widget mới."
+
+#: glade/editor.c:1129
+msgid ""
+"You can't add a widget at the selected position.\n"
+"\n"
+"Tip: GTK+ uses containers to lay out widgets.\n"
+"Try deleting the existing widget and using\n"
+"a box or table container instead.\n"
+msgstr ""
+"Bạn không thể thêm widget vào vị trí đã chọn.\n"
+"\n"
+"Mẹo: GTK+ dùng container để bố trí các widget.\n"
+"Hãy thử xóa widget đã có và dùng một box hoặc\n"
+"table container thay thế.\n"
+
+#: glade/editor.c:3324
+msgid "Couldn't delete widget."
+msgstr "Không thể xóa widget."
+
+#: glade/editor.c:3348 glade/editor.c:3352
+msgid "The widget can't be deleted"
+msgstr "Không thể xóa widget."
+
+#: glade/editor.c:3379
+msgid ""
+"The widget is created automatically as part of the parent widget, and it "
+"can't be deleted."
+msgstr ""
+"Widget được tạo tự động như là một phần của widget cha, và nó không thể bị "
+"xóa."
+
+#: glade/gbwidget.c:691
+msgid "Border Width:"
+msgstr "Bề rộng viền:"
+
+#: glade/gbwidget.c:692
+msgid "The width of the border around the container"
+msgstr "Bề rộng của đường viền chung quanh container"
+
+#: glade/gbwidget.c:1732
+msgid "Select"
+msgstr "Chọn"
+
+#: glade/gbwidget.c:1754
+msgid "Remove Scrolled Window"
+msgstr "gỡ bỏ Scrolled Window"
+
+#: glade/gbwidget.c:1763
+msgid "Add Scrolled Window"
+msgstr "Thêm Scrolled Window"
+
+#: glade/gbwidget.c:1784
+msgid "Remove Alignment"
+msgstr "gỡ bỏ Alignment"
+
+#: glade/gbwidget.c:1792
+msgid "Add Alignment"
+msgstr "Thêm Alignment"
+
+#: glade/gbwidget.c:1807
+msgid "Remove Event Box"
+msgstr "gỡ bỏ Event Box"
+
+#: glade/gbwidget.c:1815
+msgid "Add Event Box"
+msgstr "Thêm Event Box"
+
+#: glade/gbwidget.c:1825
+msgid "Redisplay"
+msgstr "Hiển thị lại"
+
+#: glade/gbwidget.c:1836
+msgid "Cut"
+msgstr "Cắt"
+
+#: glade/gbwidget.c:1843 glade/property.c:864 glade/property.c:4659
+msgid "Copy"
+msgstr "Sao chép"
+
+#: glade/gbwidget.c:1852 glade/property.c:876
+msgid "Paste"
+msgstr "Dán"
+
+#: glade/gbwidget.c:1864 glade/property.c:1549 glade/property.c:4650
+msgid "Delete"
+msgstr "Xóa"
+
+#. N/A stands for 'Not Applicable'. It is used when a standard widget
+#. property does not apply to the current widget. e.g. widgets without
+#. windows can't use the Events property. This appears in the property
+#. editor and so should be a short abbreviation.
+#: glade/gbwidget.c:2411 glade/gbwidget.c:2480
+msgid "N/A"
+msgstr "N/A"
+
+#. General code for container - has to remove all children and add back
+#. NOTE: this may not work for specialised containers.
+#. NOTE: need to ref widgets?
+#: glade/gbwidget.c:3163
+msgid "replacing child of container - not implemented yet\n"
+msgstr "đang thay thế con của container - chưa được làm\n"
+
+#: glade/gbwidget.c:3391
+msgid "Couldn't insert GtkAlignment widget."
+msgstr "Không thể chèn GtkAlignment widget."
+
+#: glade/gbwidget.c:3431
+msgid "Couldn't remove GtkAlignment widget."
+msgstr "Không thể gỡ bỏ GtkAlignment widget."
+
+#: glade/gbwidget.c:3455
+msgid "Couldn't insert GtkEventBox widget."
+msgstr "Không thể chèn GtkEventBox widget."
+
+#: glade/gbwidget.c:3494
+msgid "Couldn't remove GtkEventBox widget."
+msgstr "Không thể gỡ bỏ GtkEventBox widget."
+
+#: glade/gbwidget.c:3529
+msgid "Couldn't insert GtkScrolledWindow widget."
+msgstr "Không thể chèn GtkScrolledWindow widget."
+
+#: glade/gbwidget.c:3568
+msgid "Couldn't remove GtkScrolledWindow widget."
+msgstr "Không thể loại bỏ GtkScrolledWindow widget."
+
+#: glade/gbwidget.c:3682
+msgid "Remove Label"
+msgstr "Gỡ bỏ Label"
+
+#: glade/gbwidgets/gbdialog.c:303 glade/glade.c:193
+#: glade/glade_project_window.c:1194 glade/property.c:4680
+msgid "OK"
+msgstr "Đồng ý"
+
+#: glade/glade.c:195 glade/gnome-db/gnomedberrordlg.c:67
+msgid "Error"
+msgstr "Lỗi"
+
+#: glade/glade.c:198
+msgid "System Error"
+msgstr "Lỗi hệ thống"
+
+#: glade/glade.c:202
+msgid "Error opening file"
+msgstr "Lỗi mở tập tin"
+
+#: glade/glade.c:204
+msgid "Error reading file"
+msgstr "Lỗi đọc tập tin"
+
+#: glade/glade.c:206
+msgid "Error writing file"
+msgstr "Lỗi ghi tập tin"
+
+#: glade/glade.c:209
+msgid "Invalid directory"
+msgstr "Thư mục không hợp lệ"
+
+#: glade/glade.c:213
+msgid "Invalid value"
+msgstr "Giá trị không hợp lệ"
+
+#: glade/glade.c:215
+msgid "Invalid XML entity"
+msgstr "Thực thể XML không hợp lệ"
+
+#: glade/glade.c:217
+msgid "Start tag expected"
+msgstr "Yêu cầu Start tag"
+
+#: glade/glade.c:219
+msgid "End tag expected"
+msgstr "Yêu cầu End tag"
+
+#: glade/glade.c:221
+msgid "Character data expected"
+msgstr "Yêu cầu character data"
+
+#: glade/glade.c:223
+msgid "Class id missing"
+msgstr "Thiếu Class id"
+
+#: glade/glade.c:225
+msgid "Class unknown"
+msgstr "Class lạ"
+
+#: glade/glade.c:227
+msgid "Invalid component"
+msgstr "Thành phần không hợp lệ"
+
+#: glade/glade.c:229
+msgid "Unexpected end of file"
+msgstr "Kết thúc tập tin bất thường"
+
+#: glade/glade.c:232
+msgid "Unknown error code"
+msgstr "Mã lỗi lạ"
+
+#: glade/glade_atk.c:120
+msgid "Controlled By"
+msgstr "Điều khiển bởi"
+
+#: glade/glade_atk.c:121
+msgid "Controller For"
+msgstr "Điểu khiển cho"
+
+#: glade/glade_atk.c:122
+msgid "Label For"
+msgstr "Label của"
+
+#: glade/glade_atk.c:123
+msgid "Labelled By"
+msgstr "Label bởi"
+
+#: glade/glade_atk.c:124
+msgid "Member Of"
+msgstr "Thành viên của"
+
+#: glade/glade_atk.c:125
+msgid "Node Child Of"
+msgstr "Nút con của"
+
+#. I don't think we should set the transient parent as the dialog could be
+#. left open if desired.
+#: glade/glade_atk.c:324
+#, c-format
+msgid "Relationship: %s"
+msgstr "Mối quan hệ: %s"
+
+#. Create the pages of the main notebook
+#. NOTE: If you add/remove pages you need to change the GB_PAGE_SIGNALS
+#. value at the top of this file
+#: glade/glade_atk.c:368 glade/property.c:606
+msgid "Widget"
+msgstr "Widget"
+
+#: glade/glade_atk.c:629 glade/glade_menu_editor.c:763 glade/property.c:748
+msgid "Name:"
+msgstr "Tên:"
+
+#: glade/glade_atk.c:630
+msgid "The name of the widget to pass to assistive technologies"
+msgstr "Tên của widget chuyển cho assistive technologies"
+
+#: glade/glade_atk.c:631
+msgid "Description:"
+msgstr "Mô tả:"
+
+#: glade/glade_atk.c:632
+msgid "The description of the widget to pass to assistive technologies"
+msgstr "Mô tả về widget để chuyển cho assistive technologies"
+
+#: glade/glade_atk.c:634
+msgid "Table Caption:"
+msgstr "Tiêu đề Table:"
+
+#: glade/glade_atk.c:635
+msgid "The table caption to pass to assistive technologies"
+msgstr "Tiêu đề table chuyển cho assistive technologies"
+
+#: glade/glade_atk.c:672
+msgid "Select the widgets with this relationship"
+msgstr "Chọn widget có quan hệ này"
+
+#: glade/glade_atk.c:752
+msgid "Click"
+msgstr "Click"
+
+#: glade/glade_atk.c:753
+msgid "Press"
+msgstr "Nhấn"
+
+#: glade/glade_atk.c:754
+msgid "Release"
+msgstr "Nhả"
+
+#: glade/glade_atk.c:813
+msgid "Enter the description of the action to pass to assistive technologies"
+msgstr "Nhập mô tả của hành động chuyển cho assistive technologies"
+
+#: glade/glade_clipboard.c:117
+msgid "Clipboard"
+msgstr "Clipboard"
+
+#: glade/glade_clipboard.c:346
+msgid "You need to select a widget to paste into"
+msgstr "Bạn cần chọn widget để dán vào"
+
+#: glade/glade_clipboard.c:371
+msgid "You can't paste into windows or dialogs."
+msgstr "Bạn không thể dán vào window hay dialog."
+
+#: glade/glade_clipboard.c:394
+msgid ""
+"You can't paste into the selected widget, since\n"
+"it is created automatically by its parent."
+msgstr ""
+"Bạn không thể dán vào widget được chọn, vì nó được\n"
+"tạo tự động bởi cha nó."
+
+#: glade/glade_clipboard.c:403 glade/glade_clipboard.c:411
+msgid "Only menu items can be pasted into a menu or menu bar."
+msgstr "Chỉ có menu item có thể được dán vào menu hay menubar"
+
+#: glade/glade_clipboard.c:422
+msgid "Only buttons can be pasted into a dialog action area."
+msgstr "Chỉ có nút mới có thể được dán vào vùng dialog action area."
+
+#: glade/glade_clipboard.c:432
+msgid "Only GnomeDockItem widgets can be pasted into a GnomeDock."
+msgstr "Chỉ có GnomeDockItem widget mới có thể được dán vào GnomeDock."
+
+#: glade/glade_clipboard.c:441
+msgid "Only GnomeDockItem widgets can be pasted over a GnomeDockItem."
+msgstr "Chỉ có GnomeDockItem widget mới có thể được dán trên GnomeDockItem."
+
+#: glade/glade_clipboard.c:444
+msgid "Sorry - pasting over a GnomeDockItem is not implemented yet."
+msgstr "Rất tiếc - dán lên GnomeDockItem chưa được làm."
+
+#: glade/glade_clipboard.c:452
+msgid "GnomeDockItem widgets can only be pasted into a GnomeDock."
+msgstr "GnomeDockItem widget chỉ có thể được dán vào GnomeDock."
+
+#. Add a "None" item first, so it is easy to reset the pixmap.
+#: glade/gbwidgets/gbtextview.c:68 glade/glade_gnome.c:112
+#: glade/glade_menu_editor.c:540 glade/glade_menu_editor.c:820
+#: glade/glade_menu_editor.c:1323 glade/glade_menu_editor.c:2231
+#: glade/property.c:2153
+msgid "None"
+msgstr "Không"
+
+#. 3 - see GladeStockMenuItemNew above.
+#: glade/glade_gnome.c:121 glade/glade_gnome.c:874
+#: glade/glade_project_window.c:189 glade/glade_project_window.c:597
+msgid "_New"
+msgstr "_Mới"
+
+#: glade/glade_gnome.c:874 glade/gnome/bonobowindow.c:65
+msgid "Create a new file"
+msgstr "Tạo tập tin mới"
+
+#: glade/glade_gnomelib.c:181
+msgid "_Gnome"
+msgstr "_Gnome"
+
+#: glade/glade_gnomelib.c:182 glade/glade_gtk12lib.c:315
+#: glade/glade_palette.c:315
+msgid "Dep_recated"
+msgstr "_Lỗi thời"
+
+#: glade/glade_gtk12lib.c:313
+msgid "GTK+ _Basic"
+msgstr "GTK+ _Cơ bản"
+
+#: glade/glade_gtk12lib.c:314
+msgid "GTK+ _Additional"
+msgstr "GTK+ _Bổ sung"
+
+#: glade/glade_keys_dialog.c:94
+msgid "Select Accelerator Key"
+msgstr "Chọn Accelerator Key"
+
+#: glade/glade_keys_dialog.c:97
+msgid "Keys"
+msgstr "Key"
+
+#: glade/glade_menu_editor.c:392
+msgid "Menu Editor"
+msgstr "Bộ biên tập menu"
+
+#: glade/gbwidgets/gblabel.c:696 glade/glade_menu_editor.c:408
+msgid "Label"
+msgstr "Label"
+
+#: glade/glade_menu_editor.c:409
+msgid "Type"
+msgstr "Loại"
+
+#: glade/glade_menu_editor.c:410
+msgid "Accelerator"
+msgstr "Accelerator"
+
+#: glade/glade_menu_editor.c:411
+msgid "Name"
+msgstr "Tên"
+
+#: glade/glade_menu_editor.c:412 glade/property.c:1467
+msgid "Handler"
+msgstr "Handler"
+
+#: glade/glade_menu_editor.c:413 glade/property.c:102
+msgid "Active"
+msgstr "Hoạt động"
+
+#: glade/glade_menu_editor.c:414
+msgid "Group"
+msgstr "Nhóm"
+
+#: glade/glade_menu_editor.c:415
+msgid "Icon"
+msgstr "Biểu tượng"
+
+#: glade/glade_menu_editor.c:456
+msgid "Move the item and its children up one place in the list"
+msgstr "Chuyển mục và con của nó lên trên"
+
+#: glade/glade_menu_editor.c:468
+msgid "Move the item and its children down one place in the list"
+msgstr "Chuyển mục và con của nó xuống dưới"
+
+#: glade/glade_menu_editor.c:480
+msgid "Move the item and its children up one level"
+msgstr "Chuyển mục và con của nó lên trên một cấp"
+
+#: glade/glade_menu_editor.c:492
+msgid "Move the item and its children down one level"
+msgstr "Chuyển mục và con của nó xuống dưới một cấp"
+
+#: glade/glade_menu_editor.c:522
+msgid "The stock item to use."
+msgstr "Stock item cần dùng."
+
+#: glade/glade_menu_editor.c:525 glade/glade_menu_editor.c:633
+msgid "Stock Item:"
+msgstr "Stock Item:"
+
+#: glade/glade_menu_editor.c:631
+msgid "The stock Gnome item to use."
+msgstr "Stock Gnome cần dùng."
+
+#: glade/glade_menu_editor.c:736
+msgid ""
+"The text of the menu item, or empty for separators. Hit return to add a new "
+"item below this one. Ctl-Return adds a child item beneath this one."
+msgstr ""
+"Text trong menu item, hoặc rỗng (coi như là separator). Nhấn Enter để thêm "
+"một mục mới dưới mục này. Nhấn Control-Enter để thêm mục con trong mục này."
+
+#. For now we don't support editing the menuitem properties in the property
+#. editor. The menu editor has to be used instead.
+#: glade/gbwidgets/gbbutton.c:134 glade/gbwidgets/gbcheckbutton.c:87
+#: glade/gbwidgets/gbcheckmenuitem.c:72 glade/gbwidgets/gbimagemenuitem.c:92
+#: glade/gbwidgets/gblabel.c:134 glade/gbwidgets/gblistitem.c:73
+#: glade/gbwidgets/gbmenuitem.c:87 glade/gbwidgets/gbradiobutton.c:136
+#: glade/gbwidgets/gbradiomenuitem.c:103 glade/gbwidgets/gbtogglebutton.c:98
+#: glade/glade_menu_editor.c:738 glade/gnome/gnomehref.c:67
+msgid "Label:"
+msgstr "Label:"
+
+#: glade/glade_menu_editor.c:760 glade/property.c:749
+msgid "The name of the widget"
+msgstr "Tên của widget"
+
+#: glade/glade_menu_editor.c:781
+msgid "The function to be called when the item is selected"
+msgstr "Hàm được gọi khi item được chọn"
+
+#: glade/glade_menu_editor.c:783 glade/property.c:1515
+msgid "Handler:"
+msgstr "Handler:"
+
+#: glade/glade_menu_editor.c:802
+msgid "An optional icon to show on the left of the menu item."
+msgstr "Biểu tượng tùy chọn để hiển thị bên trái của menu item."
+
+#: glade/gbwidgets/gbbutton.c:135 glade/gbwidgets/gbcheckbutton.c:88
+#: glade/gbwidgets/gbimage.c:103 glade/gbwidgets/gbradiobutton.c:137
+#: glade/gbwidgets/gbtogglebutton.c:99 glade/gbwidgets/gbwindow.c:220
+#: glade/glade_menu_editor.c:804
+msgid "Icon:"
+msgstr "Biểu tượng:"
+
+#: glade/glade_menu_editor.c:913
+msgid "The tip to show when the mouse is over the item"
+msgstr "Text cần hiển thị khi chuột di chuyển qua item"
+
+#: glade/glade_menu_editor.c:915 glade/property.c:796
+msgid "Tooltip:"
+msgstr "Tooltip:"
+
+#: glade/glade_menu_editor.c:936
+msgid "_Add"
+msgstr "_Thêm"
+
+#: glade/glade_menu_editor.c:941
+msgid "Add a new item below the selected item."
+msgstr "Thêm một item mới dưới item được chọn"
+
+#: glade/glade_menu_editor.c:946
+msgid "Add _Child"
+msgstr "Thêm _con"
+
+#: glade/glade_menu_editor.c:951
+msgid "Add a new child item below the selected item."
+msgstr "Thêm một item con mới dưới item được chọn."
+
+#: glade/glade_menu_editor.c:957
+msgid "Add _Separator"
+msgstr "Thêm _Separator"
+
+#: glade/glade_menu_editor.c:962
+msgid "Add a separator below the selected item."
+msgstr "Thêm saparator dưới item được chọn"
+
+#: glade/glade_menu_editor.c:967 glade/glade_project_window.c:220
+msgid "_Delete"
+msgstr "_Xóa"
+
+#: glade/glade_menu_editor.c:972
+msgid "Delete the current item"
+msgstr "Xóa item hiện thời"
+
+#. Type radio options and toggle options.
+#: glade/glade_menu_editor.c:978
+msgid "Item Type:"
+msgstr "Loại item:"
+
+#: glade/glade_menu_editor.c:994
+msgid "If the item is initially on."
+msgstr "Mục này đã có lúc khởi động?"
+
+#: glade/glade_menu_editor.c:996
+msgid "Active:"
+msgstr "Hoạt động:"
+
+#: glade/glade_menu_editor.c:1001 glade/glade_menu_editor.c:1611
+#: glade/property.c:1937 glade/property.c:1947
+msgid "No"
+msgstr "Không"
+
+#: glade/glade_menu_editor.c:1015
+msgid "The radio menu item's group"
+msgstr "Nhóm của mục menu chọn"
+
+#: glade/gbwidgets/gbradiobutton.c:150 glade/gbwidgets/gbradiomenuitem.c:106
+#: glade/glade_menu_editor.c:1017
+msgid "Group:"
+msgstr "Nhóm:"
+
+#: glade/glade_menu_editor.c:1032 glade/glade_menu_editor.c:2386
+#: glade/glade_menu_editor.c:2526
+msgid "Radio"
+msgstr "Radio"
+
+#: glade/glade_menu_editor.c:1039 glade/glade_menu_editor.c:2384
+#: glade/glade_menu_editor.c:2524
+msgid "Check"
+msgstr "Check"
+
+#: glade/glade_menu_editor.c:1046 glade/property.c:102
+msgid "Normal"
+msgstr "Bình thường"
+
+#. Accelerator key options.
+#: glade/glade_menu_editor.c:1055
+msgid "Accelerator:"
+msgstr "Accelerator:"
+
+#: glade/glade_menu_editor.c:1092 glade/property.c:1650
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: glade/glade_menu_editor.c:1097 glade/property.c:1653
+msgid "Shift"
+msgstr "Shift"
+
+#: glade/glade_menu_editor.c:1102 glade/property.c:1656
+msgid "Alt"
+msgstr "Alt"
+
+#: glade/glade_menu_editor.c:1107 glade/property.c:1663
+msgid "Key:"
+msgstr "Phím:"
+
+#: glade/glade_menu_editor.c:1113 glade/property.c:1642
+msgid "Modifiers:"
+msgstr "Modifiers:"
+
+#: glade/glade_menu_editor.c:1611 glade/glade_menu_editor.c:2391
+#: glade/glade_menu_editor.c:2534 glade/property.c:1937
+msgid "Yes"
+msgstr "Có"
+
+#: glade/glade_menu_editor.c:1979
+msgid "Select icon"
+msgstr "Chọn biểu tượng"
+
+#: glade/glade_menu_editor.c:2325 glade/glade_menu_editor.c:2686
+msgid "separator"
+msgstr "separator"
+
+#. Add the special 'New' item to create a new group.
+#: glade/glade_menu_editor.c:3604 glade/glade_project_window.c:346
+#: glade/property.c:4633
+msgid "New"
+msgstr "Mới"
+
+#: glade/glade_palette.c:194 glade/glade_palette.c:196
+#: glade/glade_palette.c:413
+msgid "Selector"
+msgstr "Bộ chọn"
+
+#: glade/glade_project.c:380
+msgid ""
+"The project directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"Thư chọn thư mục project.\n"
+"Vui lòng chọn thư mục dự án trong hộp thoại Thông số project.\n"
+
+#: glade/glade_project.c:387
+msgid ""
+"The source directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"Chưa chọn thư mục source.\n"
+"Vui lòng chọn thư mục source trong hộp thoại Thông số project.\n"
+
+#: glade/glade_project.c:397
+msgid ""
+"Invalid source directory:\n"
+"\n"
+"The source directory must be the project directory\n"
+"or a subdirectory of the project directory.\n"
+msgstr ""
+"Thư mục source không hợp lệ:\n"
+"\n"
+"Thư mục source phải là thư mục project hoặc là thư mục\n"
+"con của thư mục project.\n"
+
+#: glade/glade_project.c:405
+msgid ""
+"The pixmaps directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"Chưa đặt thư mục pixmap.\n"
+"Vui lòng chọn đặt thư mục pixmap dùng hộp thoại Tùy chọn dự án.\n"
+
+#: glade/glade_project.c:433
+#, c-format
+msgid "Sorry - generating source for %s is not implemented yet"
+msgstr "Rất tiếc - chưa thể thực hiện việc phát sinh mã nguồn cho %s được"
+
+#: glade/glade_project.c:461
+#, fuzzy
+msgid ""
+"Error running glade-- to generate the C++ source code.\n"
+"Check that you have glade-- installed and that it is in your PATH.\n"
+"Then try running 'glade-- <project_file.glade>' in a terminal."
+msgstr ""
+"Lỗi chạy glade-- để phát sinh mã nguồn C++.\n"
+"Hãy kiểm tra xem glade-- đã được cài đặt đúng chưa và có trong PATH không."
+
+#: glade/glade_project.c:484
+msgid ""
+"Error running gate to generate the Ada95 source code.\n"
+"Check that you have gate installed and that it is in your PATH."
+msgstr ""
+"Lỗi chạy gate để phát sinh mã nguồn Ada95.\n"
+"Hạy kiểm tra xem gate đã được cài đặt chưa và có trong PATH không."
+
+#: glade/glade_project.c:506
+msgid ""
+"Error running glade2perl to generate the Perl source code.\n"
+"Check that you have glade2perl installed and that it is in your PATH."
+msgstr ""
+"Lỗi chạy glade2perl để phát sinh mã nguồn Perl.\n"
+"Hạy kiểm tra xem glade2perl đã được cài đặt chưa và có trong PATH không."
+
+#: glade/glade_project.c:528
+msgid ""
+"Error running eglade to generate the Eiffel source code.\n"
+"Check that you have eglade installed and that it is in your PATH."
+msgstr ""
+"Lỗi chạy eglade để phát sinh mã nguồn Eiffel.\n"
+"Hạy kiểm tra xem eglade đã được cài đặt chưa và có trong PATH không."
+
+#: glade/glade_project.c:887
+msgid ""
+"The pixmap directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"Chưa chọn thư mục pixmap.\n"
+"Vui lòng chọn thư mục pixmap trong hộp thoại Thông số project.\n"
+
+#: glade/glade_project.c:1697
+msgid "Error writing project XML file\n"
+msgstr "Lỗi ghi tập tin project XML\n"
+
+#: glade/glade_project_options.c:142 glade/glade_project_window.c:362
+#: glade/glade_project_window.c:846
+msgid "Project Options"
+msgstr "Thông số dự án"
+
+#.
+#. * General Page.
+#.
+#: glade/glade_project_options.c:159
+msgid "General"
+msgstr "Chung"
+
+#: glade/glade_project_options.c:168
+msgid "Basic Options:"
+msgstr "Thông số cơ bản:"
+
+#: glade/glade_project_options.c:186
+msgid "The project directory"
+msgstr "Thư mục project"
+
+#: glade/glade_project_options.c:188
+msgid "Project Directory:"
+msgstr "Thư mục dự án:"
+
+#: glade/glade_project_options.c:206
+msgid "Browse..."
+msgstr "Duyệt..."
+
+#: glade/glade_project_options.c:221
+msgid "The name of the current project"
+msgstr "Tên của project hiện thời"
+
+#: glade/glade_project_options.c:223
+msgid "Project Name:"
+msgstr "Tên dự án:"
+
+#: glade/glade_project_options.c:243
+msgid "The name of the program"
+msgstr "Tên của chương trình"
+
+#: glade/glade_project_options.c:245
+msgid "Program Name:"
+msgstr "Tên chương trình:"
+
+#: glade/glade_project_options.c:266
+msgid "The project file"
+msgstr "Tập tin project"
+
+#: glade/glade_project_options.c:268
+msgid "Project File:"
+msgstr "Tập tin project:"
+
+#. Project Source Directory.
+#: glade/glade_project_options.c:284
+msgid "Subdirectories:"
+msgstr "Thư mục con:"
+
+#: glade/glade_project_options.c:301
+msgid "The directory to save generated source code"
+msgstr "Thư mục lưu source code"
+
+#: glade/glade_project_options.c:304
+msgid "Source Directory:"
+msgstr "Thư mục source:"
+
+#: glade/glade_project_options.c:323
+msgid "The directory to store pixmaps"
+msgstr "Thư mục lưu pixmap"
+
+#: glade/glade_project_options.c:326
+msgid "Pixmaps Directory:"
+msgstr "Thư mục pixmap:"
+
+#: glade/glade_project_options.c:348
+msgid "The license which is added at the top of generated files"
+msgstr "Giấy phép được thêm vào đầu mỗi tập tin được tạo ra"
+
+#: glade/glade_project_options.c:350
+msgid "License:"
+msgstr "Giấy phép:"
+
+#. Source Language.
+#: glade/glade_project_options.c:370
+msgid "Language:"
+msgstr "Ngôn ngữ:"
+
+#: glade/glade_project_options.c:401
+msgid "Gnome:"
+msgstr "Gnome:"
+
+#: glade/glade_project_options.c:409
+msgid "Enable Gnome Support"
+msgstr "Bật hỗ trợ Gnome"
+
+#: glade/glade_project_options.c:415
+msgid "If a Gnome application is to be built"
+msgstr "Có phải là ứng dụng Gnome hay không"
+
+#: glade/glade_project_options.c:418
+msgid "Enable Gnome DB Support"
+msgstr "Bật hỗ trợ Gnome DB"
+
+#: glade/glade_project_options.c:422
+msgid "If a Gnome DB application is to be built"
+msgstr "Có phải là ứng dụng Gnome DB hay không"
+
+#.
+#. * C Options Page.
+#.
+#: glade/glade_project_options.c:432
+msgid "C Options"
+msgstr "Tùy chọn C"
+
+#: glade/glade_project_options.c:445
+msgid "General Options:"
+msgstr "Tùy chọn chung:"
+
+#. Gettext Support.
+#: glade/glade_project_options.c:455
+msgid "Gettext Support"
+msgstr "Hỗ trợ Gettext"
+
+#: glade/glade_project_options.c:460
+msgid "If strings are marked for translation by gettext"
+msgstr "Chuỗi có được đánh dấu để sử dụng với gettext không"
+
+#. Setting widget names.
+#: glade/glade_project_options.c:464
+msgid "Set Widget Names"
+msgstr "Đặt tên widget"
+
+#: glade/glade_project_options.c:469
+msgid "If widget names are set in the source code"
+msgstr "Tên widget trong source code"
+
+#. Backing up source files.
+#: glade/glade_project_options.c:473
+msgid "Backup Source Files"
+msgstr "Sao lưu tập tin source"
+
+#: glade/glade_project_options.c:478
+msgid "If copies of old source files are made"
+msgstr "Có cần sao lưu tập tin source cũ hay không"
+
+#. Gnome Help System support.
+#: glade/glade_project_options.c:482
+msgid "Gnome Help Support"
+msgstr "Hỗ trợ Gnome Help"
+
+#: glade/glade_project_options.c:489
+msgid "If support for the Gnome Help system should be included"
+msgstr "Có hỗ trợ Gnome Help hay không"
+
+#: glade/glade_project_options.c:492
+msgid "File Output Options:"
+msgstr "Tùy chọn tập tin xuất:"
+
+#. Outputting main file.
+#: glade/glade_project_options.c:502
+msgid "Output main.c File"
+msgstr "Xuất tập tin main.c"
+
+#: glade/glade_project_options.c:507
+msgid ""
+"If a main.c file is output containing a main() function, if it doesn't "
+"already exist"
+msgstr "Nếu tập tin main.c chứa hàm main hoặc nếu không có main.c"
+
+#. Outputting support files.
+#: glade/glade_project_options.c:511
+msgid "Output Support Functions"
+msgstr "Xuất các hàm hộ trợ"
+
+#: glade/glade_project_options.c:516
+msgid "If the support functions are output"
+msgstr "Tạo ra các hàm hỗ trợ"
+
+#. Outputting build files.
+#: glade/glade_project_options.c:520
+msgid "Output Build Files"
+msgstr "Xuất tập tin build"
+
+#: glade/glade_project_options.c:525
+msgid ""
+"If files for building the source code are output, including Makefile.am and "
+"configure.in, if they don't already exist"
+msgstr ""
+"Tạo tập tin Makefile.am và configure.in (nếu chưa tồn tại) - hỗ trợ biên "
+"dịch liên kết, và xây dựng với các tập tin mã nguồn."
+
+#. Main source file.
+#: glade/glade_project_options.c:529
+msgid "Interface Creation Functions:"
+msgstr "Hàm tạo giao diện:"
+
+#: glade/glade_project_options.c:541
+msgid "The file in which the functions to create the interface are written"
+msgstr "Tập tin chứa các hàm giao diện người dùng"
+
+#: glade/glade_project_options.c:543 glade/glade_project_options.c:587
+#: glade/glade_project_options.c:630 glade/property.c:970
+msgid "Source File:"
+msgstr "Tập tin source:"
+
+#: glade/glade_project_options.c:558
+msgid ""
+"The file in which the declarations of the functions to create the interface "
+"are written"
+msgstr "Tập tin chứa các khai báo hàm để tạo giao diện người dùng"
+
+#: glade/glade_project_options.c:560 glade/glade_project_options.c:604
+#: glade/glade_project_options.c:647
+msgid "Header File:"
+msgstr "Tập tin header:"
+
+#. Handler source file.
+#: glade/glade_project_options.c:573
+msgid "Signal Handler & Callback Functions:"
+msgstr "Hàm callback & xử lý tín hiệu:"
+
+#: glade/glade_project_options.c:585
+msgid ""
+"The file in which the empty signal handler and callback functions are written"
+msgstr "Tập tin chứa bộ xử lý tín hiệu và hàm callback"
+
+#: glade/glade_project_options.c:602
+msgid ""
+"The file in which the declarations of the signal handler and callback "
+"functions are written"
+msgstr "Tập tin chứa khai báo hàm xử lý tín hiệu và hàm callback"
+
+#. Support source file.
+#: glade/glade_project_options.c:616
+msgid "Support Functions:"
+msgstr "Hàm hỗ trợ:"
+
+#: glade/glade_project_options.c:628
+msgid "The file in which the support functions are written"
+msgstr "Tập tin chứa các hàm hỗ trợ"
+
+#: glade/glade_project_options.c:645
+msgid "The file in which the declarations of the support functions are written"
+msgstr "Tập tin chứa khai báo các hàm hỗ trợ"
+
+#.
+#. * libglade Options Page.
+#.
+#: glade/glade_project_options.c:663
+msgid "LibGlade Options"
+msgstr "Tùy chọn LibGlade"
+
+#: glade/glade_project_options.c:672
+msgid "Translatable Strings:"
+msgstr "Chuỗi có thể dịch:"
+
+#. Output translatable strings.
+#: glade/glade_project_options.c:686
+msgid "Save Translatable Strings"
+msgstr "Lưu chuỗi có thể dịch"
+
+#: glade/glade_project_options.c:691
+msgid ""
+"If translatable strings are saved in a separate C source file, to enable "
+"translation of interfaces loaded by libglade"
+msgstr ""
+"Các chuỗi có thể dịch được lưu vào một tập tin C riêng biệt, để cho phép "
+"dịch giao diện nạp bởi libglade"
+
+#: glade/glade_project_options.c:701
+msgid "The C source file to save all translatable strings in"
+msgstr "Tập tin source C để lưu mọi chuỗi có thể dịch vào"
+
+#: glade/gbwidgets/gbpixmap.c:71 glade/glade_project_options.c:703
+#: glade/gnome/gnomepixmap.c:79
+msgid "File:"
+msgstr "Tập tin:"
+
+#: glade/glade_project_options.c:1162
+msgid "Select the Project Directory"
+msgstr "Chọn thư mục project"
+
+#: glade/glade_project_options.c:1353 glade/glade_project_options.c:1363
+#: glade/glade_project_options.c:1373
+msgid "You need to set the Translatable Strings File option"
+msgstr "Bạn cần chọn tùy chọn Tập tin chuỗi có thể dịch"
+
+#: glade/glade_project_options.c:1357 glade/glade_project_options.c:1367
+msgid "You need to set the Project Directory option"
+msgstr "Bạn cần chọn tùy chọn Thư mục project"
+
+#: glade/glade_project_options.c:1359 glade/glade_project_options.c:1369
+msgid "You need to set the Project File option"
+msgstr "Bạn cần chọn tùy chọn Tập tin project"
+
+#: glade/glade_project_options.c:1375
+msgid "You need to set the Project Name option"
+msgstr "Bạn cần chọn tùy chọn Tên project"
+
+#: glade/glade_project_options.c:1377
+msgid "You need to set the Program Name option"
+msgstr "Bạn cần chọn tùy chọn Tên chương trình"
+
+#: glade/glade_project_options.c:1380
+msgid "You need to set the Source Directory option"
+msgstr "Bạn cần chọn tùy chọn Thư mục source"
+
+#: glade/glade_project_options.c:1383
+msgid "You need to set the Pixmaps Directory option"
+msgstr "Bạn cần chọn tùy chọn Thư mục pixmap"
+
+#: glade/glade_project_window.c:157
+#, c-format
+msgid ""
+"Couldn't show help file: %s.\n"
+"\n"
+"Error: %s"
+msgstr ""
+"Không hiện tập tin trợ giúp: %s.\n"
+"\n"
+"Lỗi: %s"
+
+#: glade/glade_project_window.c:189 glade/glade_project_window.c:599
+msgid "Create a new project"
+msgstr "Tạo project mới"
+
+#: glade/glade_project_window.c:197 glade/glade_project_window.c:619
+#: glade/glade_project_window.c:862
+msgid "_Build"
+msgstr "_Xây dựng"
+
+#: glade/glade_project_window.c:198 glade/glade_project_window.c:630
+msgid "Output the project source code"
+msgstr "Tạo project source code"
+
+#: glade/glade_project_window.c:204 glade/glade_project_window.c:633
+msgid "Op_tions..."
+msgstr "_Tùy chọn..."
+
+#: glade/glade_project_window.c:205 glade/glade_project_window.c:642
+msgid "Edit the project options"
+msgstr "Sửa thông số project"
+
+#: glade/glade_project_window.c:220 glade/glade_project_window.c:681
+msgid "Delete the selected widget"
+msgstr "Xóa widget được chọn"
+
+#: glade/glade_project_window.c:230 glade/glade_project_window.c:692
+msgid "Show _Palette"
+msgstr "Hiện _hộp"
+
+#: glade/glade_project_window.c:230 glade/glade_project_window.c:697
+msgid "Show the palette of widgets"
+msgstr "Hiện hộp widget"
+
+#: glade/glade_project_window.c:236
+msgid "Show Property _Editor"
+msgstr "Hiện Bộ soạn thảo _thuộc tính"
+
+#: glade/glade_project_window.c:237
+msgid "Show the property editor"
+msgstr "Hiện Bộ soạn thảo thuộc tính"
+
+#: glade/glade_project_window.c:243
+msgid "Show Widget _Tree"
+msgstr "Hiện cây _widget"
+
+#: glade/glade_project_window.c:244 glade/main.c:80
+msgid "Show the widget tree"
+msgstr "Hiện cây widget"
+
+#: glade/glade_project_window.c:250 glade/glade_project_window.c:719
+msgid "Show _Clipboard"
+msgstr "Hiện _Clipboard"
+
+#: glade/glade_project_window.c:251 glade/glade_project_window.c:725
+#: glade/main.c:84
+msgid "Show the clipboard"
+msgstr "Hiện Clipboard"
+
+#: glade/glade_project_window.c:269
+msgid "Show _Grid"
+msgstr "Hiện _lưới"
+
+#: glade/glade_project_window.c:270 glade/glade_project_window.c:756
+msgid "Show the grid (in fixed containers only)"
+msgstr "Hiện lưới (chỉ cho fixed container)"
+
+#: glade/glade_project_window.c:276
+msgid "_Snap to Grid"
+msgstr "_Dính lưới"
+
+#: glade/glade_project_window.c:277
+msgid "Snap widgets to the grid"
+msgstr "Bắt dính widget vào lưới"
+
+#: glade/glade_project_window.c:283
+msgid "Show _Widget Tooltips"
+msgstr "Hiện widget toolti_p"
+
+#: glade/glade_project_window.c:284 glade/glade_project_window.c:736
+msgid "Show the tooltips of created widgets"
+msgstr "Hiện tooltip của widget được tạo"
+
+#: glade/glade_project_window.c:293 glade/glade_project_window.c:759
+msgid "Set Grid _Options..."
+msgstr "Đặt tùy chọn _lưới..."
+
+#: glade/glade_project_window.c:294
+msgid "Set the grid style and spacing"
+msgstr "Chọn loại lưới và khoảng trống"
+
+#: glade/glade_project_window.c:300 glade/glade_project_window.c:780
+msgid "Set Snap O_ptions..."
+msgstr "Đặt tùy chọn _Dính..."
+
+#: glade/glade_project_window.c:301
+msgid "Set options for snapping to the grid"
+msgstr "Đặt tùy chọn cho việc dính vào lưới"
+
+#: glade/glade_project_window.c:313
+msgid "_Turbo Start"
+msgstr ""
+
+#: glade/glade_project_window.c:314
+msgid "View the turbo start guide"
+msgstr ""
+
+#: glade/glade_project_window.c:320
+#, fuzzy
+msgid "_FAQ"
+msgstr "FAQ"
+
+#: glade/glade_project_window.c:321
+msgid "View the Glade FAQ"
+msgstr "Xem Glade FAQ"
+
+#. create File menu
+#: glade/glade_project_window.c:335 glade/glade_project_window.c:590
+msgid "_Project"
+msgstr "_Dự án"
+
+#: glade/glade_project_window.c:346 glade/glade_project_window.c:829
+#: glade/glade_project_window.c:981
+msgid "New Project"
+msgstr "Dự án mới"
+
+#: glade/glade_project_window.c:351
+msgid "Open"
+msgstr "Mở"
+
+#: glade/glade_project_window.c:351 glade/glade_project_window.c:834
+#: glade/glade_project_window.c:1040
+msgid "Open Project"
+msgstr "Mở dự án"
+
+#: glade/glade_project_window.c:356
+msgid "Save"
+msgstr "Lưu"
+
+#: glade/glade_project_window.c:356 glade/glade_project_window.c:838
+#: glade/glade_project_window.c:1352
+msgid "Save Project"
+msgstr "Lưu dự án"
+
+#: glade/glade_project_window.c:362
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: glade/glade_project_window.c:367
+msgid "Build"
+msgstr "Xây dựng"
+
+#: glade/glade_project_window.c:367
+msgid "Build the Source Code"
+msgstr "Xây dựng source code"
+
+#: glade/glade_project_window.c:603
+msgid "Open an existing project"
+msgstr "Mở project đã có"
+
+#: glade/glade_project_window.c:607
+msgid "Save project"
+msgstr "Lưu project"
+
+#: glade/glade_project_window.c:652
+msgid "Quit Glade"
+msgstr "Thoát glade"
+
+#. Create Edit menu
+#: glade/gbwidgets/gbmenubar.c:198 glade/glade_project_window.c:656
+msgid "_Edit"
+msgstr "T_hoát"
+
+#: glade/glade_project_window.c:666
+msgid "Cut the selected widget to the clipboard"
+msgstr "Cắt widget được chọn cho vào clipboard"
+
+#: glade/glade_project_window.c:671
+msgid "Copy the selected widget to the clipboard"
+msgstr "Sao chép widget được chọn vào clipboard"
+
+#: glade/glade_project_window.c:676
+msgid "Paste the widget from the clipboard over the selected widget"
+msgstr "Dán widget từ clipboard lên widget được chọn"
+
+#. Create View menu
+#: glade/gbwidgets/gbmenubar.c:204 glade/glade_project_window.c:685
+msgid "_View"
+msgstr "_Xem"
+
+#: glade/glade_project_window.c:701
+msgid "Show P_roperties"
+msgstr "Hiện _thuộc tính"
+
+#: glade/glade_project_window.c:707
+msgid "Show the properties of the selected widget"
+msgstr "Hiện thuộc tính của widget được chọn"
+
+#: glade/glade_project_window.c:710
+msgid "Show _Widget Tree"
+msgstr "Hiện cây _widget"
+
+#: glade/glade_project_window.c:716
+msgid "Show the project widget tree"
+msgstr "Hiện cây widget của project"
+
+#: glade/glade_project_window.c:728
+msgid "Show Widget _Tooltips"
+msgstr "Hiện toolti_p của widget"
+
+#: glade/glade_project_window.c:740
+msgid "_Grid"
+msgstr "_Lưới"
+
+#: glade/glade_project_window.c:748
+msgid "_Show Grid"
+msgstr "_Hiện lưới"
+
+#: glade/glade_project_window.c:765
+msgid "Set the spacing between grid lines"
+msgstr "Đặt khoảng cách giữa các hàng lưới"
+
+#: glade/glade_project_window.c:768
+msgid "S_nap to Grid"
+msgstr "_Bắt dính vào lưới"
+
+#: glade/glade_project_window.c:776
+msgid "Snap widgets to the grid (in fixed containers only)"
+msgstr "Bắt dính widget vào lưới (chỉ cho fixed container)"
+
+#: glade/glade_project_window.c:786
+msgid "Set which parts of a widget snap to the grid"
+msgstr "Hiện các phần của widget bị dính vào lưới"
+
+#. Create Help menu
+#: glade/gbwidgets/gbmenubar.c:206 glade/glade_project_window.c:790
+msgid "_Help"
+msgstr "Trợ _giúp"
+
+#. Don't show these yet as we have no help pages.
+#. menuitem = gtk_menu_item_new_with_mnemonic (_("_Contents"));
+#. gtk_container_add (GTK_CONTAINER (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#. menuitem = gtk_menu_item_new_with_mnemonic (_("_Index"));
+#. gtk_container_add (GTK_CONTAINER (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#. menuitem = gtk_menu_item_new ();
+#. gtk_container_add (GTK_CONTAINER (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#: glade/glade_project_window.c:811
+msgid "_About..."
+msgstr "_Giới thiệu..."
+
+#: glade/glade_project_window.c:852
+msgid "Optio_ns"
+msgstr "_Tùy chọn"
+
+#: glade/glade_project_window.c:856
+msgid "Write Source Code"
+msgstr "Viết source code"
+
+#: glade/glade_project_window.c:943 glade/glade_project_window.c:1568
+#: glade/glade_project_window.c:1776
+msgid "Glade"
+msgstr "Glade"
+
+#: glade/glade_project_window.c:950
+msgid "Are you sure you want to create a new project?"
+msgstr "Bạn có chắc muốn tạo project mới?"
+
+#: glade/glade_project_window.c:985
+msgid "New _GTK+ Project"
+msgstr "Dự án _GTK+ mới"
+
+#: glade/glade_project_window.c:986
+msgid "New G_NOME Project"
+msgstr "Dự án G_NOME mới"
+
+#: glade/glade_project_window.c:989
+msgid "Which type of project do you want to create?"
+msgstr "Bạn muốn tạo loại dự án nào?"
+
+#: glade/glade_project_window.c:1023
+msgid "New project created."
+msgstr "Đã tạo project mới."
+
+#: glade/glade_project_window.c:1099
+msgid "Project opened."
+msgstr "Đã mở dự án mới."
+
+#: glade/glade_project_window.c:1116
+msgid "Error opening project."
+msgstr "Lỗi mở dự án."
+
+#: glade/glade_project_window.c:1137
+msgid "Errors opening project file"
+msgstr "Lỗi mở tập tin project."
+
+#: glade/glade_project_window.c:1143
+msgid " errors opening project file:"
+msgstr " lỗi mở tập tin project:"
+
+#: glade/glade_project_window.c:1216
+msgid ""
+"There is no project currently open.\n"
+"Create a new project with the Project/New command."
+msgstr ""
+"Không có dự án nào đang mở.\n"
+"Hãy tạo dự án mới bằng lệnh Dự án/Mới."
+
+#: glade/glade_project_window.c:1419
+msgid "Error saving project"
+msgstr "Lỗi lưu project"
+
+#: glade/glade_project_window.c:1421
+msgid "Error saving project."
+msgstr "Lỗi lưu project."
+
+#: glade/glade_project_window.c:1427
+msgid "Project saved."
+msgstr "Đã lưu dự án."
+
+#: glade/glade_project_window.c:1497
+msgid "Errors writing source code"
+msgstr "Lỗi ghi source code"
+
+#: glade/glade_project_window.c:1499
+msgid "Error writing source."
+msgstr "Lỗi ghi source."
+
+#: glade/glade_project_window.c:1505
+msgid "Source code written."
+msgstr "Đã ghi source code."
+
+#: glade/glade_project_window.c:1536
+msgid "System error message:"
+msgstr "Thông báo lỗi hệ thống:"
+
+#: glade/glade_project_window.c:1575
+msgid "Are you sure you want to quit?"
+msgstr "Bạn có chắc muốn thoát không?"
+
+#: glade/glade_project_window.c:1778 glade/glade_project_window.c:1832
+msgid "(C) 1998-2002 Damon Chaplin"
+msgstr "(C) 1998-2002 Damon Chaplin"
+
+#: glade/glade_project_window.c:1779 glade/glade_project_window.c:1831
+msgid "Glade is a User Interface Builder for GTK+ and GNOME."
+msgstr "Glade là Bộ tạo giao diện người dùng (GUI) cho GTK+ và GNOME."
+
+#: glade/glade_project_window.c:1794
+msgid "Glade Home Page"
+msgstr "Trang chủ Glade"
+
+#: glade/glade_project_window.c:1809
+msgid "About Glade"
+msgstr "Giới thiệu về Glade"
+
+#: glade/glade_project_window.c:1887
+msgid "<untitled>"
+msgstr "<không tựa>"
+
+#: glade/main.c:68
+msgid "Write the source code and exit"
+msgstr "Viết source code và thoát"
+
+#: glade/main.c:72
+msgid "Start with the palette hidden"
+msgstr "Bắt đầu với hộp ẩn"
+
+#: glade/main.c:76
+msgid "Start with the property editor hidden"
+msgstr "Băt đầu với bộ biên soạn thuộc tính bị ẩn"
+
+#: glade/main.c:374
+msgid ""
+"glade: The XML file must be set for the '-w' or '--write-source' option.\n"
+msgstr ""
+"glade: Tập tin XML phải đi kèm tùy chọn -w hoặc --write-source.\n"
+"\n"
+
+#: glade/main.c:386
+msgid "glade: Error loading XML file.\n"
+msgstr "glade: Lỗi nạp tập tin XML.\n"
+
+#: glade/main.c:393
+msgid "glade: Error writing source.\n"
+msgstr "glade: Lỗi ghi source.\n"
+
+#: glade/palette.c:54
+msgid "Palette"
+msgstr "Hộp"
+
+#: glade/property.c:73
+msgid "private"
+msgstr "private"
+
+#: glade/property.c:73
+msgid "protected"
+msgstr "protected"
+
+#: glade/property.c:73
+msgid "public"
+msgstr "public"
+
+#: glade/property.c:102
+msgid "Prelight"
+msgstr "Prelight"
+
+#: glade/property.c:103
+msgid "Selected"
+msgstr "Selected"
+
+#: glade/property.c:103
+msgid "Insens"
+msgstr ""
+
+#: glade/property.c:465
+msgid "When the window needs redrawing"
+msgstr "Khi cửa sổ cần vẽ lại"
+
+#: glade/property.c:466
+msgid "When the mouse moves"
+msgstr "Khi cửa sổ di chuyển"
+
+#: glade/property.c:467
+msgid "Mouse movement hints"
+msgstr "Gợi ý di chuyển chuột"
+
+#: glade/property.c:468
+msgid "Mouse movement with any button pressed"
+msgstr "Di chuyển chuột khi phím chuột được nhấn"
+
+#: glade/property.c:469
+msgid "Mouse movement with button 1 pressed"
+msgstr "Di chuyển chuột khi nút 1 được nhấn"
+
+#: glade/property.c:470
+msgid "Mouse movement with button 2 pressed"
+msgstr "Di chuyển chuột khi nút 2 được nhấn"
+
+#: glade/property.c:471
+msgid "Mouse movement with button 3 pressed"
+msgstr "Di chuyển chuột khi nút 3 được nhấn"
+
+#: glade/property.c:472
+msgid "Any mouse button pressed"
+msgstr "Nút chuột được nhấn"
+
+#: glade/property.c:473
+msgid "Any mouse button released"
+msgstr "Nút chuột được nhả"
+
+#: glade/property.c:474
+msgid "Any key pressed"
+msgstr "Nhấn bất kỳ phím nào"
+
+#: glade/property.c:475
+msgid "Any key released"
+msgstr "Nhả bất kỳ phím nào"
+
+#: glade/property.c:476
+msgid "When the mouse enters the window"
+msgstr "Khi chuột vào cửa sổ"
+
+#: glade/property.c:477
+msgid "When the mouse leaves the window"
+msgstr "Khi chuột rời khỏi cửa sổ"
+
+#: glade/property.c:478
+msgid "Any change in input focus"
+msgstr "Có thay đổi input focys"
+
+#: glade/property.c:479
+msgid "Any change in window structure"
+msgstr "Có thay đổi window structure"
+
+#: glade/property.c:480
+msgid "Any change in X Windows property"
+msgstr "Có thay đổi X Window property"
+
+#: glade/property.c:481
+msgid "Any change in visibility"
+msgstr "Có thay đổi visibility"
+
+#: glade/property.c:482 glade/property.c:483
+msgid "For cursors in XInput-aware programs"
+msgstr "Con trỏ trong các chương trình hỗ trợ XInput"
+
+#: glade/property.c:587
+msgid "Properties"
+msgstr "Thuộc tính"
+
+#: glade/property.c:611
+msgid "Packing"
+msgstr "Gom lại"
+
+#: glade/property.c:616
+msgid "Common"
+msgstr "Chung"
+
+#: glade/property.c:622
+msgid "Style"
+msgstr "Kiểu"
+
+#: glade/property.c:628 glade/property.c:4168
+msgid "Signals"
+msgstr "Tín hiệu"
+
+#: glade/property.c:693
+msgid "Properties: "
+msgstr "Thuộc tính: "
+
+#: glade/property.c:704
+msgid "Properties: <none>"
+msgstr "Thuộc tính: <không>"
+
+#: glade/property.c:750
+msgid "Class:"
+msgstr "Lớp:"
+
+#: glade/property.c:751
+msgid "The class of the widget"
+msgstr "Lớp của widget"
+
+#: glade/property.c:785
+msgid "Width:"
+msgstr "Rộng:"
+
+#: glade/property.c:786
+msgid ""
+"The requested width of the widget (usually used to set the minimum width)"
+msgstr "Độ rộng yêu cầu của widget (thường được dùng để đặt độ rộng tối thiểu)"
+
+#: glade/property.c:788
+msgid "Height:"
+msgstr "Cao:"
+
+#: glade/property.c:789
+msgid ""
+"The requested height of the widget (usually used to set the minimum height)"
+msgstr "Độ cao yêu cầu của widget (thường được dùng để đặt độ cao tối thiểu)"
+
+#: glade/property.c:792
+msgid "Visible:"
+msgstr "Hiện:"
+
+#: glade/property.c:793
+msgid "If the widget is initially visible"
+msgstr "Widget được hiển thị ngay từ đầu"
+
+#: glade/property.c:794
+msgid "Sensitive:"
+msgstr "Tương tác:"
+
+#: glade/property.c:795
+msgid "If the widget responds to input"
+msgstr "Widget có thể trả lời input"
+
+#: glade/property.c:797
+msgid "The tooltip to display if the mouse lingers over the widget"
+msgstr "Tooltip để hiển thị nếu chuột dừng trên widget"
+
+#: glade/property.c:799
+msgid "Can Default:"
+msgstr "Có thể làm mặc định:"
+
+#: glade/property.c:800
+msgid "If the widget can be the default action in a dialog"
+msgstr "Widget có thể thực hiện hành động mặc định trong hộp thoại"
+
+#: glade/property.c:801
+msgid "Has Default:"
+msgstr "Là mặc định:"
+
+#: glade/property.c:802
+msgid "If the widget is the default action in the dialog"
+msgstr "Widget là hành động mặc định trong hộp thoại"
+
+#: glade/property.c:803
+msgid "Can Focus:"
+msgstr "Nhận focus:"
+
+#: glade/property.c:804
+msgid "If the widget can accept the input focus"
+msgstr "Widget có thể nhận focus"
+
+#: glade/property.c:805
+msgid "Has Focus:"
+msgstr "Có focus"
+
+#: glade/property.c:806
+msgid "If the widget has the input focus"
+msgstr "Widget có focus"
+
+#: glade/property.c:808
+msgid "Events:"
+msgstr "Sự kiện:"
+
+#: glade/property.c:809
+msgid "The X events that the widget receives"
+msgstr "X Event mà widget nhận"
+
+#: glade/property.c:811
+msgid "Ext.Events:"
+msgstr "Ext.Events:"
+
+#: glade/property.c:812
+msgid "The X Extension events mode"
+msgstr "Chế độ X Extension event"
+
+#: glade/property.c:815
+msgid "Accelerators:"
+msgstr "Accelerator:"
+
+#: glade/property.c:816
+msgid "Defines the signals to emit when keys are pressed"
+msgstr "Định nghĩa tín hiệu phát đi khi nhấn phím"
+
+#: glade/property.c:817
+msgid "Edit..."
+msgstr "Sửa..."
+
+#: glade/property.c:839
+msgid "Propagate:"
+msgstr "Lan truyền:"
+
+#: glade/property.c:840
+msgid "Set True to propagate the style to the widget's children"
+msgstr "Bật True để truyền kiểu widget cha đến widget con"
+
+#: glade/property.c:841
+msgid "Named Style:"
+msgstr "Kiểu có tên:"
+
+#: glade/property.c:842
+msgid "The name of the style, which can be shared by several widgets"
+msgstr "Tên kiểu, dùng để chia sẻ với các widget khác"
+
+#: glade/property.c:844
+msgid "Font:"
+msgstr "Font:"
+
+#: glade/property.c:845
+msgid "The font to use for any text in the widget"
+msgstr "Font dùng để hiện text trong widget"
+
+#: glade/property.c:870
+msgid "Copy All"
+msgstr "Chép tất cả"
+
+#: glade/property.c:898
+msgid "Foreground:"
+msgstr "Cận cảnh:"
+
+#: glade/property.c:898
+msgid "Background:"
+msgstr "Nền:"
+
+#: glade/gbwidgets/gbentry.c:100 glade/gbwidgets/gbprogressbar.c:119
+#: glade/gbwidgets/gbtextview.c:114 glade/gnome/gnomedruidpageedge.c:95
+#: glade/property.c:898
+msgid "Text:"
+msgstr "Text:"
+
+#: glade/property.c:898
+msgid "Base:"
+msgstr "Cơ sở:"
+
+#: glade/property.c:900
+msgid "Foreground color"
+msgstr "Màu cận cảnh"
+
+#: glade/property.c:900
+msgid "Background color"
+msgstr "Màu nền"
+
+#: glade/property.c:900
+msgid "Text color"
+msgstr "Màu chữ"
+
+#: glade/property.c:901
+msgid "Base color"
+msgstr "Màu cơ sở"
+
+#: glade/property.c:918
+msgid "Back. Pixmap:"
+msgstr "Pixmap nền:"
+
+#: glade/property.c:919
+msgid "The graphic to use as the background of the widget"
+msgstr "Ảnh được dùng để vẽ nền của widget"
+
+#: glade/property.c:971
+msgid "The file to write source code into"
+msgstr "Tập tin để viết source code vào"
+
+#: glade/property.c:972
+msgid "Public:"
+msgstr "Public:"
+
+#: glade/property.c:973
+msgid "If the widget is added to the component's data structure"
+msgstr "Widget được thêm vào componemt's data structure"
+
+#: glade/property.c:984
+msgid "Separate Class:"
+msgstr "Lớp tách biệt:"
+
+#: glade/property.c:985
+msgid "Put this widget's subtree in a separate class"
+msgstr "Đặt cây con của widget vào một lớp riêng"
+
+#: glade/property.c:986
+msgid "Separate File:"
+msgstr "Tập tin tách biệt:"
+
+#: glade/property.c:987
+msgid "Put this widget in a separate source file"
+msgstr "Đặt widget vào một tập tin nguồn riêng"
+
+#: glade/property.c:988
+msgid "Visibility:"
+msgstr "Khả kiến:"
+
+#: glade/property.c:989
+msgid "Visibility of widgets. Public widgets are exported to a global map."
+msgstr ""
+"Khả năng hiển thị của widget. Widget công cộng được xuất ra bảng toàn cục."
+
+#: glade/property.c:1098
+msgid "You need to select a color or background to copy"
+msgstr "Bạn cần chọn màu hoặc nền để chép"
+
+#: glade/property.c:1117
+msgid "Invalid selection in on_style_copy()"
+msgstr "Selection không hợp lệ trong on_style_copy()"
+
+#: glade/property.c:1159
+msgid "You need to copy a color or background pixmap first"
+msgstr "Bạn cần chọn màu hoặc ảnh nền trước"
+
+#: glade/property.c:1165
+msgid "You need to select a color to paste into"
+msgstr "Bạn cần chọn mày để dán vào"
+
+#: glade/property.c:1175
+msgid "You need to select a background pixmap to paste into"
+msgstr "Bạn cần chọn pixmap nền để dán vào"
+
+#: glade/gbwidgets/gbcolorselectiondialog.c:290 glade/property.c:1247
+msgid "Color Selection Dialog"
+msgstr "Hộp thoại chọn màu"
+
+#: glade/gbwidgets/gbfileselection.c:64 glade/property.c:1337
+msgid "Select File"
+msgstr "Chọn tập tin"
+
+#: glade/gbwidgets/gbpixmap.c:153 glade/property.c:1427
+msgid "Couldn't create pixmap from file\n"
+msgstr "Không thể tạo pixmap từ tập tin\n"
+
+#. List of current signal handlers - Signal/Handler/Data/Options
+#: glade/property.c:1466
+msgid "Signal"
+msgstr "Tín hiệu"
+
+#: glade/property.c:1468
+msgid "Data"
+msgstr "Dữ liệu"
+
+#: glade/property.c:1469
+msgid "After"
+msgstr "Sau"
+
+#: glade/property.c:1470
+msgid "Object"
+msgstr "Đối tượng"
+
+#: glade/property.c:1501 glade/property.c:1665
+msgid "Signal:"
+msgstr "Tín hiệu:"
+
+#: glade/property.c:1502
+msgid "The signal to add a handler for"
+msgstr "Tín hiệu cần thêm handler"
+
+#: glade/property.c:1516
+msgid "The function to handle the signal"
+msgstr "Hàm xử lý tín hiệu"
+
+#: glade/property.c:1519
+msgid "Data:"
+msgstr "Dữ liệu:"
+
+#: glade/property.c:1520
+msgid "The data passed to the handler"
+msgstr "Dữ liệu được chuyển cho handler"
+
+#: glade/property.c:1521
+msgid "Object:"
+msgstr "Đối tượng:"
+
+#: glade/property.c:1522
+msgid "The object which receives the signal"
+msgstr "Đối tượng nhận tín hiệu"
+
+#: glade/property.c:1523
+msgid "After:"
+msgstr "Sau:"
+
+#: glade/property.c:1524
+msgid "If the handler runs after the class function"
+msgstr "Hàm xử lý chạy sau hàm lớp"
+
+#: glade/property.c:1537
+msgid "Add"
+msgstr "Thêm"
+
+#: glade/property.c:1543
+msgid "Update"
+msgstr "Cập nhật"
+
+#: glade/property.c:1555
+msgid "Clear"
+msgstr "Xoá"
+
+#: glade/property.c:1605
+msgid "Accelerators"
+msgstr "Accelerator"
+
+#. List of current accelerators - Mods/Keys/Signals
+#: glade/property.c:1618
+msgid "Mod"
+msgstr "Mod"
+
+#: glade/property.c:1619
+msgid "Key"
+msgstr "Phím"
+
+#: glade/property.c:1620
+msgid "Signal to emit"
+msgstr "Tín hiệu cần phát"
+
+#: glade/property.c:1664
+msgid "The accelerator key"
+msgstr "Accelerator key"
+
+#: glade/property.c:1666
+msgid "The signal to emit when the accelerator is pressed"
+msgstr "Tín hiệu cần phát khi nhấn accelerator"
+
+#: glade/property.c:3431
+msgid "Select X Events"
+msgstr "Chọn X Event"
+
+#: glade/property.c:3440
+msgid "Event Mask"
+msgstr "Event Mask"
+
+#: glade/gnome/gnomecontrol.c:295 glade/property.c:3441
+msgid "Description"
+msgstr "Mô tả"
+
+#: glade/property.c:3570 glade/property.c:3619
+msgid "You need to set the accelerator key"
+msgstr "Bạn cần chọn accelerator key"
+
+#: glade/property.c:3577 glade/property.c:3626
+msgid "You need to set the signal to emit"
+msgstr "Bạn cần chọn tín hiệu phát"
+
+#: glade/property.c:3853 glade/property.c:3909
+msgid "You need to set the signal name"
+msgstr "Bạn cần chọn tên tín hiệu"
+
+#: glade/property.c:3860 glade/property.c:3916
+msgid "You need to set the handler for the signal"
+msgstr "Bạn cần chọn handler cho tín hiệu"
+
+#. This groups the signals by class, e.g. 'GtkButton signals'.
+#: glade/property.c:4101
+#, c-format
+msgid "%s signals"
+msgstr "%s tín hiệu"
+
+#: glade/property.c:4159
+msgid "Select Signal"
+msgstr "Chọn tín hiệu"
+
+#: glade/property.c:4351
+msgid "Value:"
+msgstr "Giá trị:"
+
+#: glade/property.c:4351
+msgid "Min:"
+msgstr "Min:"
+
+#: glade/gbwidgets/gbhruler.c:91 glade/gbwidgets/gbvruler.c:91
+#: glade/property.c:4351
+msgid "Max:"
+msgstr "Max:"
+
+#: glade/property.c:4351
+msgid "Step Inc:"
+msgstr "Step Inc:"
+
+#: glade/property.c:4352
+msgid "Page Inc:"
+msgstr "Page Inc:"
+
+#: glade/property.c:4352
+msgid "Page Size:"
+msgstr "Cỡ trang:"
+
+#: glade/property.c:4354
+msgid "H Value:"
+msgstr "Giá trị H:"
+
+#: glade/property.c:4354
+msgid "H Min:"
+msgstr "H tối thiểu:"
+
+#: glade/property.c:4354
+msgid "H Max:"
+msgstr "H tối đa:"
+
+#: glade/property.c:4354
+msgid "H Step Inc:"
+msgstr "Bước tăng H:"
+
+#: glade/property.c:4355
+msgid "H Page Inc:"
+msgstr "Trang tăng H:"
+
+#: glade/property.c:4355
+msgid "H Page Size:"
+msgstr "Cỡ trang H:"
+
+#: glade/property.c:4357
+msgid "V Value:"
+msgstr "Giá trị V:"
+
+#: glade/property.c:4357
+msgid "V Min:"
+msgstr "V tối thiểu:"
+
+#: glade/property.c:4357
+msgid "V Max:"
+msgstr "V tối đa:"
+
+#: glade/property.c:4357
+msgid "V Step Inc:"
+msgstr "Bước tăng V:"
+
+#: glade/property.c:4358
+msgid "V Page Inc:"
+msgstr "Trang tăng V:"
+
+#: glade/property.c:4358
+msgid "V Page Size:"
+msgstr "Cỡ trang V:"
+
+#: glade/property.c:4361
+msgid "The initial value"
+msgstr "Giá trị ban đầu"
+
+#: glade/property.c:4362
+msgid "The minimum value"
+msgstr "Giá trị tối thiểu"
+
+#: glade/property.c:4363
+msgid "The maximum value"
+msgstr "Giá trị tối đa"
+
+#: glade/property.c:4364
+msgid "The step increment"
+msgstr "Bước tăng"
+
+#: glade/property.c:4365
+msgid "The page increment"
+msgstr "Trang tăng"
+
+#: glade/property.c:4366
+msgid "The page size"
+msgstr "Cỡ trang"
+
+#: glade/property.c:4521
+msgid "The requested font is not available."
+msgstr "Font yêu cầu không sẵn sàng."
+
+#: glade/property.c:4570
+msgid "Select Named Style"
+msgstr "Chọn kiểu có tên"
+
+#: glade/property.c:4581
+msgid "Styles"
+msgstr "Kiểu"
+
+#: glade/property.c:4640
+msgid "Rename"
+msgstr "Đổi tên"
+
+#: glade/property.c:4668
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: glade/property.c:4788
+msgid "New Style:"
+msgstr "Kiểu mới:"
+
+#: glade/property.c:4802 glade/property.c:4923
+msgid "Invalid style name"
+msgstr "Tên kiểu sai"
+
+#: glade/property.c:4810 glade/property.c:4933
+msgid "That style name is already in use"
+msgstr "Tên kiểu đã được dùng"
+
+#: glade/property.c:4908
+msgid "Rename Style To:"
+msgstr "Đổi tên kiểu thành:"
+
+#: glade/save.c:139 glade/source.c:2694
+#, c-format
+msgid ""
+"Couldn't rename file:\n"
+"  %s\n"
+"to:\n"
+"  %s\n"
+msgstr ""
+"Không thể đổi tên tập tin:\n"
+"  %s\n"
+"thành:\n"
+"  %s\n"
+
+#: glade/save.c:174 glade/save.c:225 glade/save.c:915 glade/source.c:356
+#: glade/source.c:371 glade/source.c:389 glade/source.c:402 glade/source.c:813
+#: glade/source.c:1041 glade/source.c:1132 glade/source.c:1326
+#: glade/source.c:1421 glade/source.c:1639 glade/source.c:1728
+#: glade/source.c:1780 glade/source.c:1843 glade/source.c:1889
+#: glade/source.c:2005 glade/utils.c:1195
+#, c-format
+msgid ""
+"Couldn't create file:\n"
+"  %s\n"
+msgstr ""
+"Không thể tạo tập tin:\n"
+"  %s\n"
+
+#: glade/save.c:816
+msgid "Error writing XML file\n"
+msgstr "Lỗi ghi tập tin XML\n"
+
+#: glade/save.c:921
+msgid ""
+"/*\n"
+" * Translatable strings file generated by Glade.\n"
+" * Add this file to your project's POTFILES.in.\n"
+" * DO NOT compile it as part of your application.\n"
+" */\n"
+"\n"
+msgstr ""
+"/*\n"
+" * Translatable strings file generated by Glade.\n"
+" * Add this file to your project's POTFILES.in.\n"
+" * DO NOT compile it as part of your application.\n"
+" */\n"
+"\n"
+
+#: glade/source.c:182
+#, c-format
+msgid ""
+"Invalid interface source filename: %s\n"
+"%s\n"
+msgstr ""
+"Tập tin interface source không hợp lệ: %s\n"
+"%s\n"
+
+#: glade/source.c:184
+#, c-format
+msgid ""
+"Invalid interface header filename: %s\n"
+"%s\n"
+msgstr ""
+"Tập tin interface header không hợp lệ: %s\n"
+"%s\n"
+
+#: glade/source.c:187
+#, c-format
+msgid ""
+"Invalid callbacks source filename: %s\n"
+"%s\n"
+msgstr ""
+"Tập tin callbacks source không hợp lệ: %s\n"
+"%s\n"
+
+#: glade/source.c:189
+#, c-format
+msgid ""
+"Invalid callbacks header filename: %s\n"
+"%s\n"
+msgstr ""
+"Tập tin callbacks header không hợp lệ: %s\n"
+"%s\n"
+
+#: glade/source.c:195
+#, c-format
+msgid ""
+"Invalid support source filename: %s\n"
+"%s\n"
+msgstr ""
+"Tập tin support souce không hợp lệ: %s\n"
+"%s\n"
+
+#: glade/source.c:197
+#, c-format
+msgid ""
+"Invalid support header filename: %s\n"
+"%s\n"
+msgstr ""
+"Tập tin support header không hợp lệ: %s\n"
+"%s\n"
+
+#: glade/source.c:416 glade/source.c:424
+#, c-format
+msgid ""
+"Couldn't append to file:\n"
+"  %s\n"
+msgstr ""
+"Không thể nối thêm vào tập tin:\n"
+"  %s\n"
+
+#: glade/source.c:1720 glade/utils.c:1216
+#, c-format
+msgid ""
+"Error writing to file:\n"
+"  %s\n"
+msgstr ""
+"Lỗi ghi vào tập tin:\n"
+"  %s\n"
+
+#: glade/source.c:2666
+msgid "The filename must be set in the Project Options dialog."
+msgstr "Tên tập tin phải được chọn trong hộp thoại Thông số project."
+
+#: glade/source.c:2669
+msgid ""
+"The filename must be a simple relative filename.\n"
+"Use the Project Options dialog to set it."
+msgstr ""
+"Tên tập tin phải tương đối đơn giản.\n"
+"Vào hộp thoại Thông số project để đặt tên tập tin."
+
+#: glade/tree.c:74
+msgid "Widget Tree"
+msgstr "Cây widget"
+
+#: glade/utils.c:927 glade/utils.c:967
+msgid "Widget not found in box"
+msgstr "Không có widget trong box"
+
+#: glade/utils.c:947
+msgid "Widget not found in table"
+msgstr "Không có widget trong table"
+
+#: glade/utils.c:987
+msgid "Widget not found in fixed container"
+msgstr "Không có widget trong fixed container"
+
+#: glade/utils.c:1008
+msgid "Widget not found in packer"
+msgstr "Không có widget trong packer"
+
+#: glade/utils.c:1166
+#, c-format
+msgid ""
+"Couldn't access file:\n"
+"  %s\n"
+msgstr ""
+"Không thể truy cập tập tin:\n"
+"  %s\n"
+
+#: glade/utils.c:1189
+#, c-format
+msgid ""
+"Couldn't open file:\n"
+"  %s\n"
+msgstr ""
+"Không thể mở tập tin:\n"
+"  %s\n"
+
+#: glade/utils.c:1206
+#, c-format
+msgid ""
+"Error reading from file:\n"
+"  %s\n"
+msgstr ""
+"Lỗi đọc tập tin:\n"
+"  %s\n"
+
+#. This happens under WIN32 when stat is confused by the filename, but this is
+#. harmless, since we know that the directory exists after all.
+#: glade/utils.c:1271
+#, c-format
+msgid ""
+"Couldn't create directory:\n"
+"  %s\n"
+msgstr ""
+"Không thể tạo thư mục:\n"
+"  %s\n"
+
+#: glade/utils.c:1277
+#, c-format
+msgid ""
+"Couldn't access directory:\n"
+"  %s\n"
+msgstr ""
+"Không thể truy cập thư mục:\n"
+"  %s\n"
+
+#: glade/utils.c:1285
+#, c-format
+msgid ""
+"Invalid directory:\n"
+"  %s\n"
+msgstr ""
+"Thư mục không hợp lệ:\n"
+"  %s\n"
+
+#: glade/utils.c:1651
+msgid "Projects"
+msgstr "Dự án"
+
+#: glade/utils.c:1658
+msgid "project"
+msgstr "dự án"
+
+#: glade/utils.c:1664
+#, c-format
+msgid ""
+"Couldn't open directory:\n"
+"  %s\n"
+msgstr ""
+"Không thể mở thư mục:\n"
+"  %s\n"
+
+#: glade/gbwidgets/gbaccellabel.c:175
+msgid "Label with Accelerator"
+msgstr "Label với accelerator"
+
+#. The GtkProgress interface is deprecated now, and GtkProgressBar doesn't
+#. have functions to set these, so I suppose we shouldn't support them.
+#: glade/gbwidgets/gbalignment.c:66 glade/gbwidgets/gbarrow.c:89
+#: glade/gbwidgets/gbaspectframe.c:114 glade/gbwidgets/gbimage.c:109
+#: glade/gbwidgets/gblabel.c:146 glade/gbwidgets/gbpixmap.c:72
+#: glade/gbwidgets/gbprogressbar.c:134
+msgid "X Align:"
+msgstr "Canh hàng X:"
+
+#: glade/gbwidgets/gbalignment.c:67
+msgid "The horizontal alignment of the child widget"
+msgstr "Canh hàng ngang các widget con"
+
+#: glade/gbwidgets/gbalignment.c:69 glade/gbwidgets/gbarrow.c:92
+#: glade/gbwidgets/gbaspectframe.c:117 glade/gbwidgets/gbimage.c:112
+#: glade/gbwidgets/gblabel.c:149 glade/gbwidgets/gbpixmap.c:75
+#: glade/gbwidgets/gbprogressbar.c:137
+msgid "Y Align:"
+msgstr "Canh hàng Y:"
+
+#: glade/gbwidgets/gbalignment.c:70
+msgid "The vertical alignment of the child widget"
+msgstr "Canh hàng dọc các widget con"
+
+#: glade/gbwidgets/gbalignment.c:72
+msgid "X Scale:"
+msgstr "Co dãn X:"
+
+#: glade/gbwidgets/gbalignment.c:73
+msgid "The horizontal scale of the child widget"
+msgstr "Co dãn ngang của widget con"
+
+#: glade/gbwidgets/gbalignment.c:75
+msgid "Y Scale:"
+msgstr "Co dãn Y:"
+
+#: glade/gbwidgets/gbalignment.c:76
+msgid "The vertical scale of the child widget"
+msgstr "Co dãn dọc của widget con"
+
+#: glade/gbwidgets/gbalignment.c:180
+msgid "Alignment"
+msgstr "Canh hàng:"
+
+#: glade/gbwidgets/gbarrow.c:85
+msgid "Direction:"
+msgstr "Hướng:"
+
+#: glade/gbwidgets/gbarrow.c:85
+msgid "The direction of the arrow"
+msgstr "Hướng mũi tên"
+
+#: glade/gbwidgets/gbarrow.c:87 glade/gbwidgets/gbaspectframe.c:112
+#: glade/gbwidgets/gbclist.c:247 glade/gbwidgets/gbctree.c:253
+#: glade/gbwidgets/gbframe.c:107 glade/gbwidgets/gbhandlebox.c:109
+#: glade/gbwidgets/gbviewport.c:104 glade/gnome/bonobodockitem.c:176
+msgid "Shadow:"
+msgstr "Bóng:"
+
+#: glade/gbwidgets/gbarrow.c:87
+msgid "The shadow type of the arrow"
+msgstr "Loại bóng mũi tên"
+
+#: glade/gbwidgets/gbarrow.c:90
+msgid "The horizontal alignment of the arrow"
+msgstr "Canh hàng ngang mũi tên"
+
+#: glade/gbwidgets/gbarrow.c:93
+msgid "The vertical alignment of the arrow"
+msgstr "Canh hàng dọc mũi tên"
+
+#: glade/gbwidgets/gbarrow.c:95 glade/gbwidgets/gbimage.c:115
+#: glade/gbwidgets/gblabel.c:152 glade/gbwidgets/gbpixmap.c:78
+msgid "X Pad:"
+msgstr "Đệm X:"
+
+#: glade/gbwidgets/gbarrow.c:95 glade/gbwidgets/gbimage.c:115
+#: glade/gbwidgets/gblabel.c:152 glade/gbwidgets/gbpixmap.c:78
+#: glade/gbwidgets/gbtable.c:382
+msgid "The horizontal padding"
+msgstr "Đệm ngang"
+
+#: glade/gbwidgets/gbarrow.c:97 glade/gbwidgets/gbimage.c:117
+#: glade/gbwidgets/gblabel.c:154 glade/gbwidgets/gbpixmap.c:80
+msgid "Y Pad:"
+msgstr "Đệm Y:"
+
+#: glade/gbwidgets/gbarrow.c:97 glade/gbwidgets/gbimage.c:117
+#: glade/gbwidgets/gblabel.c:154 glade/gbwidgets/gbpixmap.c:80
+#: glade/gbwidgets/gbtable.c:385
+msgid "The vertical padding"
+msgstr "Đệm dọc"
+
+#: glade/gbwidgets/gbarrow.c:299
+msgid "Arrow"
+msgstr "Mũi tên"
+
+#: glade/gbwidgets/gbaspectframe.c:106 glade/gbwidgets/gbframe.c:101
+msgid "Label X Align:"
+msgstr "Canh nhãn X:"
+
+#: glade/gbwidgets/gbaspectframe.c:107 glade/gbwidgets/gbframe.c:102
+msgid "The horizontal alignment of the frame's label widget"
+msgstr "Canh hàng ngang cho label widget của frame"
+
+#: glade/gbwidgets/gbaspectframe.c:109 glade/gbwidgets/gbframe.c:104
+msgid "Label Y Align:"
+msgstr "Canh nhãn Y:"
+
+#: glade/gbwidgets/gbaspectframe.c:110 glade/gbwidgets/gbframe.c:105
+msgid "The vertical alignment of the frame's label widget"
+msgstr "Canh hàng dọc cho label widget của frame"
+
+#: glade/gbwidgets/gbaspectframe.c:112 glade/gbwidgets/gbframe.c:107
+msgid "The type of shadow of the frame"
+msgstr "Loại bóng của frame"
+
+#: glade/gbwidgets/gbaspectframe.c:115 glade/gbwidgets/gbaspectframe.c:118
+msgid "The horizontal alignment of the frame's child"
+msgstr "Canh hàng ngang của con của frame"
+
+#: glade/gbwidgets/gbaspectframe.c:120
+msgid "Ratio:"
+msgstr "Tỷ số:"
+
+#: glade/gbwidgets/gbaspectframe.c:121
+msgid "The aspect ratio of the frame's child"
+msgstr "Tỷ lệ co dãn của khung con"
+
+#: glade/gbwidgets/gbaspectframe.c:122
+msgid "Obey Child:"
+msgstr "Theo con:"
+
+#: glade/gbwidgets/gbaspectframe.c:123
+msgid "If the aspect ratio should be determined by the child"
+msgstr "Tỷ lệ co dãn nên được xác định bởi con"
+
+#: glade/gbwidgets/gbaspectframe.c:303
+msgid "Aspect Frame"
+msgstr "Aspect Frame"
+
+#: glade/gbwidgets/gbbutton.c:131 glade/gbwidgets/gbcheckbutton.c:84
+#: glade/gbwidgets/gbradiobutton.c:133 glade/gbwidgets/gbtogglebutton.c:95
+msgid "Stock Button:"
+msgstr "Stock Button:"
+
+#: glade/gbwidgets/gbbutton.c:132 glade/gbwidgets/gbcheckbutton.c:85
+#: glade/gbwidgets/gbradiobutton.c:134 glade/gbwidgets/gbtogglebutton.c:96
+msgid "The stock button to use"
+msgstr "Stock button cần dùng"
+
+#: glade/gbwidgets/gbbutton.c:134 glade/gbwidgets/gbcheckbutton.c:87
+#: glade/gbwidgets/gbcheckmenuitem.c:72 glade/gbwidgets/gbentry.c:100
+#: glade/gbwidgets/gbimagemenuitem.c:92 glade/gbwidgets/gblabel.c:134
+#: glade/gbwidgets/gblistitem.c:73 glade/gbwidgets/gbmenuitem.c:87
+#: glade/gbwidgets/gbradiobutton.c:136 glade/gbwidgets/gbradiomenuitem.c:103
+#: glade/gbwidgets/gbtextview.c:114 glade/gbwidgets/gbtogglebutton.c:98
+msgid "The text to display"
+msgstr "Text cần hiển thị"
+
+#: glade/gbwidgets/gbbutton.c:136 glade/gbwidgets/gbcheckbutton.c:89
+#: glade/gbwidgets/gbimage.c:104 glade/gbwidgets/gbradiobutton.c:138
+#: glade/gbwidgets/gbtogglebutton.c:100
+msgid "The icon to display"
+msgstr "Biểu tượng cần hiển thị"
+
+#: glade/gbwidgets/gbbutton.c:138 glade/gbwidgets/gbcheckbutton.c:91
+#: glade/gbwidgets/gbradiobutton.c:140 glade/gbwidgets/gbtogglebutton.c:102
+msgid "Button Relief:"
+msgstr "Nổi bật nút:"
+
+#: glade/gbwidgets/gbbutton.c:139 glade/gbwidgets/gbcheckbutton.c:92
+#: glade/gbwidgets/gbradiobutton.c:141 glade/gbwidgets/gbtogglebutton.c:103
+msgid "The relief style of the button"
+msgstr "Kiểu nổi bật nút"
+
+#: glade/gbwidgets/gbbutton.c:144
+msgid "Response ID:"
+msgstr "ID Trả lời:"
+
+#: glade/gbwidgets/gbbutton.c:145
+msgid ""
+"The response code returned when the button is pressed. Select one of the "
+"standard responses or enter a positive integer value"
+msgstr ""
+"Mã trả lời trả về khi nút được nhấn. Chọn một trong những mã chuẩn hoặc nhập "
+"một số dương."
+
+#: glade/gbwidgets/gbbutton.c:1913
+msgid "Remove Button Contents"
+msgstr "Loại bỏ nội dung nút"
+
+#: glade/gbwidgets/gbbutton.c:2010
+msgid "Button"
+msgstr "Nút"
+
+#: glade/gbwidgets/gbcalendar.c:73
+msgid "Heading:"
+msgstr "Đầu đề:"
+
+#: glade/gbwidgets/gbcalendar.c:74
+msgid "If the month and year should be shown at the top"
+msgstr "Hiện tháng, năm trên đỉnh"
+
+#: glade/gbwidgets/gbcalendar.c:75
+msgid "Day Names:"
+msgstr "Tên ngày:"
+
+#: glade/gbwidgets/gbcalendar.c:76
+msgid "If the day names should be shown"
+msgstr "Hiện tên ngày"
+
+#: glade/gbwidgets/gbcalendar.c:77
+msgid "Fixed Month:"
+msgstr "Tháng cố định:"
+
+#: glade/gbwidgets/gbcalendar.c:78
+msgid "If the month and year shouldn't be changeable"
+msgstr "Không thể thay đổi tháng và năm"
+
+#: glade/gbwidgets/gbcalendar.c:79
+msgid "Week Numbers:"
+msgstr "Số tuần"
+
+#: glade/gbwidgets/gbcalendar.c:80
+msgid "If the number of the week should be shown"
+msgstr "Hiện số tuần"
+
+#: glade/gbwidgets/gbcalendar.c:81 glade/gnome/gnomedateedit.c:74
+msgid "Monday First:"
+msgstr "Thứ hai trước:"
+
+#: glade/gbwidgets/gbcalendar.c:82 glade/gnome/gnomedateedit.c:75
+msgid "If the week should start on Monday"
+msgstr "Tuần bắt đầu bằng thứ hai"
+
+#: glade/gbwidgets/gbcalendar.c:266
+msgid "Calendar"
+msgstr "Lịch"
+
+#: glade/gbwidgets/gbcheckbutton.c:95 glade/gbwidgets/gbcheckmenuitem.c:73
+#: glade/gbwidgets/gbradiobutton.c:144 glade/gbwidgets/gbradiomenuitem.c:104
+#: glade/gbwidgets/gbtogglebutton.c:106
+msgid "Initially On:"
+msgstr "Bật lúc khởi động:"
+
+#: glade/gbwidgets/gbcheckbutton.c:96
+msgid "If the check button is initially on"
+msgstr "Ô kiểm được đánh dấu lúc khởi động"
+
+#: glade/gbwidgets/gbcheckbutton.c:97 glade/gbwidgets/gbradiobutton.c:146
+#: glade/gbwidgets/gbtogglebutton.c:108
+msgid "Inconsistent:"
+msgstr "Trung gian:"
+
+#: glade/gbwidgets/gbcheckbutton.c:98 glade/gbwidgets/gbradiobutton.c:147
+#: glade/gbwidgets/gbtogglebutton.c:109
+msgid "If the button is shown in an inconsistent state"
+msgstr "Nút ở trạng thái trung gian"
+
+#: glade/gbwidgets/gbcheckbutton.c:99 glade/gbwidgets/gbradiobutton.c:148
+msgid "Indicator:"
+msgstr "Bộ chỉ thị:"
+
+#: glade/gbwidgets/gbcheckbutton.c:100 glade/gbwidgets/gbradiobutton.c:149
+msgid "If the indicator is always drawn"
+msgstr "Hiện bộ chỉ thị"
+
+#: glade/gbwidgets/gbcheckbutton.c:209
+msgid "Check Button"
+msgstr "Nút đánh dấu"
+
+#: glade/gbwidgets/gbcheckmenuitem.c:74
+msgid "If the check menu item is initially on"
+msgstr "Mục menu kiểm được đánh dấu lúc khởi động"
+
+#: glade/gbwidgets/gbcheckmenuitem.c:197
+msgid "Check Menu Item"
+msgstr "Mục menu kiểm"
+
+#: glade/gbwidgets/gbclist.c:141
+msgid "New columned list"
+msgstr "Danh sách cột mới"
+
+#. Columns label & entry
+#: glade/gbwidgets/gbclist.c:152 glade/gbwidgets/gbctree.c:157
+#: glade/gbwidgets/gbhbox.c:110 glade/gbwidgets/gbhbuttonbox.c:132
+#: glade/gbwidgets/gbtable.c:165
+msgid "Number of columns:"
+msgstr "Số cột:"
+
+#: glade/gbwidgets/gbclist.c:242 glade/gbwidgets/gbctree.c:248
+#: glade/gbwidgets/gblist.c:77 glade/gnome/gnomeiconlist.c:174
+msgid "Select Mode:"
+msgstr "Kiểu chọn:"
+
+#: glade/gbwidgets/gbclist.c:243
+msgid "The selection mode of the columned list"
+msgstr "Kiểu chọn danh sách cột"
+
+#: glade/gbwidgets/gbclist.c:245 glade/gbwidgets/gbctree.c:251
+msgid "Show Titles:"
+msgstr "Hiện đầu đề:"
+
+#: glade/gbwidgets/gbclist.c:246 glade/gbwidgets/gbctree.c:252
+msgid "If the column titles are shown"
+msgstr "Hiện đầu đề cột"
+
+#: glade/gbwidgets/gbclist.c:248
+msgid "The type of shadow of the columned list's border"
+msgstr "Loại bóng của biên cột"
+
+#: glade/gbwidgets/gbclist.c:594
+msgid "Columned List"
+msgstr "Danh sách cột"
+
+#: glade/gbwidgets/gbcolorselection.c:62
+msgid "Opacity Control:"
+msgstr "Điều khiển đục:"
+
+#: glade/gbwidgets/gbcolorselection.c:63
+msgid "If the opacity control is shown"
+msgstr "Hiện điều khiển đục"
+
+#: glade/gbwidgets/gbcolorselection.c:64
+msgid "Palette:"
+msgstr "Bảng màu:"
+
+#: glade/gbwidgets/gbcolorselection.c:65
+msgid "If the palette is shown"
+msgstr "Hiện bảng màu"
+
+#: glade/gbwidgets/gbcolorselection.c:173
+msgid "Color Selection"
+msgstr "Chọn màu:"
+
+#: glade/gbwidgets/gbcolorselectiondialog.c:63
+msgid "Select Color"
+msgstr "Chọn màu"
+
+#: glade/gbwidgets/gbcombo.c:105
+msgid "Value In List:"
+msgstr "Giá trị trong danh sách:"
+
+#: glade/gbwidgets/gbcombo.c:106
+msgid "If the value must be in the list"
+msgstr "Phải có giá trị trong danh sách"
+
+#: glade/gbwidgets/gbcombo.c:107
+msgid "OK If Empty:"
+msgstr "Cho phép rỗng:"
+
+#: glade/gbwidgets/gbcombo.c:108
+msgid "If an empty value is acceptable, when 'Value In List' is set"
+msgstr "Chấp nhận giá trị rỗng, khi không đặt \"Giá trị trong danh sách\""
+
+#: glade/gbwidgets/gbcombo.c:109
+msgid "Case Sensitive:"
+msgstr "Phân biệt hoa/thường:"
+
+#: glade/gbwidgets/gbcombo.c:110
+msgid "If the searching is case sensitive"
+msgstr "Tìm kiếm phân biệt chữ hoa và chữ thường"
+
+#: glade/gbwidgets/gbcombo.c:111
+msgid "Use Arrows:"
+msgstr "Dùng mũi tên:"
+
+#: glade/gbwidgets/gbcombo.c:112
+msgid "If arrows can be used to change the value"
+msgstr "Dùng mũi tên để thay đổi giá trị"
+
+#: glade/gbwidgets/gbcombo.c:113
+msgid "Use Always:"
+msgstr "Luôn dùng:"
+
+#: glade/gbwidgets/gbcombo.c:114
+msgid "If arrows work even if the value is not in the list"
+msgstr "Mũi tên luôn hoạt động, kể cả khi không có giá trị trong danh sách"
+
+#: glade/gbwidgets/gbcombo.c:115
+msgid "Items:"
+msgstr "Mục:"
+
+#: glade/gbwidgets/gbcombo.c:116
+msgid "The items in the combo list, one per line"
+msgstr "Các mục trong danh sách combo, mỗi mục một dòng"
+
+#: glade/gbwidgets/gbcombo.c:408
+msgid "Combo Box"
+msgstr "Hộp combo"
+
+#: glade/gbwidgets/gbctree.c:146
+msgid "New columned tree"
+msgstr "Cây mới"
+
+#: glade/gbwidgets/gbctree.c:249
+msgid "The selection mode of the columned tree"
+msgstr "Kiểu chọn của cây"
+
+#: glade/gbwidgets/gbctree.c:254
+msgid "The type of shadow of the columned tree's border"
+msgstr "Kiểu bóng của biên cây"
+
+#: glade/gbwidgets/gbctree.c:538
+msgid "Columned Tree"
+msgstr "Cây"
+
+#: glade/gbwidgets/gbcurve.c:85 glade/gbwidgets/gbwindow.c:165
+msgid "Type:"
+msgstr "Loại:"
+
+#: glade/gbwidgets/gbcurve.c:85
+msgid "The type of the curve"
+msgstr "Loại đường cong"
+
+#: glade/gbwidgets/gbcurve.c:87 glade/gbwidgets/gbgammacurve.c:91
+msgid "X Min:"
+msgstr "X Min:"
+
+#: glade/gbwidgets/gbcurve.c:87 glade/gbwidgets/gbgammacurve.c:91
+msgid "The minimum horizontal value"
+msgstr "Giá trị ngang tối thiểu"
+
+#: glade/gbwidgets/gbcurve.c:88 glade/gbwidgets/gbgammacurve.c:92
+msgid "X Max:"
+msgstr "X Max:"
+
+#: glade/gbwidgets/gbcurve.c:88 glade/gbwidgets/gbgammacurve.c:92
+msgid "The maximum horizontal value"
+msgstr "Giá trị ngang tối đa"
+
+#: glade/gbwidgets/gbcurve.c:89 glade/gbwidgets/gbgammacurve.c:93
+msgid "Y Min:"
+msgstr "Y Min:"
+
+#: glade/gbwidgets/gbcurve.c:89 glade/gbwidgets/gbgammacurve.c:93
+msgid "The minimum vertical value"
+msgstr "Giá trị dọc tối thiểu"
+
+#: glade/gbwidgets/gbcurve.c:90 glade/gbwidgets/gbgammacurve.c:94
+msgid "Y Max:"
+msgstr "Y Max:"
+
+#: glade/gbwidgets/gbcurve.c:90 glade/gbwidgets/gbgammacurve.c:94
+msgid "The maximum vertical value"
+msgstr "Giá trị dọc tối đa"
+
+#: glade/gbwidgets/gbcurve.c:250
+msgid "Curve"
+msgstr "Đường cong"
+
+#: glade/gbwidgets/gbcustom.c:154
+msgid "Creation Function:"
+msgstr "Hàm tạo:"
+
+#: glade/gbwidgets/gbcustom.c:155
+msgid "The function which creates the widget"
+msgstr "Hàm tạo widget"
+
+#: glade/gbwidgets/gbcustom.c:157
+msgid "String1:"
+msgstr "Chuỗi 1:"
+
+#: glade/gbwidgets/gbcustom.c:158
+msgid "The first string argument to pass to the function"
+msgstr "Chuỗi đầu tiên được chuyển cho hàm"
+
+#: glade/gbwidgets/gbcustom.c:159
+msgid "String2:"
+msgstr "Chuỗi 2:"
+
+#: glade/gbwidgets/gbcustom.c:160
+msgid "The second string argument to pass to the function"
+msgstr "Chuỗi thứ hai được chuyển cho hàm"
+
+#: glade/gbwidgets/gbcustom.c:161
+msgid "Int1:"
+msgstr "Int1:"
+
+#: glade/gbwidgets/gbcustom.c:162
+msgid "The first integer argument to pass to the function"
+msgstr "Số nguyên đầu tiên được chuyển cho hàm"
+
+#: glade/gbwidgets/gbcustom.c:163
+msgid "Int2:"
+msgstr "Int2:"
+
+#: glade/gbwidgets/gbcustom.c:164
+msgid "The second integer argument to pass to the function"
+msgstr "Số nguyên thứ hai được chuyển cho hàm"
+
+#: glade/gbwidgets/gbcustom.c:360
+msgid "Custom Widget"
+msgstr "Widget riêng"
+
+#: glade/gbwidgets/gbdialog.c:282
+msgid "New dialog"
+msgstr "Hộp thoại mới"
+
+#: glade/gbwidgets/gbdialog.c:294
+msgid "Cancel, OK"
+msgstr "Hủy bỏ, Đồng ý"
+
+#: glade/gbwidgets/gbdialog.c:312
+msgid "Cancel, Apply, OK"
+msgstr "Hủy bỏ, Áp dụng, Đồng ý"
+
+#: glade/gbwidgets/gbdialog.c:321
+msgid "Close"
+msgstr "Đóng"
+
+#: glade/gbwidgets/gbdialog.c:330
+msgid "_Standard Button Layout:"
+msgstr "Bố trí nút _chuẩn:"
+
+#: glade/gbwidgets/gbdialog.c:339
+msgid "_Number of Buttons:"
+msgstr "_Số nút:"
+
+#: glade/gbwidgets/gbdialog.c:355
+msgid "Show Help Button"
+msgstr "Hiện nút Trợ giúp:"
+
+#: glade/gbwidgets/gbdialog.c:384
+msgid "Has Separator:"
+msgstr "Có ngăn cách:"
+
+#: glade/gbwidgets/gbdialog.c:385
+msgid "If the dialog has a horizontal separator above the buttons"
+msgstr "Hộp thoại có thanh ngăn cách, nằm trên các nút"
+
+#: glade/gbwidgets/gbdialog.c:586
+msgid "Dialog"
+msgstr "Hộp thoại"
+
+#: glade/gbwidgets/gbdrawingarea.c:146
+msgid "Drawing Area"
+msgstr "Vùng vẽ"
+
+#: glade/gbwidgets/gbentry.c:94 glade/gbwidgets/gbtextview.c:112
+msgid "Editable:"
+msgstr "Có thể sửa:"
+
+#: glade/gbwidgets/gbentry.c:94 glade/gbwidgets/gbtextview.c:112
+msgid "If the text can be edited"
+msgstr "Chữ có thể thay đổi"
+
+#: glade/gbwidgets/gbentry.c:95
+msgid "Text Visible:"
+msgstr "Hiện chữ:"
+
+#: glade/gbwidgets/gbentry.c:96
+msgid ""
+"If the text entered by the user will be shown. When turned off, the text "
+"typed in is displayed as asterix characters, which is useful for entering "
+"passwords"
+msgstr ""
+"Hiển thị những chữ do người dùng nhập vào. Nếu tắt, chữ được nhập sẽ được "
+"hiển thị là dấu '*' - rất hữu dụng khi nhập mật khẩu"
+
+#: glade/gbwidgets/gbentry.c:97
+msgid "Max Length:"
+msgstr "Dài tối đa:"
+
+#: glade/gbwidgets/gbentry.c:98
+msgid "The maximum length of the text"
+msgstr "Độ dài tối đa của chuỗi"
+
+#: glade/gbwidgets/gbentry.c:102
+msgid "Has Frame:"
+msgstr "Có khung:"
+
+#: glade/gbwidgets/gbentry.c:102
+msgid "If the entry has a frame around it"
+msgstr "Mục nhập có khung bên ngoài"
+
+#: glade/gbwidgets/gbentry.c:103
+msgid "Invisible Char:"
+msgstr "Chữ không thấy:"
+
+#: glade/gbwidgets/gbentry.c:103
+msgid ""
+"The character to use if the text should not visible, e.g. when entering "
+"passwords"
+msgstr ""
+"Chữ dùng để hiển thị khi không cho phép hiện chữ (vd khi nhập mật khẩu)"
+
+#: glade/gbwidgets/gbentry.c:104
+msgid "Activates Default:"
+msgstr "Mặc định kích hoạt:"
+
+#: glade/gbwidgets/gbentry.c:104
+msgid "If the default widget in the window is activated when Enter is pressed"
+msgstr "Widget mặc định trong cửa sổ được kích hoạt khi nhấn Enter"
+
+#: glade/gbwidgets/gbentry.c:105
+msgid "Width In Chars:"
+msgstr "Độ rộng (ký tự):"
+
+#: glade/gbwidgets/gbentry.c:105
+msgid "The number of characters to leave space for in the entry"
+msgstr "Số ký tự cần bỏ trắng trong mục nhập"
+
+#: glade/gbwidgets/gbentry.c:312
+msgid "Text Entry"
+msgstr "Mục nhập"
+
+#: glade/gbwidgets/gbeventbox.c:147
+msgid "Event Box"
+msgstr "Ô sự kiện"
+
+#: glade/gbwidgets/gbfileselection.c:101
+msgid "File Ops.:"
+msgstr "Thao tác tập tin:"
+
+#: glade/gbwidgets/gbfileselection.c:102
+msgid "If the file operation buttons are shown"
+msgstr "Hiện nút thao tác tập tin"
+
+#: glade/gbwidgets/gbfileselection.c:267
+msgid "File Selection Dialog"
+msgstr "Hộp thoại chọn tập tin"
+
+#: glade/gbwidgets/gbfixed.c:139 glade/gbwidgets/gblayout.c:221
+msgid "X:"
+msgstr "X:"
+
+#: glade/gbwidgets/gbfixed.c:140
+msgid "The X coordinate of the widget in the GtkFixed"
+msgstr "Tọa độ X của widget trong GtkFixed"
+
+#: glade/gbwidgets/gbfixed.c:142 glade/gbwidgets/gblayout.c:224
+msgid "Y:"
+msgstr "Y:"
+
+#: glade/gbwidgets/gbfixed.c:143
+msgid "The Y coordinate of the widget in the GtkFixed"
+msgstr "Tọa độ Y của widget trong GtkFixed"
+
+#: glade/gbwidgets/gbfixed.c:228
+msgid "Fixed Positions"
+msgstr "Vị trí cố định"
+
+#: glade/gbwidgets/gbfontselection.c:64 glade/gnome/gnomefontpicker.c:96
+msgid "Preview Text:"
+msgstr "Chữ xem trước"
+
+#: glade/gbwidgets/gbfontselection.c:64
+msgid "The preview text to display"
+msgstr "Chữ xem thử"
+
+#: glade/gbwidgets/gbfontselection.c:164
+msgid "Font Selection"
+msgstr "Chọn font"
+
+#: glade/gbwidgets/gbfontselectiondialog.c:62
+msgid "Select Font"
+msgstr "Chọn font"
+
+#: glade/gbwidgets/gbfontselectiondialog.c:275
+msgid "Font Selection Dialog"
+msgstr "Hộp thoại chọn font"
+
+#: glade/gbwidgets/gbframe.c:209
+msgid "Add Label Widget"
+msgstr "Thêm widget nhãn"
+
+#: glade/gbwidgets/gbframe.c:344
+msgid "Frame"
+msgstr "Khung"
+
+#: glade/gbwidgets/gbgammacurve.c:88
+msgid "Initial Type:"
+msgstr "Loại bạn đầu:"
+
+#: glade/gbwidgets/gbgammacurve.c:88
+msgid "The initial type of the curve"
+msgstr "Loại đường cong ban đầu"
+
+#: glade/gbwidgets/gbgammacurve.c:256
+msgid "Gamma Curve"
+msgstr "Đường cong Gamma"
+
+#: glade/gbwidgets/gbhandlebox.c:110
+msgid "The type of shadow around the handle box"
+msgstr "Loại bóng quanh ô handle"
+
+#: glade/gbwidgets/gbhandlebox.c:113
+msgid "Handle Pos:"
+msgstr "Vị trí handle:"
+
+#: glade/gbwidgets/gbhandlebox.c:114
+msgid "The position of the handle"
+msgstr "Ví trí handle"
+
+#: glade/gbwidgets/gbhandlebox.c:116
+msgid "Snap Edge:"
+msgstr "Dính cạnh:"
+
+#: glade/gbwidgets/gbhandlebox.c:117
+msgid "The edge of the handle box which snaps into position"
+msgstr "Cạnh ô xử lý dính vào vị trí"
+
+#: glade/gbwidgets/gbhandlebox.c:304
+msgid "Handle Box"
+msgstr "Ô handle"
+
+#: glade/gbwidgets/gbhbox.c:99
+msgid "New horizontal box"
+msgstr "Hộp ngang mới"
+
+#: glade/gbwidgets/gbhbox.c:171 glade/gbwidgets/gbhbuttonbox.c:194
+#: glade/gbwidgets/gbtoolbar.c:245 glade/gbwidgets/gbvbox.c:156
+msgid "Size:"
+msgstr "Kích thước:"
+
+#: glade/gbwidgets/gbhbox.c:171 glade/gbwidgets/gbvbox.c:156
+msgid "The number of widgets in the box"
+msgstr "Số widget trong hộp"
+
+#: glade/gbwidgets/gbhbox.c:173 glade/gbwidgets/gbtable.c:243
+#: glade/gbwidgets/gbvbox.c:158
+msgid "Homogeneous:"
+msgstr "Đồng nhất:"
+
+#: glade/gbwidgets/gbhbox.c:174 glade/gbwidgets/gbvbox.c:159
+msgid "If the children should be the same size"
+msgstr "Các điều khiển con có cùng kích thước"
+
+#: glade/gbwidgets/gbhbox.c:175 glade/gbwidgets/gbhbuttonbox.c:199
+#: glade/gbwidgets/gbvbox.c:160
+msgid "Spacing:"
+msgstr "Phân cách:"
+
+#: glade/gbwidgets/gbhbox.c:175 glade/gbwidgets/gbvbox.c:160
+msgid "The space between each child"
+msgstr "Khoảng trống giữa các điều khiển con"
+
+#: glade/gbwidgets/gbhbox.c:306
+msgid "Can't delete any children."
+msgstr "Không thể xóa bất kỳ điều khiển con nào."
+
+#: glade/gbwidgets/gbhbox.c:320 glade/gbwidgets/gbhpaned.c:73
+#: glade/gbwidgets/gbhruler.c:89 glade/gbwidgets/gbnotebook.c:669
+#: glade/gbwidgets/gbvpaned.c:69 glade/gbwidgets/gbvruler.c:89
+#: glade/gbwidgets/gbwindow.c:169
+msgid "Position:"
+msgstr "Vị trí:"
+
+#: glade/gbwidgets/gbhbox.c:321
+msgid "The widget's position relative to its siblings"
+msgstr "Vị trí của widget so với anh em nó"
+
+#: glade/gbwidgets/gbhbox.c:323
+msgid "Padding:"
+msgstr "Đệm:"
+
+#: glade/gbwidgets/gbhbox.c:324
+msgid "The widget's padding"
+msgstr "Đệm widget"
+
+#: glade/gbwidgets/gbhbox.c:326 glade/gbwidgets/gbnotebook.c:672
+#: glade/gbwidgets/gbpreview.c:65
+msgid "Expand:"
+msgstr ""
+
+#: glade/gbwidgets/gbhbox.c:327
+msgid "Set True to let the widget expand"
+msgstr ""
+
+#: glade/gbwidgets/gbhbox.c:328 glade/gbwidgets/gbnotebook.c:674
+msgid "Fill:"
+msgstr "Đầy:"
+
+#: glade/gbwidgets/gbhbox.c:329
+msgid "Set True to let the widget fill its allocated area"
+msgstr "Widget điền đầy khoảng trống có được"
+
+#: glade/gbwidgets/gbhbox.c:330 glade/gbwidgets/gbnotebook.c:676
+msgid "Pack Start:"
+msgstr "Gói đầu:"
+
+#: glade/gbwidgets/gbhbox.c:331
+msgid "Set True to pack the widget at the start of the box"
+msgstr "Gói widget từ đầu hộp"
+
+#: glade/gbwidgets/gbhbox.c:448
+msgid "Insert Before"
+msgstr "Chèn trước"
+
+#: glade/gbwidgets/gbhbox.c:454
+msgid "Insert After"
+msgstr "Chèn sau"
+
+#: glade/gbwidgets/gbhbox.c:564
+msgid "Horizontal Box"
+msgstr "Hộp ngang"
+
+#: glade/gbwidgets/gbhbuttonbox.c:120
+msgid "New horizontal button box"
+msgstr "Hộp nút ngang"
+
+#: glade/gbwidgets/gbhbuttonbox.c:194
+msgid "The number of buttons"
+msgstr "Số nút"
+
+#: glade/gbwidgets/gbhbuttonbox.c:196
+msgid "Layout:"
+msgstr "Bố trí:"
+
+#: glade/gbwidgets/gbhbuttonbox.c:197
+msgid "The layout style of the buttons"
+msgstr "Kiểu bố trí nút"
+
+#: glade/gbwidgets/gbhbuttonbox.c:199
+msgid "The space between the buttons"
+msgstr "Khoảng trống giữa các nút"
+
+#: glade/gbwidgets/gbhbuttonbox.c:411
+msgid "Horizontal Button Box"
+msgstr "Hộp nút ngang"
+
+#: glade/gbwidgets/gbhpaned.c:74 glade/gbwidgets/gbvpaned.c:70
+msgid "The position of the divider"
+msgstr "Vị trí thanh chia"
+
+#: glade/gbwidgets/gbhpaned.c:186 glade/gbwidgets/gbwindow.c:198
+msgid "Shrink:"
+msgstr "Co:"
+
+#: glade/gbwidgets/gbhpaned.c:187
+msgid "Set True to let the widget shrink"
+msgstr "Cho phép widget co lại"
+
+#: glade/gbwidgets/gbhpaned.c:188
+msgid "Resize:"
+msgstr "Đổi cỡ:"
+
+#: glade/gbwidgets/gbhpaned.c:189
+msgid "Set True to let the widget resize"
+msgstr "Cho phép widget đổi kích thước"
+
+#: glade/gbwidgets/gbhpaned.c:315
+msgid "Horizontal Panes"
+msgstr "Pane ngang"
+
+#: glade/gbwidgets/gbhruler.c:82 glade/gbwidgets/gbvruler.c:82
+msgid "Metric:"
+msgstr "Đơn vị đo:"
+
+#: glade/gbwidgets/gbhruler.c:83 glade/gbwidgets/gbvruler.c:83
+msgid "The units of the ruler"
+msgstr "Đơn vị của thước"
+
+#: glade/gbwidgets/gbhruler.c:85 glade/gbwidgets/gbvruler.c:85
+msgid "Lower Value:"
+msgstr "Giá trị nhỏ:"
+
+#: glade/gbwidgets/gbhruler.c:86 glade/gbwidgets/gbvruler.c:86
+#: glade/gbwidgets/gbvruler.c:88
+msgid "The low value of the ruler"
+msgstr "Giá trị thấp cửa thước"
+
+#: glade/gbwidgets/gbhruler.c:87 glade/gbwidgets/gbvruler.c:87
+msgid "Upper Value:"
+msgstr "Giá trị lớn:"
+
+#: glade/gbwidgets/gbhruler.c:88
+msgid "The high value of the ruler"
+msgstr "Giá trị cao của thước"
+
+#: glade/gbwidgets/gbhruler.c:90 glade/gbwidgets/gbvruler.c:90
+msgid "The current position on the ruler"
+msgstr "Vị trí hiện thời trên thước"
+
+#: glade/gbwidgets/gbhruler.c:92 glade/gbwidgets/gbvruler.c:92
+msgid "The maximum value of the ruler"
+msgstr "Giá trị tối đa của thước"
+
+#: glade/gbwidgets/gbhruler.c:247
+msgid "Horizontal Ruler"
+msgstr "Thước ngang"
+
+#: glade/gbwidgets/gbhscale.c:107 glade/gbwidgets/gbvscale.c:108
+msgid "Show Value:"
+msgstr "Hiện số:"
+
+#: glade/gbwidgets/gbhscale.c:107 glade/gbwidgets/gbvscale.c:108
+msgid "If the scale's value is shown"
+msgstr "Hiện giá trị"
+
+#: glade/gbwidgets/gbhscale.c:108 glade/gbwidgets/gbspinbutton.c:93
+#: glade/gbwidgets/gbvscale.c:109
+msgid "Digits:"
+msgstr "Số chữ số:"
+
+#: glade/gbwidgets/gbhscale.c:108 glade/gbwidgets/gbvscale.c:109
+msgid "The number of digits to show"
+msgstr "Số chữ số hiển thị"
+
+#: glade/gbwidgets/gbhscale.c:110 glade/gbwidgets/gbvscale.c:111
+msgid "Value Pos:"
+msgstr "Vị trí số:"
+
+#: glade/gbwidgets/gbhscale.c:111 glade/gbwidgets/gbvscale.c:112
+msgid "The position of the value"
+msgstr "Vị trí của số"
+
+#: glade/gbwidgets/gbhscale.c:113 glade/gbwidgets/gbhscrollbar.c:87
+#: glade/gbwidgets/gbvscale.c:114 glade/gbwidgets/gbvscrollbar.c:87
+msgid "Policy:"
+msgstr "Chính sách"
+
+#: glade/gbwidgets/gbhscale.c:114 glade/gbwidgets/gbvscale.c:115
+msgid "The update policy of the scale"
+msgstr "Chính sách cập nhật scale"
+
+#: glade/gbwidgets/gbhscale.c:116 glade/gbwidgets/gbhscrollbar.c:90
+#: glade/gbwidgets/gbvscale.c:117 glade/gbwidgets/gbvscrollbar.c:90
+msgid "Inverted:"
+msgstr "Đảo:"
+
+#: glade/gbwidgets/gbhscale.c:116 glade/gbwidgets/gbhscrollbar.c:90
+#: glade/gbwidgets/gbvscale.c:117 glade/gbwidgets/gbvscrollbar.c:90
+msgid "If the range values are inverted"
+msgstr "Đảo giá trị phạm vi"
+
+#: glade/gbwidgets/gbhscale.c:319
+msgid "Horizontal Scale"
+msgstr "Scale ngang"
+
+#: glade/gbwidgets/gbhscrollbar.c:88 glade/gbwidgets/gbvscrollbar.c:88
+msgid "The update policy of the scrollbar"
+msgstr "Chính sách cập nhật thanh cuộn"
+
+#: glade/gbwidgets/gbhscrollbar.c:237
+msgid "Horizontal Scrollbar"
+msgstr "Thanh cuộn ngang"
+
+#: glade/gbwidgets/gbhseparator.c:144
+msgid "Horizonal Separator"
+msgstr "Thanh cách ngang"
+
+#: glade/gbwidgets/gbimage.c:106
+msgid "Icon Size:"
+msgstr "Cỡ biểu tượng"
+
+#: glade/gbwidgets/gbimage.c:107
+msgid "The stock icon size"
+msgstr "Cỡ biểu tượng kho"
+
+#: glade/gbwidgets/gbimage.c:110 glade/gbwidgets/gbpixmap.c:73
+msgid "The horizontal alignment"
+msgstr "Canh ngang"
+
+#: glade/gbwidgets/gbimage.c:113 glade/gbwidgets/gbpixmap.c:76
+msgid "The vertical alignment"
+msgstr "Canh dọc"
+
+#: glade/gbwidgets/gbimage.c:527
+msgid "Image"
+msgstr "Ảnh"
+
+#: glade/gbwidgets/gbimagemenuitem.c:255 glade/gbwidgets/gbmenuitem.c:228
+msgid "Invalid stock menu item"
+msgstr "Mục menu kho không hợp lệ"
+
+#: glade/gbwidgets/gbimagemenuitem.c:465
+msgid "Menu item with a pixmap"
+msgstr "Menu item kèm pixmap"
+
+#: glade/gbwidgets/gbinputdialog.c:207
+msgid "Input Dialog"
+msgstr "Hộp thoại nhập"
+
+#: glade/gbwidgets/gblabel.c:135
+msgid "Use Underline:"
+msgstr "Dùng gạch chân:"
+
+#: glade/gbwidgets/gblabel.c:136
+msgid "If the text includes an underlined accelerator character"
+msgstr "Nếu chữ bao gồm ký tự gạch chân phím nóng"
+
+#: glade/gbwidgets/gblabel.c:137
+msgid "Use Markup:"
+msgstr "Dùng markup:"
+
+#: glade/gbwidgets/gblabel.c:138
+msgid "If the text includes pango markup"
+msgstr "Chữ có đánh dấu của pango"
+
+#: glade/gbwidgets/gblabel.c:139
+msgid "Justify:"
+msgstr "Canh đều:"
+
+#: glade/gbwidgets/gblabel.c:140
+msgid "The justification of the lines of the label"
+msgstr "Canh đều các dòng trong nhãn"
+
+#: glade/gbwidgets/gblabel.c:142
+msgid "Wrap Text:"
+msgstr "Cuộn Text:"
+
+#: glade/gbwidgets/gblabel.c:143
+msgid "If the text is wrapped to fit within the width of the label"
+msgstr "Cuộn chữ cho vừa kích thước nhãn"
+
+#: glade/gbwidgets/gblabel.c:144
+msgid "Selectable:"
+msgstr "Có thể chọn:"
+
+#: glade/gbwidgets/gblabel.c:145
+msgid "If the label text can be selected with the mouse"
+msgstr "Có thể dùng chuột để chọn nhãn"
+
+#: glade/gbwidgets/gblabel.c:147
+msgid "The horizontal alignment of the entire label"
+msgstr "Canh hàng ngang cho toàn bộ nhãn"
+
+#: glade/gbwidgets/gblabel.c:150
+msgid "The vertical alignment of the entire label"
+msgstr "Canh hàng dọc cho toàn bộ nhãn"
+
+#: glade/gbwidgets/gblabel.c:156
+msgid "Focus Target:"
+msgstr "Đích focus:"
+
+#: glade/gbwidgets/gblabel.c:157
+msgid ""
+"The widget to set the keyboard focus to when the underlined accelerator key "
+"is used"
+msgstr "Widget nhận focus khi nhấn vào phím nóng (phím có gạch dưới)"
+
+#: glade/gbwidgets/gblabel.c:271 glade/gbwidgets/gblabel.c:286
+#: glade/gbwidgets/gblabel.c:526
+msgid "Auto"
+msgstr "Tự động"
+
+#: glade/gbwidgets/gblayout.c:96
+msgid "Area Width:"
+msgstr "Bề rộng vùng:"
+
+#: glade/gbwidgets/gblayout.c:97
+msgid "The width of the layout area"
+msgstr "Độ rộng vùng bố trí"
+
+#: glade/gbwidgets/gblayout.c:99
+msgid "Area Height:"
+msgstr "Bề cao vùng:"
+
+#: glade/gbwidgets/gblayout.c:100
+msgid "The height of the layout area"
+msgstr "Độ cao vùng bố trí"
+
+#: glade/gbwidgets/gblayout.c:222
+msgid "The X coordinate of the widget in the GtkLayout"
+msgstr "Toạ độ X của widget trong GtkLayout"
+
+#: glade/gbwidgets/gblayout.c:225
+msgid "The Y coordinate of the widget in the GtkLayout"
+msgstr "Toạ độ Y của widget trong GtkLayout"
+
+#: glade/gbwidgets/gblayout.c:380
+msgid "Layout"
+msgstr "Layout"
+
+#: glade/gbwidgets/gblist.c:78
+msgid "The selection mode of the list"
+msgstr "Kiểu chọn danh sách"
+
+#: glade/gbwidgets/gblist.c:192
+msgid "List"
+msgstr "Danh sách"
+
+#: glade/gbwidgets/gblistitem.c:165
+msgid "List Item"
+msgstr "Mục danh sách"
+
+#: glade/gbwidgets/gbmenu.c:197
+msgid "Popup Menu"
+msgstr "Menu popup"
+
+#. FIXME: I'm not sure if we should translate the non-stock labels or not.
+#: glade/gbwidgets/gbmenubar.c:190
+msgid "_File"
+msgstr "_Tập tin"
+
+#: glade/gbwidgets/gbmenubar.c:207
+msgid "_About"
+msgstr "_Giới thiệu"
+
+#: glade/gbwidgets/gbmenubar.c:268 glade/gbwidgets/gbmenubar.c:346
+#: glade/gbwidgets/gboptionmenu.c:139
+msgid "Edit Menus..."
+msgstr "Sửa menu..."
+
+#: glade/gbwidgets/gbmenubar.c:441
+msgid "Menu Bar"
+msgstr "Thanh menu"
+
+#: glade/gbwidgets/gbmenuitem.c:373
+msgid "Menu Item"
+msgstr "Menu item"
+
+#: glade/gbwidgets/gbnotebook.c:191
+msgid "New notebook"
+msgstr "Tạo Notebook"
+
+#: glade/gbwidgets/gbnotebook.c:202 glade/gnome/gnomepropertybox.c:117
+msgid "Number of pages:"
+msgstr "Số trang"
+
+#: glade/gbwidgets/gbnotebook.c:274
+msgid "Show Tabs:"
+msgstr "Hiện tab:"
+
+#: glade/gbwidgets/gbnotebook.c:274
+msgid "If the notebook tabs are shown"
+msgstr "Hiện tab?"
+
+#: glade/gbwidgets/gbnotebook.c:275
+msgid "Show Border:"
+msgstr "Hiện biên:"
+
+#: glade/gbwidgets/gbnotebook.c:276
+msgid "If the notebook border is shown, when the tabs are not shown"
+msgstr "Hiện biên khi không hiện tab?"
+
+#: glade/gbwidgets/gbnotebook.c:277
+msgid "Tab Pos:"
+msgstr "Vị trí tab:"
+
+#: glade/gbwidgets/gbnotebook.c:278
+msgid "The position of the notebook tabs"
+msgstr "Vị trí tab trong notebook"
+
+#: glade/gbwidgets/gbnotebook.c:280
+msgid "Scrollable:"
+msgstr "Có thể cuộn"
+
+#: glade/gbwidgets/gbnotebook.c:281
+msgid "If the notebook tabs are scrollable"
+msgstr "Notebook có thể cuộn"
+
+#. These seem to be deprecated.
+#: glade/gbwidgets/gbnotebook.c:284
+msgid "Tab Horz. Border:"
+msgstr "Biên tab ngang:"
+
+#: glade/gbwidgets/gbnotebook.c:285
+msgid "The size of the notebook tabs' horizontal border"
+msgstr "Kích thước biên tab ngang"
+
+#: glade/gbwidgets/gbnotebook.c:287
+msgid "Tab Vert. Border:"
+msgstr "Biên tab dọc:"
+
+#: glade/gbwidgets/gbnotebook.c:288
+msgid "The size of the notebook tabs' vertical border"
+msgstr "Kích thước biên tab dọc"
+
+#: glade/gbwidgets/gbnotebook.c:291
+msgid "Show Popup:"
+msgstr "Hiện popup:"
+
+#: glade/gbwidgets/gbnotebook.c:291
+msgid "If the popup menu is enabled"
+msgstr "Cho phép menu popup"
+
+#: glade/gbwidgets/gbnotebook.c:292 glade/gnome/gnomedruid.c:102
+msgid "Number of Pages:"
+msgstr "Số trang:"
+
+#: glade/gbwidgets/gbnotebook.c:293
+msgid "The number of notebook pages"
+msgstr "Số trang"
+
+#: glade/gbwidgets/gbnotebook.c:540
+msgid "Previous Page"
+msgstr "Trang trước"
+
+#: glade/gbwidgets/gbnotebook.c:548
+msgid "Next Page"
+msgstr "Trang kế"
+
+#: glade/gbwidgets/gbnotebook.c:556
+msgid "Delete Page"
+msgstr "Xóa trang"
+
+#: glade/gbwidgets/gbnotebook.c:562
+msgid "Switch Next"
+msgstr "Chuyển trang kế"
+
+#: glade/gbwidgets/gbnotebook.c:570
+msgid "Switch Previous"
+msgstr "Chuyển trang trước"
+
+#: glade/gbwidgets/gbnotebook.c:578 glade/gnome/gnomedruid.c:298
+msgid "Insert Page After"
+msgstr "Chèn trang đằng sau"
+
+#: glade/gbwidgets/gbnotebook.c:586 glade/gnome/gnomedruid.c:285
+msgid "Insert Page Before"
+msgstr "Chèn trang đằng trước"
+
+#: glade/gbwidgets/gbnotebook.c:670
+msgid "The page's position in the list of pages"
+msgstr "Vị trí trang trong danh sách trang"
+
+#: glade/gbwidgets/gbnotebook.c:673
+msgid "Set True to let the tab expand"
+msgstr ""
+
+#: glade/gbwidgets/gbnotebook.c:675
+msgid "Set True to let the tab fill its allocated area"
+msgstr ""
+
+#: glade/gbwidgets/gbnotebook.c:677
+msgid "Set True to pack the tab at the start of the notebook"
+msgstr ""
+
+#: glade/gbwidgets/gbnotebook.c:678
+msgid "Menu Label:"
+msgstr "Nhãn menu:"
+
+#: glade/gbwidgets/gbnotebook.c:679
+msgid "The text to display in the popup menu"
+msgstr "Hiện chữ trên menu popup"
+
+#: glade/gbwidgets/gbnotebook.c:930
+msgid "Notebook"
+msgstr "Notebook"
+
+#: glade/gbwidgets/gboptionmenu.c:230
+#, c-format
+msgid "Cannot add a %s to a GtkOptionMenu."
+msgstr "Không thể thêm %s vào GtkOptionMenu."
+
+#: glade/gbwidgets/gboptionmenu.c:270
+msgid "Option Menu"
+msgstr "Menu chọn"
+
+#: glade/gbwidgets/gbpixmap.c:71 glade/gnome/gnomepixmap.c:79
+msgid "The pixmap filename"
+msgstr "Tên tập tin pixemap"
+
+#: glade/gbwidgets/gbpixmap.c:82
+msgid "Build Insensitive:"
+msgstr ""
+
+#: glade/gbwidgets/gbpixmap.c:83
+msgid "If an insensitive version of the pixmap is built automatically"
+msgstr ""
+
+#: glade/gbwidgets/gbpixmap.c:291
+msgid "Pixmap"
+msgstr "Pixmap"
+
+#: glade/gbwidgets/gbpreview.c:63
+msgid "Color:"
+msgstr "Màu:"
+
+#: glade/gbwidgets/gbpreview.c:64
+msgid "If the preview is color or grayscale"
+msgstr "Khung xem thử là màu hay xám"
+
+#: glade/gbwidgets/gbpreview.c:66
+msgid "If the preview expands to fill its allocated area"
+msgstr ""
+
+#: glade/gbwidgets/gbpreview.c:162
+msgid "Preview"
+msgstr "Xem trước"
+
+#: glade/gbwidgets/gbprogressbar.c:110 glade/gbwidgets/gbtoolbar.c:248
+#: glade/gnome/bonobodockitem.c:179
+msgid "Orientation:"
+msgstr "Hướng:"
+
+#: glade/gbwidgets/gbprogressbar.c:111
+msgid "The orientation of the progress bar's contents"
+msgstr "Hướng thanh tiến trình"
+
+#: glade/gbwidgets/gbprogressbar.c:113
+msgid "Fraction:"
+msgstr "Phân số"
+
+#: glade/gbwidgets/gbprogressbar.c:114
+msgid "The fraction of work that has been completed"
+msgstr "Phân số chỉ số tỷ lệ hoàn tất"
+
+#: glade/gbwidgets/gbprogressbar.c:116
+msgid "Pulse Step:"
+msgstr ""
+
+#: glade/gbwidgets/gbprogressbar.c:117
+msgid ""
+"The fraction of the progress bar length to move the bouncing block when "
+"pulsed"
+msgstr ""
+
+#: glade/gbwidgets/gbprogressbar.c:120
+msgid "The text to display over the progress bar"
+msgstr "Chữ cần hiển thị trên thanh tiến trình"
+
+#. ShowText is implicit now, if the Text property is set to anything.
+#: glade/gbwidgets/gbprogressbar.c:124
+msgid "Show Text:"
+msgstr "Hiện chữ:"
+
+#: glade/gbwidgets/gbprogressbar.c:125
+msgid "If the text should be shown in the progress bar"
+msgstr "Hiện chữ trên thanh tiến trình"
+
+#. ActivityMode is deprecated and implicit now. The app just calls
+#. gtk_progress_bar_pulse() and it automatically goes into activity mode.
+#: glade/gbwidgets/gbprogressbar.c:129
+msgid "Activity Mode:"
+msgstr "Kiểu hoạt động:"
+
+#: glade/gbwidgets/gbprogressbar.c:130
+msgid "If the progress bar should act like the front of Kit's car"
+msgstr "Thanh tiến trình hoạt động như phía trước xe hơi đồ chơi"
+
+#: glade/gbwidgets/gbprogressbar.c:135
+msgid "The horizontal alignment of the text"
+msgstr "Canh hàng ngang chữ"
+
+#: glade/gbwidgets/gbprogressbar.c:138
+msgid "The vertical alignment of the text"
+msgstr "Canh hàng dọc chữ"
+
+#: glade/gbwidgets/gbprogressbar.c:346
+msgid "Progress Bar"
+msgstr "Thanh tiến trình"
+
+#: glade/gbwidgets/gbradiobutton.c:145
+msgid "If the radio button is initially on"
+msgstr "Nếu nút chọn được chọn lúc khởi ban đầu"
+
+#: glade/gbwidgets/gbradiobutton.c:151
+msgid ""
+"The radio button group (the default is all radio buttons with the same "
+"parent)"
+msgstr "Nhóm nút chọn (mặc định là mọi nút chọn có cùng cha)"
+
+#: glade/gbwidgets/gbradiobutton.c:201 glade/gbwidgets/gbradiobutton.c:362
+msgid "New Group"
+msgstr "Tạo nhóm"
+
+#: glade/gbwidgets/gbradiobutton.c:475
+msgid "Radio Button"
+msgstr "Nút chọn"
+
+#: glade/gbwidgets/gbradiomenuitem.c:105
+msgid "If the radio menu item is initially on"
+msgstr "Nếu mục menu chọn được chọn lúc ban đầu"
+
+#: glade/gbwidgets/gbradiomenuitem.c:107
+msgid ""
+"The radio menu item group (the default is all radio menu items with the same "
+"parent)"
+msgstr "Nhóm mục menu chọn (mặc định là mọi mục menu chọn có cùng cha)"
+
+#: glade/gbwidgets/gbradiomenuitem.c:377
+msgid "Radio Menu Item"
+msgstr "Mục menu chọn"
+
+#: glade/gbwidgets/gbscrolledwindow.c:131
+msgid "H Policy:"
+msgstr "Chính sách ngang:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:132
+msgid "When the horizontal scrollbar will be shown"
+msgstr "Khi nào thanh cuộn ngang được hiển thị"
+
+#: glade/gbwidgets/gbscrolledwindow.c:134
+msgid "V Policy:"
+msgstr "Chính sách dọc:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:135
+msgid "When the vertical scrollbar will be shown"
+msgstr "Khi nào thanh cuộn dọc được hiển thị"
+
+#: glade/gbwidgets/gbscrolledwindow.c:137
+msgid "Window Pos:"
+msgstr "Vị trí của sổ:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:138
+msgid "Where the child window is located with respect to the scrollbars"
+msgstr "Nơi của cửa sổ con với thanh cuộn tương ứng"
+
+#: glade/gbwidgets/gbscrolledwindow.c:140
+msgid "Shadow Type:"
+msgstr "Loại bóng:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:141
+msgid "The update policy of the vertical scrollbar"
+msgstr "Chính sách cập nhật thanh cuộn dọc"
+
+#: glade/gbwidgets/gbscrolledwindow.c:355
+msgid "Scrolled Window"
+msgstr "Cửa sổ cuộn"
+
+#: glade/gbwidgets/gbseparatormenuitem.c:153
+msgid "Separator for Menus"
+msgstr "Thanh ngăn cách cho menu"
+
+#: glade/gbwidgets/gbspinbutton.c:91
+msgid "Climb Rate:"
+msgstr "Độ leo:"
+
+#: glade/gbwidgets/gbspinbutton.c:92
+msgid ""
+"The climb rate of the spinbutton, used in conjunction with the Page Increment"
+msgstr "Độ leo của nút spin, được dùng với Độ tăng trang"
+
+#: glade/gbwidgets/gbspinbutton.c:94
+msgid "The number of decimal digits to show"
+msgstr "Số số thập phân hiển thị"
+
+#: glade/gbwidgets/gbspinbutton.c:96
+msgid "Numeric:"
+msgstr "Số:"
+
+#: glade/gbwidgets/gbspinbutton.c:97
+msgid ""
+"If any value entered should be converted according to the locale settings"
+msgstr "Nếu giá trị nhập được chuyển đổi theo locale"
+
+#: glade/gbwidgets/gbspinbutton.c:98
+msgid "Update Policy:"
+msgstr "Chính sách cập nhật:"
+
+#: glade/gbwidgets/gbspinbutton.c:99
+msgid "When value_changed signals are emitted"
+msgstr "Khi tín hiệu value_changed được tạo ra"
+
+#: glade/gbwidgets/gbspinbutton.c:101
+msgid "Snap:"
+msgstr "Dính:"
+
+#: glade/gbwidgets/gbspinbutton.c:102
+msgid "If the value is snapped to multiples of the step increment"
+msgstr ""
+
+#: glade/gbwidgets/gbspinbutton.c:103
+msgid "Wrap:"
+msgstr "Cuộn:"
+
+#: glade/gbwidgets/gbspinbutton.c:104
+msgid "If the value is wrapped at the limits"
+msgstr "Nếu giá trị được chặn tại giới hạn"
+
+#: glade/gbwidgets/gbspinbutton.c:284
+msgid "Spin Button"
+msgstr "Nút spin"
+
+#: glade/gbwidgets/gbstatusbar.c:64
+msgid "Resize Grip:"
+msgstr ""
+
+#: glade/gbwidgets/gbstatusbar.c:64
+msgid "If the status bar has a resize grip to resize the window"
+msgstr "Nếu thanh trạng thái có thể đổi grip đổi cỡ để đổi kích thước cửa sổ"
+
+#: glade/gbwidgets/gbstatusbar.c:156
+msgid "Status Bar"
+msgstr "Thanh trạng thái"
+
+#: glade/gbwidgets/gbtable.c:137
+msgid "New table"
+msgstr "Tạo bảng"
+
+#: glade/gbwidgets/gbtable.c:149 glade/gbwidgets/gbvbox.c:95
+#: glade/gbwidgets/gbvbuttonbox.c:123
+msgid "Number of rows:"
+msgstr "Số dòng:"
+
+#: glade/gbwidgets/gbtable.c:237
+msgid "Rows:"
+msgstr "Dòng:"
+
+#: glade/gbwidgets/gbtable.c:238
+msgid "The number of rows in the table"
+msgstr "Số dòng trong bảng"
+
+#: glade/gbwidgets/gbtable.c:240
+msgid "Columns:"
+msgstr "Cột:"
+
+#: glade/gbwidgets/gbtable.c:241
+msgid "The number of columns in the table"
+msgstr "Số cột trong bảng"
+
+#: glade/gbwidgets/gbtable.c:244
+msgid "If the children should all be the same size"
+msgstr "Nếu cửa sổ con có cùng kích thước"
+
+#: glade/gbwidgets/gbtable.c:245 glade/gnome/gnomeiconlist.c:180
+msgid "Row Spacing:"
+msgstr "Khoảng cách hàng:"
+
+#: glade/gbwidgets/gbtable.c:246
+msgid "The space between each row"
+msgstr "Khoảng trống giữa các hàng"
+
+#: glade/gbwidgets/gbtable.c:248 glade/gnome/gnomeiconlist.c:183
+msgid "Col Spacing:"
+msgstr "Khoảng cách cột:"
+
+#: glade/gbwidgets/gbtable.c:249
+msgid "The space between each column"
+msgstr "Khoảng trống giữa các cột"
+
+#: glade/gbwidgets/gbtable.c:368
+msgid "Cell X:"
+msgstr "X của ô:"
+
+#: glade/gbwidgets/gbtable.c:369
+msgid "The left edge of the widget in the table"
+msgstr "Cạnh trái của widget trong bảng"
+
+#: glade/gbwidgets/gbtable.c:371
+msgid "Cell Y:"
+msgstr "Y của ô:"
+
+#: glade/gbwidgets/gbtable.c:372
+msgid "The top edge of the widget in the table"
+msgstr "Cạnh trên của widget trong bảng"
+
+#: glade/gbwidgets/gbtable.c:375
+msgid "Col Span:"
+msgstr ""
+
+#: glade/gbwidgets/gbtable.c:376
+msgid "The number of columns spanned by the widget in the table"
+msgstr "Số cột widget chiếm trong bảng"
+
+#: glade/gbwidgets/gbtable.c:378
+msgid "Row Span:"
+msgstr ""
+
+#: glade/gbwidgets/gbtable.c:379
+msgid "The number of rows spanned by the widget in the table"
+msgstr "Số hàng widget chiếm trong bảng"
+
+#: glade/gbwidgets/gbtable.c:381
+msgid "H Padding:"
+msgstr "Đệm ngang:"
+
+#: glade/gbwidgets/gbtable.c:384
+msgid "V Padding:"
+msgstr "Đệm dọc:"
+
+#: glade/gbwidgets/gbtable.c:387
+msgid "X Expand:"
+msgstr ""
+
+#: glade/gbwidgets/gbtable.c:388
+msgid "Set True to let the widget expand horizontally"
+msgstr ""
+
+#: glade/gbwidgets/gbtable.c:389
+msgid "Y Expand:"
+msgstr ""
+
+#: glade/gbwidgets/gbtable.c:390
+msgid "Set True to let the widget expand vertically"
+msgstr ""
+
+#: glade/gbwidgets/gbtable.c:391
+msgid "X Shrink:"
+msgstr "Co X:"
+
+#: glade/gbwidgets/gbtable.c:392
+msgid "Set True to let the widget shrink horizontally"
+msgstr "Nếu widget co theo chiều ngang"
+
+#: glade/gbwidgets/gbtable.c:393
+msgid "Y Shrink:"
+msgstr "Co Y:"
+
+#: glade/gbwidgets/gbtable.c:394
+msgid "Set True to let the widget shrink vertically"
+msgstr "Nếu widget co theo chiều dọc"
+
+#: glade/gbwidgets/gbtable.c:395
+msgid "X Fill:"
+msgstr "Đầy X:"
+
+#: glade/gbwidgets/gbtable.c:396
+msgid "Set True to let the widget fill its horizontal allocated area"
+msgstr "Nếu widget lấp đầu khoảng trống theo chiều ngang"
+
+#: glade/gbwidgets/gbtable.c:397
+msgid "Y Fill:"
+msgstr "Đầy Y:"
+
+#: glade/gbwidgets/gbtable.c:398
+msgid "Set True to let the widget fill its vertical allocated area"
+msgstr "Nếu widget lấp đầu khoảng trống theo chiều dọc"
+
+#: glade/gbwidgets/gbtable.c:667
+msgid "Insert Row Before"
+msgstr "Chèn dòng đằng trước"
+
+#: glade/gbwidgets/gbtable.c:674
+msgid "Insert Row After"
+msgstr "Chèn dòng đằng sau"
+
+#: glade/gbwidgets/gbtable.c:681
+msgid "Insert Column Before"
+msgstr "Chèn cột đằng trước"
+
+#: glade/gbwidgets/gbtable.c:688
+msgid "Insert Column After"
+msgstr "Chèn cột đằng sau"
+
+#: glade/gbwidgets/gbtable.c:695
+msgid "Delete Row"
+msgstr "Xóa dòng"
+
+#: glade/gbwidgets/gbtable.c:701
+msgid "Delete Column"
+msgstr "Xóa cột"
+
+#: glade/gbwidgets/gbtable.c:1208
+msgid "Table"
+msgstr "Bảng"
+
+#: glade/gbwidgets/gbtextview.c:48
+msgid "Center"
+msgstr "Giữa"
+
+#: glade/gbwidgets/gbtextview.c:49
+msgid "Fill"
+msgstr "Điền đầy"
+
+#: glade/gbwidgets/gbtextview.c:69
+msgid "Character"
+msgstr "Ký tự"
+
+#: glade/gbwidgets/gbtextview.c:70
+msgid "Word"
+msgstr "Từ"
+
+#: glade/gbwidgets/gbtextview.c:113
+msgid "Cursor Visible:"
+msgstr "Hiện con trỏ:"
+
+#: glade/gbwidgets/gbtextview.c:113
+msgid "If the cursor is visible"
+msgstr "Nếu hiển thị con trỏ"
+
+#: glade/gbwidgets/gbtextview.c:116
+msgid "Justification:"
+msgstr "Canh đều:"
+
+#: glade/gbwidgets/gbtextview.c:117
+msgid "The justification of the text"
+msgstr "Canh đều chữ"
+
+#: glade/gbwidgets/gbtextview.c:119
+msgid "Wrapping:"
+msgstr "Cuộn:"
+
+#: glade/gbwidgets/gbtextview.c:120
+msgid "The wrapping of the text"
+msgstr "Cuộn chữ"
+
+#: glade/gbwidgets/gbtextview.c:123
+msgid "Space Above:"
+msgstr "Trống trên:"
+
+#: glade/gbwidgets/gbtextview.c:124
+msgid "Pixels of blank space above paragraphs"
+msgstr "Số pixel trắng ở trên đoạn"
+
+#: glade/gbwidgets/gbtextview.c:126
+msgid "Space Below:"
+msgstr "Trống dưới:"
+
+#: glade/gbwidgets/gbtextview.c:127
+msgid "Pixels of blank space below paragraphs"
+msgstr "Số pixel trắng ở dưới đoạn"
+
+#: glade/gbwidgets/gbtextview.c:129
+msgid "Space Inside:"
+msgstr "Trống bên trong:"
+
+#: glade/gbwidgets/gbtextview.c:130
+msgid "Pixels of blank space between wrapped lines in a paragraph"
+msgstr "Số pixel trắng giữa các hàng trong đoạn"
+
+#: glade/gbwidgets/gbtextview.c:133
+msgid "Left Margin:"
+msgstr "Lề trái"
+
+#: glade/gbwidgets/gbtextview.c:134
+msgid "Width of the left margin in pixels"
+msgstr "Chiều rộng lề trái (pixel)"
+
+#: glade/gbwidgets/gbtextview.c:136
+msgid "Right Margin:"
+msgstr "Lề phải:"
+
+#: glade/gbwidgets/gbtextview.c:137
+msgid "Width of the right margin in pixels"
+msgstr "Chiều rộng lề phải (pixel)"
+
+#: glade/gbwidgets/gbtextview.c:139
+msgid "Indent:"
+msgstr "Canh lề:"
+
+#: glade/gbwidgets/gbtextview.c:140
+msgid "Amount of pixels to indent paragraphs"
+msgstr "Số pixel dùng để canh lề đoạn"
+
+#: glade/gbwidgets/gbtextview.c:420
+msgid "Text View"
+msgstr "Khung chữ"
+
+#: glade/gbwidgets/gbtogglebutton.c:107
+msgid "If the toggle button is initially on"
+msgstr "Nút mặc định là bật?"
+
+#: glade/gbwidgets/gbtogglebutton.c:205
+msgid "Toggle Button"
+msgstr "Nút bật/tắt"
+
+#: glade/gbwidgets/gbtoolbar.c:173
+msgid "New toolbar"
+msgstr "Tạo thanh công cụ"
+
+#: glade/gbwidgets/gbtoolbar.c:184
+msgid "Number of items:"
+msgstr "Số mục:"
+
+#: glade/gbwidgets/gbtoolbar.c:246
+msgid "The number of items in the toolbar"
+msgstr "Số mục tên thanh công cụ"
+
+#: glade/gbwidgets/gbtoolbar.c:249
+msgid "The toolbar orientation"
+msgstr "Hướng thanh công cụ"
+
+#: glade/gbwidgets/gbtoolbar.c:251
+msgid "Style:"
+msgstr "Kiểu:"
+
+#: glade/gbwidgets/gbtoolbar.c:252
+msgid "The toolbar style"
+msgstr "Kiểu thanh công cụ"
+
+#: glade/gbwidgets/gbtoolbar.c:254
+msgid "Tooltips:"
+msgstr "Tooltip:"
+
+#: glade/gbwidgets/gbtoolbar.c:254
+msgid "If tooltips are enabled"
+msgstr "Bật tooltip?"
+
+#: glade/gbwidgets/gbtoolbar.c:395
+msgid "New Group:"
+msgstr "Nhóm mới:"
+
+#: glade/gbwidgets/gbtoolbar.c:396
+msgid "Set True to start a new group of toolbar items"
+msgstr "Đặt là Đúng để bắt đầu nhóm mới trên thanh công cụ"
+
+#: glade/gbwidgets/gbtoolbar.c:464
+msgid "Insert Item Before"
+msgstr "Chèn trước"
+
+#: glade/gbwidgets/gbtoolbar.c:471
+msgid "Insert Item After"
+msgstr "Chèn sau"
+
+#: glade/gbwidgets/gbtoolbar.c:596
+msgid "Convert to Ordinary Button"
+msgstr "Chuyển thành nút nguyên thủy"
+
+#: glade/gbwidgets/gbtoolbar.c:856
+msgid "Toolbar"
+msgstr "Thanh công cụ"
+
+#: glade/gbwidgets/gbtreeview.c:63
+msgid "Column 1"
+msgstr "Cột 1"
+
+#: glade/gbwidgets/gbtreeview.c:69
+msgid "Column 2"
+msgstr "Cột 2"
+
+#: glade/gbwidgets/gbtreeview.c:85
+msgid "Headers Visible:"
+msgstr "Hiện đầu đề:"
+
+#: glade/gbwidgets/gbtreeview.c:86
+msgid "If the column header buttons are shown"
+msgstr "Hiện đầu đề cột"
+
+#: glade/gbwidgets/gbtreeview.c:87
+msgid "Rules Hint:"
+msgstr "Gợi ý quy tắc:"
+
+#: glade/gbwidgets/gbtreeview.c:88
+msgid ""
+"If a hint is set so the theme engine should draw rows in alternating colors"
+msgstr ""
+
+#: glade/gbwidgets/gbtreeview.c:89
+msgid "Reorderable:"
+msgstr "Có thể sắp thứ tự:"
+
+#: glade/gbwidgets/gbtreeview.c:90
+msgid "If the view is reorderable"
+msgstr "View có thể được sắp thứ tự"
+
+#: glade/gbwidgets/gbtreeview.c:91
+msgid "Enable Search:"
+msgstr "Cho phép tìm:"
+
+#: glade/gbwidgets/gbtreeview.c:92
+msgid "If the user can search through columns interactively"
+msgstr "Nếu người dùng có thể tìm trong các cột một cách tương tác"
+
+#: glade/gbwidgets/gbtreeview.c:236
+msgid "List or Tree View"
+msgstr "List View/Tree View"
+
+#: glade/gbwidgets/gbvbox.c:84
+msgid "New vertical box"
+msgstr "Tạo Vertical Box"
+
+#: glade/gbwidgets/gbvbox.c:242
+msgid "Vertical Box"
+msgstr "Vertical Box"
+
+#: glade/gbwidgets/gbvbuttonbox.c:111
+msgid "New vertical button box"
+msgstr "Tạo vertical button box"
+
+#: glade/gbwidgets/gbvbuttonbox.c:341
+msgid "Vertical Button Box"
+msgstr "Vertical Button Box"
+
+#: glade/gbwidgets/gbviewport.c:104
+msgid "The type of shadow of the viewport"
+msgstr "Loại bóng viewpoer"
+
+#: glade/gbwidgets/gbviewport.c:240
+msgid "Viewport"
+msgstr "Viewport"
+
+#: glade/gbwidgets/gbvpaned.c:192
+msgid "Vertical Panes"
+msgstr "Pane dọc"
+
+#: glade/gbwidgets/gbvruler.c:247
+msgid "Vertical Ruler"
+msgstr "Thước dọc"
+
+#: glade/gbwidgets/gbvscale.c:319
+msgid "Vertical Scale"
+msgstr "Scale dọc"
+
+#: glade/gbwidgets/gbvscrollbar.c:236
+msgid "Vertical Scrollbar"
+msgstr "Thanh cuộn dọc"
+
+#: glade/gbwidgets/gbvseparator.c:144
+msgid "Vertical Separator"
+msgstr "Thanh cách dọc"
+
+#: glade/gbwidgets/gbwindow.c:162 glade/gnome/gnomecolorpicker.c:72
+#: glade/gnome/gnomedruidpageedge.c:93 glade/gnome/gnomedruidpagestandard.c:85
+#: glade/gnome/gnomefileentry.c:80 glade/gnome/gnomefontpicker.c:94
+#: glade/gnome/gnomeiconentry.c:72 glade/gnome/gnomepixmapentry.c:81
+msgid "Title:"
+msgstr "Tựa đề:"
+
+#: glade/gbwidgets/gbwindow.c:162
+msgid "The title of the window"
+msgstr "Tựa đề cửa sổ"
+
+#: glade/gbwidgets/gbwindow.c:165
+msgid "The type of the window"
+msgstr "Loại cửa sổ"
+
+#: glade/gbwidgets/gbwindow.c:170
+msgid "The initial position of the window"
+msgstr "Vị trí ban đầu của cửa sổ"
+
+#: glade/gbwidgets/gbwindow.c:174 glade/gnome/gnomefileentry.c:84
+#: glade/gnome/gnomepixmapentry.c:83
+msgid "Modal:"
+msgstr "Modal:"
+
+#: glade/gbwidgets/gbwindow.c:174
+msgid "If the window is modal"
+msgstr "Cửa sổ là Modal?"
+
+#: glade/gbwidgets/gbwindow.c:179
+msgid "Default Width:"
+msgstr "Rộng mặc định:"
+
+#: glade/gbwidgets/gbwindow.c:180
+msgid "The default width of the window"
+msgstr "Chiều rộng cửa sổ mặc định"
+
+#: glade/gbwidgets/gbwindow.c:184
+msgid "Default Height:"
+msgstr "Cao mặc định:"
+
+#: glade/gbwidgets/gbwindow.c:185
+msgid "The default height of the window"
+msgstr "Chiều cao cửa sổ mặc định"
+
+#: glade/gbwidgets/gbwindow.c:191
+msgid "Resizable:"
+msgstr "Có thể đổi kích thước:"
+
+#: glade/gbwidgets/gbwindow.c:192
+msgid "If the window can be resized"
+msgstr "Cửa sổ có thể được thay đổi kích thước?"
+
+#: glade/gbwidgets/gbwindow.c:199
+msgid "If the window can be shrunk"
+msgstr "Cửa sổ có thể được thu hẹp?"
+
+#: glade/gbwidgets/gbwindow.c:200
+msgid "Grow:"
+msgstr "Nới:"
+
+#: glade/gbwidgets/gbwindow.c:201
+msgid "If the window can be enlarged"
+msgstr "Cửa sổ có thể được mở rộng?"
+
+#: glade/gbwidgets/gbwindow.c:208
+msgid "WM Name:"
+msgstr "Tên WM:"
+
+#: glade/gbwidgets/gbwindow.c:209
+msgid "The name to pass to the window manager"
+msgstr "Tên để chuyển cho bộ quản lý cửa sổ"
+
+#: glade/gbwidgets/gbwindow.c:211
+msgid "WM Class:"
+msgstr "Lớp WM:"
+
+#: glade/gbwidgets/gbwindow.c:212
+msgid "The class name to pass to the window manager"
+msgstr "Tên lớp để chuyển cho bộ quản lý cửa sổ"
+
+#: glade/gbwidgets/gbwindow.c:216
+msgid "Auto-Destroy:"
+msgstr "Tự hủy:"
+
+#: glade/gbwidgets/gbwindow.c:217
+msgid "If the window is destroyed when its transient parent is destroyed"
+msgstr "Cửa sổ bị hủy khi cửa sổ cha bị hủy?"
+
+#: glade/gbwidgets/gbwindow.c:221
+msgid "The icon for this window"
+msgstr "Biểu tượng của cửa sổ"
+
+#: glade/gbwidgets/gbwindow.c:860
+msgid "Window"
+msgstr "Cửa sổ"
+
+#: glade/gnome/bonobodock.c:231
+msgid "Allow Floating:"
+msgstr "Cho phép trôi nổi:"
+
+#: glade/gnome/bonobodock.c:232
+msgid "If floating dock items are allowed"
+msgstr "Cho phép các mục được thả trôi nổi"
+
+#: glade/gnome/bonobodock.c:278
+msgid "Add dock band on top"
+msgstr "Thêm băng lắp ghép trên đỉnh"
+
+#: glade/gnome/bonobodock.c:285
+msgid "Add dock band on bottom"
+msgstr "Thêm băng lắp ghép dưới đáy"
+
+#: glade/gnome/bonobodock.c:292
+msgid "Add dock band on left"
+msgstr "Thêm băng lắp ghép bên trái"
+
+#: glade/gnome/bonobodock.c:299
+msgid "Add dock band on right"
+msgstr "Thêm băng lắp ghép bên phải"
+
+#: glade/gnome/bonobodock.c:306
+msgid "Add floating dock item"
+msgstr "Thêm floating dock item"
+
+#: glade/gnome/bonobodock.c:495
+msgid "Gnome Dock"
+msgstr "Gnome Dock"
+
+#: glade/gnome/bonobodockitem.c:165
+msgid "Locked:"
+msgstr "Khóa:"
+
+#: glade/gnome/bonobodockitem.c:166
+msgid "If the dock item is locked in position"
+msgstr "Dock item bị khóa vị trí?"
+
+#: glade/gnome/bonobodockitem.c:167
+msgid "Exclusive:"
+msgstr "Loại trừ:"
+
+#: glade/gnome/bonobodockitem.c:168
+msgid "If the dock item is always the only item in its band"
+msgstr "Dock item là item duy nhất trong băng của nó?"
+
+#: glade/gnome/bonobodockitem.c:169
+msgid "Never Floating:"
+msgstr "Không floating:"
+
+#: glade/gnome/bonobodockitem.c:170
+msgid "If the dock item is never allowed to float in its own window"
+msgstr "Dock item không bao giờ rời ra khỏi cửa sổ (floating)?"
+
+#: glade/gnome/bonobodockitem.c:171
+msgid "Never Vertical:"
+msgstr "Không nằm dọc:"
+
+#: glade/gnome/bonobodockitem.c:172
+msgid "If the dock item is never allowed to be vertical"
+msgstr "Dock iitem không được phép nằm dọc?"
+
+#: glade/gnome/bonobodockitem.c:173
+msgid "Never Horizontal:"
+msgstr "Không nằm ngang:"
+
+#: glade/gnome/bonobodockitem.c:174
+msgid "If the dock item is never allowed to be horizontal"
+msgstr "Dock iitem không được phép nằm ngang?"
+
+#: glade/gnome/bonobodockitem.c:177
+msgid "The type of shadow around the dock item"
+msgstr "Loại bóng chung quanh dock item"
+
+#: glade/gnome/bonobodockitem.c:180
+msgid "The orientation of a floating dock item"
+msgstr "Hướng của floating dock item"
+
+#: glade/gnome/bonobodockitem.c:428
+msgid "Add dock item before"
+msgstr "Thêm dock item trước"
+
+#: glade/gnome/bonobodockitem.c:435
+msgid "Add dock item after"
+msgstr "Thêm dock item sau"
+
+#: glade/gnome/bonobodockitem.c:771
+msgid "Gnome Dock Item"
+msgstr "Gnome Dock Item"
+
+#: glade/gnome/bonobowindow.c:65
+msgid "_New File"
+msgstr "Tập tin mớ_i"
+
+#: glade/gnome/bonobowindow.c:349 glade/gnome/gnomeapp.c:188
+msgid "Status Bar:"
+msgstr "Thanh trạng thái:"
+
+#: glade/gnome/bonobowindow.c:350 glade/gnome/gnomeapp.c:189
+msgid "If the window has a status bar"
+msgstr "Cửa sổ có thanh trạng thái?"
+
+#: glade/gnome/bonobowindow.c:351 glade/gnome/gnomeapp.c:190
+msgid "Store Config:"
+msgstr "Lưu cấu hình:"
+
+#: glade/gnome/bonobowindow.c:352 glade/gnome/gnomeapp.c:191
+msgid "If the layout is saved and restored automatically"
+msgstr "Layout được lưu và phục hồi tự động?"
+
+#: glade/gnome/bonobowindow.c:578
+msgid "Bonobo Window"
+msgstr "Cửa sổ Bonobo"
+
+#: glade/gnome/gnomeabout.c:117
+msgid "Logo:"
+msgstr "Logo:"
+
+#: glade/gnome/gnomeabout.c:117
+msgid "The pixmap to use as the logo"
+msgstr "Pixmap dùng làm logo"
+
+#: glade/gnome/gnomeabout.c:118
+msgid "Copyright:"
+msgstr "Bản quyền"
+
+#: glade/gnome/gnomeabout.c:118
+msgid "The copyright notice"
+msgstr "Thông báo bản quyền"
+
+#: glade/gnome/gnomeabout.c:119
+msgid "Comments:"
+msgstr "Ghi chú:"
+
+#: glade/gnome/gnomeabout.c:119
+msgid ""
+"Additional information, such as a description of the package and its home "
+"page on the web"
+msgstr "Thông tin bổ sung, ví dụ như mô tả về gói tin và trang chủ trên web"
+
+#: glade/gnome/gnomeabout.c:121
+msgid "Authors:"
+msgstr "Tác giả"
+
+#: glade/gnome/gnomeabout.c:121
+msgid "The authors of the package, one on each line"
+msgstr "Các tác giả của gói tin, mỗi người một hàng"
+
+#: glade/gnome/gnomeabout.c:122
+msgid "Documenters:"
+msgstr "Người viết tài liệu:"
+
+#: glade/gnome/gnomeabout.c:122
+msgid "The documenters of the package, one on each line"
+msgstr "Người viết tài liệu cho gói tin, mỗi người một dòng"
+
+#: glade/gnome/gnomeabout.c:123
+msgid "Translators:"
+msgstr "Người dịch:"
+
+#: glade/gnome/gnomeabout.c:123
+msgid ""
+"The translators of the package. This should normally be left empty so that "
+"translators can add their names in the po files"
+msgstr ""
+"Những người dịch gói tin. Chỗ này nên để trắng để người dịch điền tên vào "
+"trong tập tin po"
+
+#: glade/gnome/gnomeabout.c:485
+msgid "Gnome About Dialog"
+msgstr "Hộp thoại giới thiệu Gnome"
+
+#: glade/gnome/gnomeapp.c:157
+msgid "New File"
+msgstr "Tập tin mới"
+
+#: glade/gnome/gnomeapp.c:159
+msgid "Open File"
+msgstr "Mở tập tin"
+
+#: glade/gnome/gnomeapp.c:161
+msgid "Save File"
+msgstr "Lưu tập tin"
+
+#: glade/gnome/gnomeapp.c:414
+msgid "Gnome Application Window"
+msgstr "Cửa sổ ứng dụng Gnome"
+
+#: glade/gnome/gnomeappbar.c:56
+msgid "Status Message."
+msgstr "Thông điệp trạng thái."
+
+#: glade/gnome/gnomeappbar.c:69
+msgid "Progress:"
+msgstr "Tiến trình:"
+
+#: glade/gnome/gnomeappbar.c:70
+msgid "If the app bar has a progress indicator"
+msgstr "App bar có progess indicator?"
+
+#: glade/gnome/gnomeappbar.c:71
+msgid "Status:"
+msgstr "Trạng thái:"
+
+#: glade/gnome/gnomeappbar.c:72
+msgid "If the app bar has an area for status messages and user input"
+msgstr "App bar có vùng dành cho status message và user input?"
+
+#: glade/gnome/gnomeappbar.c:184
+msgid "Gnome Application Bar"
+msgstr "Gnome Application Bar"
+
+#: glade/gnome/gnomecanvas.c:68
+msgid "Anti-Aliased:"
+msgstr "Làm mượt:"
+
+#: glade/gnome/gnomecanvas.c:69
+msgid "If the canvas is anti-aliased, to smooth the edges of text and graphics"
+msgstr "Làm mượt cạnh chữ và các hình đồ họa"
+
+#: glade/gnome/gnomecanvas.c:70
+msgid "X1:"
+msgstr "X1:"
+
+#: glade/gnome/gnomecanvas.c:70
+msgid "The minimum x coordinate"
+msgstr "Tọa độ X tối thiểu"
+
+#: glade/gnome/gnomecanvas.c:71
+msgid "Y1:"
+msgstr "Y1:"
+
+#: glade/gnome/gnomecanvas.c:71
+msgid "The minimum y coordinate"
+msgstr "Toạ độ Y tối thiểu"
+
+#: glade/gnome/gnomecanvas.c:72
+msgid "X2:"
+msgstr "X2:"
+
+#: glade/gnome/gnomecanvas.c:72
+msgid "The maximum x coordinate"
+msgstr "Tọa độ X tối đa"
+
+#: glade/gnome/gnomecanvas.c:73
+msgid "Y2:"
+msgstr "Y2:"
+
+#: glade/gnome/gnomecanvas.c:73
+msgid "The maximum y coordinate"
+msgstr "Toạ độ Y tối đa"
+
+#: glade/gnome/gnomecanvas.c:75
+msgid "Pixels Per Unit:"
+msgstr "Số pixel/đơn vị:"
+
+#: glade/gnome/gnomecanvas.c:76
+msgid "The number of pixels corresponding to one unit"
+msgstr "Số pixel tương ứng một đơn vị"
+
+#: glade/gnome/gnomecanvas.c:239
+msgid "GnomeCanvas"
+msgstr "GnomeCanvas"
+
+#: glade/gnome/gnomecolorpicker.c:67
+msgid "Dither:"
+msgstr "Dither:"
+
+#: glade/gnome/gnomecolorpicker.c:68
+msgid "If the sample should use dithering to be more accurate"
+msgstr "Mẫn nên được dither chính xác hơn?"
+
+#: glade/gnome/gnomecolorpicker.c:69
+msgid "Use Alpha:"
+msgstr "Dùng Alpha:"
+
+#: glade/gnome/gnomecolorpicker.c:70
+msgid "If the alpha channel should be used"
+msgstr "Dùng kênh alpha?"
+
+#: glade/gnome/gnomecolorpicker.c:73
+msgid "The title of the color selection dialog"
+msgstr "Tựa đề hộp chọn màu"
+
+#: glade/gnome/gnomecolorpicker.c:150
+msgid "Pick a color"
+msgstr "Chọn màu"
+
+#: glade/gnome/gnomecolorpicker.c:194
+msgid "Gnome Color Picker"
+msgstr "Bộ chọn màu Gnome"
+
+#: glade/gnome/gnomecontrol.c:160
+msgid "Couldn't create the Bonobo control"
+msgstr "Không thể tạo điều khiển Bonobo"
+
+#: glade/gnome/gnomecontrol.c:249
+msgid "New Bonobo Control"
+msgstr "Điều khiển Bonobo mới"
+
+#: glade/gnome/gnomecontrol.c:262
+msgid "Select a Bonobo Control"
+msgstr "Chọn điều khiển Bonobo"
+
+#: glade/gnome/gnomecontrol.c:290
+msgid "OAFIID"
+msgstr "OAFIID"
+
+#: glade/gnome/gnomecontrol.c:339
+msgid "Bonobo Control"
+msgstr "Điều khiển Bonobo"
+
+#: glade/gnome/gnomedateedit.c:70
+msgid "Show Time:"
+msgstr "Hiện thời gian:"
+
+#: glade/gnome/gnomedateedit.c:71
+msgid "If the time is shown as well as the date"
+msgstr "Thời gian cũng được hiển thị như ngày"
+
+#: glade/gnome/gnomedateedit.c:72
+msgid "24 Hour Format:"
+msgstr "Dạng thức 24 giờ:"
+
+#: glade/gnome/gnomedateedit.c:73
+msgid "If the time is shown in 24-hour format"
+msgstr "Thời gian hiển thị theo dạng thức 24 giờ"
+
+#: glade/gnome/gnomedateedit.c:76
+msgid "Lower Hour:"
+msgstr ""
+
+#: glade/gnome/gnomedateedit.c:77
+msgid "The lowest hour to show in the popup"
+msgstr ""
+
+#: glade/gnome/gnomedateedit.c:79
+msgid "Upper Hour:"
+msgstr ""
+
+#: glade/gnome/gnomedateedit.c:80
+msgid "The highest hour to show in the popup"
+msgstr ""
+
+#: glade/gnome/gnomedateedit.c:298
+msgid "GnomeDateEdit"
+msgstr "GnomeDateEdit"
+
+#: glade/gnome/gnomedialog.c:140 glade/gnome/gnomemessagebox.c:177
+msgid "Auto Close:"
+msgstr "Tự đóng:"
+
+#: glade/gnome/gnomedialog.c:141 glade/gnome/gnomemessagebox.c:178
+msgid "If the dialog closes when any button is clicked"
+msgstr "Hộp thoại đóng khi nhấn bất kỳ nút nào?"
+
+#: glade/gnome/gnomedialog.c:142 glade/gnome/gnomemessagebox.c:179
+msgid "Hide on Close:"
+msgstr "Ẩn khi đóng:"
+
+#: glade/gnome/gnomedialog.c:143 glade/gnome/gnomemessagebox.c:180
+msgid "If the dialog is hidden when it is closed, instead of being destroyed"
+msgstr "Hộp thoại được ẩn khi đóng thay vì bị hủy?"
+
+#: glade/gnome/gnomedialog.c:317
+msgid "Gnome Dialog Box"
+msgstr "Hộp thoại Gnome"
+
+#: glade/gnome/gnomedruid.c:91
+msgid "New Gnome Druid"
+msgstr "Gnome Druid mới"
+
+#: glade/gnome/gnomedruid.c:190
+msgid "Show Help"
+msgstr "Hiện trợ giúp"
+
+#: glade/gnome/gnomedruid.c:190
+msgid "Display the help button."
+msgstr "Hiện nút Trợ giúp"
+
+#: glade/gnome/gnomedruid.c:255
+msgid "Add Start Page"
+msgstr "Thêm trang Bắt đầu"
+
+#: glade/gnome/gnomedruid.c:270
+msgid "Add Finish Page"
+msgstr "Thêm trang Hoàn tất"
+
+#: glade/gnome/gnomedruid.c:485
+msgid "Druid"
+msgstr "Druid"
+
+#: glade/gnome/gnomedruidpageedge.c:94 glade/gnome/gnomedruidpagestandard.c:86
+msgid "The title of the page"
+msgstr "Tựa đề của trang"
+
+#: glade/gnome/gnomedruidpageedge.c:96
+msgid "The main text of the page, introducing people to the druid."
+msgstr "Text chính của trang, giới thiệu cho mọi người."
+
+#: glade/gnome/gnomedruidpageedge.c:98 glade/gnome/gnomedruidpagestandard.c:87
+msgid "Title Color:"
+msgstr "Màu tựa:"
+
+#: glade/gnome/gnomedruidpageedge.c:99 glade/gnome/gnomedruidpagestandard.c:88
+msgid "The color of the title text"
+msgstr "Màu chữ tựa đề"
+
+#: glade/gnome/gnomedruidpageedge.c:100
+msgid "Text Color:"
+msgstr "Màu chữ:"
+
+#: glade/gnome/gnomedruidpageedge.c:101
+msgid "The color of the main text"
+msgstr "Màu text chính"
+
+#: glade/gnome/gnomedruidpageedge.c:102
+#: glade/gnome/gnomedruidpagestandard.c:91
+msgid "Back. Color:"
+msgstr "Màu nền:"
+
+#: glade/gnome/gnomedruidpageedge.c:103
+#: glade/gnome/gnomedruidpagestandard.c:92
+msgid "The background color of the page"
+msgstr "Màu nền của trang"
+
+#: glade/gnome/gnomedruidpageedge.c:104
+#: glade/gnome/gnomedruidpagestandard.c:93
+msgid "Logo Back. Color:"
+msgstr "Màu nền logo:"
+
+#: glade/gnome/gnomedruidpageedge.c:105
+#: glade/gnome/gnomedruidpagestandard.c:94
+msgid "The background color around the logo"
+msgstr "Màu nền quanh logo"
+
+#: glade/gnome/gnomedruidpageedge.c:106
+msgid "Text Box Color:"
+msgstr "Màu text box:"
+
+#: glade/gnome/gnomedruidpageedge.c:107
+msgid "The background color of the main text area"
+msgstr "Màu nền của vùng text chính"
+
+#: glade/gnome/gnomedruidpageedge.c:108
+#: glade/gnome/gnomedruidpagestandard.c:95
+msgid "Logo Image:"
+msgstr "Ảnh logo:"
+
+#: glade/gnome/gnomedruidpageedge.c:109
+#: glade/gnome/gnomedruidpagestandard.c:96
+msgid "The logo to display in the top-right of the page"
+msgstr "Logo hiển thị tại góc trên-phải của trang"
+
+#: glade/gnome/gnomedruidpageedge.c:110
+msgid "Side Watermark:"
+msgstr ""
+
+#: glade/gnome/gnomedruidpageedge.c:111
+msgid "The main image to display on the side of the page."
+msgstr "Ảnh chính hiển thị bên cạnh trang."
+
+#: glade/gnome/gnomedruidpageedge.c:112
+#: glade/gnome/gnomedruidpagestandard.c:97
+msgid "Top Watermark:"
+msgstr ""
+
+#: glade/gnome/gnomedruidpageedge.c:113
+msgid "The watermark to display at the top of the page."
+msgstr ""
+
+#: glade/gnome/gnomedruidpageedge.c:514
+msgid "Druid Start or Finish Page"
+msgstr "Druid Start hoặc Finish Page"
+
+#: glade/gnome/gnomedruidpagestandard.c:89
+msgid "Contents Back. Color:"
+msgstr "Màu nền:"
+
+#: glade/gnome/gnomedruidpagestandard.c:90
+msgid "The background color around the title"
+msgstr "Màu nền bao quanh tựa đề"
+
+#: glade/gnome/gnomedruidpagestandard.c:98
+msgid "The image to display along the top of the page"
+msgstr "Ảnh hiển thị trên đỉnh trang"
+
+#: glade/gnome/gnomedruidpagestandard.c:436
+msgid "Druid Standard Page"
+msgstr "Druid Standard Page"
+
+#: glade/gnome/gnomeentry.c:71 glade/gnome/gnomefileentry.c:75
+#: glade/gnome/gnomeiconentry.c:74 glade/gnome/gnomepixmapentry.c:76
+msgid "History ID:"
+msgstr "ID lược sử:"
+
+#: glade/gnome/gnomeentry.c:72 glade/gnome/gnomefileentry.c:76
+#: glade/gnome/gnomeiconentry.c:75 glade/gnome/gnomepixmapentry.c:77
+msgid "The ID to save the history entries under"
+msgstr "ID để lưu các mục lược sử"
+
+#: glade/gnome/gnomeentry.c:73 glade/gnome/gnomefileentry.c:77
+#: glade/gnome/gnomeiconentry.c:76 glade/gnome/gnomepixmapentry.c:78
+msgid "Max Saved:"
+msgstr "Lưu tối đa:"
+
+#: glade/gnome/gnomeentry.c:74 glade/gnome/gnomefileentry.c:78
+#: glade/gnome/gnomeiconentry.c:77 glade/gnome/gnomepixmapentry.c:79
+msgid "The maximum number of history entries saved"
+msgstr "Số mục tối đa được lưu trong lược sử"
+
+#: glade/gnome/gnomeentry.c:210
+msgid "Gnome Entry"
+msgstr "Gnome Entry"
+
+#: glade/gnome/gnomefileentry.c:81 glade/gnome/gnomeiconentry.c:73
+#: glade/gnome/gnomepixmapentry.c:82
+msgid "The title of the file selection dialog"
+msgstr "Tựa đề của hộp thoại chọn tập tin"
+
+#: glade/gnome/gnomefileentry.c:82
+msgid "Directory:"
+msgstr "Thư mục:"
+
+#: glade/gnome/gnomefileentry.c:83
+msgid "If a directory is needed rather than a file"
+msgstr "Cần thư mục hơn là tập tin?"
+
+#: glade/gnome/gnomefileentry.c:85 glade/gnome/gnomepixmapentry.c:84
+msgid "If the file selection dialog should be modal"
+msgstr "Hộp thoại chọn font có là modal?"
+
+#: glade/gnome/gnomefileentry.c:274
+msgid "Gnome File Entry"
+msgstr "Gnome File Entry"
+
+#: glade/gnome/gnomefontpicker.c:95
+msgid "The title of the font selection dialog"
+msgstr "Tựa đề của hộp thoại chọn font"
+
+#: glade/gnome/gnomefontpicker.c:97
+msgid "The preview text to show in the font selection dialog"
+msgstr "Text xem thử được hiển thị trong hộp thoại chọn font"
+
+#: glade/gnome/gnomefontpicker.c:98
+msgid "Mode:"
+msgstr "Chế độ:"
+
+#: glade/gnome/gnomefontpicker.c:99
+msgid "What to display in the font picker button"
+msgstr "Cái cần hiển thị trên nút chọn font"
+
+#: glade/gnome/gnomefontpicker.c:101
+msgid "Show Size:"
+msgstr "Hiện kích thước:"
+
+#: glade/gnome/gnomefontpicker.c:102
+msgid "If the font size is shown as part of the font information"
+msgstr "Cỡ font có được hiển thị như là thông tin về font không"
+
+#: glade/gnome/gnomefontpicker.c:103
+msgid "Use Font:"
+msgstr "Dùng font:"
+
+#: glade/gnome/gnomefontpicker.c:104
+msgid "If the selected font is used when displaying the font information"
+msgstr "Font được chọn có được dùng để hiển thị thông tin font không"
+
+#: glade/gnome/gnomefontpicker.c:105
+msgid "Use Size:"
+msgstr "Dùng kích thước:"
+
+#: glade/gnome/gnomefontpicker.c:106
+msgid "The size of the font to use in the font picker button"
+msgstr "Cỡ font dùng trong nút chọn font"
+
+#: glade/gnome/gnomefontpicker.c:126 glade/gnome/gnomefontpicker.c:194
+#: glade/gnome/gnomefontpicker.c:290
+msgid "Pick a Font"
+msgstr "Chọn font"
+
+#: glade/gnome/gnomefontpicker.c:365
+msgid "Gnome Font Picker"
+msgstr "Bộ chọn font Gnome"
+
+#: glade/gnome/gnomehref.c:65
+msgid "URL:"
+msgstr "URL:"
+
+#: glade/gnome/gnomehref.c:66
+msgid "The URL to display when the button is clicked"
+msgstr "URL cần hiển thị khi nhấn nút"
+
+#: glade/gnome/gnomehref.c:68
+msgid "The text to display in the button"
+msgstr "Text được hiển thị trên nút"
+
+#: glade/gnome/gnomehref.c:179
+msgid "Gnome HRef Link Button"
+msgstr "Gnome HRef Link Button"
+
+#: glade/gnome/gnomeiconentry.c:202
+msgid "Gnome Icon Entry"
+msgstr "Gnome Icon Entry"
+
+#: glade/gnome/gnomeiconlist.c:175
+msgid "The selection mode"
+msgstr "Chế độ chọn"
+
+#: glade/gnome/gnomeiconlist.c:177
+msgid "Icon Width:"
+msgstr "Biểu tượng rộng:"
+
+#: glade/gnome/gnomeiconlist.c:178
+msgid "The width of each icon"
+msgstr "Bề rộng mỗi biểu tượng"
+
+#: glade/gnome/gnomeiconlist.c:181
+msgid "The number of pixels between rows of icons"
+msgstr "Số pixel giữa các hàng biểu tượng"
+
+#: glade/gnome/gnomeiconlist.c:184
+msgid "The number of pixels between columns of icons"
+msgstr "Số pixel giữa các cột biểu tượng"
+
+#: glade/gnome/gnomeiconlist.c:187
+msgid "Icon Border:"
+msgstr "Biên biểu tượng:"
+
+#: glade/gnome/gnomeiconlist.c:188
+msgid "The number of pixels around icons (unused?)"
+msgstr "Số pixel quanh biểu tượng (chưa dùng?)"
+
+#: glade/gnome/gnomeiconlist.c:191
+msgid "Text Spacing:"
+msgstr "Khoảng trống text:"
+
+#: glade/gnome/gnomeiconlist.c:192
+msgid "The number of pixels between the text and the icon"
+msgstr "Số pixel giữa text và biểu tượng"
+
+#: glade/gnome/gnomeiconlist.c:194
+msgid "Text Editable:"
+msgstr "Có thể sửa text:"
+
+#: glade/gnome/gnomeiconlist.c:195
+msgid "If the icon text can be edited by the user"
+msgstr "Text biểu tượng có thể được sửa bởi người dùng không"
+
+#: glade/gnome/gnomeiconlist.c:196
+msgid "Text Static:"
+msgstr "Text tĩnh:"
+
+#: glade/gnome/gnomeiconlist.c:197
+msgid ""
+"If the icon text is static, in which case it will not be copied by the "
+"GnomeIconList"
+msgstr ""
+
+#: glade/gnome/gnomeiconlist.c:461
+msgid "Icon List"
+msgstr "Danh sách biểu tượng"
+
+#: glade/gnome/gnomeiconselection.c:154
+msgid "Icon Selection"
+msgstr "Biểu tượng chọn"
+
+#: glade/gnome/gnomemessagebox.c:164
+msgid "Message Type:"
+msgstr "Loại thông báo:"
+
+#: glade/gnome/gnomemessagebox.c:165
+msgid "The type of the message box"
+msgstr "Loại hộp thông báo"
+
+#: glade/gnome/gnomemessagebox.c:167
+msgid "Message:"
+msgstr "Thông điệp:"
+
+#: glade/gnome/gnomemessagebox.c:167
+msgid "The message to display"
+msgstr "Thông điệp cần hiển thị"
+
+#: glade/gnome/gnomemessagebox.c:474
+msgid "Gnome Message Box"
+msgstr "Hộp thông báo Gnome"
+
+#: glade/gnome/gnomeprintpaperselector.c:148
+msgid "Gnome Paper Selector"
+msgstr "Bộ chọn giấy Gnome"
+
+#: glade/gnome/gnomepixmap.c:80
+msgid "Scaled:"
+msgstr "Co dãn:"
+
+#: glade/gnome/gnomepixmap.c:80
+msgid "If the pixmap is scaled"
+msgstr "Pixmap được co dãn hay không"
+
+#: glade/gnome/gnomepixmap.c:81
+msgid "Scaled Width:"
+msgstr "Rộng (có co dãn):"
+
+#: glade/gnome/gnomepixmap.c:82
+msgid "The width to scale the pixmap to"
+msgstr "Độ rộng của pixmap sau khi đã co dãn"
+
+#: glade/gnome/gnomepixmap.c:84
+msgid "Scaled Height:"
+msgstr "Cao (đã co dãn):"
+
+#: glade/gnome/gnomepixmap.c:85
+msgid "The height to scale the pixmap to"
+msgstr "Chiều cao của pixmap sau khi đã co dãn"
+
+#: glade/gnome/gnomepixmap.c:333
+msgid "Gnome Pixmap"
+msgstr "Gnome Pixmap"
+
+#: glade/gnome/gnomepixmapentry.c:74
+msgid "Preview:"
+msgstr "Xem trước:"
+
+#: glade/gnome/gnomepixmapentry.c:75
+msgid "If a small preview of the pixmap is displayed"
+msgstr "Có hiển thị ảnh xem thử không"
+
+#: glade/gnome/gnomepixmapentry.c:278
+msgid "GnomePixmapEntry"
+msgstr "GnomePixmapEntry"
+
+#: glade/gnome/gnomepropertybox.c:105
+msgid "New GnomePropertyBox"
+msgstr "GroupPropertyBox mới"
+
+#: glade/gnome/gnomepropertybox.c:347
+msgid "Property Dialog Box"
+msgstr "Hộp thoại thuộc tính"
+
+#: glade/gnome-db/gnomedbbrowser.c:135
+msgid "Database Browser"
+msgstr "Bộ duyệt cơ sở dữ liệu"
+
+#: glade/gnome-db/gnomedbcombo.c:124
+msgid "Data-bound combo"
+msgstr "Ô combo data-bound"
+
+#: glade/gnome-db/gnomedbconnectsel.c:147
+#, fuzzy
+msgid "Connection Selector"
+msgstr "Chọn font"
+
+#: glade/gnome-db/gnomedbdsnconfig.c:136
+msgid "DSN Configurator"
+msgstr "Bộ cấu hình DSN"
+
+#: glade/gnome-db/gnomedbdsndruid.c:147
+#, fuzzy
+msgid "DSN Config Druid"
+msgstr "Bộ cấu hình DSN"
+
+#: glade/gnome-db/gnomedberror.c:136
+msgid "Database error viewer"
+msgstr "Bộ xem lỗi cơ sở dữ liệu"
+
+#: glade/gnome-db/gnomedberrordlg.c:195
+msgid "Database error dialog"
+msgstr "Hộp thoại lỗi cơ sở dữ liệu"
+
+#: glade/gnome-db/gnomedbform.c:147
+#, fuzzy
+msgid "Form"
+msgstr "Khung"
+
+#: glade/gnome-db/gnomedbgrid.c:132
+msgid "Data-bound grid"
+msgstr "Lưới Data-bound"
+
+#: glade/gnome-db/gnomedblist.c:136
+msgid "Data-bound list"
+msgstr "Danh sách Data-bound"
+
+#: glade/gnome-db/gnomedblogin.c:136
+msgid "Database login widget"
+msgstr "Widget Đăng nhập cơ sở dữ liệu"
+
+#: glade/gnome-db/gnomedblogindlg.c:69
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: glade/gnome-db/gnomedblogindlg.c:196
+msgid "Database login dialog"
+msgstr "Hộp thoại đăng nhập cơ sở dữ liệu"
+
+#: glade/gnome-db/gnomedbprovidersel.c:147
+#, fuzzy
+msgid "Provider Selector"
+msgstr "Bộ chọn giấy Gnome"
+
+#: glade/gnome-db/gnomedbsourcesel.c:149
+#, fuzzy
+msgid "Data Source Selector"
+msgstr "Thư mục source:"
+
+#: glade/gnome-db/gnomedbsqleditor.c:147
+#, fuzzy
+msgid "SQL Editor"
+msgstr "Bộ biên tập menu"
+
+#: glade/gnome-db/gnomedbtableeditor.c:133
+msgid "Table Editor "
+msgstr "Bộ soạn thảo table"
+
+#: glade/gnome-db/gnomedbwindow.c:142
+msgid "GNOME-DB Application window"
+msgstr "Cửa sổ ứng dụng GNOME-DB"
+
+#~ msgid ""
+#~ "/*\n"
+#~ " * Initial main.c file generated by Glade. Edit as required.\n"
+#~ " * Glade will not overwrite this file.\n"
+#~ " */\n"
+#~ "\n"
+#~ msgstr ""
+#~ "/*\n"
+#~ " * Initial main.c file generated by Glade. Edit as required.\n"
+#~ " * Glade will not overwrite this file.\n"
+#~ " */\n"
+#~ "\n"
+
+#~ msgid "DO NOT EDIT THIS FILE - it is generated by Glade."
+#~ msgstr "DO NOT EDIT THIS FILE - it is generated by Glade."

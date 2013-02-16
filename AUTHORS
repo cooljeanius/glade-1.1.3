@@ -1,0 +1,9 @@
+
+Damon Chaplin <damon@gnome.org>
+	Main author.
+
+Martijn van Beers <martijn@earthling.net>
+	Helped with code generation. Wrote the tree view & palette.
+
+Jacob Berkman <jacob@ximian.com>
+	Helped porting to GTK+ 2 & GNOME 2.

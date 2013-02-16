@@ -1,0 +1,60 @@
+
+
+Note that there won't be much new development on this version of Glade any
+more. As soon as everything works for GTK+ 2 and GNOME 2, only bug fixes
+will be allowed.
+
+A rewrite of Glade (called Glade 3) is underway, and is in the glade3
+module in the GNOME cvs repository.
+
+
+Glade for GNOME 2
+=================
+
+ o i18n UTF-8 bug - filenames etc.
+
+ o Update example app.
+
+ o Documentation.
+
+
+Minor bugs & notes
+==================
+
+ o Should add a Role property to windows at some point.
+
+ o Grid/Snap settings should be in project options, so other developers use
+   the same settings (What if different windows want different settings?).
+   Move to Options dialog. Move 'Show Widget Tooltips' to View menu for now.
+   Get rid of 'Settings' menu.
+
+ o Should get rid of GtkCLists & other badly deprecated stuff.
+
+ o Optional int properties - we currently use a checkbutton with no label, but
+   it doesn't receive the input focus. Use a checkbutton with indicator off?
+   with tick and cross icons? There is a GTK+ bug & patch about this issue.
+
+ o Look for code that iterates over strings. need to use UTF8 functions.
+   - project options stuff that creates options automatically.
+   - widget name stuff?
+   - signal handler name stuff in menu editor.
+   - will only become a problem when non-ASCII used.
+
+ o popup menus - make sure correct menu items are displayed - for widgets
+   which can't be deleted/have event boxes added etc.
+
+ o In GNOME version of Glade, if GNOME support is off, don't show the stock
+   GNOME items (these have ids that start with 'gnome-stock').
+
+ o buttons with label & icon. Bad interactions between label field in button
+   and label, e.g. if you select the label and turn markup on, then select the
+   button and enter bad markup.
+
+   Either
+    o Turn markup off when we set the label in the button.
+    o Use common function to set the label from the button.
+      But will this work for all buttons? in libglade?
+
+ o radio groups - the widgets don't update well when you move them between
+   groups, e.g. sometimes no widgets in the group are selected. I'm not sure
+   if this matters.
