@@ -21017,6 +21017,25 @@ GLADE_LIBS="${GLADE_LIBS} ${X_LIBS} ${X_PRE_LIBS} -lX11 ${X_EXTRA_LIBS}"
 
 SAVE_CFLAGS="${CFLAGS}"
 CFLAGS="${CFLAGS} ${GLADE_CFLAGS}"
+ac_fn_c_check_header_compile "$LINENO" "gdk/gdkx.h" "ac_cv_header_gdk_gdkx_h" "$ac_includes_default"
+if test "x$ac_cv_header_gdk_gdkx_h" = xyes
+then :
+  printf "%s\n" "#define HAVE_GDK_GDKX_H 1" >>confdefs.h
+
+fi
+
+ac_fn_c_check_func "$LINENO" "bonobo_dock_item_get_floating_position" "ac_cv_func_bonobo_dock_item_get_floating_position"
+if test "x$ac_cv_func_bonobo_dock_item_get_floating_position" = xyes
+then :
+  printf "%s\n" "#define HAVE_BONOBO_DOCK_ITEM_GET_FLOATING_POSITION 1" >>confdefs.h
+
+fi
+ac_fn_c_check_func "$LINENO" "bonobo_dock_item_detach" "ac_cv_func_bonobo_dock_item_detach"
+if test "x$ac_cv_func_bonobo_dock_item_detach" = xyes
+then :
+  printf "%s\n" "#define HAVE_BONOBO_DOCK_ITEM_DETACH 1" >>confdefs.h
+
+fi
 ac_fn_c_check_func "$LINENO" "glade_gnome_setup_initial_menus" "ac_cv_func_glade_gnome_setup_initial_menus"
 if test "x$ac_cv_func_glade_gnome_setup_initial_menus" = xyes
 then :

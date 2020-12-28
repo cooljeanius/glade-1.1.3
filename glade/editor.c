@@ -1,4 +1,4 @@
-/*  Gtk+ User Interface Builder
+/*  editor.c: Gtk+ User Interface Builder
  *  Copyright (C) 1998  Damon Chaplin
  *
  *  This program is free software; you can redistribute it and/or modify
@@ -20,8 +20,14 @@
 
 #include <gdk/gdkkeysyms.h>
 #ifndef _WIN32
-#include <gdk/gdkx.h>
-#endif
+# ifdef HAVE_GDK_GDKX_H
+#  include <gdk/gdkx.h>
+# else
+#  if defined(__GNUC__) && !defined(__STRICT_ANSI__)
+#   warning "editor.c expects <gdk/gdkx.h> to be included."
+#  endif /* __GNUC__ && !__STRICT_ANSI__ */
+# endif /* HAVE_GDK_GDKX_H */
+#endif /* !_WIN32 */
 
 #include <gtk/gtk.h>
 
@@ -2786,12 +2792,12 @@ clear_child_windows (GdkWindow * window, gint x, gint y, gint w, gint h)
   GList *children, *orig_children;
   GdkWindow *child_window;
   gint win_x, win_y, win_w, win_h;
-#ifndef _WIN32
+#if !defined(_WIN32) && defined(HAVE_GDK_GDKX_H)
   XWindowAttributes xwa;
 #endif
   GdkRectangle area, child, intersection;
 
-#ifdef _WIN32
+#if defined(_WIN32) || defined(HAVE_GDK_GDKX_H)
   return;
 #endif
 
@@ -2817,7 +2823,7 @@ clear_child_windows (GdkWindow * window, gint x, gint y, gint w, gint h)
 	  /* We need to make sure this is not an InputOnly window, or we get
 	     a BadMatch. CList uses InputOnly windows - for resizing columns.
 	     FIXME: This may not be very efficient. */
-#ifndef _WIN32
+#if !defined(_WIN32) && defined(HAVE_GDK_GDKX_H)
 	  XGetWindowAttributes (GDK_DISPLAY (),
 				GDK_WINDOW_XWINDOW (child_window),
 				&xwa);

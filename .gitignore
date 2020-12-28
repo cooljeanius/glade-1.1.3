@@ -9,6 +9,7 @@ libtool
 *.status
 confdefs.h
 conftest*
+libconftest.a
 *deps/*
 */.deps/*
 */*/.deps/*

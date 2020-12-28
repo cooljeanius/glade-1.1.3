@@ -129,7 +129,9 @@ AC_SUBST([GLADE_LIBS])dnl
 
 SAVE_CFLAGS="${CFLAGS}"
 CFLAGS="${CFLAGS} ${GLADE_CFLAGS}"
-AC_CHECK_FUNCS([glade_gnome_setup_initial_menus])
+AC_CHECK_HEADERS([gdk/gdkx.h])
+AC_CHECK_FUNCS([bonobo_dock_item_get_floating_position \
+                bonobo_dock_item_detach glade_gnome_setup_initial_menus])
 CFLAGS="${SAVE_CFLAGS}"
 
 
