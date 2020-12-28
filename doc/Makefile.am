@@ -1,6 +1,5 @@
 
 SUBDIRS = C
-#SUBDIRS = C it
 
 EXTRA_DIST = \
 	developer.txt		\

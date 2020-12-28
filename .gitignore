@@ -6,3 +6,8 @@
 stamp-h*
 libtool
 *.status
+confdefs.h
+conftest*
+*deps/*
+*/.deps/*
+*/*/.deps/*

@@ -28,27 +28,26 @@ top_srcdir = ..
 top_builddir = ..
 
 
-prefix = /opt/local
+prefix = /usr/local
 exec_prefix = ${prefix}
 datadir = ${datarootdir}
 datarootdir = ${prefix}/share
 libdir = ${exec_prefix}/lib
-DATADIRNAME = lib
-itlocaledir = $(prefix)/$(DATADIRNAME)/locale
+localedir = ${datarootdir}/locale
 subdir = po
-install_sh = ${SHELL} /private/var/root/Downloads/glade-1.1.3/install-sh
-# Automake >= 1.8 provides /sw/bin/gmkdir -p.
+install_sh = ${SHELL} /Users/ericgallager/Documents/GitHub/glade-1.1.3/examples/editor/build-aux/install-sh
+# Automake >= 1.8 provides $(MKDIR_P).
 # Until it can be supposed, use the safe fallback:
 mkdir_p = $(install_sh) -d
 
 INSTALL = /usr/bin/install -c
 INSTALL_DATA = ${INSTALL} -m 644
 
-GMSGFMT = /sw/bin/msgfmt
-MSGFMT = /sw/bin/msgfmt
-XGETTEXT = /sw/bin/xgettext
-INTLTOOL_UPDATE = /sw/bin/intltool-update
-INTLTOOL_EXTRACT = /sw/bin/intltool-extract
+GMSGFMT = /usr/local/bin/msgfmt
+MSGFMT = /usr/local/bin/msgfmt
+XGETTEXT = /usr/local/bin/xgettext
+INTLTOOL_UPDATE = /opt/local/bin/intltool-update
+INTLTOOL_EXTRACT = /opt/local/bin/intltool-extract
 MSGMERGE = INTLTOOL_EXTRACT="$(INTLTOOL_EXTRACT)" XGETTEXT="$(XGETTEXT)" srcdir=$(srcdir) $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --dist
 GENPOT   = INTLTOOL_EXTRACT="$(INTLTOOL_EXTRACT)" XGETTEXT="$(XGETTEXT)" srcdir=$(srcdir) $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --pot
 
@@ -76,14 +75,14 @@ CATALOGS=$(shell LINGUAS="$(USE_LINGUAS)"; for lang in $$LINGUAS; do printf "$$l
 .SUFFIXES:
 .SUFFIXES: .po .pox .gmo .mo .msg .cat
 
-AM_DEFAULT_VERBOSITY = 1
+AM_DEFAULT_VERBOSITY = 0
 INTLTOOL_V_MSGFMT = $(INTLTOOL__v_MSGFMT_$(V))
 INTLTOOL__v_MSGFMT_= $(INTLTOOL__v_MSGFMT_$(AM_DEFAULT_VERBOSITY))
 INTLTOOL__v_MSGFMT_0 = @echo "  MSGFMT" $@;
 
 .po.pox:
 	$(MAKE) $(GETTEXT_PACKAGE).pot
-	$(MSGMERGE) $< $(GETTEXT_PACKAGE).pot -o $*.pox
+	$(MSGMERGE) $* $(GETTEXT_PACKAGE).pot -o $*.pox
 
 .po.mo:
 	$(INTLTOOL_V_MSGFMT)$(MSGFMT) -o $@ $<
@@ -111,7 +110,7 @@ install-data-no: all
 install-data-yes: all
 	linguas="$(USE_LINGUAS)"; \
 	for lang in $$linguas; do \
-	  dir=$(DESTDIR)$(itlocaledir)/$$lang/LC_MESSAGES; \
+	  dir=$(DESTDIR)$(localedir)/$$lang/LC_MESSAGES; \
 	  $(mkdir_p) $$dir; \
 	  if test -r $$lang.gmo; then \
 	    $(INSTALL_DATA) $$lang.gmo $$dir/$(GETTEXT_PACKAGE).mo; \
@@ -145,8 +144,8 @@ install-exec installcheck:
 uninstall:
 	linguas="$(USE_LINGUAS)"; \
 	for lang in $$linguas; do \
-	  rm -f $(DESTDIR)$(itlocaledir)/$$lang/LC_MESSAGES/$(GETTEXT_PACKAGE).mo; \
-	  rm -f $(DESTDIR)$(itlocaledir)/$$lang/LC_MESSAGES/$(GETTEXT_PACKAGE).mo.m; \
+	  rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/$(GETTEXT_PACKAGE).mo; \
+	  rm -f $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/$(GETTEXT_PACKAGE).mo.m; \
 	done
 
 check: all $(GETTEXT_PACKAGE).pot

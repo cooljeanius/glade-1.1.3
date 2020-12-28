@@ -3,7 +3,7 @@
 noinst_LIBRARIES = libgbwidgets.a
 
 # maybe this should be $(GLADE_GTK_CFLAGS) ?
-INCLUDES = $(GLADE_CFLAGS) \
+AM_CPPFLAGS = $(GLADE_CFLAGS) \
 	$(GLADE_DEPRECATION_CFLAGS)
 
 libgbwidgets_a_SOURCES = \

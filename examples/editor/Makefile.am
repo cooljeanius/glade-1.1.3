@@ -7,8 +7,8 @@ install-data-local:
 	if test -d $(srcdir)/pixmaps; then \
 	  $(mkinstalldirs) $(DESTDIR)$(pkgdatadir)/pixmaps; \
 	  for pixmap in $(srcdir)/pixmaps/*; do \
-	    if test -f $$pixmap; then \
-	      $(INSTALL_DATA) $$pixmap $(DESTDIR)$(pkgdatadir)/pixmaps; \
+	    if test -f $${pixmap}; then \
+	      $(INSTALL_DATA) $${pixmap} $(DESTDIR)$(pkgdatadir)/pixmaps; \
 	    fi \
 	  done \
 	fi
@@ -17,13 +17,13 @@ dist-hook:
 	if test -d pixmaps; then \
 	  mkdir $(distdir)/pixmaps; \
 	  for pixmap in pixmaps/*; do \
-	    if test -f $$pixmap; then \
-	      cp -p $$pixmap $(distdir)/pixmaps; \
+	    if test -f $${pixmap}; then \
+	      cp -p $${pixmap} $(distdir)/pixmaps; \
 	    fi \
 	  done \
 	fi
 
 
-ACLOCAL_AMFLAGS = -I m4
+ACLOCAL_AMFLAGS = -I m4 --install
 
-EXTRA_DIST = config.rpath
+EXTRA_DIST = build-aux/config.rpath

@@ -3,7 +3,7 @@
 noinst_LIBRARIES = libgnomewidgets.a
 
 # maybe this should just be $(GLADE_GNOME_CFLAGS) ?
-INCLUDES = $(GLADE_CFLAGS) \
+AM_CPPFLAGS = $(GLADE_CFLAGS) \
 	$(GLADE_DEPRECATION_CFLAGS)
 
 libgnomewidgets_a_SOURCES = \

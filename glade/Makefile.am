@@ -4,7 +4,7 @@
 
 bin_PROGRAMS = glade-2
 
-INCLUDES = \
+AM_CPPFLAGS = \
 	-DGLADE_DATADIR=\""$(datadir)"\" \
 	-DGLADE_LOCALEDIR=\""$(prefix)/${DATADIRNAME}/locale"\"	\
 	$(GLADE_CFLAGS) \

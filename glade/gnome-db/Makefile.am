@@ -2,7 +2,7 @@
 
 noinst_LIBRARIES = libgnomedbwidgets.a
 
-INCLUDES = $(GLADE_CFLAGS) \
+AM_CPPFLAGS = $(GLADE_CFLAGS) \
 	$(GLADE_DEPRECATION_CFLAGS)
 
 libgnomedbwidgets_a_SOURCES = \

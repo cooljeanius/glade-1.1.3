@@ -50,4 +50,4 @@ install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(datadir)/pixmaps/glade-2
 	$(INSTALL_DATA) $(srcdir)/glade/graphics/glade_logo.png $(DESTDIR)$(datadir)/pixmaps/glade-2
 
-ACLOCAL_AMFLAGS = -I m4
+ACLOCAL_AMFLAGS = -I m4 --install
