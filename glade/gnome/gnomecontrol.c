@@ -28,6 +28,14 @@
  */
 
 #include <config.h>
+#ifndef THIS_IS_THE_CONFIG_H_FOR_GLADE
+# include "../../config.h"
+#endif /* !THIS_IS_THE_CONFIG_H_FOR_GLADE */
+
+#include <gettext.h>
+#ifndef _LIBGETTEXT_H
+# include "../../gettext.h"
+#endif /* !_LIBGETTEXT_H */
 
 #include <gtk/gtkhbox.h>
 #include <gtk/gtklabel.h>

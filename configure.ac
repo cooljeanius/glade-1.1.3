@@ -11,6 +11,8 @@ AM_INIT_AUTOMAKE
 AM_MAINTAINER_MODE
 AC_CONFIG_HEADERS([config.h])dnl
 
+AC_DEFINE([THIS_IS_THE_CONFIG_H_FOR_GLADE],[1],[Define to 1 here])dnl
+
 AC_SEARCH_LIBS([strerror],[cposix])
 AC_PROG_CC
 AC_PROG_CPP
@@ -124,6 +126,11 @@ GLADE_CFLAGS="${GLADE_CFLAGS} ${X_CFLAGS}"
 GLADE_LIBS="${GLADE_LIBS} ${X_LIBS} ${X_PRE_LIBS} -lX11 ${X_EXTRA_LIBS}"
 AC_SUBST([GLADE_CFLAGS])dnl
 AC_SUBST([GLADE_LIBS])dnl
+
+SAVE_CFLAGS="${CFLAGS}"
+CFLAGS="${CFLAGS} ${GLADE_CFLAGS}"
+AC_CHECK_FUNCS([glade_gnome_setup_initial_menus])
+CFLAGS="${SAVE_CFLAGS}"
 
 
 dnl#***************************************************************************

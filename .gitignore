@@ -1,6 +1,7 @@
 *DS_Store*
 *~
 *.o
+*.o.tmp
 *.cache
 *.log
 stamp-h*
@@ -11,3 +12,10 @@ conftest*
 *deps/*
 */.deps/*
 */*/.deps/*
+Makefile
+config.h
+glade.spec
+po/Makefile.in
+po/POTFILES
+po/stamp*
+glade/gbwidgets/libgbwidgets.a

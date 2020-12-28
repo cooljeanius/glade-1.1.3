@@ -3814,6 +3814,9 @@ fi
 ac_config_headers="$ac_config_headers config.h"
 
 
+printf "%s\n" "#define THIS_IS_THE_CONFIG_H_FOR_GLADE 1" >>confdefs.h
+
+
 
 
 
@@ -21011,6 +21014,17 @@ printf "%s\n" "yes" >&6; }
 fi
 GLADE_CFLAGS="${GLADE_CFLAGS} ${X_CFLAGS}"
 GLADE_LIBS="${GLADE_LIBS} ${X_LIBS} ${X_PRE_LIBS} -lX11 ${X_EXTRA_LIBS}"
+
+SAVE_CFLAGS="${CFLAGS}"
+CFLAGS="${CFLAGS} ${GLADE_CFLAGS}"
+ac_fn_c_check_func "$LINENO" "glade_gnome_setup_initial_menus" "ac_cv_func_glade_gnome_setup_initial_menus"
+if test "x$ac_cv_func_glade_gnome_setup_initial_menus" = xyes
+then :
+  printf "%s\n" "#define HAVE_GLADE_GNOME_SETUP_INITIAL_MENUS 1" >>confdefs.h
+
+fi
+
+CFLAGS="${SAVE_CFLAGS}"
 
 
 

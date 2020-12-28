@@ -20,6 +20,7 @@
 
 #include <gnome.h>
 #include "../gb.h"
+#include "../glade_gnome.h"
 #include "../tree.h"
 
 /* Include the 21x21 icon pixmap for this widget, to be used in the palette */

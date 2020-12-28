@@ -38,6 +38,9 @@
 /* Define if the GNU gettext() function is already present or preinstalled. */
 #undef HAVE_GETTEXT
 
+/* Define to 1 if you have the `glade_gnome_setup_initial_menus' function. */
+#undef HAVE_GLADE_GNOME_SETUP_INITIAL_MENUS
+
 /* Define if you have the iconv() function and it works. */
 #undef HAVE_ICONV
 
@@ -139,6 +142,9 @@
    required in a freestanding environment). This macro is provided for
    backward compatibility; new code need not use it. */
 #undef STDC_HEADERS
+
+/* Define to 1 here */
+#undef THIS_IS_THE_CONFIG_H_FOR_GLADE
 
 /* Version number of package */
 #undef VERSION

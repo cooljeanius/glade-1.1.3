@@ -106,6 +106,10 @@ void	  gb_bonobo_dock_item_save_packing_properties (GtkWidget *parent,
 }
 #endif /* __cplusplus */
 
+#else
+# if defined(__GNUC__) && !defined(__STRICT_ANSI__)
+#  warning "prototypes in glade_gnome.h are unavailable when USE_GNOME is undefined"
+# endif /* __GNUC__ && !__STRICT_ANSI__ */
 #endif /* USE_GNOME */
 
 #endif	/* GLADE_GNOME_H */
