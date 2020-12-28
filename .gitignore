@@ -19,3 +19,4 @@ po/Makefile.in
 po/POTFILES
 po/stamp*
 glade/gbwidgets/libgbwidgets.a
+glade/gnome/libgnomewidgets.a

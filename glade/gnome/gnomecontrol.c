@@ -165,7 +165,7 @@ on_control_dialog_ok (GtkWidget *widget,
     }
   else
     {
-      glade_util_show_message_box (_("Couldn't create the Bonobo control"),
+      glade_util_show_message_box ("Failed to create the Bonobo control",
 				   NULL);
     }
 
@@ -254,7 +254,7 @@ show_control_dialog (GbWidgetNewData *data)
   GtkListStore *store;
   GtkCellRenderer *ren;
 
-  dialog = glade_util_create_dialog (_("New Bonobo Control"), data->parent,
+  dialog = glade_util_create_dialog ("New Bonobo Control", data->parent,
 				     GTK_SIGNAL_FUNC (on_control_dialog_ok),
 				     data, &vbox);
   g_object_set (G_OBJECT (dialog),
@@ -267,7 +267,7 @@ show_control_dialog (GbWidgetNewData *data)
   g_signal_connect (dialog, "destroy",
 		    G_CALLBACK (on_control_dialog_destroy), data);
 
-  label = gtk_label_new (_("Select a Bonobo Control"));  
+  label = gtk_label_new ("Select a Bonobo Control");
   gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
 
   scroll = g_object_new (GTK_TYPE_SCROLLED_WINDOW,
@@ -295,12 +295,12 @@ show_control_dialog (GbWidgetNewData *data)
   
 #if 0
   gtk_tree_view_insert_column_with_attributes (GTK_TREE_VIEW (list),
-					       -1, _("OAFIID"), ren,
+					       -1, "OAFIID", ren,
 					       "text", COL_OBJID,
 					       NULL);
 #endif
   gtk_tree_view_insert_column_with_attributes (GTK_TREE_VIEW (list),
-					       -1, _("Description"), ren,
+					       -1, "Description", ren,
 					       "text", COL_DESC,
 					       NULL);
 
@@ -344,7 +344,7 @@ gb_bonobo_control_init ()
 	gb_widget_init_struct (&gbwidget);
 
 	gbwidget.pixmap_struct = gnome_control_xpm;
-	gbwidget.tooltip       = _("Bonobo Control");
+	gbwidget.tooltip       = "Bonobo Control";
 
 	gbwidget.gb_widget_new               = gb_bonobo_control_new;
 
