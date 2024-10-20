@@ -40,6 +40,8 @@ EXTRA_DIST = config.rpath m4/ChangeLog  \
 	examples/editor/po/ChangeLog \
 	examples/editor/po/POTFILES.in
 
+DISTCLEANFILES = *~ autoscan.log build-aux/*~ m4/*~
+
 pixmapsdir = $(datadir)/pixmaps
 pixmaps_DATA = glade-2.png
 
@@ -49,5 +51,11 @@ install-data-local:
 	@$(NORMAL_INSTALL)
 	$(mkinstalldirs) $(DESTDIR)$(datadir)/pixmaps/glade-2
 	$(INSTALL_DATA) $(srcdir)/glade/graphics/glade_logo.png $(DESTDIR)$(datadir)/pixmaps/glade-2
+
+distclean-local:
+	-rm -rf autom4te.cache || rmdir autom4te.cache
+	if test -d examples/editor && test -r examples/editor/Makefile; then \
+	  $(MAKE) -C examples/editor distclean; \
+	fi
 
 ACLOCAL_AMFLAGS = -I m4 --install

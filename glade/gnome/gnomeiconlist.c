@@ -457,7 +457,7 @@ gb_gnome_icon_list_init ()
   gb_widget_init_struct(&gbwidget);
 
   /* Fill in the pixmap struct & tooltip */
-  gbwidget.pixmap_struct = gnome_iconlist_xpm;
+  gbwidget.pixmap_struct = (gchar **)gnome_iconlist_xpm;
   gbwidget.tooltip = _("Icon List");
 
   /* Fill in any functions that this GbWidget has */

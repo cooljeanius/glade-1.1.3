@@ -30,15 +30,9 @@ AC_PROG_RANLIB
 GTK_DOC_CHECK
 
 # Checks for header files.
-dnl# autoupdate says:
-dnl# The preprocessor macro `STDC_HEADERS' is obsolete.
-dnl# Except in unusual embedded environments, you can safely include all
-dnl# ISO C90 headers unconditionally.
-# Autoupdate added the next two lines to ensure that your configure
-# script's behavior did not change.  They are probably safe to remove.
 AC_CHECK_INCLUDES_DEFAULT
 if test "x${EGREP}" = "x"; then
-  test -z "${EGREP}"
+  test -z "${EGREP}" || unset EGREP
   AC_PROG_EGREP
 fi
 AC_CHECK_HEADERS([libintl.h locale.h os2.h stdlib.h string.h unistd.h])dnl
@@ -63,7 +57,7 @@ dnl#***************************************************************************
 glade_modules=""
 gtk_modules="libxml-2.0 >= 2.4.1 gtk+-2.0 >= 2.0.0"
 
-PKG_CHECK_MODULES([GLADE_GTK],[${gtk_modules}])
+PKG_CHECK_MODULES([GLADE_GTK],[${gtk_modules}])dnl
 
 glade_modules="${glade_modules} ${gtk_modules}"
 
@@ -99,7 +93,7 @@ gnomedb_modules="libgda >= 0.8.102 libgnomedb >= 0.8.102"
 
 AC_ARG_ENABLE([gnome-db],
 [AS_HELP_STRING([--disable-gnome-db],[disable use of gnome-db])],
-	[gnome_db=${enableval}],[gnome_db=yes])
+	[gnome_db=${enableval}],[gnome_db=yes])dnl
 
 if test "x${gnome}" != "xyes"; then
   AC_MSG_WARN([GNOME support is disabled; GNOME DB support will not be built.])

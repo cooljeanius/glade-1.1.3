@@ -15,16 +15,16 @@
 /* always defined to indicate that i18n is enabled */
 #undef ENABLE_NLS
 
-/* Define to 1 if you have the `alarm' function. */
+/* Define to 1 if you have the 'alarm' function. */
 #undef HAVE_ALARM
 
-/* Define to 1 if you have the `bind_textdomain_codeset' function. */
+/* Define to 1 if you have the 'bind_textdomain_codeset' function. */
 #undef HAVE_BIND_TEXTDOMAIN_CODESET
 
-/* Define to 1 if you have the `bonobo_dock_item_detach' function. */
+/* Define to 1 if you have the 'bonobo_dock_item_detach' function. */
 #undef HAVE_BONOBO_DOCK_ITEM_DETACH
 
-/* Define to 1 if you have the `bonobo_dock_item_get_floating_position'
+/* Define to 1 if you have the 'bonobo_dock_item_get_floating_position'
    function. */
 #undef HAVE_BONOBO_DOCK_ITEM_GET_FLOATING_POSITION
 
@@ -36,7 +36,7 @@
    the CoreFoundation framework. */
 #undef HAVE_CFPREFERENCESCOPYAPPVALUE
 
-/* Define to 1 if you have the `dcgettext' function. */
+/* Define to 1 if you have the 'dcgettext' function. */
 #undef HAVE_DCGETTEXT
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
@@ -48,7 +48,7 @@
 /* Define if the GNU gettext() function is already present or preinstalled. */
 #undef HAVE_GETTEXT
 
-/* Define to 1 if you have the `glade_gnome_setup_initial_menus' function. */
+/* Define to 1 if you have the 'glade_gnome_setup_initial_menus' function. */
 #undef HAVE_GLADE_GNOME_SETUP_INITIAL_MENUS
 
 /* Define if you have the iconv() function and it works. */
@@ -66,20 +66,20 @@
 /* Define to 1 if you have the <locale.h> header file. */
 #undef HAVE_LOCALE_H
 
-/* Define to 1 if your system has a GNU libc compatible `malloc' function, and
+/* Define to 1 if your system has a GNU libc compatible 'malloc' function, and
    to 0 otherwise. */
 #undef HAVE_MALLOC
 
-/* Define to 1 if you have the `mkdir' function. */
+/* Define to 1 if you have the 'mkdir' function. */
 #undef HAVE_MKDIR
 
 /* Define to 1 if you have the <os2.h> header file. */
 #undef HAVE_OS2_H
 
-/* Define to 1 if you have the `putenv' function. */
+/* Define to 1 if you have the 'putenv' function. */
 #undef HAVE_PUTENV
 
-/* Define to 1 if you have the `setlocale' function. */
+/* Define to 1 if you have the 'setlocale' function. */
 #undef HAVE_SETLOCALE
 
 /* Define to 1 if you have the <stdint.h> header file. */
@@ -91,7 +91,7 @@
 /* Define to 1 if you have the <stdlib.h> header file. */
 #undef HAVE_STDLIB_H
 
-/* Define to 1 if you have the `strchr' function. */
+/* Define to 1 if you have the 'strchr' function. */
 #undef HAVE_STRCHR
 
 /* Define to 1 if you have the <strings.h> header file. */
@@ -100,13 +100,13 @@
 /* Define to 1 if you have the <string.h> header file. */
 #undef HAVE_STRING_H
 
-/* Define to 1 if you have the `strrchr' function. */
+/* Define to 1 if you have the 'strrchr' function. */
 #undef HAVE_STRRCHR
 
-/* Define to 1 if you have the `strstr' function. */
+/* Define to 1 if you have the 'strstr' function. */
 #undef HAVE_STRSTR
 
-/* Define to 1 if you have the `strtoul' function. */
+/* Define to 1 if you have the 'strtoul' function. */
 #undef HAVE_STRTOUL
 
 /* Define to 1 if you have the <sys/stat.h> header file. */
@@ -118,7 +118,7 @@
 /* Define to 1 if you have the <sys/types.h> header file. */
 #undef HAVE_SYS_TYPES_H
 
-/* Define to 1 if you have the `tzset' function. */
+/* Define to 1 if you have the 'tzset' function. */
 #undef HAVE_TZSET
 
 /* Define to 1 if you have the <unistd.h> header file. */
@@ -148,7 +148,7 @@
 /* Define to the version of this package. */
 #undef PACKAGE_VERSION
 
-/* Define to 1 if all of the C90 standard headers exist (not just the ones
+/* Define to 1 if all of the C89 standard headers exist (not just the ones
    required in a freestanding environment). This macro is provided for
    backward compatibility; new code need not use it. */
 #undef STDC_HEADERS
@@ -162,7 +162,7 @@
 /* Define to 1 if the X Window System is missing or not being used. */
 #undef X_DISPLAY_MISSING
 
-/* Define to `__inline__' or `__inline' if that's what the C compiler
+/* Define to '__inline__' or '__inline' if that's what the C compiler
    calls it, or to nothing if 'inline' is not supported under any name.  */
 #ifndef __cplusplus
 #undef inline
@@ -171,5 +171,5 @@
 /* Define to rpl_malloc if the replacement function should be used. */
 #undef malloc
 
-/* Define to `unsigned int' if <sys/types.h> does not define. */
+/* Define as 'unsigned int' if <stddef.h> doesn't define. */
 #undef size_t

@@ -40,12 +40,12 @@ install_sh = ${SHELL} /Users/ericgallager/Documents/GitHub/glade-1.1.3/examples/
 # Until it can be supposed, use the safe fallback:
 mkdir_p = $(install_sh) -d
 
-INSTALL = /usr/bin/install -c
+INSTALL = /opt/local/bin/ginstall -c
 INSTALL_DATA = ${INSTALL} -m 644
 
-GMSGFMT = /usr/local/bin/msgfmt
-MSGFMT = /usr/local/bin/msgfmt
-XGETTEXT = /usr/local/bin/xgettext
+GMSGFMT = /opt/local/bin/msgfmt
+MSGFMT = /opt/local/bin/msgfmt
+XGETTEXT = /opt/local/bin/xgettext
 INTLTOOL_UPDATE = /opt/local/bin/intltool-update
 INTLTOOL_EXTRACT = /opt/local/bin/intltool-extract
 MSGMERGE = INTLTOOL_EXTRACT="$(INTLTOOL_EXTRACT)" XGETTEXT="$(XGETTEXT)" srcdir=$(srcdir) $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --dist
@@ -75,7 +75,7 @@ CATALOGS=$(shell LINGUAS="$(USE_LINGUAS)"; for lang in $$LINGUAS; do printf "$$l
 .SUFFIXES:
 .SUFFIXES: .po .pox .gmo .mo .msg .cat
 
-AM_DEFAULT_VERBOSITY = 0
+AM_DEFAULT_VERBOSITY = 1
 INTLTOOL_V_MSGFMT = $(INTLTOOL__v_MSGFMT_$(V))
 INTLTOOL__v_MSGFMT_= $(INTLTOOL__v_MSGFMT_$(AM_DEFAULT_VERBOSITY))
 INTLTOOL__v_MSGFMT_0 = @echo "  MSGFMT" $@;
@@ -96,7 +96,7 @@ INTLTOOL__v_MSGFMT_0 = @echo "  MSGFMT" $@;
 	  && rm -f $@ && gencat $@ $*.msg
 
 
-all: all-yes
+all: all-no
 
 all-yes: $(CATALOGS)
 all-no:
@@ -105,7 +105,7 @@ $(GETTEXT_PACKAGE).pot: $(POTFILES)
 	$(GENPOT)
 
 install: install-data
-install-data: install-data-yes
+install-data: install-data-no
 install-data-no: all
 install-data-yes: all
 	linguas="$(USE_LINGUAS)"; \

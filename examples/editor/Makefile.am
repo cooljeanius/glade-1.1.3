@@ -2,6 +2,8 @@
 
 SUBDIRS = po src
 
+DISTCLEANFILES = *~ autoscan.log build-aux/*~ m4/*~
+
 install-data-local:
 	@$(NORMAL_INSTALL)
 	if test -d $(srcdir)/pixmaps; then \
@@ -23,6 +25,8 @@ dist-hook:
 	  done \
 	fi
 
+distclean-local:
+	-rm -rf autom4te.cache || rmdir autom4te.cache
 
 ACLOCAL_AMFLAGS = -I m4 --install
 
